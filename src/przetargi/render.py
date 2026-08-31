@@ -22,11 +22,26 @@ TEMPLATE_DIR = REPO_ROOT / "site" / "templates"
 ASSET_DIR = REPO_ROOT / "site" / "assets"
 DEFAULT_OUTPUT = REPO_ROOT / "public"
 REPO_URL = "https://github.com/ClaudePlos/przetargi24"
+# Plik workflow uruchamiany przyciskiem „Przejrzyj rejestry teraz”.
+WORKFLOW_FILE = "daily.yml"
 
 MONTHS_PL = (
     "stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca",
     "lipca", "sierpnia", "września", "października", "listopada", "grudnia",
 )
+
+
+def repo_slug(url: str = REPO_URL) -> tuple[str, str]:
+    """'https://github.com/owner/repo' -> ('owner', 'repo').
+
+    Przycisk odświeżania musi znać te dwie wartości, żeby złożyć adres
+    API GitHuba; bierzemy je z jedynego miejsca, gdzie repozytorium jest
+    zapisane, zamiast powtarzać nazwę w szablonie.
+    """
+    czesci = [part for part in url.rstrip("/").split("/") if part]
+    if len(czesci) < 2:
+        return ("", "")
+    return (czesci[-2], czesci[-1])
 
 
 def format_value(value: float | None, currency: str) -> str:
@@ -153,6 +168,9 @@ class SiteRenderer:
             "updated_at_human": human_datetime(str(status.get("updated_at") or store.updated_at)),
             "updated_at_iso": _atom_timestamp(status.get("updated_at") or store.updated_at),
             "repo_url": REPO_URL,
+            "repo_owner": repo_slug()[0],
+            "repo_name": repo_slug()[1],
+            "workflow_file": WORKFLOW_FILE,
         }
 
         self._reset_output()

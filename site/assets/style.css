@@ -291,3 +291,87 @@ code {
   .card { padding: 16px; }
   th, td { padding: 10px 14px; }
 }
+
+/* --- panel odświeżania na stronie źródeł ------------------------------- */
+
+.panel .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin: 14px 0 0; }
+
+.btn {
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  padding: 9px 16px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 40px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:hover { filter: brightness(1.08); }
+.btn:disabled { opacity: .55; cursor: progress; filter: none; }
+.btn:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+
+.btn-ghost {
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+  display: inline-flex;
+  align-items: center;
+}
+.btn-ghost:hover { background: var(--surface-2); text-decoration: none; filter: none; }
+
+@media (prefers-color-scheme: dark) {
+  .btn { color: #0f1216; }
+}
+
+.field { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--text-muted); }
+.field span { text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.field input {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  padding: 9px 12px;
+  font: inherit;
+  font-size: 14px;
+  min-height: 40px;
+  width: 8ch;
+}
+
+.panel .row input[type="password"] {
+  flex: 1 1 260px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  padding: 9px 12px;
+  font: inherit;
+  font-size: 14px;
+  min-height: 40px;
+}
+
+.status {
+  margin: 14px 0 0;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.status[hidden] { display: none; }
+.status.ok { background: var(--ok-soft); border-color: transparent; color: var(--ok); }
+.status.warn { background: var(--warn-soft); border-color: transparent; color: var(--warn); }
+.status.fail { background: var(--danger-soft); border-color: transparent; color: var(--danger); }
+
+.panel details { margin-top: 18px; border-top: 1px solid var(--border); padding-top: 14px; }
+.panel details summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--accent);
+}
+.panel details summary:hover { text-decoration: underline; }
+.panel details p { font-size: 14px; color: var(--text-muted); }

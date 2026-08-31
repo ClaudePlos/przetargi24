@@ -34,7 +34,7 @@ następny nadrobi zaległość zamiast zostawić lukę.
 | `/` | wszystkie ogłoszenia z wyszukiwarką i filtrami |
 | `/kategoria/<slug>.html` | podstrona jednej kategorii |
 | `/feed.xml`, `/kategoria/<slug>.xml` | kanały Atom (RSS) — także per kategoria |
-| `/zrodla.html` | stan źródeł z ostatniego przebiegu |
+| `/zrodla.html` | stan źródeł, podsumowanie przebiegu i przycisk odświeżania |
 | `/dane/tenders.json` | surowe dane do własnych integracji |
 
 Filtrowanie i wyszukiwanie działają po stronie przeglądarki, ale karty ogłoszeń
@@ -63,6 +63,24 @@ z jawnych rejestrów zamówień.
 Workflow potrzebuje uprawnień do zapisu w repozytorium — jeśli push danych
 albo włączenie Pages się nie powiedzie, sprawdź _Settings → Actions → General → Workflow permissions →
 Read and write permissions_.
+
+### Odświeżanie na żądanie
+
+Poza harmonogramem automat uruchamia się na trzy sposoby:
+
+1. **Przycisk „Przejrzyj rejestry teraz”** na stronie `/zrodla.html`.
+2. _Actions → Codzienna aktualizacja przetargów → Run workflow_ (pole
+   „Ile dni wstecz” pozwala nadrobić dłuższą przerwę).
+3. Push do `main` zmieniający `config/**`, `site/**`, `src/**` lub sam workflow.
+
+Strona jest statyczna i publiczna, więc **nie może zawierać sekretu** — sama
+z siebie nie odpyta rejestrów. Przycisk domyślnie otwiera zakładkę Actions,
+gdzie wystarczy jedno kliknięcie. Kto chce uruchamiać przebieg bez opuszczania
+strony, wkleja w rozwijanym panelu własny
+[token drobnoziarnisty](https://github.com/settings/personal-access-tokens/new)
+ograniczony do tego repozytorium, z uprawnieniem `Actions: Read and write`.
+Token zostaje w `localStorage` przeglądarki, nigdy nie trafia do repozytorium
+ani do nikogo innego, a przycisk „Usuń token” kasuje go w każdej chwili.
 
 ---
 

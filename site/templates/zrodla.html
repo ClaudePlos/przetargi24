@@ -10,6 +10,49 @@
      bez zmian w kodzie.</p>
 </section>
 
+<div class="panel" id="odswiez-panel"
+     data-owner="{{ repo_owner }}" data-repo="{{ repo_name }}"
+     data-workflow="{{ workflow_file }}">
+  <h2>Odśwież dane</h2>
+  <div class="body">
+    <p>Automat sam odpytuje rejestry raz dziennie. Ten przycisk prosi GitHuba,
+       żeby zrobił to od razu — przebieg trwa około minuty, po czym strona
+       przebudowuje się sama.</p>
+
+    <div class="row">
+      <button type="button" class="btn" id="odswiez">Przejrzyj rejestry teraz</button>
+      <label class="field">
+        <span>Ile dni wstecz</span>
+        <input type="number" id="odswiez-dni" min="1" max="90" placeholder="7">
+      </label>
+      <a class="btn btn-ghost" id="odswiez-recznie"
+         href="{{ repo_url }}/actions/workflows/{{ workflow_file }}"
+         rel="noopener" target="_blank">Otwórz w Actions</a>
+    </div>
+
+    <p class="status" id="odswiez-status" hidden></p>
+
+    <details id="odswiez-token">
+      <summary>Ustaw token, żeby przycisk działał bez przechodzenia do GitHuba</summary>
+      <p>Ta strona jest statyczna i publiczna, więc <b>nie może zawierać żadnego
+         sekretu</b> — każdy odwiedzający by go zobaczył. Uruchomienie automatu
+         wprost stąd wymaga więc Twojego własnego tokenu, który zostaje wyłącznie
+         w tej przeglądarce i nigdy nie trafia do repozytorium.</p>
+      <p>Utwórz <a href="https://github.com/settings/personal-access-tokens/new"
+         rel="noopener" target="_blank">token drobnoziarnisty</a> ograniczony do
+         tego jednego repozytorium, z jednym uprawnieniem:
+         <code>Actions: Read and write</code>. Bez tokenu przycisk po prostu
+         przeniesie Cię do zakładki Actions.</p>
+      <div class="row">
+        <input type="password" id="odswiez-klucz" placeholder="github_pat_…"
+               autocomplete="off" spellcheck="false">
+        <button type="button" class="btn" id="odswiez-zapisz">Zapisz</button>
+        <button type="button" class="btn btn-ghost" id="odswiez-usun">Usuń token</button>
+      </div>
+    </details>
+  </div>
+</div>
+
 <div class="panel">
   <h2>Ostatni przebieg: {{ updated_at_human }}</h2>
   <div class="table-scroll">
@@ -65,4 +108,6 @@
        usunięto przeterminowanych <b>{{ run.removed }}</b>.</p>
   </div>
 </div>
+
+<script src="{{ rel }}assets/odswiez.js" defer></script>
 {% endblock %}

@@ -159,3 +159,59 @@ def test_filtr_zrodel_jest_pusty_gdy_brak_danych(tmp_path, config):
     assert '<option value="bzp">' not in tresc
     assert '<option value="ted">' not in tresc
     assert "Wszystkie źródła" in tresc
+
+
+def test_tytul_i_opis_nie_zawieraja_znacznikow(zbudowana_strona):
+    """Regresja: wstawka skryptu trafiła kiedyś do <title> i meta description.
+
+    Efektem był wyciek fragmentu znacznika jako tekst na górze strony.
+    """
+    for path in zbudowana_strona.rglob("*.html"):
+        tresc = path.read_text(encoding="utf-8")
+        tytul = re.search(r"<title>(.*?)</title>", tresc, re.S)
+        assert tytul and "<" not in tytul.group(1), f"{path.name}: znacznik w <title>"
+
+        opis = re.search(r'<meta name="description" content="(.*?)">', tresc, re.S)
+        assert opis and "<" not in opis.group(1), f"{path.name}: znacznik w opisie"
+
+
+def test_skrypty_sa_w_tresci_a_nie_w_naglowku(zbudowana_strona):
+    for path in zbudowana_strona.rglob("*.html"):
+        tresc = path.read_text(encoding="utf-8")
+        glowa = tresc.split("</head>", 1)[0]
+        assert "<script" not in glowa, f"{path.name}: skrypt w sekcji <head>"
+
+
+def test_panel_odswiezania_zna_repozytorium(zbudowana_strona):
+    from przetargi.render import WORKFLOW_FILE, repo_slug
+
+    tresc = (zbudowana_strona / "zrodla.html").read_text(encoding="utf-8")
+    wlasciciel, nazwa = repo_slug()
+    assert f'data-owner="{wlasciciel}"' in tresc
+    assert f'data-repo="{nazwa}"' in tresc
+    assert f'data-workflow="{WORKFLOW_FILE}"' in tresc
+    assert "assets/odswiez.js" in tresc
+
+
+def test_panel_odswiezania_nie_zawiera_sekretu(zbudowana_strona):
+    """Strona jest publiczna — żaden token nie może się w niej znaleźć."""
+    tresc = (zbudowana_strona / "zrodla.html").read_text(encoding="utf-8")
+    skrypt = (zbudowana_strona / "assets" / "odswiez.js").read_text(encoding="utf-8")
+    for material in (tresc, skrypt):
+        assert "github_pat_" not in material.replace('placeholder="github_pat_…"', "")
+        assert "ghp_" not in material
+        assert "Bearer " not in material or "Bearer \" + token" in material
+
+
+@pytest.mark.parametrize(
+    "url,oczekiwane",
+    [
+        ("https://github.com/ClaudePlos/przetargi24", ("ClaudePlos", "przetargi24")),
+        ("https://github.com/a/b/", ("a", "b")),
+        ("niepoprawne", ("", "")),
+    ],
+)
+def test_repo_slug(url, oczekiwane):
+    from przetargi.render import repo_slug
+
+    assert repo_slug(url) == oczekiwane
