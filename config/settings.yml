@@ -1,0 +1,43 @@
+# Globalna konfiguracja portalu.
+site:
+  title: "Przetargi24"
+  tagline: "Przetargi publiczne w Polsce — codziennie aktualizowane"
+  description: >-
+    Automatycznie aktualizowany przegląd polskich przetargów publicznych
+    i planów postępowań, pogrupowanych w kategorie tematyczne.
+  # Adres publiczny strony (bez ukośnika na końcu). Używany w kanałach RSS.
+  # Zostaw pusty, a zostanie odczytany ze zmiennej SITE_URL w GitHub Actions.
+  url: ""
+  language: "pl"
+
+fetch:
+  # Ile dni wstecz pobierać ogłoszenia przy każdym uruchomieniu.
+  # Zapas > 1 dnia chroni przed luką, gdy jeden przebieg się nie powiedzie.
+  lookback_days: 7
+  # Górny limit ogłoszeń pobieranych z jednego źródła na przebieg.
+  # W tygodniu bywa ok. 2600 polskich ogłoszeń w TED, więc limit musi je
+  # pomieścić — inaczej odsiew kategorii pracuje na obciętej próbce.
+  max_per_source: 4000
+  # Limit stron na źródło (bezpiecznik przed pętlą bez końca).
+  max_pages: 45
+  timeout_seconds: 60
+  retries: 3
+  # Ile sekund wolno poświęcić jednemu źródłu. Po tym czasie pobieranie
+  # kończy się i przebieg używa tego, co zdążył zebrać — dzięki temu wolno
+  # odpowiadające API nie rozciąga codziennego zadania na godziny.
+  # Tablica e-Zamówień oddaje tylko 10 rekordów na żądanie, więc realnie
+  # to ona wyznacza długość przebiegu.
+  time_budget_seconds: 240
+
+store:
+  # Po ilu dniach od terminu składania ofert (lub od publikacji, gdy terminu
+  # brak) wpis znika z portalu.
+  retention_days: 120
+
+classify:
+  # Minimalna liczba punktów wymagana, by przypisać ogłoszenie do kategorii.
+  # Trafienie w kod CPV = 3 pkt, trafienie słowa kluczowego = 2 pkt.
+  # Można nadpisać w pliku kategorii polem `min_score`.
+  default_min_score: 2
+  cpv_points: 3
+  keyword_points: 2

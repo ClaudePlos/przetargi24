@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% from "_card.html" import tender_card %}
+
+{% block title %}{{ heading }} — {{ site.title }}{% endblock %}
+{% block description %}{{ intro }}{% endblock %}
+{% block head %}
+{% if feed_url %}<link rel="alternate" type="application/atom+xml" title="{{ heading }}" href="{{ rel }}{{ feed_url }}">{% endif %}
+{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1>{{ heading }}</h1>
+  <p>{{ intro }}</p>
+
+  <div class="stats">
+    <div class="stat"><div class="num">{{ stats.total }}</div><div class="lbl">Ogłoszeń w bazie</div></div>
+    <div class="stat accent"><div class="num">{{ stats.new_today }}</div><div class="lbl">Nowych dzisiaj</div></div>
+    <div class="stat"><div class="num">{{ stats.open }}</div><div class="lbl">Z otwartym terminem</div></div>
+    <div class="stat"><div class="num">{{ stats.plans }}</div><div class="lbl">Zapowiedzi i planów</div></div>
+  </div>
+</section>
+
+<section class="filters">
+  <div class="row">
+    <input type="search" id="q" placeholder="Szukaj w tytule, opisie, nazwie zamawiającego…" aria-label="Szukaj">
+    {% if show_category_filter %}
+    <select id="f-category" aria-label="Kategoria">
+      <option value="">Wszystkie kategorie</option>
+      {% for category in categories %}<option value="{{ category.slug }}">{{ category.title }}</option>{% endfor %}
+    </select>
+    {% endif %}
+    <select id="f-source" aria-label="Źródło">
+      <option value="">Wszystkie źródła</option>
+      {% for source in filter_sources %}<option value="{{ source.key }}">{{ source.label }}</option>{% endfor %}
+    </select>
+    <select id="f-kind" aria-label="Rodzaj wpisu">
+      <option value="">Ogłoszenia i plany</option>
+      <option value="ogloszenie">Tylko ogłoszenia</option>
+      <option value="plan">Tylko plany postępowań</option>
+    </select>
+    <label class="check"><input type="checkbox" id="f-open" checked> Tylko z otwartym terminem</label>
+    <label class="check"><input type="checkbox" id="f-new"> Tylko nowe dzisiaj</label>
+  </div>
+  <div class="result-count" id="result-count" hidden></div>
+</section>
+
+<section class="cards" id="cards">
+  {% for tender in tenders %}{{ tender_card(tender, categories_by_slug, rel) }}{% else %}
+  <div class="empty">
+    <p><b>Brak ogłoszeń w tej kategorii.</b></p>
+    <p>Automat sprawdza źródła raz dziennie — wróć jutro albo poszerz listę słów kluczowych
+       w pliku <code>config/categories/</code>.</p>
+  </div>
+  {% endfor %}
+</section>
+
+<div class="empty" id="no-results" hidden>
+  <p><b>Nic nie pasuje do wybranych filtrów.</b></p>
+  <p>Spróbuj skasować frazę wyszukiwania albo odznaczyć „Tylko z otwartym terminem”.</p>
+</div>
+
+<script src="{{ rel }}assets/filter.js" defer></script>
+{% endblock %}

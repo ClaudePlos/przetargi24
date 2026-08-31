@@ -1,0 +1,31 @@
+# SZABLON NOWEJ KATEGORII
+#
+# Pliki zaczynające się od podkreślnika są ignorowane przez generator,
+# więc ten szablon nigdy nie trafi na stronę.
+#
+# Jak dodać kategorię:
+#   1. cp config/categories/_szablon.yml config/categories/moja-kategoria.yml
+#   2. Uzupełnij pola poniżej (slug musi być unikalny, bez polskich znaków).
+#   3. Commit i push — najbliższy przebieg automatu doda kategorię na stronę.
+#      Możesz też uruchomić workflow "Codzienna aktualizacja przetargów"
+#      ręcznie z zakładki Actions, żeby nie czekać do rana.
+
+slug: moja-kategoria          # identyfikator w adresie URL, [a-z0-9-]
+name: "Nazwa kategorii"       # nagłówek wyświetlany na stronie
+emoji: "📌"                    # ikona przy nazwie (opcjonalnie)
+order: 100                    # kolejność w menu — mniejsza liczba = wyżej
+enabled: true                 # false wyłącza kategorię bez kasowania pliku
+description: >-
+  Jedno-, dwuzdaniowy opis tego, co obejmuje kategoria.
+
+match:
+  # Przynajmniej jedno z pól `cpv` / `keywords` musi być wypełnione.
+  cpv:                        # przedrostki kodów CPV (dopasowanie od początku)
+    - "7930"
+  # Frazy szukane w tytule, opisie i nazwie zamawiającego. Dopasowanie jest
+  # podłańcuchowe, bez wielkości liter i bez polskich znaków. Gwiazdka
+  # zastępuje resztę wyrazu, więc "remont*" łapie remonty/remontu/remontowe.
+  keywords:
+    - "przykładow* fraz*"
+  exclude_keywords: []        # frazy dyskwalifikujące ogłoszenie
+  # min_score: 2              # nadpisuje classify.default_min_score

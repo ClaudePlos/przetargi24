@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Stan źródeł — {{ site.title }}{% endblock %}
+{% block description %}Które rejestry zamówień odpowiedziały podczas ostatniego przebiegu automatu.{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1>Stan źródeł</h1>
+  <p>Automat odpytuje poniższe rejestry raz dziennie. Jeśli któreś źródło zgłasza błąd,
+     zwykle wystarczy poprawić jego adres lub mapowanie pól w pliku <code>config/sources.yml</code> —
+     bez zmian w kodzie.</p>
+</section>
+
+<div class="panel">
+  <h2>Ostatni przebieg: {{ updated_at_human }}</h2>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th>Źródło</th><th>Stan</th><th>Pobrano</th><th>Czas</th><th>Szczegóły</th></tr>
+      </thead>
+      <tbody>
+      {% for source in sources %}
+        <tr>
+          <td>{% if source.homepage %}<a href="{{ source.homepage }}" rel="noopener" target="_blank">{{ source.label }}</a>{% else %}{{ source.label }}{% endif %}<br><code>{{ source.key }}</code></td>
+          <td>{% if source.ok %}<span class="pill ok">Działa</span>{% else %}<span class="pill fail">Błąd</span>{% endif %}</td>
+          <td>{{ source.fetched }}</td>
+          <td>{{ source.duration_seconds }} s</td>
+          <td>{{ source.error or "—" }}</td>
+        </tr>
+      {% else %}
+        <tr><td colspan="5">Brak danych — automat jeszcze się nie uruchomił.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="panel">
+  <h2>Kategorie</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Kategoria</th><th>Ogłoszeń</th><th>Nowych dzisiaj</th><th>Kanał RSS</th></tr></thead>
+      <tbody>
+      {% for category in category_stats %}
+        <tr>
+          <td><a href="{{ rel }}kategoria/{{ category.slug }}.html">{{ category.title }}</a></td>
+          <td>{{ category.count }}</td>
+          <td>{{ category.new_today }}</td>
+          <td><a href="{{ rel }}kategoria/{{ category.slug }}.xml">{{ category.slug }}.xml</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="panel">
+  <h2>Jak dodać własną kategorię</h2>
+  <div class="body">
+    <p>Skopiuj <code>config/categories/_szablon.yml</code> na nowy plik, np.
+       <code>config/categories/transport.yml</code>, uzupełnij kody CPV i słowa kluczowe,
+       po czym wyślij zmianę do repozytorium. Najbliższy przebieg automatu doda kategorię
+       do menu, wygeneruje jej podstronę i kanał RSS. Kodu nie trzeba dotykać.</p>
+    <p>Podsumowanie ostatniego przebiegu: dodano <b>{{ run.added }}</b>,
+       zaktualizowano <b>{{ run.updated }}</b>, scalono duplikatów <b>{{ run.merged }}</b>,
+       usunięto przeterminowanych <b>{{ run.removed }}</b>.</p>
+  </div>
+</div>
+{% endblock %}

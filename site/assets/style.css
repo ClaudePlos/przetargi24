@@ -1,0 +1,293 @@
+/* Przetargi24 — arkusz stylów portalu. */
+
+:root {
+  color-scheme: light dark;
+
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --surface-2: #f0f2f5;
+  --border: #dfe3e8;
+  --text: #16191d;
+  --text-muted: #5b6572;
+  --text-faint: #8a93a0;
+  --accent: #1d5fd0;
+  --accent-soft: #e8f0fe;
+  --ok: #157347;
+  --ok-soft: #e3f4ea;
+  --warn: #9a6200;
+  --warn-soft: #fdf0d8;
+  --danger: #b3261e;
+  --danger-soft: #fbe6e5;
+  --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 4px 12px rgba(16, 24, 40, .05);
+  --radius: 12px;
+  --radius-sm: 7px;
+  --maxw: 1180px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1216;
+    --surface: #171b21;
+    --surface-2: #1e242c;
+    --border: #2a323c;
+    --text: #e8ecf1;
+    --text-muted: #a3adba;
+    --text-faint: #78828f;
+    --accent: #7aa7f5;
+    --accent-soft: #1b2740;
+    --ok: #6fd39b;
+    --ok-soft: #12301f;
+    --warn: #e5b567;
+    --warn-soft: #33270f;
+    --danger: #f08d86;
+    --danger-soft: #3a1a18;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .35), 0 6px 18px rgba(0, 0, 0, .3);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+
+/* --- nagłówek ---------------------------------------------------------- */
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 62px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.brand:hover { text-decoration: none; }
+.brand .dot { color: var(--accent); }
+
+.nav { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto; }
+
+.nav a {
+  padding: 7px 12px;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.nav a:hover { background: var(--surface-2); color: var(--text); text-decoration: none; }
+.nav a.is-active { background: var(--accent-soft); color: var(--accent); }
+
+/* --- sekcja tytułowa --------------------------------------------------- */
+
+.hero { padding: 34px 0 22px; }
+.hero h1 { margin: 0 0 8px; font-size: 30px; line-height: 1.2; letter-spacing: -.025em; }
+.hero p { margin: 0; color: var(--text-muted); max-width: 68ch; }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 22px 0 0;
+}
+
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+}
+.stat .num { font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
+.stat .lbl { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; }
+.stat.accent .num { color: var(--accent); }
+
+/* --- filtry ------------------------------------------------------------ */
+
+.filters {
+  position: sticky;
+  top: 62px;
+  z-index: 10;
+  background: var(--bg);
+  padding: 16px 0 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+
+.filters .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+
+.filters input[type="search"], .filters select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  padding: 9px 12px;
+  font: inherit;
+  font-size: 14px;
+  min-height: 40px;
+}
+.filters input[type="search"] { flex: 1 1 280px; }
+.filters input[type="search"]:focus, .filters select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.check {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  color: var(--text-muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+  min-height: 40px;
+  cursor: pointer;
+  user-select: none;
+}
+.check input { accent-color: var(--accent); margin: 0; }
+
+.result-count { font-size: 13px; color: var(--text-muted); margin-top: 10px; }
+
+/* --- karty ogłoszeń ---------------------------------------------------- */
+
+.cards { display: grid; gap: 14px; padding-bottom: 40px; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+.card[hidden] { display: none; }
+.card.is-new { border-left: 3px solid var(--accent); }
+
+.card h3 { margin: 0 0 6px; font-size: 17px; line-height: 1.35; letter-spacing: -.01em; }
+.card h3 a { color: var(--text); }
+.card h3 a:hover { color: var(--accent); }
+
+.card .buyer { color: var(--text-muted); font-size: 14px; margin: 0 0 10px; }
+.card .desc { margin: 10px 0 0; color: var(--text-muted); font-size: 14px; }
+
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+
+.tag {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+.tag.cat { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.tag.new { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.tag.plan { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.tag a { color: inherit; }
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.meta b { color: var(--text); font-weight: 600; }
+.meta .soon { color: var(--danger); font-weight: 600; }
+.meta .closed { color: var(--text-faint); }
+
+.card-links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 14px; font-weight: 500; }
+
+.empty {
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 40px 24px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+/* --- tabela źródeł ----------------------------------------------------- */
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.panel h2 { margin: 0; padding: 16px 20px; font-size: 16px; border-bottom: 1px solid var(--border); }
+.panel .body { padding: 16px 20px; }
+.panel .body > :first-child { margin-top: 0; }
+.panel .body > :last-child { margin-bottom: 0; }
+
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 11px 20px; border-bottom: 1px solid var(--border); }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); font-weight: 600; }
+tbody tr:last-child td { border-bottom: 0; }
+
+.pill { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.pill.ok { background: var(--ok-soft); color: var(--ok); }
+.pill.fail { background: var(--danger-soft); color: var(--danger); }
+
+code {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 13px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* --- stopka ------------------------------------------------------------ */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  margin-top: 30px;
+  padding: 26px 0;
+  color: var(--text-muted);
+  font-size: 13.5px;
+}
+.site-footer .wrap { display: flex; gap: 16px; flex-wrap: wrap; justify-content: space-between; }
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 24px; }
+  .filters { position: static; }
+  .card { padding: 16px; }
+  th, td { padding: 10px 14px; }
+}

@@ -1,0 +1,71 @@
+# Źródła danych o przetargach.
+#
+# Adaptery typu `json` są w pełni sterowane tym plikiem — dodanie kolejnego
+# API albo poprawka po zmianie istniejącego nie wymaga zmian w kodzie.
+#
+# Dostępne podstawienia w `body`, `params` i `date_format`:
+#   {page} {page_size} {offset} {date_from} {date_to} {date_from_iso} {date_to_iso}
+#
+# Mapowanie `fields` przyjmuje listę kandydatów na nazwę pola; nazwy
+# porównywane są bez wielkości liter i separatorów, więc "PublicationDate",
+# "publication-date" i "publicationDate" znaczą to samo. Obsługiwane są też
+# ścieżki z kropką, np. "buyer.name".
+
+sources:
+  # --- TED: ogłoszenia unijne (adapter wbudowany, składnia zapytań własna) ---
+  ted:
+    type: builtin
+    enabled: true
+
+  # --- BZP: krajowe ogłoszenia poniżej progów unijnych ---------------------
+  # Parametry potwierdzone diagnostyką na żywo (31.08.2026):
+  #   • endpoint przyjmuje wyłącznie GET (POST zwraca 405 z Allow: GET),
+  #   • odpowiedź to goła lista JSON, bez obiektu opakowującego,
+  #   • strona jest twardo ograniczona do 10 pozycji, niezależnie od PageSize,
+  #     dlatego `max_pages` musi być tu znacznie wyższe niż dla TED,
+  #   • `cpvCode` to jeden napis z etykietami, rozbijany wyrażeniem regularnym.
+  bzp:
+    type: json
+    enabled: true
+    label: "BZP — Biuletyn Zamówień Publicznych"
+    homepage: "https://ezamowienia.gov.pl/mo-client-board/bzp/list"
+    url: "https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search"
+    method: GET
+    page_size: 10
+    # Przy 10 pozycjach na żądanie i wolnej odpowiedzi tygodniowy zakres
+    # oznaczałby setki żądań i kilkanaście minut przebiegu. Własne, wąskie
+    # okno załatwia to samo w kilkadziesiąt żądań — przy codziennym
+    # uruchomieniu 2 dni dają zapas na jeden nieudany przebieg.
+    lookback_days: 2
+    max_pages: 60
+    first_page: 1
+    params:
+      PageNumber: "{page}"
+      PageSize: "{page_size}"
+      PublicationDateFrom: "{date_from}"
+      PublicationDateTo: "{date_to}"
+    detail_url: "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/{objectId}"
+    fields:
+      native_id: ["noticeNumber", "bzpNumber", "objectId"]
+      title: ["orderObject"]
+      buyer: ["organizationName"]
+      location: ["organizationCity"]
+      cpv: ["cpvCode"]
+      publication_date: ["publicationDate"]
+      deadline: ["submittingOffersDate"]
+    # Ten sam adres zwraca ogłoszenia, plany i informacje o wynikach —
+    # rozróżnia je dopiero `noticeType`.
+    kind_field: "noticeType"
+    skip_kinds:
+      # Informacje o zakończonych sprawach — nie są okazją do złożenia oferty.
+      - "ContractPerformingNotice"   # ogłoszenie o wykonaniu umowy
+      - "TenderResultNotice"         # informacja o wyniku postępowania
+      - "AgreementUpdateNotice"      # zmiana zawartej umowy
+      # Plany postępowań z tego adresu wracają bez tytułu (`orderObject`),
+      # bez kodów CPV i bez terminu — nie ma czego pokazać ani po czym
+      # przypisać kategorii. Zapowiedzi dostarczają ogłoszenia PIN z TED.
+      - "TenderPlanNotice"
+    # Tablica e-Zamówień powiela także ogłoszenia unijne — poznajemy je po
+    # numerze serii S (np. "2026/S 167-598015"). Mamy je już z TED, i to
+    # z opisem, terminem i wartością, więc tutaj są tylko duplikatem.
+    skip_id_pattern: "^\\d{4}/S "

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.title }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ site.description }}{% endblock %}">
+<link rel="stylesheet" href="{{ rel }}assets/style.css">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} — wszystkie kategorie" href="{{ rel }}feed.xml">
+{% block head %}{% endblock %}
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ rel }}index.html">{{ site.title }}<span class="dot">.</span></a>
+    <nav class="nav">
+      <a href="{{ rel }}index.html"{% if page == 'index' %} class="is-active"{% endif %}>Wszystkie</a>
+      {% for category in categories %}
+      <a href="{{ rel }}kategoria/{{ category.slug }}.html"{% if page == category.slug %} class="is-active"{% endif %}>{{ category.title }}</a>
+      {% endfor %}
+      <a href="{{ rel }}zrodla.html"{% if page == 'zrodla' %} class="is-active"{% endif %}>Stan źródeł</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      Dane pochodzą z publicznych rejestrów zamówień. Portal ma charakter informacyjny —
+      wiążąca jest zawsze treść ogłoszenia u zamawiającego.
+    </div>
+    <div>
+      Ostatnia aktualizacja: <b>{{ updated_at_human }}</b> ·
+      <a href="{{ rel }}feed.xml">Kanał RSS</a> ·
+      <a href="{{ repo_url }}">Kod źródłowy</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
