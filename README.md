@@ -148,10 +148,18 @@ Zdefiniowane w [`config/sources.yml`](config/sources.yml).
 | --- | --- |
 | `ted` | TED — ogłoszenia unijne dla Polski, w tym wstępne ogłoszenia informacyjne (PIN), czyli przetargi zapowiadane z wyprzedzeniem |
 | `bzp` | Biuletyn Zamówień Publicznych — krajowe postępowania poniżej progów unijnych |
-| `bzp_plany` | plany postępowań, czyli zamówienia, które dopiero zostaną ogłoszone |
 
-Wpisy z `bzp_plany` i unijne PIN-y odpowiadają za „co się niedługo wydarzy” —
-na stronie mają plakietkę **Plan postępowań** i osobny filtr.
+Za „co się niedługo wydarzy” odpowiadają wstępne ogłoszenia informacyjne (PIN)
+z TED — na stronie mają plakietkę **Plan postępowań** i osobny filtr.
+
+Oba źródła pomijają ogłoszenia, które nie są okazją do złożenia oferty:
+informacje o wyniku postępowania, o wykonaniu umowy i o jej zmianie. W TED
+stanowią one blisko połowę polskich publikacji, więc odsiew zauważalnie
+podnosi jakość listy.
+
+Plany postępowań z BZP są pomijane świadomie: pod tym adresem wracają bez
+tytułu, kodów CPV i terminu, więc nie ma czego pokazać ani po czym przypisać
+kategorii.
 
 ### Dodawanie i poprawianie źródeł
 
@@ -249,12 +257,20 @@ workflow można ją podać w formularzu.
 | `fetch.lookback_days` | ile dni wstecz pobierać | 7 |
 | `fetch.max_per_source` | limit ogłoszeń z jednego źródła na przebieg | 4000 |
 | `fetch.max_pages` | limit stron na źródło | 45 |
-| `fetch.timeout_seconds` / `fetch.retries` | limit czasu i liczba prób | 60 / 3 |
+| `fetch.timeout_seconds` / `fetch.retries` | limit czasu i liczba prób jednego żądania | 60 / 3 |
+| `fetch.time_budget_seconds` | ile sekund wolno poświęcić jednemu źródłu | 240 |
 | `store.retention_days` | po ilu dniach od terminu wpis znika | 120 |
 | `classify.default_min_score` | próg przypisania do kategorii | 2 |
 
 Błędy 5xx, 429 i problemy sieciowe są ponawiane z wycofaniem 2/4/8 s.
 Odpowiedzi 4xx nie są ponawiane — nie miną same, a zjadłyby czas przebiegu.
+
+Każde źródło ma własny budżet czasu. Po jego przekroczeniu pobieranie kończy
+się, a przebieg używa tego, co zdążył zebrać — dzięki temu wolne API nie
+rozciąga codziennego zadania na godziny. Ma to znaczenie przy BZP: tablica
+e-Zamówień oddaje tylko 10 rekordów na żądanie i odpowiada z wyraźnym
+opóźnieniem, więc to ona wyznacza długość przebiegu. Jeśli w portalu brakuje
+krajowych ogłoszeń, podnieś `fetch.time_budget_seconds`.
 
 ---
 

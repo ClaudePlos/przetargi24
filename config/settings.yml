@@ -22,6 +22,12 @@ fetch:
   max_pages: 45
   timeout_seconds: 60
   retries: 3
+  # Ile sekund wolno poświęcić jednemu źródłu. Po tym czasie pobieranie
+  # kończy się i przebieg używa tego, co zdążył zebrać — dzięki temu wolno
+  # odpowiadające API nie rozciąga codziennego zadania na godziny.
+  # Tablica e-Zamówień oddaje tylko 10 rekordów na żądanie, więc realnie
+  # to ona wyznacza długość przebiegu.
+  time_budget_seconds: 240
 
 store:
   # Po ilu dniach od terminu składania ofert (lub od publikacji, gdy terminu

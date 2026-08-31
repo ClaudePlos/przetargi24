@@ -6,7 +6,7 @@ import datetime as dt
 import logging
 import re
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, field
 from typing import Any, Iterable, Iterator, Sequence
 
 import requests
@@ -96,6 +96,18 @@ class FetchContext:
     date_to: dt.date
     http: HttpClient
     limit: int = 600
+    # Ile sekund wolno poświęcić jednemu źródłu. Bez tego wolne API potrafi
+    # rozciągnąć codzienny przebieg na godziny: tablica e-Zamówień oddaje
+    # 10 rekordów na żądanie i odpowiada z opóźnieniem rzędu sekund.
+    time_budget: float = 300.0
+    _started: float = field(default_factory=time.monotonic)
+
+    def wyczerpany_czas(self) -> bool:
+        return (time.monotonic() - self._started) >= self.time_budget
+
+    def zacznij_odliczanie(self) -> None:
+        """Budżet liczymy osobno dla każdego źródła."""
+        self._started = time.monotonic()
 
 
 @dataclass

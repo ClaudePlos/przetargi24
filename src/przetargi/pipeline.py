@@ -63,6 +63,7 @@ def run_update(
         date_to=reference,
         http=http,
         limit=settings.max_per_source,
+        time_budget=settings.time_budget,
     )
 
     log.info("Pobieram ogłoszenia z zakresu %s – %s", date_from, reference)
@@ -70,6 +71,7 @@ def run_update(
     results: list[dict[str, Any]] = []
     try:
         for source in build_sources(config.sources):
+            ctx.zacznij_odliczanie()
             tenders, result = fetch_source(source, ctx)
             harvested.extend(tenders)
             entry = result.to_dict()

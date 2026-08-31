@@ -69,6 +69,11 @@ class TedSource(Source):
         wydane: set[str] = set()
         widziane_numerow: set[str] = set()
         for page in range(1, ctx.settings.max_pages + 1):
+            if ctx.wyczerpany_czas():
+                log.warning(
+                    "TED: wyczerpany budżet czasu na stronie %s — oddaję pobrane dane", page
+                )
+                break
             payload = self._payload(ctx, page)
             data = self._search(ctx, payload)
             notices = _extract_notices(data)

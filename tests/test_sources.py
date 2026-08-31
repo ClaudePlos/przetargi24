@@ -369,3 +369,35 @@ def test_powtorzona_strona_konczy_stronicowanie_mimo_odsiewu():
 
     assert len(wyniki) == 3
     assert ctx.http.zapytania == 2
+
+
+def test_budzet_czasu_konczy_pobieranie():
+    """Wolne API nie może rozciągać przebiegu w nieskończoność."""
+    strony = [[_wiersz(n)] for n in range(1, 20)]
+    ctx = _kontekst(strony, max_pages=19)
+    ctx.time_budget = 0.0  # budżet wyczerpany już na starcie
+    ctx.zacznij_odliczanie()
+
+    wyniki = list(GenericJsonSource("bzp", BZP_CONFIG).fetch(ctx))
+    assert wyniki == []
+    assert ctx.http.zapytania == 0
+
+
+def test_budzet_czasu_oddaje_to_co_zdazyl_pobrac(monkeypatch):
+    """Po przekroczeniu budżetu zachowujemy już pobrane ogłoszenia."""
+    import przetargi.sources.base as base
+
+    # Zegar rusza o 6 s przy każdym odczycie: start (0 s), sprawdzenie przed
+    # pierwszą stroną (6 s — mieści się), przed drugą (12 s — budżet minął).
+    import itertools
+
+    zegar = itertools.count(0.0, 6.0)
+    monkeypatch.setattr(base.time, "monotonic", lambda: next(zegar))
+
+    ctx = _kontekst([[_wiersz(1)], [_wiersz(2)], [_wiersz(3)]], max_pages=3)
+    ctx.time_budget = 10.0
+    ctx.zacznij_odliczanie()
+
+    wyniki = list(GenericJsonSource("bzp", BZP_CONFIG).fetch(ctx))
+    assert len(wyniki) == 1
+    assert ctx.http.zapytania == 1

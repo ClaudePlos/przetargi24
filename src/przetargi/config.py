@@ -89,6 +89,10 @@ class Settings:
         return int(self.fetch.get("retries", 3))
 
     @property
+    def time_budget(self) -> float:
+        return float(self.fetch.get("time_budget_seconds", 300))
+
+    @property
     def retention_days(self) -> int:
         return int(self.store.get("retention_days", 120))
 

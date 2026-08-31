@@ -77,6 +77,13 @@ class GenericJsonSource(Source):
         wydane: set[str] = set()
         widziane_rekordy: set[str] = set()
         for offset in range(self.max_pages or ctx.settings.max_pages):
+            if ctx.wyczerpany_czas():
+                log.warning(
+                    "Źródło '%s': wyczerpany budżet czasu po %s stronach — "
+                    "oddaję to, co udało się pobrać",
+                    self.key, offset,
+                )
+                break
             page = self.first_page + offset
             data = self._request(ctx, page)
             rows = self._rows(data)
