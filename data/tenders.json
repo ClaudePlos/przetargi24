@@ -1,5 +1,5 @@
 {
- "count": 155,
+ "count": 156,
  "tenders": [
   {
    "buyer": "Centrum Rehabilitacji Rolników Kasy Rolniczego Ubezpieczenia Społecznego NIWA",
@@ -777,6 +777,31 @@
    "source": "bzp",
    "title": "Dostawa artykułów spożywczych do stołówki szkolnej przy Zespole Szkolno-Przedszkolnym w Wąwolnicy w okresie od 1 września 2025 r. do 31 lipca 2026 r.",
    "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df0731-3ed4-5592-ab56-94000185683a",
+   "value": null
+  },
+  {
+   "buyer": "Gmina Zduńska Wola",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [],
+   "currency": "",
+   "deadline": null,
+   "description": "",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "bzp:2026/BZP 00413494/01",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "Zduńska Wola",
+   "native_id": "2026/BZP 00413494/01",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "catering": 4
+   },
+   "source": "bzp",
+   "title": "„Sukcesywne przygotowywanie i dostawa posiłków dla uczniów Szkoły Podstawowej w Janiszewicach - usługa cateringowa”",
+   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df072f-1d6c-a54d-ab56-940001856804",
    "value": null
   },
   {
@@ -2691,6 +2716,18 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/591500-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/589987-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591426-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591500-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -2779,6 +2816,10 @@
    "deadline": "2026-09-14",
    "description": "Przedmiotem zamówienia jest utrzymanie czystości w pasach drogowych miasta Radomia – rejon południowo - wschodni. Zamówienie obejmuje: - oczyszczanie jezdni - 1.767,35 km, - oczyszczanie terenów zielonych i klepisk w pasach drogowych - 7.166.283,15 m2, - letnie oczyszczanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 1.812.452,20 m2, - zimowe utrzymanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 7.277.940,00 m2, - letnie utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 246.545,65 m2, - zimowe utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 910.323,00 m2, - obsługę koszy ulicznych - 90.720 szt., - punktowe oczyszczanie kratek ściekowych - 50 szt., - likwidację dzikich wysypisk śmieci w pasie drogowym - 10 Mg.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
@@ -3759,6 +3800,14 @@
    "deadline": "2026-09-21",
    "description": "Przedmiotem zamówienia jest dostawa mebli biurowych. Zamawiający zgodnie z art. 441 ust. 1 ustawy, zastrzega sobie możliwość skorzystania z prawa opcji. Szczegółowy zakres i warunki realizacji zamówienia przedstawiają:  opis przedmiotu zamówienia,  projekt umowy,  wycena ofertowa,  dokument gwarancyjny,  wzory protokołów przyjęcia – przekazania,  wykaz miejsc dostawy mebli biurowych,  wzór karty wyrobu. Ww. dokumenty stanowią załączniki do SWZ i są jej integralną częścią.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591769-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/593691-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/591769-2026"
@@ -4779,6 +4828,6 @@
    "value": null
   }
  ],
- "updated_at": "2026-08-31T12:58:50+00:00",
+ "updated_at": "2026-08-31T13:12:13+00:00",
  "version": 1
 }
