@@ -1,13 +1,55 @@
 {
- "categories": [],
+ "categories": [
+  {
+   "count": 35,
+   "slug": "sprzatanie",
+   "title": "🧹 Sprzątanie i utrzymanie czystości"
+  },
+  {
+   "count": 20,
+   "slug": "catering",
+   "title": "🍽️ Catering i żywienie"
+  }
+ ],
  "run": {
-  "added": 0,
-  "merged": 0,
-  "per_category": {},
+  "added": 56,
+  "merged": 1,
+  "per_category": {
+   "catering": 20,
+   "sprzatanie": 35
+  },
   "removed": 0,
-  "total": 0,
+  "total": 55,
   "updated": 0
  },
- "sources": [],
- "updated_at": "2026-08-31T12:24:19+00:00"
+ "sources": [
+  {
+   "duration_seconds": 6.97,
+   "error": "",
+   "fetched": 600,
+   "homepage": "https://ted.europa.eu",
+   "key": "ted",
+   "label": "TED — Dziennik Urzędowy UE",
+   "ok": true
+  },
+  {
+   "duration_seconds": 0.66,
+   "error": "SourceError: HTTP 405 z https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search — zapytanie odrzucone",
+   "fetched": 0,
+   "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/list",
+   "key": "bzp",
+   "label": "BZP — Biuletyn Zamówień Publicznych",
+   "ok": false
+  },
+  {
+   "duration_seconds": 0.15,
+   "error": "SourceError: HTTP 404 z https://ezamowienia.gov.pl/mo-board/api/v1/Board/SearchTenderPlans — zapytanie odrzucone",
+   "fetched": 0,
+   "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/tender-plans",
+   "key": "bzp_plany",
+   "label": "Plany postępowań (e-Zamówienia)",
+   "ok": false
+  }
+ ],
+ "updated_at": "2026-08-31T12:29:14+00:00"
 }

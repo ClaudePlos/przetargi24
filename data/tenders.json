@@ -1,6 +1,1629 @@
 {
- "count": 0,
- "tenders": [],
- "updated_at": "2026-08-31T12:24:19+00:00",
+ "count": 55,
+ "tenders": [
+  {
+   "buyer": "Instytut Rybactwa Śródlądowego im. Stanisława Sakowicza – Państwowy Instytut Badawczy",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15700000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "1. Przedmiotem zamówienia jest sukcesywna dostawa zbóż paszowych dla ryb, z przeznaczeniem dla gospodarstwa rybackiego Zamawiającego. Zamówienie obejmuje dostawy następującego asortymentu: Część 2: 1.2. Pasze– szacunkowa ilość zamówienia: 400 000 kg. • Pszenica paszowa: Ziarno zdrowe, dojrzałe, o swoistym zapachu, bez oznak stęchlizny, pleśni oraz śladów żerowania szkodników magazynowych. Wilgotność maksymalna 14,5%, zanieczyszczenia ogółem maksymalnie 5%. Szczegółowy opis przedmiotu zamówienia stanowi Załącznik nr 1B do swz.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585836-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "POL",
+   "native_id": "585836-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Pasza dla zwierząt – Sukcesywne dostawy zbóż paszowych dla ryb dla RZD w Zatorze",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585836-2026",
+   "value": 482595.24
+  },
+  {
+   "buyer": "Zarząd Dróg Wojewódzkich w Lublinie Rejon Dróg Wojewódzkich w Parczewie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "45340000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-10",
+   "description": "Zasady ustawienia i zdejmowania zasłon przeciwśnieżnych Zasłony przeciwśnieżne powinny być ustawiane wyłącznie w miejscach zagrożonych powstawaniem zasp śnieżnych zgodnie z \"Wykazem miejsc zawiewanych i ustawianych zasłon przeciwśnieżnych\" na drogach wojewódzkich w zależności od zadania: Dla zadania Nr 1: na drogach wojewódzkich nr 813, 814, 815, 819. Wykonawca będzie świadczył usługi zgodnie z obowiązującymi przepisami z zakresu ochrony środowiska. Wykonawca ponosi odpowiedzialność za wszelkie szkody spowodowane uszkodzeniami infrastruktury podziemnej (sieć telekomunikacyjna, gazowa, itp.) przy wykonywaniu przedmiotowych prac. Istnieje możliwość wytyczenia trasy posadowienia kabli telekomunikacyjnych przez Orange Polska na koszt i zlecenie Wykonawcy. Szczegóły na stronie: www.orange.pl/wniosekonadzor. Rejon Dróg Wojewódzkich w Parczewie zapewni następujące materiały: zasłony przeciwśnieżne z tworzywa sztucznego oraz kołki drewniane do ustawienia zasłon. Materiały Wykonawca odbierze z placu magazynowania przy siedzibie poszczególnych Obwodów Drogowych: Dla zadania Nr 1: OD nr 1 w Parczewie przy ul. 11 Listopada 98, 21-200 Parczew. w godzinach pracy Obwodu, tj. od poniedziałku do piątku w godz. 7.00 – 15.00. Wykonawca usług zabezpieczy następujące materiały: - drut stalowy Ø 2,0 mm lub linka o Ø 2,0 mm, - kotwy /gwoździe/ do mocowania linki/sznurka, - sznurek lub drut do mocowania siatki do drutu stalowego lub linki i do kołków. Odległość zasłony od drogi powinna wynosić 15 ÷ 20 m od krawędzi jezdni. Wymóg odległości zasłony od drogi oraz wykonania szczeliny wysokości 20 ÷ 30 cm nad ziemią (pod zasłoną), powinien być bezwzględnie zachowany, gdyż zasłona ustawiona zbyt blisko zatrzymuje śnieg na korpusie drogowym, a zbyt daleko - nie spełnia w ogóle swego zadania. Pomiędzy zasłoną a koroną drogi nie mogą znajdować się żadne przedmioty zatrzymujące śnieg, np. parkany, żywopłoty, pojedyncze budynki, składowane materiały na poboczu, Zasłona powinna składać się z ciągu przęseł oraz odstępów pomiędzy przęsłami wg zasad podanych w Specyfikacji technicznej. Demontaż zasłony obejmuje: - rozebranie wszystkich elementów zasłony (odciągów, kotw, siatki, linki/sznura, kołków), - posortowanie rozebranego materiału, zwinięcie siatki i sznura w rolki, usunięcie materiału zniszczonego w miejsce wskazane przez Nadzór, ew. naprawę elementów uszkodzonych (używane gwoździe klamrowe do podwieszenia należy bezwzględnie usunąć, gdyż mogą stanowić zagrożenie dla pasącego się bydła), - odwiezienie materiałów będących własnością Rejonu na place składowe obwodów drogowych w godzinach pracy Obwodów, tj. od poniedziałku do piątku w godz. 7.00 – 15.00, - składowanie materiałów według ustaleń Specyfikacji technicznej w miejscu uzgodnionym z Nadzorem, - uporządkowanie zajętego terenu. Szczegółowy zakres usług ujęty jest w Specyfikacji technicznej oraz w wykazie miejsc zawiewanych i lokalizacji zasłon przeciwśnieżnych. Przedmiot zamówienia został opisany w sposób określony w art. 101 ust. 1 pkt 2 oraz ust 3 ustawy Pzp. Zamawiający dopuszcza rozwiązania równoważne opisywanym pod warunkiem, że Wykonawca udowodni w ofercie, w szczególności za pomocą przedmiotowych środków dowodowych, o których mowa w art. 104-107, że proponowane rozwiązania w równoważnym stopniu spełniają wymagania określone w opisie przedmiotu zamówienia.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585718-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL814",
+   "native_id": "585718-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – RDW w Parczewie: Usługi ustawienia i zdejmowania zasłon przeciwśnieżnych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585718-2026",
+   "value": null
+  },
+  {
+   "buyer": "Generalna Dyrekcja Dróg Krajowych i Autostrad",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Część 1 – Świadczenie usług sprzątania pomieszczeń i utrzymania terenów zewnętrznych w obiektach Zamawiającego w GDDKiA Oddział w Szczecinie Laboratorium Drogowe ul. Wiosenna 8, 72-002 Skarbimierzyce",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585665-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL428",
+   "native_id": "585665-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Świadczenie usług sprzątania pomieszczeń i utrzymania terenów zewnętrznych w obiektach Zamawiającego, zlokalizowanych na terenie województwa zachodniopomorskiego z podziałem na 12 części",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585665-2026",
+   "value": 1758441.05
+  },
+  {
+   "buyer": "Generalna Dyrekcja Dróg Krajowych i Autostrad Oddział w Olsztynie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest Zimowe utrzymanie dróg na terenie administrowanym przez Generalną Dyrekcję Dróg Krajowych i Autostrad Oddział w Olsztynie w podziale na 2 zadania: Zadanie nr 1: R. Ostróda_OD1_OD2_OD3",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585654-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL622",
+   "native_id": "585654-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Zimowe utrzymanie dróg na terenie administrowanym przez Generalną Dyrekcję Dróg Krajowych i Autostrad Oddział w Olsztynie w podziale na 2 zadania: R. Ostróda",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585654-2026",
+   "value": 44375221.57
+  },
+  {
+   "buyer": "Wojewódzka Stacja Pogotowia Ratunkowego i Transportu Sanitarnego \"Meditrans\" Samodzielny Publiczny Zakład Opieki Zdrowotnej w Warszawie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "50421000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem niniejszego zamówienia są naprawy sprzętu do dezynfekcji i ozonowania Plazma Safe. Szczegółowy opis przedmiotu zamówienia został określony w załączniku nr 2 do SWZ. Wykonawca jest zobowiązany do wykonania właściwego wpisu do Paszportu Technicznego dla danego urządzenia oraz potwierdzenia wykonania prac w karcie pracy i/lub wystawienie raportu serwisowego uwzględniającego wykryte usterki. Wykonawca zapewnia oryginalne części zamienne. Za zgodą Zamawiającego dopuszcza się użycie tzw. zamienników. Części zamienne użyte do naprawy będą nowe i pełnowartościowe oraz posiadające parametry techniczne nie gorsze niż części oryginalne. Dokładne informacje w zakresie m.in. numerów seryjnych urządzeń objętych postępowaniem zostaną przekazane Wykonawcom, z którymi będą zawarte poszczególne Umowy. Wykonawca zobowiązuje się wykonać przedmiot zamówienia zgodnie ze wszystkimi wymaganiami Zamawiającego wskazanymi w SWZ. Wykonawca zobowiązany jest złożyć ofertę na całość danej/danych, wybranej/wybranych przez siebie części z uwzględnieniem wszystkich pozycji danej części. Wszystkie wymagania określone w dokumentach zamówienia stanowią wymagania minimalne, a ich spełnienie jest obligatoryjne. Niespełnienie ww. wymagań minimalnych będzie skutkować odrzuceniem oferty jako niezgodnej z warunkami zamówienia na podstawie art. 226 ust. 1 pkt 5 ustawy Pzp.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585614-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "585614-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi w zakresie napraw i konserwacji sprzętu medycznego – Okresowe przeglądy serwisowe i naprawy sprzętu medycznego",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585614-2026",
+   "value": 1125267.42
+  },
+  {
+   "buyer": "Uniwersytet Warszawski",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90600000",
+    "77310000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Wykonanie usługi sprzątania budynku Centrum Nowych Technologii UW przy ul. Banacha 2c.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585195-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "585195-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Wykonanie usługi sprzątania budynku Centrum Nowych Technologii UW przy ul. Banacha 2c.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585195-2026",
+   "value": 1487008.04
+  },
+  {
+   "buyer": "Zespół Opieki Zdrowotnej w Dębicy",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "33631600"
+   ],
+   "currency": "",
+   "deadline": "2026-08-31",
+   "description": "PAKIET I – ŚRODKI DO MYCIA I DEZYNFEKCJI NARZĘDZI ORAZ DELIKATNYCH WYROBÓW MEDYCZNYCH - poz. 1 - 5 (według Części XII A SWZ)",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585180-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL824",
+   "native_id": "585180-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Środki antyseptyczne i dezynfekcyjne – ŚRODKI DEZYNFEKCYJNE W PAKIETACH I – V DLA APTEKI SZPITALNEJ W ZESPOLE OPIEKI ZDROWOTNEJ W DĘBICY",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585180-2026",
+   "value": null
+  },
+  {
+   "buyer": "Powiat Opolski -Zarząd Dróg Powiatowych w Opolu",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-24",
+   "description": "Wykonanie w sezonie zimowym 2026/2027 usług związanych z zimowym utrzymaniem dróg powiatowych administrowanych przez ZDP Opole - na terenie gmin Chrząstowice, Tarnów Opolski, Ozimek - ( O.D. Chrząstowice ). Opis i zakres zamówienia: Zamówienie obejmuje usługi w zakresie zimowego utrzymania dróg powiatowych przy odśnieżaniu i usuwaniu śliskości na terenie gmin Chrząstowice, Tarnów Opolski, Ozimek (Obwód Drogowy w Chrząstowicach). Szczegółowy opis, zakres i warunki wykonywania usług zawierają załączniki: a) „Wykaz dróg powiatowych objętych i nie objętych zimowym utrzymaniem w sezonie 2026/2027” - dla Części Nr 1, b) Specyfikacje Techniczne (ST).",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585062-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL524",
+   "native_id": "585062-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Wykonanie w sezonie zima 2026/2027 usług związanych z zimowym utrzymaniem dróg powiatowych administrowanych przez Zarząd Dróg Powiatowych w Opolu z podziałem na 7 części",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585062-2026",
+   "value": null
+  },
+  {
+   "buyer": "GMINA MYKANÓW",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90000000",
+    "90500000",
+    "90512000",
+    "90513100",
+    "90514000",
+    "90533000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-29",
+   "description": "Wykonawca jest obowiązany przekazać niesegregowane (zmieszane) odpady komunalne, odebrane od właścicieli nieruchomości zamieszkałych z terenu Gminy Mykanów, do instalacji komunalnych zgodnie z obowiązującymi przepisami prawa. Wykonawca jest obowiązany przekazać zebrane od właścicieli nieruchomości zamieszkałych selektywnie zebrane odpady komunalne do instalacji odzysku lub unieszkodliwiania odpadów, zgodnie z hierarchią sposobów postępowania z odpadami zgodnie z ustawą z dnia 14 grudnia 2012 r. o odpadach (Dz. U. z 2023 r. poz. 1587 z późn. zm.). Uwaga: Przedmiotem zamówienia jest odbiór i zagospodarowanie całego strumienia odpadów komunalnych, powstałych na terenie gminy Mykanów z nieruchomości zamieszkałych, przy założeniu braku limitu ilości odbieranych odpadów niesegregowanych (zmieszanych) i segregowanych od mieszkańców. Zamawiający nie dopuszcza możliwości odbierania odpadów komunalnych zleconych przez Zamawiającego wspólnie z odpadami z innej gminy lub z jakimikolwiek innymi odpadami Odbiór odpadów bezpośrednio z nieruchomości zamieszkałych odbywać się będzie z podziałem na odpady: 1) niesegregowane (zmieszane) odpady komunalne, 2) popiół z palenisk domowych, /UWAGA – frakcję odpadów typu popiół Wykonawca odbiera tylko pod kodem odpadu ex 20 01 99 (popioły z gospodarstw domowych)/ 3) papier, 4) zbierane łącznie odpady obejmujące następujące frakcje: tworzywa sztuczne, odpady opakowaniowe wielomateriałowe i metale, 5) szkło, 6) bioodpady, 7) meble i inne odpady wielkogabarytowe, 8) zużyty sprzęt elektryczny i elektroniczny, 9) zużyte opony; /UWAGA – Zamawiający informuje, że Wykonawca w ramach objazdowej zbiórki odpadów zobowiązany jest odebrać zużyte opony pochodzące z gospodarstw domowych, w szczególności z samochodów osobowych, motocykli, motorowerów, skuterów, rowerów, niezależnie od stopnia zużycia, uszkodzenia, przecięcia, zdeformowania lub braku bieżnika./ 10) odpady tekstyliów i odzieży. Odbiór odpadów z punktu selektywnego zbierania odpadów komunalnych (PSZOK): 1) przeterminowane leki, 2) chemikalia, 3) odpady budowlane i rozbiórkowe z gospodarstw domowych (w tym m.in. gromadzone łącznie zmieszane odpady z betonu, gruzu ceglanego, odpadowe materiały ceramiczne i ceramiczne elementy wyposażenia, usunięte tynki, tapety, okleiny, płyty OSB, pełne okna ze stolarką drewnianą lub stolarką wykonaną z tworzywa sztucznego, skrzydła drzwiowe wraz z szybami, odpadowa papa, wełna mineralna), 4) styropian budowlany, 5) popiół z palenisk domowych, 6) odpady niebezpieczne, 7) papier, 8) zbierane łącznie odpady obejmujące następujące frakcje: tworzywa sztuczne, odpady opakowaniowe wielomateriałowe i metale, 9) szkło, 10) bioodpady, 11) meble i inne odpady wielkogabarytowe, 12) zużyte opony, /UWAGA – Zamawiający informuje, że Wykonawca zobowiązany jest odebrać zużyte opony pochodzące z gospodarstw domowych, w szczególności z samochodów osobowych, motocykli, motorowerów, skuterów, rowerów, niezależnie od stopnia zużycia, uszkodzenia, przecięcia, zdeformowania lub braku bieżnika./ 13) odpady niekwalifikujące się do odpadów medycznych powstałych w gospodarstwie domowym w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi w szczególności igły i strzykawki, 14) odpady tekstyliów i odzieży, 15) zużyte baterie i akumulatory, 16) zużyty sprzęt elektryczny i elektroniczny. IV. Pojemniki służące do zbierania odpadów komunalnych: 1. Odpady komunalne niesegregowane (zmieszane) odbierane będą: a) z zabudowy jednorodzinnej w pojemnikach o pojemności: 80 l, 120 l, 240 l, b) z zabudowy wielolokalowej w pojemnikach o pojemności 240 l i 1100 l. 2. Popiół z palenisk domowych z nieruchomości zamieszkałych zarówno w zabudowie jednorodzinnej, jak i w zabudowie wielorodzinnej odbierany będzie w pojemnikach o pojemności 240 l. 3. Nieruchomości w zabudowie jednorodzinnej są wyposażone przez Zamawiającego w pojemniki na niesegregowane (zmieszane) odpady komunalne oraz w pojemniki na popiół. 4. Nieruchomości w zabudowie wielolokalowej Wykonawca wyposaża w pojemniki o poj. 1100 l lub 240 l na odpady: niesegregowane (zmieszane) i segregowane: papier, szkło, tworzywa sztuczne, bio i popiół. 5. Zamawiający zastrzega sobie prawo doposażenia nieruchomości w zabudowie wielorodzinnej w dodatkowe pojemniki. Pojemniki na odpady winny być nowe lub w dobrym stanie technicznym (używane) spełniające obowiązujące normy. Dopuszcza się możliwość wstawienia używanych pojemników; muszą one jednak być zdatne do przyjęcia odpadów tj.:  nie mogą posiadać śladów poprzedniego użytkowania,  pojemniki muszą być czyste,  pojemniki oraz klapy pojemników nie mogą posiadać śladów pęknięć, uszkodzeń,  kółka jezdne pojemników muszą być sprawne na tyle, aby możliwym było ich bezproblemowe przestawienie,  pojemniki winny posiadać sprawne blokady kółek jezdnych. 6. Pierwsze wyposażenie nieruchomości w zabudowie wielolokalowej w pojemniki na odpady niesegregowane (zmieszane), pojemniki na odpady segregowane, pojemniki na popiół, winno nastąpić w terminie do 3 dni od zawarcia umowy, a następnie na bieżąco winno być realizowane w całym okresie trwania umowy. 7. Odpady segregowane odbierane będą z nieruchomości w zabudowie jednorodzinnej w workach o pojemności 120 l wg następującej kolorystyki:  szkło – kolor zielony,  tworzywa sztuczne, opakowania wielomateriałowe, metale – kolor żółty,  papier – kolor niebieski,  bioodpady – kolor brązowy. 8. Wykonawca każdego miesiąca podczas odbioru odpadów, począwszy od grudnia 2026 r., będzie wyposażał każdą nieruchomość objętą odbiorem w nowe worki do zbiórki odpadów segregowanych (żółte, zielone, niebieskie, brązowe) w ilości odpowiadającej liczbie wystawionych worków. Jeżeli właściciel nieruchomości podczas odbioru zgłosi zapotrzebowanie na dodatkowe worki ze względu na zwiększoną ilość produkowanych odpadów segregowanych, Wykonawca przekaże mu dodatkowe worki w ilości niezbędnej do zgromadzenia odpadów",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584999-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL224",
+   "native_id": "584999-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odbioru ścieków, usuwania odpadów, czyszczenia/sprzątania i usługi ekologiczne – „Odbiór, transport i zagospodarowanie odpadów komunalnych z nieruchomości zamieszkałych na terenie gminy Mykanów 2026/2027”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584999-2026",
+   "value": null
+  },
+  {
+   "buyer": "KOMENDA GŁÓWNA POLICJI",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55120000",
+    "55300000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia są usługi gastronomiczne oraz hotelarskie dla uczestników szkolenia. Przedmiot zamówienia został szczegółowo opisany w Opisie przedmiotu zamówienia stanowiącym załącznik nr 3 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584984-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL921",
+   "native_id": "584984-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "catering": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi hotelarskie w zakresie spotkań i konferencji – Zakup usługi hotelarskiej i gastronomicznej dla uczestników szkolenia w dniach 24-28 sierpnia 2026 r.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584984-2026",
+   "value": 21356.44
+  },
+  {
+   "buyer": "Samodzielny Publiczny Wielospecjalistyczny Zakład Opieki Zdrowotnej Ministerstwa Spraw Wewnętrznych i Administracji w Bydgoszczy",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "33000000",
+    "33690000",
+    "33622000",
+    "33651100",
+    "33615100",
+    "33651520",
+    "33621200",
+    "33641200",
+    "33692500",
+    "33692200",
+    "33692510",
+    "33692800"
+   ],
+   "currency": "",
+   "deadline": "2026-09-02",
+   "description": "Pakiet nr 1 - Leki iniekcyjne, doustne i inne, szczegółowo określone w załączniku nr 2 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584881-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL613",
+   "native_id": "584881-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Urządzenia medyczne, farmaceutyki i produkty do pielęgnacji ciała – Zakup i dostawa leków, płynów infuzyjnych, preparatów farmaceutycznych, preparatów do żywienia, płynów do terapii nerko zastępczej, preparatów do dezynfekcji, materiałów opatrunkowych i innych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584881-2026",
+   "value": 6308869.95
+  },
+  {
+   "buyer": "Województwo Dolnośląskie - Urząd Marszałkowski Województwa Dolnośląskiego",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55300000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-09",
+   "description": "Przedmiotem zamówienia jest organizacja i obsługa 2 szkoleń pt. Rozwój przedsiębiorczości kobiet na obszarach wiejskich. Szkolenia odbędą się: w Jeleniej Górze – w dniu 24 października 2026 r. oraz we Wrocławiu – w dniu 21 listopada 2026 r. Szczegółowy opis przedmiotu zamówienia oraz warunki jego realizacji Zamawiający określił w Projekcie umowy, w szczególności w Szczegółowym Opisie Przedmiotu Umowy, stanowiącym Załącznik nr 1 do Projektu umowy, stanowiących łącznie Załącznik nr 8 do SWZ. Zamawiający wymaga podania w Formularzu ofertowym nazwy i adresu obiektów w Jeleniej Górze i we Wrocławiu, zgodnych z SOPU, w których zostaną zorganizowane szkolenia.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584778-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL514",
+   "native_id": "584778-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "catering": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi restauracyjne i dotyczące podawania posiłków – Organizacja i obsługa 2 szkoleń pt. Rozwój przedsiębiorczości kobiet na obszarach wiejskich",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584778-2026",
+   "value": null
+  },
+  {
+   "buyer": "Gmina Tuchów",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-08-28",
+   "description": "1.1. Przedmiotem zamówienia są usługi dotyczące zadania pn. „Zimowe utrzymanie dróg na terenie Gminy Tuchów w sezonie 2026/2027 - część nr 1: chodniki i place - Tuchów i Lubaszowa\" 1.1.1. Zamówienie obejmuje w szczególności: 1.1.1.1. usuwanie śliskości zimowej przy zastosowaniu odpowiednich (właściwych) środków chemicznych i uszorstniających (środek chemiczny w postaci stałej chlorek sodu (sól drogowa) oraz kruszywo naturalne o uziarnieniu od 2 mm do 4 mm - w proporcjach: sól 25 %, kruszywo 75 % dostosowanych do warunków pogodowych wraz z dostawą tych materiałów i ich załadunkiem na środki transportowe, 1.1.1.2. odśnieżanie chodników i placów przy zastosowaniu odpowiedniego sprzętu, 1.1.1.3. użycie ciężkiego sprzętu - na wyłączne polecenie zamawiającego, w przypadku intensywnych opadów śniegu lub zamieci powodujących powstanie zasp, 1.1.1.4. załadunek i wywóz śniegu w sytuacjach wyjątkowych przy zastosowaniu sprzętu nieuszkadzającego nawierzchnię i elementów pasa drogowego (np. z zastosowaniem listew ogumionych) – wyłącznie na polecenie zamawiającego, 1.1.1.5. stałe patrolowanie chodników i placów w celu bieżącej oceny skuteczności podejmowanych działań w ramach realizacji zamówienia oraz gotowość do pracy 24 godziny na dobę przez 7 dni w tygodniu umożliwiając kontakt telefoniczny oraz fax do i od Zamawiającego, Uwaga! Wykonawca zobligowany jest do przedstawienia osoby do kontaktu telefonicznego w celu zapewnienia pełnej dyspozycyjności, 1.1.1.6. śledzenie na bieżąco prognozy pogody dla Tuchowa. 1.2. Szczegółowy przedmiot zamówienia oraz sposób realizacji zamówienia został określony w załącznikach do SWZ, m. in. w opisie przedmiotu zamówienia stanowiącym załącznik nr 1 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584681-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL217",
+   "native_id": "584681-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – „Zimowe utrzymanie dróg na terenie Gminy Tuchów w sezonie 2026/2027”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584681-2026",
+   "value": null
+  },
+  {
+   "buyer": "Sąd Okręgowy w Poznaniu",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90919100",
+    "90919200",
+    "90911200",
+    "90911300",
+    "90914000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest usługa sprzątania obiektów i terenów przyległych, realizowana w poniższych jednostkach organizacyjnych: CZĘŚĆ II obejmuje obiekty: Sąd Rejonowy w Grodzisku Wlkp, Sąd Rejonowy w Nowym Tomyślu, Sąd Rejonowy w Wolsztynie",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584545-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL418",
+   "native_id": "584545-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 20
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Usługa sprzątania obiektów Sądu Okręgowego w Poznaniu oraz Sądów Rejonowych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584545-2026",
+   "value": 445080.0
+  },
+  {
+   "buyer": "Gmina Świnna",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90500000",
+    "90511000",
+    "90512000",
+    "90513100",
+    "90533000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-08",
+   "description": "1. Przedmiotem zamówienia jest świadczenie usług w zakresie odbioru, transportu i zagospodarowania odpadów komunalnych pochodzących z nieruchomości zamieszkałych i niezamieszkałych, położonych na terenie Gminy Świnna w 2027 roku, w sposób zapewniający osiągnięcie odpowiednich poziomów recyklingu, przygotowania do ponownego użycia i odzysku innymi metodami oraz ograniczenie masy odpadów komunalnych ulegających biodegradacji przekazywanych do składowania, do instalacji regionalnej lub instalacji zastępczej do obsługi regionu zgodnie z zapisami: • Ustawy z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach (t.j. Dz. U. z 2025 r. poz. 733), • Ustawy z dnia 14 grudnia 2012 r. o odpadach (Dz. U z 2023 r., poz. 1587 z późn. zm.), • Ustawy z dnia 27 kwietnia 2001 r. Prawo ochrony środowiska (Dz. U. z 2025r. poz. 647 z późń. zm.), • Ustawy z dnia 6 marca 2018 r. Prawo przedsiębiorców (Dz. U. z 2024 r. poz. 236 z późn. zm.), • Rozporządzenia Ministra Środowiska z dnia 11 stycznia 2013 r. w sprawie szczegółowych wymagań w zakresie odbierania odpadów komunalnych od właścicieli nieruchomości (Dz. U. z 2013r. poz. 122), • Rozporządzenie Ministra Klimatu i Środowiska z dnia 3 sierpnia 2021 r. w sprawie sposobu obliczenia poziomów przygotowania do ponownego użycia i recyklingu odpadów komunalnych (Dz. U. z 2021 r. poz. 1530), • Rozporządzenia Ministra Środowiska z dnia 15 grudnia 2017 r. w sprawie poziomów ograniczania składowania masy odpadów komunalnych ulegających biodegradacji (Dz. U. z 2017 r. poz. 2412), • Rozporządzenia Ministra Klimatu z dnia 2 stycznia 2020 r. w sprawie katalogu odpadów (Dz. U. z 2020r., poz. 10), • Rozporządzenia Ministra Środowiska z dnia 16 czerwca 2009 r. w sprawie bezpieczeństwa i higieny pracy przy gospodarowaniu odpadami komunalnymi (Dz. U. 2009 r. nr 104 poz. 868), • Planu Gospodarki Odpadami dla województwa śląskiego — Uchwała Nr V/37/7/2017 z dnia 24 kwietnia 2017r. Sejmiku Województwa Śląskiego w sprawie przyjęcia Planu gospodarki odpadami dla województwa śląskiego na lata 2023-2028. A także: • Uchwały Nr XXXIII/194/26 Rady Gminy Świnna z dnia 27 marca 2026 roku w sprawie przyjęcia Regulaminu utrzymania czystości i porządku na terenie Gminy Świnna, • Uchwały Nr VII/49/24 Rady Gminy Świnna z dnia 3 października 2024 roku w sprawie określenia szczegółowego sposobu i zakresu świadczenia usług w zakresie odbierania odpadów komunalnych od właścicieli nieruchomości i zagospodarowania tych odpadów w zamian za uiszczoną opłatę. Wykonawca zobowiązany jest do śledzenia ewentualnych zmian w wyżej wymienionych przepisach oraz nowo wprowadzanych i stosować je na bieżąco. Zakres zamówienia obejmuje: 1) odbiór i zagospodarowanie odpadów komunalnych z nieruchomości zamieszkałych, 2) odbiór i zagospodarowanie odpadów komunalnych z nieruchomości niezamieszkałych, przez które zamawiający rozumie nieruchomość, na której prowadzona jest np. działalność gospodarcza, społeczna, publiczna, a także budynki letniskowe oraz budynki wykorzystywane do celów rekreacyjno-wypoczynkowych oraz cmentarze. Z budynków, w których prowadzona jest działalność gospodarcza odbierane będą tylko odpady w ilości zadeklarowanej, 3) wyposażenie nieruchomości zamieszkałych, domków letniskowych oraz budynków rekreacyjno-wypoczynkowych w jeden pojemnik do zbiórki odpadów ulegających biodegradacji, worki na odpady segregowane. 2. Szczegółowy zakres przedmiotu zamówienia precyzuje załącznik nr 9 do Specyfikacji Warunków Zamówienia – Opis przedmiotu zamówienia, zaś wymogi dotyczące realizacji zamówienia załącznik nr 8 do Specyfikacji Warunków Zamówienia – Projekt umowy. 3. Zamawiający wymaga zatrudnienia przez Wykonawcę lub podwykonawcę , na podstawie stosunku pracy, osób wykonujących w trakcie realizacji zamówienia podstawowe czynności techniczne, takie jak: wywóz odpadów, kwalifikowanych jako pracownicy fizyczni.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584531-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL225",
+   "native_id": "584531-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi związane z odpadami – Odbiór i zagospodarowanie odpadów komunalnych z terenu Gminy Świnna w 2027 roku",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584531-2026",
+   "value": null
+  },
+  {
+   "buyer": "Miasto Łódź – Urząd Miasta Łodzi",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90612000",
+    "90630000",
+    "71631480",
+    "90611000",
+    "90620000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-24",
+   "description": "Przedmiotem zamówienia jest Kompleksowe oczyszczanie dróg w sezonie letnim i zimowym na terenie Miasta Łodzi. Termin wykonania zamówienia: od dnia zawarcia umowy nie wcześniej niż od 01.10.2026 r. do dnia 30.09.2029 r.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584490-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL711",
+   "native_id": "584490-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 12
+   },
+   "source": "ted",
+   "title": "Polska – Usługi zamiatania ulic – Kompleksowe oczyszczanie dróg w sezonie letnim i zimowym na terenie Miasta Łodzi",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584490-2026",
+   "value": null
+  },
+  {
+   "buyer": "UNIWERSYTECKI SZPITAL KLINICZNY IM JANA MIKULICZA - RADECKIEGO WE WROCŁAWIU",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "60100000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Pakiet nr 1 - Zadanie nr 1",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584450-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL514",
+   "native_id": "584450-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "catering": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi w zakresie transportu drogowego – Usługa transportu posiłków z kuchni przy ul. Warszawskiej dla pacjentów Klinik USK przy ulicy M. Curie - Skłodowskiej, ul. T. Chałubińskiego i Wyb. Pasteura we Wrocławiu oraz pacjentów USK w Strzelinie",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584450-2026",
+   "value": 1058857.8
+  },
+  {
+   "buyer": "POLITECHNIKA OPOLSKA",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "39000000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "1. Niniejsze postępowanie prowadzone jest w trybie przetargu nieograniczonego na podstawie art. 132 ustawy p.z.p. oraz niniejszej Specyfikacji Warunków Zamówienia, zwaną dalej \"SWZ\". 2. Szacunkowa wartość zamówienia przekracza kwotę określoną w obwieszczeniu Prezesa Urzędu Zamówień Publicznych wydanym na podstawie art. 3 ust. 2 p.z.p. 3. Zamawiający nie przewiduje zastosowania tzw. procedury odwróconej, o której mowa w art. 139 ust. 1 ustawy PZP. 4. Zamawiający nie przewiduje aukcji elektronicznej. 5. Zamawiający nie prowadzi postępowania w celu zawarcia umowy ramowej. 6. Zamawiający nie określa dodatkowych wymagań związanych z zatrudnianiem osób, o których mowa w art. 96 ust. 2 pkt 2 PZP.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584442-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL524",
+   "native_id": "584442-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Meble (włącznie z biurowymi), wyposażenie, urządzenia domowe (z wyłączeniem oświetlenia) i środki czyszczące – ZP/D/21/2026 - Wykonanie, dostawa oraz montaż mebli do budynku DS Zaścianek Politechniki Opolskiej",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584442-2026",
+   "value": 2379715.44
+  },
+  {
+   "buyer": "Państwowe Gospodarstwo Wodne Wody Polskie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "39830000",
+    "33763000",
+    "39831300",
+    "39813000",
+    "33711900",
+    "39224300"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest dostawa pn: „Dostawa środków czystości i galanterii papierniczej RZGW Gdańsk\". Zamówienie zostanie dostarczone do poniższych lokalizacji: Lokalizacja 1: Regionalny Zarząd Gospodarki Wodnej w Gdańsku, ul. Jana z Kolna 11, 80-864 Gdańsk Lokalizacja 2: Zarząd Zlewni w Chojnicach, ul. Łużycka 1A, 89-600 Chojnice, adres dostawy: Obiekt Hydrotechniczny w Mylofie-Zapora 1B, 89-642 Rytel Lokalizacja 3: Zarząd Zlewni w Elblągu, Aleja Tysiąclecia 11, 82-300 Elbląg Lokalizacja 4: Zarząd Zlewni w Gdańsku, Aleja Grunwaldzka 184, 80-266 Gdańsk Lokalizacja 5: Zarząd Zlewni w Tczewie, ul. Kołłątaja 6, 83-110 Tczew Lokalizacja 6: Zarząd Zlewni w Toruniu, ks. J. Popiełuszki 3, 87-100 Toruń Szczegółowe informacje dotyczące przedmiotu zamówienia, zakresu wymagań i warunków wykonania zamówienia określają: - Opis przedmiotu zamówienia – Załącznik Nr 1 do SWZ, - Projektowane postanowienia umowy – Załącznik Nr 6 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584411-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL634",
+   "native_id": "584411-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 7
+   },
+   "source": "ted",
+   "title": "Polska – Środki czyszczące – „Dostawa środków czystości i galanterii papierniczej RZGW Gdańsk”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584411-2026",
+   "value": 69772.33
+  },
+  {
+   "buyer": "Uniwersytecki Szpital Dziecięcy w Lublinie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "33631600",
+    "33700000",
+    "18930000",
+    "19520000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-07",
+   "description": "PREPARATY DO DEZYNFEKCJI SKÓRY, BŁON ŚLUZOWYCH ORAZ RAN",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584351-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL814",
+   "native_id": "584351-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Środki antyseptyczne i dezynfekcyjne – Postępowanie o udzielenie zamówienia publicznego w trybie przetargu nieograniczonego na dostawę preparatów dezynfekcyjnych.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584351-2026",
+   "value": null
+  },
+  {
+   "buyer": "Międzygminny Kompleks Unieszkodliwiania Odpadów ProNatura Sp. z o.o.",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90913100",
+    "90912000",
+    "90915000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest prowadzenie planowanych i awaryjnych prac czyszczeniowych w obiektach i instalacjach ZTPOK, w zakresie i na warunkach określonych w Opisie Przedmiotu Zamówienia (OPZ) - załącznik nr 1 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584345-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL613",
+   "native_id": "584345-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "sprzatanie": 9
+   },
+   "source": "ted",
+   "title": "Polska – Usługi czyszczenia zbiorników – Prowadzenie planowanych i awaryjnych prac czyszczeniowych w obiektach i instalacjach ZTPOK",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584345-2026",
+   "value": 1051000.0
+  },
+  {
+   "buyer": "Zarząd Dróg Wojewódzkich w Lublinie Rejon Dróg Wojewódzkich w Białej Podlaskiej",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90630000",
+    "90620000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Zadanie nr 1 Planowana ilość wykonywania usługi w każdym sezonie: Odśnieżanie dróg dla pieszych i dróg dla rowerów z posypywaniem piaskiem przy występowaniu śliskości - 20 Zwalczanie śliskości na drogach dla pieszych i droga dla rowerów - 10",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:584195-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL811",
+   "native_id": "584195-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi usuwania oblodzeń – RDW w Białej Podlaskiej: Usługi zimowego utrzymania dróg dla pieszych i rowerów położonych wzdłuż dróg wojewódzkich tj. odśnieżanie i zwalczanie śliskości zimowej w sezonach 2026/2027, 2027/2028, 2028/2029",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/584195-2026",
+   "value": 178200.0
+  },
+  {
+   "buyer": "Rejonowy Zarząd Infrastruktury w Krakowie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "39000000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-21",
+   "description": "Przedmiotem zamówienia jest dostawa mebli biurowych. Zamawiający zgodnie z art. 441 ust. 1 ustawy, zastrzega sobie możliwość skorzystania z prawa opcji. Szczegółowy zakres i warunki realizacji zamówienia przedstawiają:  opis przedmiotu zamówienia,  projekt umowy,  wycena ofertowa,  dokument gwarancyjny,  wzory protokołów przyjęcia – przekazania,  wykaz miejsc dostawy mebli biurowych,  wzór karty wyrobu. Ww. dokumenty stanowią załączniki do SWZ i są jej integralną częścią.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583994-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL213",
+   "native_id": "583994-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Meble (włącznie z biurowymi), wyposażenie, urządzenia domowe (z wyłączeniem oświetlenia) i środki czyszczące – Dostawa mebli biurowych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583994-2026",
+   "value": null
+  },
+  {
+   "buyer": "4 Regionalna Baza Logistyczna",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15897100"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest: DOSTAWA-GRUPOWA RACJA ŻYWNOŚCIOWA ”PS” wg zestawienia asortymentowo-ilościowego zawartego w formularzu ofertowym zgodnie z Załącznikiem nr 1 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583919-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL514",
+   "native_id": "583919-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Polowe racje żywnościowe – DOSTAWA – GRUPOWA RACJA ŻYWNOŚCIOWA ”PS”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583919-2026",
+   "value": 458895038.0
+  },
+  {
+   "buyer": "Szpital Specjalistyczny im. J. Dietla w Krakowie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90911200",
+    "90900000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-03",
+   "description": "Przedmiotem zamówienia jest usługa sprzątania i dezynfekcji, zgodnie z ZAŁĄCZNIKIEM NR 2 do SWZ - FORMULARZ CENOWY WRAZ ZE SZCZEGÓŁOWYM OPISEM PRZEDMIOTU ZAMÓWIENIA",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583771-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL213",
+   "native_id": "583771-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania budynków – Usługa sprzątania i dezynfekcji w Szpitalu",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583771-2026",
+   "value": 4794512.5
+  },
+  {
+   "buyer": "Gmina Busko-Zdrój",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90500000",
+    "90511000",
+    "90511300",
+    "90512000",
+    "90513100",
+    "90514000",
+    "90533000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Na podstawie zawartej umowy Wykonawca wykona kompleksową obsługę w zakresie odbioru i zagospodarowania (odzysk lub unieszkodliwianie) odpadów komunalnych z terenu miasta Busko-Zdrój oraz 47 sołectw: Baranów, Bilczów, Biniątki, Błoniec, Bronina, Budzyń, Chotelek, Dobrowoda, Elżbiecin, Galów, Gadawa, Janina, Kameduły, Kawczyce, Kołaczkowice, Kostki Duże, Kostki Małe, Kotki, Las Winiarski, Łagiewniki, Mikułowice, Młyny, Nowy Folwark, Nowa Wieś, Oleszki, Olganów, Owczary, Palonki, Pęczelice, Podgaje, Radzanów, Ruczynów, Siesławice, Skorzów, Słabkowice, Służów, Skotniki Duże, Skotniki Małe, Szaniec, Szczaworyż, Wełecz, Widuchowa, Wolica, Zbludowice, Zbrodzice, Zwierzyniec i Żerniki Górne. Odbiór i zagospodarowanie odpadów komunalnych dotyczy wszystkich nieruchomości, na których zamieszkują mieszkańcy oraz nieruchomości, na których nie zamieszkują mieszkańcy w przypadkach dobrowolnego przystąpienia właścicieli nieruchomości niezamieszkałych do gminnego systemu gospodarowania odpadami komunalnymi w sposób zapewniający osiągnięcie odpowiednich poziomów recyklingu, przygotowania do ponownego użycia i odzysku innymi metodami oraz ograniczenie masy odpadów komunalnych ulegających biodegradacji przekazywanych do składowania, zgodnie z zapisami ustawy z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach (Dz. U. z 2025 poz. 733) zapisami w wojewódzkim Planie Gospodarki Odpadami oraz Regulaminie utrzymania czystości i porządku na terenie gminy Busko-Zdrój. Obsługa obejmuje dostawę pojemników do selektywnej zbiórki odpadów komunalnych, do punktów gromadzenia odpadów na nieruchomościach zabudowy wielorodzinnej oraz ciągłej dostawy worków do selektywnej zbiórki odpadów komunalnych na terenach nieruchomości jednorodzinnych i zagrodowych do wszystkich odbiorców wskazanych przez Zamawiającego.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583673-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL722",
+   "native_id": "583673-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi związane z odpadami – „Odbiór i zagospodarowanie odpadów komunalnych od właścicieli nieruchomości zamieszkałych na terenie gminy Busko-Zdrój”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583673-2026",
+   "value": 4972500.0
+  },
+  {
+   "buyer": "Jednostka Wojskowa Nr 6021",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "03220000",
+    "15113000",
+    "15111100",
+    "15131130"
+   ],
+   "currency": "",
+   "deadline": "2026-09-30",
+   "description": "1. Przedmiotem zamówienia jest dostawa owoców. Kod Wspólnego Słownika Zamówień (CPV): 03220000- 9 Warzywa, owoce i orzechy 2. Szczegółowy opis przedmiotu zamówienia określają załączniki nr 1, 1.1., 5 oraz nr 4 do SWZ tj.: Formularz ofertowy, Specyfikacje asortymentowo - cenowe, Opisy przedmiotów zamówienia oraz Projektowane postanowienia umowy. 3. Zamawiający nie dopuszcza składanie ofert częściowych. Uzasadnienie: Zamawiający nie dopuszcza składania ofert częściowych, ponieważ przedmiot zamówienia obejmuje sukcesywne dostawy owoców, które wymagają zapewnienia ciągłości dostaw, jednolitego poziomu jakości oraz sprawnej organizacji i koordynacji realizacji zamówienia. Podział zamówienia na części i powierzenie ich realizacji kilku wykonawcom mógłby utrudnić bieżącą koordynację dostaw, w szczególności w zakresie terminów, ilości oraz jakości dostarczanych produktów. W przypadku wystąpienia braków, opóźnień lub konieczności wymiany produktów konieczne byłoby dodatkowe uzgadnianie działań pomiędzy Zamawiającym a poszczególnymi Wykonawcami, co mogłoby negatywnie wpłynąć na ciągłość zaopatrzenia. Ponadto dostawy realizowane przez różnych Wykonawców mogłyby wiązać się z różnicami w jakości, świeżości oraz sposobie realizacji dostaw, co utrudniałoby zapewnienie jednolitych standardów wymaganych przez Zamawiającego. Podział zamówienia mógłby również powodować zwiększenie kosztów organizacyjnych i logistycznych, związanych m.in. z obsługą kilku umów, koordynacją wielu dostaw oraz kontrolą ich prawidłowej realizacji. Z uwagi na powyższe Zamawiający uznaje, że realizacja całości zamówienia przez jednego Wykonawcę zapewni sprawniejszą organizację dostaw, większą ciągłość i przewidywalność zaopatrzenia oraz jednolity standard jakości dostarczanych owoców, a także pozwoli ograniczyć koszty i ryzyka związane z koordynacją współpracy z wieloma Wykonawcami. 4. Zamawiający wymaga złożenia oferty na wszystkie wymagane pozycje wykazane w załącznikach nr 1.1. do SWZ. 5. Zamawiający w niniejszym postępowaniu przewiduje udzielenie zamówienia podstawowego (gwarantowanego) oraz ewentualnych zamówień w ramach Prawa Opcji. Informacje dotyczące zakresu zamówienia objętego Prawem Opcji, w tym zakres, termin skorzystania z tego uprawnienia przez Zamawiającego oraz zasady, na jakich będzie się to odbywało, zostały opisane w załączniku nr 4 do SWZ. Prawo Opcji jest uprawnieniem Zamawiającego, z którego może, ale nie musi, skorzystać w ramach niniejszego postępowania. Zamawiający nie ponosi żadnej odpowiedzialności z tytułu nieskierowania takiego żądania do Wykonawcy, a Wykonawcy z tytułu nie skorzystania z Prawa Opcji przez Zamawiającego nie przysługuje żadne roszczenie. Okoliczności skorzystania z opcji zostały opisane w § 3 w załączniku nr 4 do SWZ. 6. Ilekroć w niniejszej SWZ przedmiot zamówienia jest opisany ze wskazaniem znaków towarowych, patentów lub pochodzenia, źródła lub szczególnego procesu, który charakteryzuje produkty dostarczane przez konkretnego Wykonawcę, jeżeli mogłoby to doprowadzić do uprzywilejowania lub wyeliminowania niektórych wykonawców lub produktów, to przyjmuje się, że wskazaniom takim towarzyszą wyrazy „lub równoważne”. Zamawiający, opisując przedmiot zamówienia, na podstawie dyspozycji wyrażonej w art. 99 ust. 4 ustawy Pzp, wskazał na znak towarowy lub pochodzenie z uwagi na specyfikę przedmiotu zamówienia oraz brak możliwości jego opisania w sposób wyczerpujący za pomocą dokładnych i zrozumiałych określeń. Opisując przedmiot zamówienia za pomocą znaków towarowych, patentów lub pochodzenia, źródła lub szczególnego procesu, który charakteryzuje produkty dostarczane Zamawiający określa tym samym parametry jakościowe, techniczne i cechy użytkowe, jakim musi odpowiadać przedmiot zamówienia, aby spełniać wymagania stawiane przez Zamawiającego. 7. Przedmiot zamówienia powinien odpowiadać określonym przez Zamawiającego parametrom technicznym, funkcjonalnym i jakościowym wskazanym w opisie przedmiotu zamówienia, stanowiącym załącznik nr 5 do SWZ. 8. Zamawiający nie zastrzega możliwości ubiegania się o udzielenie zamówienia wyłącznie przez Wykonawców, o których mowa w art. 94 ust. 1 ustawy Pzp, tj. mających status zakładu pracy chronionej, spółdzielnie socjalne oraz innych Wykonawców, których głównym celem lub głównym celem działalności ich wyodrębnionych organizacyjnie jednostek, które będą realizowały zamówienie, jest społeczna i zawodowa integracja osób społecznie marginalizowanych.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583573-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "583573-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 9
+   },
+   "source": "ted",
+   "title": "Polska – Warzywa, owoce i orzechy – Dostawa owoców dla Jednostki Wojskowej Nr 6021.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583573-2026",
+   "value": 268372.02
+  },
+  {
+   "buyer": "Gmina Skarżysko - Kamienna",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-22",
+   "description": "1. Przedmiotem niniejszego opisu są wymagania dotyczące zimowego utrzymania terenów stanowiących własność Gminy Skarżyska – Kamiennej oraz ich pozimowe sprzątanie. Szczegółowy zakres rzeczowy przedmiotu zamówienia: 1. Odśnieżanie i likwidowanie śliskości 2. Zapewnienie dostępności dla osób niepełnosprawnych 3. Zwalczanie śliskości bez opadów śniegu 4. Odkucie schodów 5. Oczyszczenie ławek 6. Uprzątnięcie materiału uszorstniającego Szczegółowy Opis Przedmiotu Zamówienia określają załączniki do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583538-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL721",
+   "native_id": "583538-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 12
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Zimowe utrzymanie terenów stanowiących własność gminy Skarżysko-Kamienna w sezonie zimowym 2026/2027 oraz ich pozimowe sprzątanie",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583538-2026",
+   "value": null
+  },
+  {
+   "buyer": "Samodzielny Publiczny Zakład Opieki Zdrowotnej Rejonowe Pogotowie Ratunkowe w Sosnowcu",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90900000",
+    "90910000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Opis przedmiotu zamówienia stanowi Załącznik nr 2.1 A do SWZ wraz z załącznikami – przedmiot zamówienia",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583496-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL22B",
+   "native_id": "583496-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi w zakresie sprzątania i odkażania – Wykonanie usługi utrzymania czystości i obsługi pozamedycznej w publicznych zakładach opieki zdrowotnej dla których podmiotem tworzącym jest Województwo Śląskie – w podziale na 12 części",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583496-2026",
+   "value": 15125335.92
+  },
+  {
+   "buyer": "Gmina Pyskowice",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90500000",
+    "90511000",
+    "90512000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-09",
+   "description": "1. Zorganizowanie odbioru odpadów selektywnie zebranych, ulegających biodegradacji oraz niesegregowanych (zmieszanych) odpadów komunalnych, ich transport oraz zagospodarowanie, pochodzących z nieruchomości zamieszkałych w Gminie Pyskowice. Pod pojęciem \"nieruchomości zamieszkałe\" Zamawiający rozumie: nieruchomości w Gminie Pyskowice, w których zamieszkują mieszkańcy oraz nieruchomości, o których mowa w art. 6j ust. 4 ustawy z 13 września 1996 r. o utrzymaniu czystości i porządku w gminach (Dz. U. z 2025 r. poz. 733). Wykonawca zobowiązuje się, iż będzie realizował przedmiot umowy zgodnie z uchwałami Rady Miejskiej w Pyskowicach, będzie gospodarował odebranymi odpadami zgodnie z ustawą z dnia 14 grudnia 2012r. o odpadach (t.j. Dz. U. z 2023 r. 1587 z późn. zm.), ustawą z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach (t.j. Dz. U. z 2025 r. poz. 733), a także wymogami ochrony środowiska oraz Planem Gospodarki dla województwa śląskiego. 2.Przekazywanie zmieszanych odpadów komunalnych oraz bioodpadów winno nastąpić do instalacji komunalnej. 3.Wykonywanie przedmiotu zamówienia ma być zgodne z przepisami prawa ochrony środowiska oraz przepisami sanitarnymi, w tym rozporządzeniem wydanym na podstawie art. 9d ust. 2 ustawy o utrzymaniu czystości i porządku w gminach. 4. Realizacja zamówienia przy wykorzystaniu pojazdów zgodnie z wymaganiami opisanymi w rozporządzeniu Ministra Środowiska z dnia 11 stycznia 2013r. (Dz. U. z 2013r. poz. 122) w sprawie szczegółowych wymagań w zakresie odbierania odpadów komunalnych od właścicieli nieruchomości. 5. Wykonawca musi do realizacji zamówienia wykorzystywać minimum: • 2 pojazdy przystosowane do odbierania odpadów komunalnych, w tym 1 pojazd z funkcją mycia pojemników o zamkniętym obiegu wody, przystosowany do mycia i dezynfekcji pojemników w miejscu odbioru odpadów. • 1 pojazd przystosowany do odbierania selektywnie zebranych odpadów komunalnych, • 1 pojazd do odbierania odpadów bez funkcji kompaktującej (z zabudową bramową), Pojazdy powinny spełniać wymagania normy dopuszczalnej emisji spalin– co najmniej norma Euro 5. W przypadku, gdy Wykonawca – w celu należytego wykonania umowy, zapewnienia ciągłości świadczenia usług, obsługi rezerwowej, zastępstw awaryjnych lub w odpowiedzi na zwiększone potrzeby taborowe – rozszerzy flotę pojazdów dedykowanych lub faktycznie wykorzystywanych do obsługi Gminy ponad wskazane powyżej minimum, Wykonawca dostosuje strukturę całej wykorzystywanej floty do wymaganego prawem limitu co najmniej 9% pojazdów czystych w rozumieniu ustawy o elektromobilności i paliwach alternatywnych. Szczegółowy opis przedmiotu zamówienia – określony został w Załączniku Nr 3 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583493-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL229",
+   "native_id": "583493-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 4
+   },
+   "source": "ted",
+   "title": "Polska – Usługi związane z odpadami – Odbiór, transport i zagospodarowanie odpadów komunalnych z nieruchomości, na których zamieszkują mieszkańcy w latach 2027-2028",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583493-2026",
+   "value": 17321565.26
+  },
+  {
+   "buyer": "Szpitale Pomorskie Sp. z o.o.",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90920000",
+    "90921000",
+    "90600000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-05",
+   "description": "1. Przedmiotem zamówienia jest Usługa kompleksowego utrzymania czystości oraz prac pomocniczych dla Szpitali Pomorskich Sp. z o.o. w lokalizacji: Szpital Specjalistyczny im. F. Ceynowy w Wejherowie i Szpital Morski im. PCK w Gdyni w dwóch zadaniach częściowych: Zadanie nr 1 - Usługa kompleksowego utrzymania czystości oraz prac pomocniczych w lokalizacji Szpital Specjalistyczny im. F. Ceynowy w Wejherowie, ul. dr A. Jagalskiego 10, 84-208 Wejherowo Zadanie nr 2 - Usługa kompleksowego utrzymania czystości oraz prac pomocniczych w lokalizacji Szpital Morski im. PCK w Gdyni, ul. Powstania Styczniowego 1, 81-519 Gdynia. 2. Szczegółowy opis usługi podano w Opisie przedmiotu zamówienia (załączniku nr 10 do SWZ) oraz w Projekcie Umowy (załącznik nr 5 do SWZ).",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583478-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL633",
+   "native_id": "583478-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 13
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Usługa kompleksowego utrzymania czystości oraz prac pomocniczych dla Szpitali Pomorskich Sp. z o.o. w lokalizacji: Szpital Specjalistyczny im. F. Ceynowy w Wejherowie i Szpital Morski im. PCK w Gdyni",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583478-2026",
+   "value": null
+  },
+  {
+   "buyer": "Uniwersytecki Szpital Dziecięcy w Krakowie",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "33600000",
+    "33680000",
+    "15880000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Zadanie 1",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583255-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL213",
+   "native_id": "583255-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Produkty farmaceutyczne – Produkty lecznicze, wyroby medyczne, żywność specjalnego przeznaczenia medycznego – 24 zadania",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583255-2026",
+   "value": 648741.44
+  },
+  {
+   "buyer": "Specjalistyczne Centrum Medyczne im. św. Jana Pawła II Spółka Akcyjna",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "33600000",
+    "33651600",
+    "33692510",
+    "33190000",
+    "33681000",
+    "33692210",
+    "33140000",
+    "33690000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest zakup i dostawa wraz z rozładunkiem produktów leczniczych, płynów infuzyjnych, wyrobów medycznych, szczepionek, preparatów do leczenia żywieniowego poza i dojelitowego na potrzeby Specjalistycznego Centrum Medycznego im. św. Jana Pawła II S.A.",
+   "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/585667-2026"
+    }
+   ],
+   "first_seen": "2026-08-31",
+   "id": "ted:583131-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL517",
+   "native_id": "583131-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 2
+   },
+   "source": "ted",
+   "title": "Polska – Produkty farmaceutyczne – ZP/PN/2026/25 - leki",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583131-2026",
+   "value": 1865005.05
+  },
+  {
+   "buyer": "Urząd Dozoru Technicznego",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55300000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest sukcesywne świadczenie usług cateringowych i kelnerskich oraz wynajmu sali szkoleniowej wraz z usługą gastronomiczną podczas szkoleń, spotkań dla klientów i pracowników Urzędu Dozoru Technicznego (UDT). Zakres obejmuje usługę cateringową i wynajem sali wraz z usługą gastronomiczną, tj.: przerwy kawowe, obiady, spotkania okolicznościowe, usługa kelnerska, wynajem sali mieszczącej do 100 osób w układzie kinowym lub szkoleniowym (w podkowę)",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582957-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "582957-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 11
+   },
+   "source": "ted",
+   "title": "Polska – Usługi restauracyjne i dotyczące podawania posiłków – Sukcesywne świadczenie usług cateringowych i kelnerskich oraz wynajmu sali szkoleniowej wraz z usługą gastronomiczną podczas szkoleń, spotkań dla klientów i pracowników Urzędu Dozoru Technicznego",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582957-2026",
+   "value": 3702500.0
+  },
+  {
+   "buyer": "MUZEUM WOJSKA POLSKIEGO",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90919200"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Zamówienie obejmuje usługi sprzątania w obiektach Muzeum Wojska Polskiego w Cytadeli Warszawskiej obejmujące następujące obiekty: Pawilon Południowy, budynki nr 5, 6, 82, budynek nr 26 (kaplica), budynek nr 1 oraz toalety przy parkingu autobusowym",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582927-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "582927-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 8
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Usługi sprzątania w obiektach Muzeum Wojska Polskiego",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582927-2026",
+   "value": 1073118.2
+  },
+  {
+   "buyer": "GMINA MUROWANA GOŚLINA",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000",
+    "90511000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-22",
+   "description": "Wykonanie usług komunalnych polegających na zimowym utrzymaniu dróg na terenie miasta i gminy Murowana Goślina w okresie od dnia podpisania umowy do 30 kwietnia 2027 r Opis: Zamówienie obejmuje wykonywanie usług komunalnych w okresie od dnia podpisania umowy do dnia 30 kwietnia 2027 r. z zastrzeżeniem, że dyżur w ramach „Akcji zima” utrzymywany jest do dnia 31 marca 2027 r., polegających na zimowym utrzymaniu dróg na terenie miasta i gminy Murowana Goślina. Szczegółowy opis przedmiotu zamówienia znajduje się w załączniku nr 1 - Opis przedmiotu zamówienia na platformie zakupowej - https://platformazakupowa.pl/transakcja/1361823 Wewnętrzny identyfikator: FZP.271.24.2026",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582911-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL418",
+   "native_id": "582911-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Wykonanie usług komunalnych polegających na zimowym utrzymaniu dróg na terenie miasta i gminy Murowana Goślina w okresie od dnia podpisania umowy do 30 kwietnia 2027 r.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582911-2026",
+   "value": null
+  },
+  {
+   "buyer": "„Uzdrowisko Busko-Zdrój” S.A.",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15500000",
+    "15540000",
+    "15550000",
+    "15551000",
+    "15530000",
+    "15510000"
+   ],
+   "currency": "",
+   "deadline": "2026-08-28",
+   "description": "Przedmiotem zamówienia jest sukcesywna dostawa nabiału i produktów mleczarskich na potrzeby Zamawiającego. Zamówienie obejmuje dostawę produktów mleczarskich i innych wg asortymentu i w ilości wskazanej na Formularzu asortymentowo-cenowym stanowiącym Załącznik nr 2 do SWZ, przedstawione w nim ilości są ilościami szacunkowymi. Rzeczywiste ilości wynikać będą z bieżących potrzeb Zamawiającego. Zamawiający zrealizuje zamówienie w co najmniej 60% wartości umowy. Zamawiający zastrzega sobie możliwość zmiany rodzaju asortymentu w czasie wykonywania umowy jeżeli produkt zaoferowany przez Wykonawcę zostanie wycofany z produkcji – w tej sytuacji po uzgodnieniu Zamawiającym, Wykonawca może zaproponować inny produkt po cenach zaproponowanych dla produktu wycofanego. Zamawiający zastrzega sobie możliwość zamiany asortymentu w trakcie realizacji umowy w przypadku, gdy produkt nie spełnia oczekiwań Zamawiającego na produkt równoważny, w cenie podanej w ofercie.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582887-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL722",
+   "native_id": "582887-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 18
+   },
+   "source": "ted",
+   "title": "Polska – Produkty mleczarskie – SUKCESYWNA DOSTAWA NABIAŁU I PRODUKTÓW MLECZARSKICH",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582887-2026",
+   "value": null
+  },
+  {
+   "buyer": "AGENCJA BEZPIECZEŃSTWA WEWNĘTRZNEGO",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15100000",
+    "15500000",
+    "15800000",
+    "15200000",
+    "15300000",
+    "03142500",
+    "15331170",
+    "15810000",
+    "24911000",
+    "15894300",
+    "03100000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-23",
+   "description": "Sukcesywne dostawy (partiami) produktów mięsno-wędliniarskich na żądanie Zamawiającego zgodnie ze złożonym zamówieniem od dnia 1 stycznia 2027 r. do dnia 30 czerwca 2028 r. Szczegółowy opis przedmiotu zamówienia zawarty jest w Formularzu ofertowym stanowiącym Załącznik nr 1a do SWZ. Warunki realizacji zamówienia zawarte zostały w Projektowanych Postanowieniach Umowy określonych w Załączniku nr 2a do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582878-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "582878-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 24
+   },
+   "source": "ted",
+   "title": "Polska – Produkty zwierzęce, mięso i produkty mięsne – Sukcesywne dostawy produktów żywnościowych na potrzeby Centralnego Ośrodka Szkolenia i Edukacji ABW w Emowie - nr sprawy: 10//ZP/2026",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582878-2026",
+   "value": 2230076.21
+  },
+  {
+   "buyer": "Szkoła Główna Gospodarstwa Wiejskiego w Warszawie",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "39180000",
+    "39110000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Dostawa fabrycznie nowych mebli laboratoryjnych w tym dygestoriów oraz szaf odczynnikowych, przeznaczonych do użytkowania w nowoczesnych laboratoriach dydaktyczno-badawczych Innowacyjnego Centrum Nauk Żywieniowych. Dostarczone meble, dygestoria i szafy odczynnikowe muszą spełniać wymagania w zakresie odporności mechanicznej, chemicznej i korozyjnej, bezpieczeństwa użytkowania, ergonomii pracy i zgodności z normami oraz zapewnienia odpowiedniej wentylacji i zintegrowania z instalacją wyciągową budynku. Konieczne jest również zachowanie jednolitego charakteru estetycznego dygestoriów i szaf odczynnikowych z pozostałymi dostarczanymi meblami laboratoryjnymi (kolorystyka, sposób wykonania).Dostawa obejmuje wniesienie, montaż, podłączenia do instalacji elektrycznej, wodnej, kanalizacyjnej, gazów technicznych, wentylacji, podłączenie do systemu labowego zintegrowanego z instalacją BMS budynku.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582830-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "582830-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 2
+   },
+   "source": "ted",
+   "title": "Polska – Meble laboratoryjne – Dostawa mebli laboratoryjnych i dygestoriów do budynku Innowacyjnego Centrum Nauk Żywieniowych SGGW w Warszawie.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582830-2026",
+   "value": 9665558.0
+  },
+  {
+   "buyer": "Gmina Polkowice",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "77314100",
+    "77312100",
+    "90511300",
+    "90512000",
+    "90620000",
+    "90914000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-21",
+   "description": "Przedmiotem zamówienia są usługi dotyczące utrzymania terenów miejskich w podziale na 7 sektorów: sektor 1 – Osiedle Sienkiewicza oraz tereny przyległe, w zakresie: - pielęgnacji zieleni, - oczyszczania terenu i zimowego utrzymania nawierzchni. Szczegółowy harmonogram i zakres prac określony został w projektowanych postanowieniach umowy. Zamawiający dopuszcza składanie ofert częściowych na dwie ze wskazanych w opisie zamówienia części. Jeden Wykonawca może złożyć ofertę na jedną lub maksymalnie na dwie części zamówienia tj. na jeden lub maksymalnie dwa sektory. Niedopuszczalne jest złożenie oferty na więcej niż dwie części tj. na więcej niż dwa sektory.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582616-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL516",
+   "native_id": "582616-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 8
+   },
+   "source": "ted",
+   "title": "Polska – Usługi w zakresie trawników – Utrzymanie terenów miejskich w podziale na 7 sektorów",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582616-2026",
+   "value": null
+  },
+  {
+   "buyer": "Ośrodek Szkolenia Służby Więziennej w Suchej",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15100000",
+    "15111100",
+    "15112300",
+    "15112120",
+    "15114000",
+    "15131135",
+    "15113000",
+    "15112130",
+    "15131134"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Dostawy mięsa i wędlin dla Ośrodka Szkolenia Służby Więziennej w Suchej. Lp. Nazwa artykułu j.m. Ilość 1 2 3 5 1 boczek świeży kg 10 2 golonka peklowana w siatce kg 130 3 karkówka bez kości kg 2 300 4 kości wieprzowe kg 550 5 łopatka kg 2 100 6 mięso gulaszowe kg 750 7 mięso mielone kg 600 8 schab z kością kg 100 9 schab bez kości kg 1 800 10 słonina kg 200 11 polędwiczki wieprzowe kg 250 12 żeberka extra mięsne kg 600 13 szynka wieprzowa surowa kg 300 14 boczek parzony kg 850 15 kości wędzone kg 400 16 żołądki wołowe krojone kg 120 17 wątroba wieprzowa kg 10 18 szynka gotowana kg 300 19 szynka wędzona kg 250 20 filet z indyka kg 50 21 polędwica drobiowa kg 250 22 polędwica z majerankiem kg 100 23 polędwica z warzywami kg 350 24 szynka z indyka kg 250 25 kurczak w galarecie kg 120 26 żywiecka drobiowa kg 120 27 parówka drobiowa kg 100 28 mielonka drobiowa kg 120 29 rolada z kurczaka kg 10 30 kurczak faszerowany kg 50 31 rolada ze szpinakiem kg 10 32 rolada z mozzarellą i pomidorami kg 50 33 rolada z żurawiną kg 10 34 pieczeń z kaczki kg 30 35 filet maślany kg 50 36 pieczeń ze śliwką kg 20 37 salceson czarny kg 30 38 kaszanka kg 100 39 jałowcowa kg 100 40 kabanosy kg 20 41 krakowska podsuszana kg 250 42 mielonka prasowana kg 120 43 mortadela kg 160 44 parówka gruba kg 400 45 parówka w folii kg 200 46 parówki cielęce kg 250 47 śląska delikatesowa kg 400 48 zwyczajna kg 1 250 49 krotoszyńska parzona kg 200 50 ogonówka parzona kg 260 51 pieczeń chłopska kg 250 52 polędwica sopocka kg 300 53 polędwica wp. z majeran. kg 200 54 rolada boczkowa kg 10 55 schab z komina kg 220 56 sękacz kg 250 57 szynka babuni kg 250 58 szynka wiejska kg 250 59 schab z czosnkiem kg 200 60 wędzonka wiejska kg 200 61 polska kg 100 62 kiełbasa grillowa kg 300 63 kiełbasa toruńska kg 50 64 kiełbasa biała cienka kg 250 65 biała parzona kg 300 66 kiełbasa słoikowa kg 120 67 żywiecka kg 150 68 metka kg 120 69 salceson królewski kg 50 70 mielonka konserwowa kg 70 71 szynka konserwowa kg 130 72 szynka w galarecie kg 50 73 szynkowa wieprzowa kg 400 74 łopatkowa kg 250 75 zapiekaniec z ogórkiem kg 100 76 kindziuk kg 100 77 łopatka pieczona kg 50 78 pieczeń myśliwska kg 50 79 necówka kg 20 80 pasztetowa wędzona kg 50 81 pasztetowa z grzybami kg 100 82 pasztetowa ze szczypiorkiem kg 100 83 pasztet drobiowy zapiekany kg 150 84 pasztetowa firmowa kg 10 85 wołowina kg 50 86 salami kg 250 87 salami z papryką kg 10 88 korpusy z kurczaków kg 1 100 89 skrzydełka z kurczaków kg 10 90 udko z kurczaków kg 50 91 udziec z kurczaka kg 750 92 podudzie z kurczaka kg 100 93 ćwiartka z kurczaka kg 100 94 filet z kurczaka kg 4 400 95 żołądki drobiowe kg 100 96 wątroba drobiowa kg 100",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582456-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "POL",
+   "native_id": "582456-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 27
+   },
+   "source": "ted",
+   "title": "Polska – Produkty zwierzęce, mięso i produkty mięsne – Dostawy mięsa i wędlin dla Ośrodka Szkolenia Służby Więziennej w Suchej oraz Oddziału Zamiejscowego w Zwartowie",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582456-2026",
+   "value": 702845.0
+  },
+  {
+   "buyer": "Gmina Wisła",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90610000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-24",
+   "description": "Cz 1 rejon 1 Obłaziec: ul. Dębowa, ul. Gahura, ul. Letnia, ul. Żwirowa, ul. Cicha, ul. Przemysłowa, ul. Stroma, ul. Przylesie, ul. Wiosenna, Bulwar Słoneczny",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582374-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL225",
+   "native_id": "582374-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 13
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Zimowe utrzymanie dróg gminnych i powiatowych w sezonie zimowym 2026/2027, na terenie miasta Wisły",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582374-2026",
+   "value": null
+  },
+  {
+   "buyer": "Beskidzkie Centrum Onkologii- Szpital Miejski im. Jana Pawła II w Bielsku-Białej.",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "33631600"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "W zakres zamówienia wchodzą preparaty do dezynfekcji - szczegółowo opisany w Załączniku nr 5 do SWZ - formularzu asortymentowo-cenowym.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582199-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL225",
+   "native_id": "582199-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Środki antyseptyczne i dezynfekcyjne – Dostawa preparatów do dezynfekcji dla potrzeb Beskidzkiego Centrum Onkologii – Szpitala Miejskiego im. Jana Pawła II w Bielsku – Białej",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582199-2026",
+   "value": 1680946.89
+  },
+  {
+   "buyer": "SZPITAL SPECJALISTYCZNY IM. HENRYKA KLIMONTOWICZA W GORLICACH",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "98310000",
+    "98315000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "1. Przedmiotem zamówienia jest świadczenie kompleksowych usług pralniczych bielizny i odzieży szpitalnej wraz z użyczeniem pościeli szpitalnej oraz wdrożeniem, uruchomieniem i utrzymaniem systemu RFID, realizowanych na rzecz Zamawiającego przez cały okres obowiązywania umowy. Zakres usług obejmuje w szczególności: dezynfekcję; pranie wodne oraz – w razie konieczności – czyszczenie chemiczne; odplamianie; płukanie antystatyczne; suszenie; maglowanie; prasowanie; składanie; segregację asortymentu; pakowanie i foliowanie; transport z zachowaniem rozdziału czystego i brudnego; reperację; trwałe znakowanie i ewidencję w systemie RFID; raportowanie elektroniczne; utrzymywanie wymaganych stanów pościeli. Usługi muszą być wykonywane zgodnie z obowiązującymi przepisami prawa, w szczególności ustawą z dnia 15 kwietnia 2011 r. o działalności leczniczej oraz ustawą z dnia 5 grudnia 2008 r. o zapobieganiu oraz zwalczaniu zakażeń i chorób zakaźnych u ludzi, a także zgodnie z „Wytycznymi Ministra Zdrowia z dnia 9 listopada 2022 r. dotyczącymi funkcjonowania pralni dla podmiotów leczniczych\" (załącznik nr 10 do SWZ), zasadami wiedzy technicznej i epidemiologicznej oraz wymaganiami określonymi w SWZ i w projekcie umowy. Usługi mają być realizowane w sposób zapewniający ciągłość działalności leczniczej Zamawiającego. Technologia prania i dezynfekcji 1. Wymagane jest stosowanie technologii prania wodnego bielizny szpitalnej z dezynfekcją w procesie termiczno-chemicznym. 2. Środki piorące i dezynfekcyjne muszą wykazywać skuteczność wobec bakterii, wirusów, grzybów oraz spor (w tym Clostridioides difficile) w temperaturze od 40°C i posiadać odpowiednie świadectwa rejestracji. 3. Wykonawca prowadzi pełną dokumentację procesów dezynfekcji. Na żądanie Zamawiającego przedkłada wyniki badań mikrobiologicznych potwierdzone przez laboratorium; wyniki za każdy zakończony miesiąc przekazuje do Zespołu Kontroli Zakażeń Szpitalnych do 10. dnia kolejnego miesiąca. Zamawiający zastrzega prawo wykonywania własnych badań czystej bielizny po procesie prania. Ciężar wykazania prawidłowości procesu dezynfekcji spoczywa na Wykonawcy. 4. Standard sanitarno-epidemiologiczny 1. Usługa musi być wykonywana w pralni wyposażonej w barierę higieniczną, w warunkach zgodnych z wymogami sanitarno-epidemiologicznymi obowiązującymi w pralniach świadczących usługi na rzecz jednostek służby zdrowia. 2. Wykonawca zapewni pełne rozdzielenie: stref brudnych i czystych, transportu brudnego i czystego, bielizny skażonej, bielizny noworodkowej i pediatrycznej oraz odzieży operacyjnej. 3. Wykonawca utrzymuje przez cały okres realizacji aktualne dokumenty potwierdzające spełnianie wymagań sanitarnych, w szczególności aktualną opinię sanitarną Państwowego Inspektora Sanitarnego (pralnia posiada barierę higieniczną i spełnia wymagania dla jednostek służby zdrowia) oraz co najmniej jeden protokół kontroli Inspektora Sanitarnego z ostatnich 12 miesięcy niestwierdzający nieprawidłowości. 4. W przypadku podejrzenia zakażenia epidemiologicznego Wykonawca zabezpiecza dokumentację i próbki, wskazuje partię, udostępnia dane RFID oraz współpracuje z Zespołem Kontroli Zakażeń Szpitalnych. 5. Terminy realizacji usług  pranie bielizny szpitalnej – do 24 godzin od momentu odbioru,  pranie wraz z reperacją – do 48 godzin od momentu odbioru,  pranie odzieży personelu – do 48 godzin od momentu odbioru. 6. Odbiór i dostawa 1. Odbiór bielizny i odzieży brudnej z Punktu Zbiorczego Odzieży i Bielizny Brudnej oraz dostawa bielizny i odzieży czystej do Magazynu Bielizny Czystej odbywać się będą codziennie od poniedziałku do soboty. 2. Odbiór brudnej – w godzinach od 10:00 do 14:00; dostawa czystej – w godzinach od 6:00 do 7:00, z możliwością zmiany godzin przez Zamawiającego w uzasadnionych przypadkach organizacyjnych lub epidemiologicznych. W przypadku dwóch następujących po sobie dni ustawowo wolnych od pracy jeden z nich będzie dniem roboczym dla realizacji usług, chyba że Strony uzgodnią inaczej. 3. Liczenie i identyfikacja odbywa się za pośrednictwem systemu RFID (ważenie wyłącznie w przypadkach rozliczenia zastępczego). Każdorazowo sporządzany jest protokół zdawczo-odbiorczy (papierowy i elektroniczny) zawierający co najmniej: datę i godzinę przekazania, rodzaj asortymentu, ilość sztuk, wagę (jeżeli ustalana), numer identyfikacyjny sztuki oraz informacje o brakach, uszkodzeniach lub nieprawidłowościach. 4. Czysta bielizna i odzież musi być posegregowana według asortymentu, odzież przygotowana oddzielnie dla każdej komórki, właściwie oznakowana, zafoliowana i zapakowana w sposób uniemożliwiający wtórne skażenie, gotowa do dystrybucji najpóźniej do godziny 7:00. 7. Transport 1. Transport realizowany jest własnymi środkami Wykonawcy, na jego koszt i ryzyko, środkami transportu zaakceptowanymi przez właściwy organ sanitarno-epidemiologiczny, z zachowaniem całkowitego rozdziału transportu czystego i brudnego (odrębne pojazdy albo pojazdy z trwale rozdzielonymi, szczelnymi komorami). 2. Pojazdy muszą posiadać szczelne komory załadunkowe, być wyłożone materiałem łatwozmywalnym i odpornym na środki dezynfekcyjne oraz zabezpieczać asortyment przed zabrudzeniem, skażeniem, zawilgoceniem i uszkodzeniem. 3. Wykonawca codziennie myje i dezynfekuje komory transportowe, pojemniki, wózki i inne elementy mające kontakt z bielizną; proces jest dokumentowany (data, godzina, pojazd, środki, osoba) i przekazywany Zamawiającemu (dopuszczalne zbiorczo na koniec miesiąca). 4. Pracownicy odpowiedzialni za transport (m.in. kierowcy) muszą być przeszkoleni z postępowania z bielizną brudną i czystą oraz technik higieny rąk wg zaleceń WHO; szkolenie jest udokumentowane i przekazane do Zespołu Kontroli Zakażeń Szpitalnych. Zamawiający ma prawo kontrolować stan sanitarny pojazdów i odmówić przyjęcia dostawy realizowanej środkiem niespełniającym wymagań. Pozostałe szczegółowe parametry zamówienia zostały szczegółowo opisane w SWZ oraz projekcie umowy.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582195-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL218",
+   "native_id": "582195-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 12
+   },
+   "source": "ted",
+   "title": "Polska – Usługi prania i czyszczenia na sucho – Wykonywanie usług pralniczych wraz z użyczeniem pościeli szpitalnej",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582195-2026",
+   "value": 1846123.44
+  },
+  {
+   "buyer": "Województwo Małopolskie",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "63500000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Kompleksowa organizacja oraz obsługa logistyczna czterodniowej ( 4 dni łącznie z dojazdami, 3 noclegi na miejscu w Puli) wizyty studyjnej delegacji z Małopolski w Chorwacji dla maksymalnie 10 osób (minimum 5 osób). Zamówienie obejmować będzie: 1. Opracowanie programu wizyty 2. Organizację podróży uczestników wizyty studyjnej z Małopolski, w tym zapewnienie biletów lotniczych ( Kraków/Katowice – Rijeka/Pula, Rijeka/Pula – Kraków/Katowice) dla 10 osób. Bilety lotnicze w klasie ekonomicznej wraz z bagażem podręcznym oraz bagażem dodatkowym o wadze co najmniej 10 kilogramów dla każdej osoby, oraz dodatkowy bagaż rejestrowany do 25 kg dla 1 osoby. W przypadku braku możliwości zorganizowania transportu lotniczego dopuszcza się realizację przewozu autokarem. 3. Noclegi i wyżywienie. Noclegi dla maksymalnie 10 osób w hotelu o standardzie minimum 3 gwiazdek (3*) lub wyższym, zlokalizowanym w granicach administracyjnych miasta Pula. Zakwaterowanie wyłącznie w pokojach 1-osobowych 4. Organizację i obsługę logistyczna spotkań. 5. Tłumacza języka chorwackiego. 6. Koordynatora/pilota wizyty. 7. Ubezpieczenie uczestników wizyty.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582167-2026",
+   "kind": "plan",
+   "last_seen": "2026-08-31",
+   "location": "HR036",
+   "native_id": "582167-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 4
+   },
+   "source": "ted",
+   "title": "Polska – Usługi biur podróży, podmiotów turystycznych i pomocy turystycznej – Kompleksowa organizacja oraz obsługa logistyczna wizyty studyjnej delegacji z Małopolski w Chorwacji w czwartym kwartale 2026 roku.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582167-2026",
+   "value": null
+  },
+  {
+   "buyer": "4 Regionalna Baza Logistyczna",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90913100",
+    "50411000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest: USŁUGA W ZAKRESIE UTRZYMANIA W SPRAWNOŚCI INFRASTRUKTURY PALIWOWEJ, ORAZ PRZYGOTOWANIE DO BADAŃ WDT wg zestawienia asortymentowo-ilościowego zawartego w formularzu ofertowym zgodnie z Załącznikiem nr 1 do SWZ",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581988-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL514",
+   "native_id": "581988-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 3
+   },
+   "source": "ted",
+   "title": "Polska – Usługi czyszczenia zbiorników – USŁUGA W ZAKRESIE UTRZYMANIA W SPRAWNOŚCI INFRASTRUKTURY PALIWOWEJ, ORAZ PRZYGOTOWANIE DO BADAŃ WDT",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581988-2026",
+   "value": 9261.0
+  },
+  {
+   "buyer": "Wojewódzki Szpital Specjalistyczny nr 5 im. Św. Barbary w Sosnowcu",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "33600000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Szczegółowy opis w załączniku nr 3 do SWZ - opis przedmiotu zamówienia - formularz asortymentowo-cenowy",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581979-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL22B",
+   "native_id": "581979-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Produkty farmaceutyczne – „Dostawa: leków , preparatów do żywienia pozajelitowego i dojelitowego, cytostatyków, leków z programów lekowych, kontrastów, środków opatrunkowych, sprzętu jednorazowego użytku, środków do dezynfekcji, materiałów szewnych i formaliny buforowanej”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581979-2026",
+   "value": 803909.93
+  },
+  {
+   "buyer": "KOMENDA GŁÓWNA POLICJI",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55120000",
+    "55300000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-04",
+   "description": "Przedmiotem zamówienia są usługi hotelarskie, gastronomiczne i konferencyjne dla 100 osobowej grupy uczestników narady w dniach 28 września – 2 października. Przedmiot zamówienia został szczegółowo opisany w Opisie przedmiotu zamówienia stanowiącym załącznik nr 3 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581879-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL219",
+   "native_id": "581879-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Usługi hotelarskie w zakresie spotkań i konferencji – Zakup usługi hotelarskiej, gastronomicznej i konferencyjnej dla uczestników narady organizowanej w dniach 28 września – 2 października 2026 r.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581879-2026",
+   "value": null
+  },
+  {
+   "buyer": "Śląskie Centrum Reumatologii im. gen. Jerzego Ziętka w Ustroniu Sp. z o.o.",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15800000",
+    "15810000",
+    "03142500",
+    "15110000",
+    "15131135",
+    "15131130"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia są sukcesywne dostawy produktów spożywczych do Zamawiającego w asortymencie i ilościach określonych w dołączonym katalogu - załącznik nr 1",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581851-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL225",
+   "native_id": "581851-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 19
+   },
+   "source": "ted",
+   "title": "Polska – Różne produkty spożywcze – sukcesywne dostawy artykułów spożywczych dla Centrum Reumatologii Sp. z o.o. tj. pieczywo, jaja, mięso, wędliny drobiowe, wędliny wieprzowe – zamówienie nr 2.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581851-2026",
+   "value": 561023.5
+  },
+  {
+   "buyer": "Gmina Skarżysko - Kamienna",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-21",
+   "description": "1. Przedmiotem niniejszego opisu są wymagania dotyczące zimowego utrzymania przystanków komunikacji miejskiej na terenie miasta Skarżyska – Kamiennej. Szczegółowy zakres rzeczowy przedmiotu zamówienia: 1. Odśnieżanie i posypywanie w trakcie opadów 2. Usuwanie zalegającego śniegu i lodu przy braku opadów 3. Szczególne zasady utrzymania przystanków komunikacji miejskiej z uwzględnieniem potrzeb osób niepełnosprawnych 4. wywożenie nadmiaru śniegu na zlecenie Zamawiającego 5. obowiązek uprzątnięcia materiału uszorniającego po zakończeniu sezonu zimowego Szczegółowy Opis Przedmiotu Zamówienia określają załączniki do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581798-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL721",
+   "native_id": "581798-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Zimowe utrzymanie przystanków na terenie Gminy Skarżysko - Kamienna w sezonie zimowym 2026/2027",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581798-2026",
+   "value": null
+  },
+  {
+   "buyer": "Wojskowe Centrum Krwiodawstwa I Krwiolecznictwa SP ZOZ",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15842100"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "1. Przedmiotem zamówienia jest dostawa czekolad. 2. Szczegółowy opis dostawy będącej przedmiotem niniejszego postępowania zawiera „Arkusz asortymentowo-cenowy” stanowiący Załącznik nr 2 do SWZ. Opis ten należy odczytywać wraz ze zmianami treści SWZ, będącymi np. wynikiem udzielonych odpowiedzi na zapytania wykonawców. 3. Wykonawca zobowiązany jest zrealizować zamówienie na zasadach i warunkach opisanych w projekcie umowy stanowiącym Załącznik nr 9 do SWZ. 4. Odbiorcy przedmiotu zamówienia zostali określeni w Arkuszu asortymentowo – cenowym stanowiącym Załącznik nr 2 do SWZ. ---PODMIOTOWE ŚRODKI DOWODOWE Szczegółowe informacje zawiera Rozdział XII. PODMIOTOWE ŚRODKI DOWODOWE SWZ. ---OPIS SPOSOBU PRZYGOTOWANIA OFERTY Szczegółowe informacje zawiera Rozdział XXII. OPIS SPOSOBU PRZYGOTOWANIA OFERTY Szczegółowe informacje dotyczące jakie Wykonawca ma złożyć składając ofertę dokumenty w formie elektronicznej podpisane kwalifikowanym podpisem elektronicznym pod rygorem nieważności zawiera Rozdział XXVI. SPOSÓB ORAZ TERMIN SKŁADANIA OFERT ---WIZJA LOKALNA Zamawiający nie przewiduje obowiązku odbycia przez Wykonawcę wizji lokalnej oraz sprawdzenia przez Wykonawcę dokumentów niezbędnych do realizacji zamówienia dostępnych na miejscu u Zamawiającego, o których mowa w art. 131 ust. 2 ustawy. ---RODO (obowiązek informacyjny): Informacje zawarto w Rozdziale XXXV. KLAUZULA INFORMACYJNA RODO INFORMACJA DOTYCZĄCA PRZETWARZANIA DANYCH OSOBOWYCH.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581565-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "POL",
+   "native_id": "581565-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Czekolada – Dostawa czekolad. - Numer Sprawy: 25/D/2026",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581565-2026",
+   "value": 1911352.5
+  },
+  {
+   "buyer": "Samodzielny Publiczny Zakład Opieki Zdrowotnej Sanatorium Uzdrowiskowe Ministerstwa Spraw Wewnętrznych i Administracji w Kołobrzegu",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15000000",
+    "15200000",
+    "03200000",
+    "15500000",
+    "15100000",
+    "15800000",
+    "15300000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-21",
+   "description": "Sukcesywne dostawy ryb i przetworów rybnych zgodnie z formularzem asortymentowo-cenowym.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581394-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL426",
+   "native_id": "581394-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 20
+   },
+   "source": "ted",
+   "title": "Polska – Żywność, napoje, tytoń i produkty pokrewne – Sukcesywne dostawy produktów i artykułów spożywczych dla SP ZOZ Sanatrium Uzdrowiskowego MSWiA w Kołobrzegu",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581394-2026",
+   "value": null
+  },
+  {
+   "buyer": "Gmina Grybów",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-21",
+   "description": "Część 1. Zimowe utrzymanie dróg w miejscowości Binczarowa. Szacowana liczna godzin: 250. Pozostały opis w dokumentach zamówienia. I. 1.O udzielenie zamówienia mogą ubiegać się Wykonawcy, którzy nie podlegają wykluczeniu na zasadach określonych w Rozdziale IX SWZ oraz spełniają warunki udziału w postępowaniu określone przez Zamawiającego. 2.O udzielenie zamówienia mogą ubiegać się Wykonawcy, którzy spełniają warunki dotyczące: 1)zdolności do występowania w obrocie gospodarczym: Zamawiający nie stawia warunku w powyższym zakresie. 2)uprawnień do prowadzenia określonej działalności gospodarczej lub zawodowej, o ile wynika to z odrębnych przepisów: Zamawiający nie stawia warunku w powyższym zakresie. 3)sytuacji ekonomicznej lub finansowej: Zamawiający nie stawia warunku w powyższym zakresie. 4)zdolności technicznej lub zawodowej, dla każdej części oddzielnie: Dotyczy części: 1, 4, 5, 6, 7, 8, 9, 10. Wykonawca spełni warunek, jeżeli wykaże, że dysponuje co najmniej jednym pojazdem dopuszczonym do ruchu na podwoziu kołowym, o mocy mechanicznej i wyposażeniu przystosowanym do odśnieżania dróg tj. jeden ciągnik rolniczy lub jeden sprzęt koparko-ładowarkowy o mocy min. 40 kW z napędem na dwie osie wyposażony w pług lemieszowy jednostronny z nakładką gumową a także rozrzutnik do posypywania materiału uszorstniającego. Rozrzutnik do posypywania materiału uszorstniającego może być montowany na samochodzie dostawczym, ciężarowym. /Nie dopuszcza się wykonania odśnieżania z wykorzystaniem uniwersalnej łyżki czołowej koparko-spycharek lub ciągników rolniczych oraz pługa zamontowanego z tyłu pojazdu tzw. Zmiotki/. Dotyczy części: 2, 3, 11, 12. Wykonawca spełni warunek, jeżeli wykaże, że dysponuje co najmniej dwoma pojazdami dopuszczonymi do ruchu na podwoziu kołowym, o mocy mechanicznej i wyposażeniu przystosowanym do odśnieżania dróg tj. dwa ciągniki rolnicze lub dwa sprzęty koparko-ładowarkowe o mocy min. 40 kW z napędem na dwie osie wyposażone w pług lemieszowy jednostronny z nakładką gumową a także dwa rozrzutniki do posypywania materiału uszorstniającego. Rozrzutnik do posypywania materiału uszorstniającego może być montowany na samochodzie dostawczym, ciężarowym. /Nie dopuszcza się wykonania odśnieżania z wykorzystaniem uniwersalnej łyżki czołowej koparko-spycharek lub ciągników rolniczych oraz pługa zamontowanego z tyłu pojazdu tzw. Zmiotki/. 3.W odniesieniu do Wykonawców wspólnie ubiegających się o udzielenie zamówienia Zamawiający dopuszcza łączne spełnianie warunku dotyczącego zdolności technicznej lub zawodowej. 4.Zamawiający może na każdym etapie postępowania uznać, że Wykonawca nie posiada wymaganych zdolności, jeżeli zaangażowanie jego zasobów technicznych lub zawodowych w inne przedsięwzięcia gospodarcze może mieć negatywny wpływ na realizację zamówienia (art. 116 ust. 2 Pzp).II. 1.Z postępowania o udzielenie zamówienia wyklucza się Wykonawcę, 1)W stosunku, do którego zachodzi przynajmniej jedna z okoliczności określonych w art. 108 ust. 1 Pzp; 2.Wykluczenie wykonawcy w okolicznościach wskazanych w pkt 1 następuje: 1)w przypadkach, o których mowa w art. 108 ust. 1 pkt 1 lit. a-g i pkt 2 Pzp, na okres 5 lat od dnia uprawomocnienia się wyroku potwierdzającego zaistnienie jednej z podstaw wykluczenia, chyba że w tym wyroku został określony inny okres wykluczenia; 2)w przypadkach, o których mowa w: a)art. 108 ust. 1 pkt 1 lit. h i pkt 2 Pzp, gdy osoba, o której mowa w tych przepisach, została skazana za przestępstwo wymienione w art. 108 ust. 1 pkt 1 lit. h Pzp, 3)w przypadku, o którym mowa w art. 108 ust. 1 pkt 4 Pzp, na okres, na jaki został prawomocnie orzeczony zakaz ubiegania się o zamówienia publiczne; 4)w przypadkach, o których mowa w art. 108 ust. 1 pkt 5 Pzp na okres 3 lat od zaistnienia zdarzenia będącego podstawą wykluczenia; 5)w przypadkach, o których mowa w art. 108 ust. 1 pkt 6 Pzp w postępowaniu o udzielenie zamówienia, w którym zaistniało zdarzenie będące podstawą wykluczenia. 3.Wykonawca, który podlega wykluczeniu na podstawie art. 108 ust. 1 pkt 1, 2 i 5 Pzp może przedstawić dowody na to, że podjęte przez niego środki są wystarczające do wykazania jego rzetelności, w szczególności udowodnić, że: 1)naprawił lub zobowiązał się do naprawienia szkody wyrządzonej przestępstwem, wykroczeniem lub swoim nieprawidłowym postępowaniem, w tym poprzez zadośćuczynienie pieniężne, 2)wyczerpująco wyjaśnił fakty i okoliczności związane z przestępstwem, wykroczeniem lub swoim nieprawidłowym postępowaniem oraz spowodowanymi przez nie szkodami, aktywnie współpracując odpowiednio z właściwymi organami, w tym organami ścigania, lub zamawiającym, 3)podjął konkretne środki techniczne, organizacyjne i kadrowe, odpowiednie dla zapobiegania dalszym przestępstwom, wykroczeniom lub nieprawidłowemu postępowaniu, w szczególności: a)zerwał wszelkie powiązania z osobami lub podmiotami odpowiedzialnymi za nieprawidłowe postępowanie wykonawcy, b)zreorganizował personel, c)wdrożył system sprawozdawczości i kontroli, d)utworzył struktury audytu wewnętrznego do monitorowania przestrzegania przepisów, wewnętrznych regulacji lub standardów, e)wprowadził wewnętrzne regulacje dotyczące odpowiedzialności i odszkodowań za nieprzestrzeganie przepisów, wewnętrznych regulacji lub standardów. 4.Wykonawca nie podlega wykluczeniu, jeżeli zamawiający, uwzględniając wagę i szczególne okoliczności czynu wykonawcy, uzna za wystarczające dowody przedstawione na podstawie pkt 3. 5.W przypadkach, o których mowa w art. 108 ust. 1 pkt 6 Pzp, przed wykluczeniem wykonawcy, zamawiający zapewnia temu wykonawcy możliwość udowodnienia, że jego udział w przygotowaniu postępowania o udzielenie zamówienia nie zakłóci konkurencji. Zamawiający wskazuje w protokole sposób zapewnienia konkurencji (zgodnie z art. 85 ust. 2 ustawy Pzp). 6.Jednocześnie na podstawie art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspieraniu (...). Szczegółowe zapisy w dokumentach postępowania.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581388-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL218",
+   "native_id": "581388-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – IR.ZP.271.25.2026 Zimowe utrzymanie dróg na terenie gminy Grybów w sezonie zimowym 2026/2027 z podziałem na części",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581388-2026",
+   "value": null
+  },
+  {
+   "buyer": "Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "45000000",
+    "45111291",
+    "71220000",
+    "45330000",
+    "31310000",
+    "45216230",
+    "45311200",
+    "45232460",
+    "32520000",
+    "30190000"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "Przedmiotem zamówienia jest „Budowa kompleksu Akademika Wojskowego i Stołówki Wojskowej wraz z infrastrukturą towarzyszącą (w tym parking)” w skład którego wchodzą: Część I: „Budowa Akademika Wojskowego (AW-8) w tym parking w formule »zaprojektuj i wykonaj«\" oraz Część II: „Budowa Stołówki Wojskowej (SW-4) wraz z infrastrukturą towarzyszącą w formule »zaprojektuj i wykonaj«\"",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581366-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "581366-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 2
+   },
+   "source": "ted",
+   "title": "Polska – Roboty budowlane – „BUDOWA KOMPLEKSU AKADEMIKA WOJSKOWEGO I STOŁÓWKI WOJSKOWEJ WRAZ Z INFRASTRUKTURĄ TOWARZYSZĄCĄ (W TYM PARKING)”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581366-2026",
+   "value": 103499408.37
+  },
+  {
+   "buyer": "Województwo Dolnośląskie - Urząd Marszałkowski Województwa Dolnośląskiego",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55500000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-10",
+   "description": "Przedmiotem zamówienia jest kompleksowa usługa cateringowa podczas wydarzenia pn. „XVII Festiwal Tradycji Dolnego Śląska” organizowanego w Operze Wrocławskiej przy ul. Świdnickiej 35 we Wrocławiu w dniu 7 listopada 2026 r. Usługa obejmuje przygotowanie, transport, wniesienie, serwowanie posiłków i napojów, zapewnienie obsługi kelnerskiej, wyposażenia cateringowego, zastawy, urządzeń do utrzymania odpowiedniej temperatury potraw, aranżację stołów, bieżące utrzymanie porządku oraz sprzątnięcie miejsca świadczenia usługi po jej zakończeniu. Szczegółowy opis przedmiotu zamówienia oraz warunki jego realizacji Zamawiający określił w Projekcie umowy, w szczególności w Opisie Przedmiotu Zamówienia stanowiącym Załącznik nr 1 do Projektu umowy, stanowiących łącznie Załącznik nr 8 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581302-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL514",
+   "native_id": "581302-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "catering": 9
+   },
+   "source": "ted",
+   "title": "Polska – Usługi bufetowe oraz w zakresie podawania posiłków – Usługa cateringowa dla uczestników \"XVII Festiwalu Tradycji Dolnego Śląska\", który odbędzie się w Operze Wrocławskiej we Wrocławiu",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581302-2026",
+   "value": null
+  }
+ ],
+ "updated_at": "2026-08-31T12:29:14+00:00",
  "version": 1
 }
