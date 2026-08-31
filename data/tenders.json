@@ -2728,6 +2728,18 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/591500-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/589987-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591426-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591500-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -2816,6 +2828,10 @@
    "deadline": "2026-09-14",
    "description": "Przedmiotem zamówienia jest utrzymanie czystości w pasach drogowych miasta Radomia – rejon południowo - wschodni. Zamówienie obejmuje: - oczyszczanie jezdni - 1.767,35 km, - oczyszczanie terenów zielonych i klepisk w pasach drogowych - 7.166.283,15 m2, - letnie oczyszczanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 1.812.452,20 m2, - zimowe utrzymanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 7.277.940,00 m2, - letnie utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 246.545,65 m2, - zimowe utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 910.323,00 m2, - obsługę koszy ulicznych - 90.720 szt., - punktowe oczyszczanie kratek ściekowych - 50 szt., - likwidację dzikich wysypisk śmieci w pasie drogowym - 10 Mg.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
@@ -3847,6 +3863,14 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/593691-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591769-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/593691-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -4828,6 +4852,6 @@
    "value": null
   }
  ],
- "updated_at": "2026-08-31T13:12:13+00:00",
+ "updated_at": "2026-08-31T13:49:46+00:00",
  "version": 1
 }
