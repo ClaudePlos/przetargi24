@@ -24,7 +24,7 @@
  },
  "sources": [
   {
-   "duration_seconds": 18.13,
+   "duration_seconds": 42.15,
    "error": "",
    "fetched": 1468,
    "homepage": "https://ted.europa.eu",
@@ -33,14 +33,14 @@
    "ok": true
   },
   {
-   "duration_seconds": 6.37,
+   "duration_seconds": 30.28,
    "error": "",
-   "fetched": 22,
+   "fetched": 44,
    "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/list",
    "key": "bzp",
    "label": "BZP — Biuletyn Zamówień Publicznych",
    "ok": true
   }
  ],
- "updated_at": "2026-08-31T17:57:27+00:00"
+ "updated_at": "2026-08-31T18:03:05+00:00"
 }
