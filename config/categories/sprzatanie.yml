@@ -48,7 +48,12 @@ match:
     - "worki na śmieci"
   # Ogłoszenie zawierające którekolwiek z tych wyrażeń nigdy nie trafi
   # do kategorii — nawet jeśli kod CPV pasuje.
+  # Nie wykluczamy tu całego działu 50 (naprawy i konserwacja): ogłoszenia
+  # na czyszczenie instalacji często niosą taki kod pomocniczo obok 9091.
+  # Serwis urządzeń odsiewają poniższe frazy.
   exclude_keywords:
+    - "napraw* sprzętu"
+    - "przegląd* serwisow*"
     - "czyszczeni* kanalizacj*"
     - "czyszczeni* kotł*"
     - "czyszczeni* separator*"

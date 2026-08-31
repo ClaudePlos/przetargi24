@@ -43,6 +43,7 @@ class Category:
     cpv: list[str] = field(default_factory=list)
     keywords: list[str] = field(default_factory=list)
     exclude_keywords: list[str] = field(default_factory=list)
+    exclude_cpv: list[str] = field(default_factory=list)
     min_score: int | None = None
 
     @property
@@ -146,6 +147,7 @@ def load_category(path: Path) -> Category:
         cpv=cpv,
         keywords=keywords,
         exclude_keywords=_as_list(match.get("exclude_keywords"), "match.exclude_keywords", path),
+        exclude_cpv=_as_list(match.get("exclude_cpv"), "match.exclude_cpv", path),
         min_score=int(min_score) if min_score is not None else None,
     )
 

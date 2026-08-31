@@ -32,9 +32,15 @@ match:
     - "obiad*"
     - "śniadani*"
     - "kateringow*"
+  # Kody dyskwalifikujące — mają pierwszeństwo przed listą `cpv` powyżej.
+  exclude_cpv:
+    - "157"    # pasza dla zwierząt
+    - "1598"   # tytoń, wyroby tytoniowe
   exclude_keywords:
     - "żywieni* dojelitow*"
     - "żywieni* pozajelitow*"
     - "preparat* do żywieni*"
     - "karm* dla zwierząt"
     - "żywieni* zwierząt"
+    - "pasz* dla zwierząt"
+    - "zbo* paszow*"

@@ -38,16 +38,29 @@ def _matches_any(text: str, keywords: Iterable[str]) -> list[str]:
     return [kw for kw in keywords if _keyword_pattern(kw).search(text)]
 
 
+def _matches_prefix(codes: Iterable[str], prefixes: Iterable[str]) -> bool:
+    """Czy któryś kod CPV zaczyna się od któregoś z podanych przedrostków."""
+    normalized = [normalize_cpv(prefix) for prefix in prefixes]
+    return any(
+        code and prefix and code.startswith(prefix) for code in codes for prefix in normalized
+    )
+
+
 def score_category(tender: Tender, category: Category, settings: Settings) -> int:
     """Liczy punkty trafności ogłoszenia dla jednej kategorii (0 = brak)."""
     text = normalize(tender.search_text())
     if category.exclude_keywords and _matches_any(text, category.exclude_keywords):
         return 0
 
+    codes = [normalize_cpv(code) for code in tender.cpv]
+    if category.exclude_cpv and _matches_prefix(codes, category.exclude_cpv):
+        # Kod wykluczony dyskwalifikuje ogłoszenie tak samo jak fraza —
+        # np. 15700000 (pasza dla zwierząt) mimo trafienia w szeroki dział 15.
+        return 0
+
     cpv_points = int(settings.classify.get("cpv_points", 3))
     keyword_points = int(settings.classify.get("keyword_points", 2))
 
-    codes = [normalize_cpv(code) for code in tender.cpv]
     prefixes = [normalize_cpv(prefix) for prefix in category.cpv]
     cpv_hits = sum(
         1
