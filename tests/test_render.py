@@ -215,3 +215,59 @@ def test_repo_slug(url, oczekiwane):
     from przetargi.render import repo_slug
 
     assert repo_slug(url) == oczekiwane
+
+
+# --- konta użytkowników ---------------------------------------------------
+
+USTAWIENIA_KONT = {
+    "url": "https://przyklad.supabase.co",
+    "anon_key": "eyJPRZYKLADOWY_KLUCZ_PUBLICZNY",
+    "active": True,
+}
+USTAWIENIA_PREMIUM = {
+    "checkout_url": "",
+    "cena_opis": "49 zł / miesiąc",
+    "korzysci": ["Alerty e-mail"],
+}
+
+
+def _zbuduj(tmp_path, config, auth=None, premium=None):
+    from przetargi.store import TenderStore
+
+    output = tmp_path / "public"
+    SiteRenderer(
+        config.settings, config.categories, output=output,
+        auth=auth, premium=premium,
+    ).render(TenderStore(tmp_path / "t.json"), {})
+    return output
+
+
+def test_bez_kluczy_nie_ma_strony_konta(tmp_path, config):
+    """Portal ma działać bez logowania — pusta konfiguracja nic nie dodaje."""
+    output = _zbuduj(tmp_path, config, auth={"active": False})
+    assert not (output / "konto.html").exists()
+    assert "konto.html" not in (output / "index.html").read_text(encoding="utf-8")
+
+
+def test_z_kluczami_powstaje_strona_konta_i_odnosnik(tmp_path, config):
+    output = _zbuduj(tmp_path, config, auth=USTAWIENIA_KONT, premium=USTAWIENIA_PREMIUM)
+    assert (output / "konto.html").is_file()
+    assert 'href="konto.html"' in (output / "index.html").read_text(encoding="utf-8")
+
+
+def test_strona_konta_niesie_wylacznie_klucz_publiczny(tmp_path, config):
+    """Klucz anon może być w stronie, serwisowy nigdy — dostępu pilnuje RLS."""
+    output = _zbuduj(tmp_path, config, auth=USTAWIENIA_KONT, premium=USTAWIENIA_PREMIUM)
+    tresc = (output / "konto.html").read_text(encoding="utf-8")
+
+    assert USTAWIENIA_KONT["anon_key"] in tresc
+    for zakazane in ("service_role", "SUPABASE_SERVICE_KEY", "RESEND_API_KEY"):
+        assert zakazane not in tresc
+
+
+def test_zaden_plik_strony_nie_zawiera_sekretow(tmp_path, config):
+    output = _zbuduj(tmp_path, config, auth=USTAWIENIA_KONT, premium=USTAWIENIA_PREMIUM)
+    for path in output.rglob("*"):
+        if path.is_file() and path.suffix in {".html", ".js", ".json", ".xml"}:
+            tresc = path.read_text(encoding="utf-8", errors="ignore")
+            assert "service_role" not in tresc, f"{path.name} niesie klucz serwisowy"

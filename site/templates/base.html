@@ -20,6 +20,9 @@
       <a href="{{ rel }}kategoria/{{ category.slug }}.html"{% if page == category.slug %} class="is-active"{% endif %}>{{ category.title }}</a>
       {% endfor %}
       <a href="{{ rel }}zrodla.html"{% if page == 'zrodla' %} class="is-active"{% endif %}>Stan źródeł</a>
+      {% if auth_active %}
+      <a href="{{ rel }}konto.html"{% if page == 'konto' %} class="is-active"{% endif %}>Konto</a>
+      {% endif %}
     </nav>
   </div>
 </header>

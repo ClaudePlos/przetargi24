@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}Konto — {{ site.title }}{% endblock %}
+{% block description %}Zaloguj się, aby otrzymywać alerty e-mail o nowych przetargach.{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1>Konto</h1>
+  <p>Zapisz filtr, a automat powiadomi Cię e-mailem, gdy pojawi się pasujące
+     ogłoszenie. Logowanie odbywa się odnośnikiem wysyłanym na adres e-mail —
+     nie ma haseł do zapamiętywania ani do wycieku.</p>
+</section>
+
+<div id="konto"
+     data-supabase-url="{{ auth.url }}"
+     data-supabase-key="{{ auth.anon_key }}"
+     data-checkout="{{ premium.checkout_url }}">
+
+  <div class="panel" id="ladowanie">
+    <div class="body"><p>Sprawdzam, czy jesteś zalogowany…</p></div>
+  </div>
+
+  <!-- niezalogowany -->
+  <div class="panel" id="logowanie" hidden>
+    <h2>Zaloguj się lub załóż konto</h2>
+    <div class="body">
+      <p>Podaj adres e-mail — wyślemy na niego jednorazowy odnośnik do logowania.</p>
+      <div class="row">
+        <input type="email" id="email" placeholder="firma@example.pl"
+               autocomplete="email" spellcheck="false">
+        <button type="button" class="btn" id="wyslij-link">Wyślij odnośnik</button>
+      </div>
+      <p class="status" id="status-logowania" hidden></p>
+    </div>
+  </div>
+
+  <!-- zalogowany -->
+  <div id="zalogowany" hidden>
+    <div class="panel">
+      <h2>Twoje konto</h2>
+      <div class="body">
+        <p>Zalogowano jako <b id="moj-email"></b> ·
+           plan: <span class="pill" id="moj-plan">free</span>
+           <button type="button" class="btn btn-ghost" id="wyloguj">Wyloguj</button></p>
+      </div>
+    </div>
+
+    <div class="panel" id="panel-premium" hidden>
+      <h2>Alerty e-mail — {{ premium.cena_opis }}</h2>
+      <div class="body">
+        <p>Konto darmowe pozwala zapisać filtr i przeglądać go w portalu.
+           Wysyłkę powiadomień obejmuje plan płatny:</p>
+        <ul>
+          {% for korzysc in premium.korzysci %}<li>{{ korzysc }}</li>{% endfor %}
+        </ul>
+        <div class="row">
+          <a class="btn" id="kup" href="#" hidden>Przejdź na premium</a>
+          <p class="status warn" id="brak-platnosci" hidden>
+            Płatności nie są jeszcze uruchomione — napisz do nas, jeśli chcesz
+            dostawać alerty już teraz.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Twoje alerty</h2>
+      <div class="body">
+        <div id="lista-alertow"><p>Wczytuję…</p></div>
+
+        <h3 style="font-size:15px;margin:22px 0 0">Nowy alert</h3>
+        <p>Puste pole znaczy „bez ograniczenia”. Warunki łączą się —
+           ogłoszenie musi spełnić wszystkie wypełnione.</p>
+        <div class="row">
+          <label class="field" style="flex:1 1 200px">
+            <span>Nazwa</span>
+            <input type="text" id="a-nazwa" placeholder="Sprzątanie Małopolska"
+                   style="width:100%">
+          </label>
+        </div>
+        <div class="row">
+          <label class="field">
+            <span>Kategorie</span>
+            <select id="a-kategorie" multiple size="3">
+              {% for category in categories %}
+              <option value="{{ category.slug }}">{{ category.name }}</option>
+              {% endfor %}
+            </select>
+          </label>
+          <label class="field" style="flex:1 1 160px">
+            <span>Frazy (po przecinku)</span>
+            <input type="text" id="a-frazy" placeholder="sprzątanie, mycie okien"
+                   style="width:100%">
+          </label>
+          <label class="field" style="flex:1 1 130px">
+            <span>Kody CPV</span>
+            <input type="text" id="a-cpv" placeholder="9091, 9062" style="width:100%">
+          </label>
+          <label class="field" style="flex:1 1 130px">
+            <span>Region</span>
+            <input type="text" id="a-region" placeholder="PL21, Kraków" style="width:100%">
+          </label>
+          <label class="field">
+            <span>Wartość od</span>
+            <input type="number" id="a-wartosc" min="0" step="1000" placeholder="100000">
+          </label>
+        </div>
+        <div class="row">
+          <button type="button" class="btn" id="dodaj-alert">Zapisz alert</button>
+        </div>
+        <p class="status" id="status-alertu" hidden></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="{{ rel }}assets/konto.js" defer></script>
+{% endblock %}

@@ -172,6 +172,59 @@ python -m przetargi check
 
 ---
 
+## Konta i alerty e-mail (opcjonalne)
+
+Portal działa bez logowania. Konta włącza się, gdy chcesz wysyłać
+**alerty e-mail** o nowych ogłoszeniach pasujących do zapisanego filtru.
+
+### Dlaczego akurat tak
+
+Strona jest statyczna i publiczna, więc nie ma serwera, który sprawdziłby
+hasło. Logowanie robi Supabase: klucz `anon` w stronie jest **publiczny
+z założenia**, a dostępu do danych pilnuje Row Level Security w bazie —
+każde zapytanie z przeglądarki widzi wyłącznie wiersze zalogowanego
+użytkownika. Klucz serwisowy, który omija RLS, żyje wyłącznie w sekretach
+GitHub Actions i nigdy nie trafia do strony. Pilnują tego testy.
+
+Plan konta ustawia wyłącznie webhook płatności, więc nie da się go podnieść
+z przeglądarki. Limit alertów dla kont darmowych pilnuje wyzwalacz w bazie,
+a nie interfejs — inaczej wystarczyłoby go ominąć.
+
+### Uruchomienie
+
+1. **Załóż projekt w [Supabase](https://supabase.com)** (darmowy plan wystarcza).
+2. **Wklej schemat:** _SQL Editor → New query_ → cała zawartość
+   [`supabase/schema.sql`](supabase/schema.sql) → Run.
+3. **Wypełnij [`config/auth.yml`](config/auth.yml)** adresem projektu
+   i kluczem `anon public` (_Settings → API_). To jedyne miejsce, gdzie
+   klucz publiczny ma prawo się znaleźć.
+4. **Dodaj sekrety** w _Settings → Secrets and variables → Actions_:
+
+   | Sekret | Skąd |
+   | --- | --- |
+   | `SUPABASE_URL` | adres projektu Supabase |
+   | `SUPABASE_SERVICE_KEY` | klucz `service_role` — **nigdy do repozytorium** |
+   | `RESEND_API_KEY` | klucz z [Resend](https://resend.com) |
+   | `ALERT_FROM` | adres nadawcy, np. `alerty@twojadomena.pl` |
+
+5. **Płatności (opcjonalnie):** utwórz Payment Link w Stripe i wklej go
+   w `premium.checkout_url`. Bez tego panel pokazuje informację „wkrótce”.
+
+Dopóki sekretów brakuje, krok wysyłki w automacie kończy się powodzeniem
+i tylko wypisuje, czego brakuje — codzienny przebieg pozostaje zielony.
+
+### Jak działa wysyłka
+
+Po każdym przebiegu automat bierze ogłoszenia zauważone **tego dnia**,
+dopasowuje je do aktywnych alertów kont premium i wysyła jeden zbiorczy
+e-mail na alert. Dziennik wysyłek w bazie pilnuje, żeby przy kilku
+przebiegach dziennie nikt nie dostał tego samego ogłoszenia dwa razy.
+Błąd jednego alertu nie blokuje pozostałych.
+
+Ręcznie: `python -m przetargi alerty`.
+
+---
+
 ## Źródła danych
 
 Zdefiniowane w [`config/sources.yml`](config/sources.yml).
