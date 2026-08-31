@@ -205,3 +205,24 @@ def test_build_sources_pomija_wylaczone():
 def test_build_sources_bez_zrodel_to_blad():
     with pytest.raises(SourceError):
         build_sources({"sources": {}})
+
+
+@pytest.mark.parametrize(
+    "rodzaj", ["can-standard", "can-modif", "can-desg", "cm-standard", "veat", "compl"]
+)
+def test_ted_pomija_ogloszenia_o_wyniku_i_zmianie_umowy(rodzaj):
+    """Ogłoszenie o wyniku to nie okazja — nie ma po co trafiać do portalu."""
+    notice = {"publication-number": "1-2026", "notice-title": "Tytuł", "notice-type": rodzaj}
+    assert TedSource()._to_tender(notice) is None
+
+
+@pytest.mark.parametrize("rodzaj", ["cn-standard", "cn-social", "pin-rtl", "pin-tran", ""])
+def test_ted_zachowuje_ogloszenia_i_zapowiedzi(rodzaj):
+    notice = {"publication-number": "1-2026", "notice-title": "Tytuł", "notice-type": rodzaj}
+    assert TedSource()._to_tender(notice) is not None
+
+
+def test_ted_zachowuje_nieznany_rodzaj():
+    """Nowy typ w TED lepiej pokazać niż po cichu zgubić."""
+    notice = {"publication-number": "1-2026", "notice-title": "Tytuł", "notice-type": "xyz-nowy"}
+    assert TedSource()._to_tender(notice) is not None

@@ -39,6 +39,17 @@ FIELDS = [
 # Klucze, pod którymi API potrafi zwrócić listę ogłoszeń.
 RESULT_KEYS = ("notices", "results", "items", "data", "content")
 
+# Rodzaje ogłoszeń, które nie są okazją do złożenia oferty i nie mają wejść
+# do portalu. W tygodniowej próbce polskich ogłoszeń stanowiły ok. 45%:
+#   can-*  ogłoszenie o wyniku postępowania (w tym can-modif, can-desg)
+#   cm-*   zmiana zawartej umowy
+#   veat   zamiar udzielenia zamówienia bez uprzedniej publikacji
+#   compl  zakończenie realizacji umowy
+# Nieznanych rodzajów celowo nie odsiewamy — gdy TED doda nowy typ,
+# lepiej pokazać go w portalu niż po cichu zgubić.
+POMIJANE_RODZAJE_PREFIKSY = ("can", "cm")
+POMIJANE_RODZAJE = {"veat", "compl"}
+
 
 class TedSource(Source):
     key = "ted"
@@ -122,6 +133,8 @@ class TedSource(Source):
             return None
 
         notice_type = first_text(pick(notice, "notice-type", "noticeType", "TD")).lower()
+        if _to_pominiete(notice_type):
+            return None
         # Wstępne ogłoszenie informacyjne (PIN) zapowiada przyszły przetarg.
         kind = KIND_PLAN if notice_type.startswith("pin") else KIND_NOTICE
 
@@ -159,6 +172,13 @@ class TedSource(Source):
             value=to_float(value_raw),
             currency=_currency(notice, value_raw),
         ).normalized()
+
+
+def _to_pominiete(notice_type: str) -> bool:
+    """Czy to ogłoszenie o wyniku albo zmianie umowy, a nie okazja do oferty."""
+    if not notice_type:
+        return False
+    return notice_type in POMIJANE_RODZAJE or notice_type.startswith(POMIJANE_RODZAJE_PREFIKSY)
 
 
 def _build_query(date_from: dt.date, date_to: dt.date) -> str:

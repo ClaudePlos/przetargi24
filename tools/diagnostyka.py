@@ -1,8 +1,9 @@
-"""Diagnostyka źródeł, runda 2 — pełny kształt rekordu BZP i szukanie planów."""
+"""Diagnostyka źródeł, runda 3 — rodzaje ogłoszeń BZP i adresy szczegółów."""
 
 from __future__ import annotations
 
-import json
+import collections
+import datetime as dt
 
 import requests
 
@@ -11,110 +12,93 @@ HEADERS = {"User-Agent": "Przetargi24/1.0 (diagnostyka)", "Accept": "application
 BOARD = "https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search"
 
 
-def skrot(wartosc, limit: int = 90) -> str:
-    tekst = json.dumps(wartosc, ensure_ascii=False) if not isinstance(wartosc, str) else wartosc
-    return tekst if len(tekst) <= limit else tekst[:limit] + "…"
-
-
-def pelny_rekord_bzp() -> None:
+def rodzaje_ogloszen() -> None:
     print("=" * 78)
-    print("BZP — pełny kształt rekordu z GET /Board/Search")
+    print("BZP — rodzaje ogłoszeń z ostatnich 7 dni")
     print("=" * 78)
-    odpowiedz = requests.get(
-        BOARD, params={"PageNumber": 1, "PageSize": 3}, headers=HEADERS, timeout=TIMEOUT
-    )
-    print(f"HTTP {odpowiedz.status_code}, nagłówki stronicowania: "
-          f"{ {k: v for k, v in odpowiedz.headers.items() if 'age' in k.lower() or 'count' in k.lower()} }")
-    dane = odpowiedz.json()
-    print(f"Typ odpowiedzi: {type(dane).__name__}, elementów: {len(dane)}")
-    if not dane:
-        return
-    rekord = dane[0]
-    print(f"\nWSZYSTKIE POLA ({len(rekord)}):")
-    for klucz in sorted(rekord):
-        print(f"  {klucz:34} = {skrot(rekord[klucz])}")
+    dzis = dt.date.today()
+    rodzaje: collections.Counter = collections.Counter()
+    typy_zamowien: collections.Counter = collections.Counter()
+    razem = 0
+    przyklady: dict[str, str] = {}
+
+    for strona in range(1, 9):
+        odp = requests.get(
+            BOARD,
+            params={
+                "PageNumber": strona,
+                "PageSize": 100,
+                "PublicationDateFrom": (dzis - dt.timedelta(days=7)).isoformat(),
+                "PublicationDateTo": dzis.isoformat(),
+            },
+            headers=HEADERS,
+            timeout=TIMEOUT,
+        )
+        if odp.status_code >= 400:
+            print(f"Strona {strona}: HTTP {odp.status_code}")
+            break
+        pozycje = odp.json()
+        if not isinstance(pozycje, list) or not pozycje:
+            print(f"Strona {strona}: brak dalszych pozycji (koniec).")
+            break
+        for pozycja in pozycje:
+            razem += 1
+            rodzaj = str(pozycja.get("noticeType"))
+            rodzaje[rodzaj] += 1
+            typy_zamowien[str(pozycja.get("orderType"))] += 1
+            if rodzaj not in przyklady:
+                przyklady[rodzaj] = str(pozycja.get("orderObject"))[:88]
+        if len(pozycje) < 100:
+            print(f"Strona {strona}: {len(pozycje)} pozycji — ostatnia strona.")
+            break
+
+    print(f"\nZbadano {razem} ogłoszeń.\n")
+    print("Rodzaje (noticeType):")
+    for rodzaj, ile in rodzaje.most_common():
+        print(f"  {rodzaj:32} {ile:5}   np. {przyklady.get(rodzaj, '')}")
+    print("\nTypy zamówienia (orderType):")
+    for typ, ile in typy_zamowien.most_common():
+        print(f"  {typ:32} {ile:5}")
 
 
-def czy_dziala_stronicowanie_i_daty() -> None:
+def adresy_szczegolow() -> None:
     print("\n" + "=" * 78)
-    print("BZP — czy działa stronicowanie i filtr dat")
+    print("BZP — który adres strony ogłoszenia działa")
     print("=" * 78)
-    proby = [
-        {"PageNumber": 1, "PageSize": 2},
-        {"PageNumber": 2, "PageSize": 2},
-        {"PageNumber": 1, "PageSize": 2, "PublicationDateFrom": "2026-08-24",
-         "PublicationDateTo": "2026-08-31"},
-        {"PageNumber": 1, "PageSize": 2, "PublicationDateFrom": "2026-08-24T00:00:00.000Z",
-         "PublicationDateTo": "2026-08-31T23:59:59.999Z"},
-        {"PageNumber": 1, "PageSize": 2, "NoticeType": "TenderPlan"},
-        {"PageNumber": 1, "PageSize": 2, "OrderObject": "sprzątanie"},
-    ]
-    for parametry in proby:
-        try:
-            odp = requests.get(BOARD, params=parametry, headers=HEADERS, timeout=TIMEOUT)
-            dane = odp.json() if odp.status_code < 400 else None
-            ile = len(dane) if isinstance(dane, list) else "n/d"
-            pierwszy = ""
-            if isinstance(dane, list) and dane:
-                pierwszy = f" | 1. numer: {dane[0].get('noticeNumber')} " \
-                           f"| data: {dane[0].get('publicationDate')} " \
-                           f"| typ: {dane[0].get('noticeType')}"
-            print(f"  {json.dumps(parametry, ensure_ascii=False)[:96]:98} HTTP {odp.status_code}, "
-                  f"pozycji: {ile}{pierwszy}")
-        except requests.RequestException as exc:
-            print(f"  {parametry} -> BŁĄD {exc}")
+    odp = requests.get(BOARD, params={"PageNumber": 1, "PageSize": 1},
+                       headers=HEADERS, timeout=TIMEOUT)
+    pozycja = odp.json()[0]
+    object_id = pozycja.get("objectId")
+    tender_id = pozycja.get("tenderId")
+    mo_id = pozycja.get("moIdentifier")
+    print(f"objectId={object_id}\ntenderId={tender_id}\nmoIdentifier={mo_id}\n")
 
-
-def szukaj_planow() -> None:
-    print("\n" + "=" * 78)
-    print("Plany postępowań — szukanie właściwego adresu")
-    print("=" * 78)
     kandydaci = [
-        "https://ezamowienia.gov.pl/mo-board/api/v1/Board/SearchTenderPlan",
-        "https://ezamowienia.gov.pl/mo-board/api/v1/TenderPlan/Search",
-        "https://ezamowienia.gov.pl/mo-board/api/v1/TenderPlans/Search",
-        "https://ezamowienia.gov.pl/mo-board/api/v1/Plan/Search",
-        "https://ezamowienia.gov.pl/mo-board/api/v1/Board/TenderPlanSearch",
-        "https://ezamowienia.gov.pl/mo-board/api/v1/Board/SearchPlan",
-        "https://ezamowienia.gov.pl/mo-board/api/v1/BoardTenderPlan/Search",
+        f"https://ezamowienia.gov.pl/mp-client/search/list/{tender_id}",
+        f"https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/{object_id}",
+        f"https://ezamowienia.gov.pl/mo-client-board/bzp/tender-details/{tender_id}",
+        f"https://ezamowienia.gov.pl/mp-client/tenders/{tender_id}",
     ]
     for url in kandydaci:
         try:
-            odp = requests.get(url, params={"PageNumber": 1, "PageSize": 2},
-                               headers=HEADERS, timeout=TIMEOUT)
-            opis = f"HTTP {odp.status_code}"
-            if odp.status_code < 400:
-                dane = odp.json()
-                opis += f" | {type(dane).__name__}"
-                if isinstance(dane, list) and dane:
-                    opis += f" ({len(dane)}) | pola: {sorted(dane[0])[:18]}"
-            elif "Allow" in odp.headers:
-                opis += f" | Allow: {odp.headers['Allow']}"
-            print(f"  {url.split('/api/v1/')[1]:36} {opis}")
-        except requests.RequestException as exc:
-            print(f"  {url} -> BŁĄD {exc}")
-
-
-def sprawdz_adresy_ted() -> None:
-    print("\n" + "=" * 78)
-    print("TED — który adres strony ogłoszenia działa")
-    print("=" * 78)
-    numer = "581186-2026"
-    for url in (
-        f"https://ted.europa.eu/pl/notice/{numer}",
-        f"https://ted.europa.eu/en/notice/-/detail/{numer}",
-        f"https://ted.europa.eu/pl/notice/-/detail/{numer}",
-    ):
-        try:
             odp = requests.get(url, headers={"User-Agent": HEADERS["User-Agent"]},
                                timeout=TIMEOUT, allow_redirects=True)
-            print(f"  {url}\n      HTTP {odp.status_code} | końcowy adres: {odp.url}")
+            print(f"  HTTP {odp.status_code}  {url}")
         except requests.RequestException as exc:
-            print(f"  {url} -> BŁĄD {exc}")
+            print(f"  BŁĄD {type(exc).__name__}  {url}")
+
+
+def format_cpv() -> None:
+    print("\n" + "=" * 78)
+    print("BZP — format pola cpvCode w kilku rekordach")
+    print("=" * 78)
+    odp = requests.get(BOARD, params={"PageNumber": 1, "PageSize": 8},
+                       headers=HEADERS, timeout=TIMEOUT)
+    for pozycja in odp.json():
+        print(f"  {str(pozycja.get('cpvCode'))[:150]}")
 
 
 if __name__ == "__main__":
-    pelny_rekord_bzp()
-    czy_dziala_stronicowanie_i_daty()
-    szukaj_planow()
-    sprawdz_adresy_ted()
+    rodzaje_ogloszen()
+    adresy_szczegolow()
+    format_cpv()

@@ -15,9 +15,11 @@ fetch:
   # Zapas > 1 dnia chroni przed luką, gdy jeden przebieg się nie powiedzie.
   lookback_days: 7
   # Górny limit ogłoszeń pobieranych z jednego źródła na przebieg.
-  max_per_source: 600
+  # W tygodniu bywa ok. 2600 polskich ogłoszeń w TED, więc limit musi je
+  # pomieścić — inaczej odsiew kategorii pracuje na obciętej próbce.
+  max_per_source: 4000
   # Limit stron na źródło (bezpiecznik przed pętlą bez końca).
-  max_pages: 12
+  max_pages: 45
   timeout_seconds: 60
   retries: 3
 
