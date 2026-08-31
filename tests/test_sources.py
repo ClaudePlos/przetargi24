@@ -339,3 +339,33 @@ def test_limit_stron_z_konfiguracji_zrodla():
 def test_limit_ogloszen_konczy_pobieranie():
     ctx = _kontekst([[_wiersz(n) for n in range(1, 6)], [_wiersz(n) for n in range(6, 11)]], limit=7)
     assert len(list(GenericJsonSource("bzp", BZP_CONFIG).fetch(ctx))) == 7
+
+
+def test_strona_odsiana_w_calosci_nie_konczy_stronicowania():
+    """Regresja: w BZP pierwsza strona bywa samymi planami postępowań.
+
+    Wszystkie zostają odsiane przez `skip_kinds`, ale kolejne strony nadal
+    zawierają ogłoszenia — zatrzymanie się tutaj gubiło całe źródło.
+    """
+    config = {**KONFIG_Z_RODZAJEM, "skip_kinds": ["TenderPlanNotice"]}
+    strona_planow = [
+        {**_wiersz(n), "noticeType": "TenderPlanNotice"} for n in range(1, 11)
+    ]
+    strona_ogloszen = [
+        {**_wiersz(n), "noticeType": "ContractNotice"} for n in range(11, 21)
+    ]
+    ctx = _kontekst([strona_planow, strona_ogloszen, []])
+    wyniki = list(GenericJsonSource("bzp", config).fetch(ctx))
+
+    assert len(wyniki) == 10
+    assert ctx.http.zapytania == 3
+
+
+def test_powtorzona_strona_konczy_stronicowanie_mimo_odsiewu():
+    """Zabezpieczenie przed źródłem ignorującym numer strony nadal działa."""
+    strona = [{**_wiersz(n), "noticeType": "ContractNotice"} for n in range(1, 4)]
+    ctx = _kontekst([strona, strona, strona], max_pages=5)
+    wyniki = list(GenericJsonSource("bzp", KONFIG_Z_RODZAJEM).fetch(ctx))
+
+    assert len(wyniki) == 3
+    assert ctx.http.zapytania == 2

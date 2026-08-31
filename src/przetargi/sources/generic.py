@@ -75,6 +75,7 @@ class GenericJsonSource(Source):
     def fetch(self, ctx: FetchContext) -> Iterator[Tender]:
         seen = 0
         wydane: set[str] = set()
+        widziane_rekordy: set[str] = set()
         for offset in range(self.max_pages or ctx.settings.max_pages):
             page = self.first_page + offset
             data = self._request(ctx, page)
@@ -86,23 +87,29 @@ class GenericJsonSource(Source):
             if not rows:
                 break
 
-            nowe = 0
+            # Zabezpieczenie liczymy na surowych rekordach, a nie na tych
+            # zachowanych: cała strona może zostać odsiana przez `skip_kinds`
+            # (w BZP pierwsza strona bywa samymi planami postępowań), a to nie
+            # znaczy, że dalszych stron nie ma.
+            klucze = {self._row_key(row) for row in rows}
+            nowe_rekordy = klucze - widziane_rekordy
+            widziane_rekordy |= klucze
+
             for row in rows:
                 tender = self._to_tender(row)
                 if tender is None or tender.id in wydane:
                     continue
                 wydane.add(tender.id)
-                nowe += 1
                 seen += 1
                 yield tender
                 if seen >= ctx.limit:
                     return
 
-            if nowe == 0:
-                # Źródło ignoruje stronicowanie i oddaje wciąż to samo —
+            if not nowe_rekordy:
+                # Źródło ignoruje numer strony i oddaje wciąż to samo —
                 # dalsze pobieranie tylko marnowałoby czas przebiegu.
                 log.warning(
-                    "Źródło '%s': strona %s nie przyniosła nowych pozycji — kończę",
+                    "Źródło '%s': strona %s powtarza poprzednie rekordy — kończę",
                     self.key, page,
                 )
                 break
@@ -158,6 +165,10 @@ class GenericJsonSource(Source):
         if not isinstance(keys, (list, tuple)):
             return None
         return pick_ci(row, *[str(k) for k in keys])
+
+    def _row_key(self, row: dict[str, Any]) -> str:
+        """Identyfikator surowego rekordu — do wykrycia powtórzonej strony."""
+        return first_text(self._value(row, "native_id")) or _fallback_id(row) or repr(sorted(row))
 
     def _kind(self, row: dict[str, Any]) -> str | None:
         """Rodzaj wpisu dla rekordu; None oznacza „pomiń to ogłoszenie”."""

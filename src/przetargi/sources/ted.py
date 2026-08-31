@@ -67,6 +67,7 @@ class TedSource(Source):
     def fetch(self, ctx: FetchContext) -> Iterator[Tender]:
         seen = 0
         wydane: set[str] = set()
+        widziane_numerow: set[str] = set()
         for page in range(1, ctx.settings.max_pages + 1):
             payload = self._payload(ctx, page)
             data = self._search(ctx, payload)
@@ -77,20 +78,22 @@ class TedSource(Source):
             if not notices:
                 break
 
-            nowe = 0
+            # Strona złożona wyłącznie z ogłoszeń o wyniku nie kończy listy,
+            # dlatego powtórzenie rozpoznajemy po numerach publikacji.
+            numery = {first_text(pick(n, "publication-number", "publicationNumber")) for n in notices}
+            if numery and not (numery - widziane_numerow):
+                break
+            widziane_numerow |= numery
+
             for notice in notices:
                 tender = self._to_tender(notice)
                 if tender is None or tender.id in wydane:
                     continue
                 wydane.add(tender.id)
-                nowe += 1
                 seen += 1
                 yield tender
                 if seen >= ctx.limit:
                     return
-
-            if nowe == 0 and len(notices) < payload["limit"]:
-                break
 
     # -- zapytanie ---------------------------------------------------------
 
