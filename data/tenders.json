@@ -1,5 +1,5 @@
 {
- "count": 156,
+ "count": 188,
  "tenders": [
   {
    "buyer": "Centrum Rehabilitacji Rolników Kasy Rolniczego Ubezpieczenia Społecznego NIWA",
@@ -37,6 +37,44 @@
    "source": "ted",
    "title": "Polska – Żywność, napoje, tytoń i produkty pokrewne – Dostawy drobiu i podrob. drobiowych, mięsa wieprz., wołowego, podrob. wołowych i wieprzowych, dziczyzny, wędlin drobiowych, wyrobów garmaż. drobiowych, wędlin i wyrobów podrob. wieprzowych i wołowych",
    "url": "https://ted.europa.eu/pl/notice/-/detail/599718-2026",
+   "value": null
+  },
+  {
+   "buyer": "Wodociągi Ostrzeszowskie sp. z o.o.",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "30200000",
+    "32420000",
+    "32422000",
+    "35100000",
+    "35121000",
+    "48000000",
+    "48210000",
+    "48600000",
+    "48730000",
+    "48732000",
+    "48820000",
+    "48821000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-07",
+   "description": "Przedmiotem zamówienia jest dostawa sprzętu i oprogramowania w ramach projektu „Cyberbezpieczne Wodociągi” w ramach Inwestycji C3.1.1 „Cyberbezpieczeństwo - CyberPL” - Cyberbezpieczne Wodociągi, finansowanego z Krajowego Planu Odbudowy i Zwiększania Odporności W ramach przedmiotu zamówienia do obowiązków wykonawcy należy dostawa wraz z wdrożeniem oprogramowania i urządzeń wskazanych w treści załącznika – Opis przedmiotu zamówienia, wdrożenie. Ponadto do zakresu obowiązków wykonawcy należy przeprowadzenie szeregu szkoleń z zakresu cyberbezpieczeństwa dla Zamawiającego. Szkolenia winny opierać się o dostarczone w ramach przedmiotu zamówienia oprogramowania i urządzenia. Szczegółowy zakres szkoleń został określony w załączniku do SWZ – Opis przedmiotu zamówienia. Szczegółowy Opis Przedmiotu Zamówienia zawiera wymagania co do zakresu przedmiotu zamówienia. Dokument stanowi załącznik do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:599495-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL416",
+   "native_id": "599495-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 3
+   },
+   "source": "ted",
+   "title": "Polska – Urządzenia komputerowe – Dostawa sprzętu i oprogramowania w ramach projektu „Cyberbezpieczne Wodociągi” w ramach Inwestycji C3.1.1 „Cyberbezpieczeństwo - CyberPL” - Cyberbezpieczne Wodociągi, finansowanego z Krajowego Planu Odbudowy i Zwiększania Odporności.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/599495-2026",
    "value": null
   },
   {
@@ -102,6 +140,98 @@
    "value": null
   },
   {
+   "buyer": "Ministerstwo Sprawiedliwości",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "35120000",
+    "75230000",
+    "75231200",
+    "64216110",
+    "51610000",
+    "79714100",
+    "72312100",
+    "72514100",
+    "72240000",
+    "72260000",
+    "72268000",
+    "72262000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-15",
+   "description": "Przedmiotem zamówienia jest usługa eksploatacji i rozwoju Systemu Dozoru Elektronicznego.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:599350-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "599350-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 6
+   },
+   "source": "ted",
+   "title": "Polska – Systemy i urządzenia nadzoru i bezpieczeństwa – Usługa eksploatacji i rozwoju Systemu Dozoru Elektronicznego",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/599350-2026",
+   "value": null
+  },
+  {
+   "buyer": "Muzeum Narodowe w Krakowie",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-08",
+   "description": "1. Przedmiotem zamówienia jest świadczenie usług stałej bezpośredniej ochrony fizycznej osób i mienia w obiektach Muzeum Narodowego w Krakowie. Zamówienie podstawowe obejmuje świadczenie usług przez okres 24 miesięcy od dnia rozpoczęcia świadczenia usług ochrony, z możliwością przedłużenia okresu realizacji w ramach prawa opcji maksymalnie o kolejne 24 miesiące, w dwóch następujących po sobie okresach po 12 miesięcy każdy. Maksymalny okres świadczenia usług, łącznie z prawem opcji, wynosi 48 miesięcy. 2. Usługi ochrony będą realizowane w następujących Oddziałach Muzeum Narodowego w Krakowie: 1) Biblioteka Książąt Czartoryskich przy ul. św. Marka 17 w Krakowie, 2) Dom Józefa Mehoffera przy ul. Krupniczej 26 w Krakowie, 3) Dom Jana Matejki przy ul. Floriańskiej 41 w Krakowie, 4) Muzeum Stanisława Wyspiańskiego przy pl. Sikorskiego 6 w Krakowie, 5) Kamienica Szołayskich przy 5, 6) Zamek w Spytkowicach przy ul. Zamkowej 48 w Spytkowicach. 3. Usługi obejmują w szczególności całodobową ochronę fizyczną, obsługę posterunków stałych, realizację patroli, kontrolę ruchu osobowego i materiałowego, nadzór nad systemami zabezpieczeń technicznych oraz podejmowanie interwencji w sytuacjach zagrożenia. 4. Zamawiający przewiduje również możliwość zlecania usług dodatkowych w postaci posterunków doraźnych, rozliczanych według faktycznej liczby przepracowanych roboczogodzin. 5. Prawo opcji: 1) Zamawiający przewiduje możliwość skorzystania z prawa opcji, o którym mowa w art. 441 Pzp, w dwóch etapach: pierwszym, obejmującym przedłużenie świadczenia usług o 12 miesięcy bezpośrednio po zakończeniu zamówienia podstawowego, oraz drugim, obejmującym przedłużenie świadczenia usług o kolejne 12 miesięcy bezpośrednio po zakończeniu pierwszego okresu opcjonalnego. Skorzystanie z drugiego okresu opcjonalnego jest możliwe wyłącznie po uprzednim skorzystaniu z pierwszego okresu opcjonalnego. 2) Zakres i sposób świadczenia usług w okresach objętych prawem opcji pozostają takie same jak w zamówieniu podstawowym. Szczegółowe zasady skorzystania z prawa opcji określono w rozdziale VIII SWZ oraz w Projekcie Umowy. 6. Szczegółowy opis przedmiotu zamówienia, w tym wymagania dotyczące organizacji ochrony, minimalnej obsady oraz wyposażenia pracowników ochrony, określa Załącznik nr 2 do SWZ – Szczegółowy Opis Przedmiotu Zamówienia oraz Załącznik nr 5 do SWZ – Projekt Umowy. 7. Nazwy i kody zamówienia według Wspólnego Słownika Zamówień (CPV): 79710000-4 Usługi ochroniarskie",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:599230-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL214",
+   "native_id": "599230-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 9
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Świadczenie całodobowej, stałej usługi bezpośredniej ochrony fizycznej osób i mienia w oddziałach Muzeum Narodowego w Krakowie",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/599230-2026",
+   "value": 10385000.0
+  },
+  {
+   "buyer": "Uniwersytet Warszawski",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-15",
+   "description": "1.Przedmiotem zamówienia jest ochrona Biblioteki Uniwersyteckiej w Warszawie (BUW), zlokalizowanej przy ul. Dobra 56/66 w Warszawie oraz budynku SAT - tzw. Domek Ogrodnika – położonego przy ul. Dobra 68/70 w Warszawie. 2.Szczegółowy opis przedmiotu zamówienia określa „Opis przedmiotu zamówienia” stanowiący załącznik nr 1 do SWZ oraz projektowane postanowienia umowy stanowiące załącznik nr 9 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:598888-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "598888-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Ochrona Biblioteki Uniwersyteckiej w Warszawie (BUW), zlokalizowanej przy ul. Dobra 56/66 w Warszawie oraz budynku SAT - tzw. Domek Ogrodnika – położonego przy ul. Dobra 68/70 w Warszawie",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/598888-2026",
+   "value": null
+  },
+  {
    "buyer": "25. Wojskowy Oddział Gospodarczy w Białymstoku.",
    "categories": [
     "catering"
@@ -131,6 +261,44 @@
    "source": "ted",
    "title": "Polska – Drób – Dostawa mięsa drobiowego oraz wędlin z mięsa drobiowego realizowana do 25. WOG w Białymstoku",
    "url": "https://ted.europa.eu/pl/notice/-/detail/598784-2026",
+   "value": null
+  },
+  {
+   "buyer": "MUZEUM WSI KIELECKIEJ",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "35120000",
+    "32234000",
+    "32235000",
+    "32333100",
+    "32323500",
+    "34971000",
+    "48000000",
+    "32562000",
+    "32520000",
+    "45311100",
+    "45314000",
+    "45314300"
+   ],
+   "currency": "",
+   "deadline": "2026-09-29",
+   "description": "Przedmiotem zamówienia jest dostawa wraz z instalacją, konfiguracją i uruchomieniem kompletnego i funkcjonalnego Systemu CCTV oraz nagłośnienia IP na terenie Parku Etnograficznego. Zakres zamówienia obejmuje w szczególności dostawę i montaż 32 kamer oraz 9 głośników IP, wykonanie niezbędnego okablowania, zasilania, uziemień i podbudowy słupowej, wykonanie i wyposażenie punktów dystrybucyjnych, stanowiska operatorskiego oraz dostawę serwera, rejestratora NVR, oprogramowania i wymaganych licencji. Zamówienie obejmuje również konfigurację i uruchomienie Systemu, przeprowadzenie testów i pomiarów, przeszkolenie personelu Zamawiającego oraz świadczenie serwisu gwarancyjnego. Szczegółowy zakres, ilości i lokalizacje, wymagania techniczne i funkcjonalne oraz sposób wykonania Przedmiotu Umowy określa Opis Przedmiotu Zamówienia stanowiący Załącznik nr 1 do SWZ oraz dokumentacja projektowa stanowiąca Załącznik nr 2 do SWZ",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:598724-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL721",
+   "native_id": "598724-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 5
+   },
+   "source": "ted",
+   "title": "Polska – Systemy i urządzenia nadzoru i bezpieczeństwa – Dostawa i instalacja Systemu Telewizji Dozorowej CCTV w Muzeum Wsi Kieleckiej - etap I",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/598724-2026",
    "value": null
   },
   {
@@ -223,6 +391,33 @@
    "source": "ted",
    "title": "Polska – Produkty farmaceutyczne – Sukcesywne dostawy produktów leczniczych przeznaczonych do bieżącej farmakoterapii szpitalnej, wyrobów medycznych oraz środków spożywczych specjalnego przeznaczenia żywieniowego",
    "url": "https://ted.europa.eu/pl/notice/-/detail/597844-2026",
+   "value": null
+  },
+  {
+   "buyer": "PGE DYSTRYBUCJA S.A.",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-14",
+   "description": "Część nr 1: Oddział Białystok",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:597712-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL912",
+   "native_id": "597712-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 7
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Zakup usługi ochrony osób i mienia dla PGE Dystrybucja S.A.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/597712-2026",
    "value": null
   },
   {
@@ -475,6 +670,72 @@
    "source": "ted",
    "title": "Polska – Usługi odśnieżania – Zimowe utrzymanie dróg, chodników i miejsc wyznaczonych na terenie Miasta Będzina w sezonie 2026/2027",
    "url": "https://ted.europa.eu/pl/notice/-/detail/597269-2026",
+   "value": null
+  },
+  {
+   "buyer": "AKADEMIA NAUK STOSOWANYCH W NOWYM TARGU",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "45200000",
+    "45111100",
+    "45111220",
+    "45111200",
+    "45262311",
+    "45262310",
+    "45260000",
+    "45262500",
+    "45261211",
+    "45421100",
+    "45410000",
+    "45430000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-08",
+   "description": "„Kompleksowa rewitalizacja terenu Starego Szpitala w Nowym Targu poprzez wykonanie prac budowlanych, rozbiórkowych wraz z zagospodarowaniem terenu” o pozwoleniu na użytkowanie obiektu. Istotne parametry budynku: - powierzchnia zabudowy : 930,9 m2 - powierzchnia użytkowa : 2 160,78 m2 - kubatura – 12 126,00 m3 - długość budynku : 45,22 m - szerokość budynku : 24,34 m - wysokość budynku liczona wg. WT § 6 – 14,22 m – budynek SW - ilość kondygnacji podziemnych : 0 - ilość kondygnacji nadziemnych : 3 - budynek wpisany do Gminnej Ewidencji Zabytków 3. Zakres robót obejmuje w szczególności: a) roboty przygotowawcze oraz organizacja placu budowy, b) usunięcie, wywóz i utylizacja wszystkich śmieci, pozostałości znajdujących się obecnie na terenie inwestycji, c) rozbiórka, wywóz i utylizacja fragmentów instalacji znajdujących się obecnie na terenie inwestycji, d) rozbiórka części istniejącego obiektu (dach, kondygnacja poddasza, kondygnacja II pietra), rozbiórka elementów istniejącego obiektu (strop nad parterem, strop na I piętrem, schody, fragmenty ścian, stropy kanałów instalacyjnych) wykucia otworów okiennych i drzwiowych wraz z wywozem i utylizacją materiałów z rozbiórki, e) wzmocnienie i izolacja istniejących ścian piwnic i ścian fundamentowych, f) zasypanie istniejących piwnic i kanałów instalacyjnych, g) wykonanie rozbudowy istniejącego budynku (dobudowa dwóch segmentów w części wschodniej i zachodniej budynku), h) wykonanie prac budowlanych i konserwatorskich w istniejącym budynku, i) wykonanie instalacji wewnętrznych, j) wykonanie elementów zagospodarowania terenu, k) rewitalizacji terenu po rozebranym budynku kuchni (remont ścian fundamentowych, utwardzenie terenu, montaż małej architektury, montaż balustrad), l) dostawę i montaż windy osobowej, m) dostawę i montaż urządzeń opisanych w projekcie, n) zakup licencji programów koniecznych do uruchomienia systemów (zarządzania budynkiem, nagłośnienia, zarządzania kontrolą dostępu itp.) o) programowanie i uruchomienie systemów, p) przeszkolenie pracowników Zamawiającego w zakresie obsługi zainstalowanych urządzeń i systemów, r) uzyskanie w imieniu Zamawiającego ostatecznej decyzji o pozwoleniu na użytkowanie wraz z wszystkimi niezbędnymi do jej uzyskania pozwoleniami, decyzjami, protokołami, mapami, oznaczeniami obiektu, instrukcjami, s) wyposażenie budynku w gaśnice oraz oznakowanie p.poż, t) pozostałe czynności: - ustanowienie na koszt Wykonawcy kierownika budowy (specjalność konstrukcyjno-budowlana) oraz kierowników robót w branżach: instalacji sanitarnych , instalacji elektrycznych i niskoprądowych, drogowej, - zapewnienie pełnej obsługi geodezyjnej, geologicznej, geotechnicznej i innych niezbędnych do zrealizowania inwestycji, - uzyskanie stosownych decyzji wraz z opłatami oraz spełnienie tych decyzji na koszt wykonawcy: *za zajmowanie pasa drogowego, *za realizację robót w pobliżu urządzeń wymagających tych decyzji, *innych - niezbędnych przy realizacji zadania; -przeprowadzenie wymaganych prób, badań, pomiarów i sprawdzeń potwierdzających prawidłowość wykonania robót (między innymi: próby szczelności instalacji, pomiary i badania instalacji elektrycznej i niskoprądowej, sprawdzenia zadziałania systemów, badania zagęszczenia podbudowy , badania wydajności wentylacji mechanicznej, badań natężenia oświetlenia ), prawidłowość założeń projektowych (test TRT określający rzeczywisty uzysk energetyczny 1 mb pionowego odwiertu) i dostarczonych materiałów (badania betonu konstrukcyjnego) wraz ze spisaniem protokołów z tych czynności. - poniesienia w całości kosztów związanych z aktualizacją (wykonaniem) dokumentacji projektowej w przypadku zmian w stosunku do projektu przekazanego przez Zamawiającego. Wykonawca zobowiązany jest ponieść w całości koszty związane z kwalifikacją przez projektanta ewentualnych zmian nieistotnych wprowadzonych na wniosek Wykonawcy w uzgodnieniu z Zamawiającym na podstawie art. 36a ust. 6 ustawy Prawo budowlane, o ile wystąpią. - wycinkę drzew i krzewów kolidujących z inwestycją wraz z uzyskaniem decyzji zezwalającej na wycinkę - organizacja i zabezpieczenie placu budowy, - sporządzenie świadectwa charakterystyki energetycznej obiektu, - sporządzenie audytu energetycznego powykonawczego, - uporządkowanie terenu po budowie, - likwidacja placu budowy, - obsługa serwisowa zainstalowanych urządzeń w zakresie wymaganym przez gwaranta tych urządzeń oraz niezbędnym do utrzymania ich właściwej pracy w okresie udzielonej gwarancji, wykonywanie obowiązkowych przeglądów gwarancyjnych urządzeń wymaganych przez producentów. - uczestnictwo w przeglądach gwarancyjnych obiektu zwoływanych na wezwanie Zamawiającego w okresie udzielonej gwarancji, - z uwagi na obecność na terenie budowy gatunków chronionych prowadzenie robót budowlanych z uwzględnieniem wszelkich wymagań wynikających z opinii przyrodniczej, wydanej przed terminem składania ofert, uszczegółowienia OPZ w tym obowiązki związane z ochroną gatunkową, nadzorem przyrodniczym, etapowaniem robót, zabezpieczeniem siedlisk oraz montażem rozwiązań kompensacyjnych. Z tego tytułu Wykonawcy nie przysługuje dodatkowe wynagrodzenie ani roszczenie o przedłużenie terminu, gdyż okoliczności te były możliwe do uwzględnienia na etapie składania oferty Jeżeli po terminie składania ofert właściwy organ nałoży na Zamawiającego lub wykonawcę obowiązki niewynikające z dokumentacji zamówienia i niemożliwe do przewidzenia przy zachowaniu należytej staranności, ich realizacja może zostać rozpatrzona jako zmiana umowy/roboty dodatkowe, wyłącznie po sporządzeniu protokołu konieczności i zgodnie z przepisami Pzp - oraz inne roboty i czynności wynikające z dokumentacji projektowej, STWiORB, obowiązujących przepisów prawa oraz zasad wiedzy technicznej, niezbędne do prawidłowego wykonania przedmiotu zamówienia,",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:597247-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL219",
+   "native_id": "597247-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Roboty budowlane w zakresie wznoszenia kompletnych obiektów budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i wodnej – „Kompleksowa rewitalizacja terenu Starego Szpitala w Nowym Targu poprzez wykonanie prac budowlanych, rozbiórkowych wraz z zagospodarowaniem terenu”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/597247-2026",
+   "value": null
+  },
+  {
+   "buyer": "Bank Gospodarstwa Krajowego",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000",
+    "79700000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-11",
+   "description": "1. Przedmiotem zamówienia jest wykonywanie przez Wykonawcę usług ochrony osób i mienia, w rozumieniu ustawy z dnia 22 sierpnia 1997 roku o ochronie osób i mienia (Dz. U. z 2025 r. poz. 532.), obejmujących: 1) zapewnienie stałej, bezpośredniej ochrony fizycznej w obiektach Zamawiającego, 2) monitorowanie obiektów Zamawiającego; a) monitorowanie sygnałów przesyłanych, gromadzonych i przetwarzanych w elektronicznych systemach zabezpieczenia technicznego b) zapewnienie gotowości oraz podjazdu grup interwencyjnych. 3) prześwietlanie korespondencji z wykorzystaniem urządzenia RTG, dostarczonego przez Wykonawcę; 4) wsparcie obsługi recepcji; 5) usługa deponowania oraz doraźnego dostarczania kluczy przez grupę interwencyjną. 2. Szczegółowy opis przedmiotu zamówienia, wykaz zadań, terminów oraz warunki realizacji przedmiotu zamówienia, płatności, etc. określone zostały w Projektowanych Postanowieniach Umowy (dalej: „PPU”), które stanowią załącznik nr 2 do SWZ i Opisie Przedmiotu Zamówienia (dalej: „OPZ”), który stanowi załącznik nr 1 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:597205-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "597205-2026",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "ochrona": 13
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Ochrona fizyczna i monitorowanie systemów bezpieczeństwa obiektów Banku Gospodarstwa Krajowego",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/597205-2026",
    "value": null
   },
   {
@@ -1155,6 +1416,42 @@
    "value": null
   },
   {
+   "buyer": "Nadleśnictwo Niepołomice",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "31625100",
+    "34711200",
+    "32323500",
+    "32333200",
+    "32230000",
+    "30200000",
+    "45312330",
+    "45310000",
+    "32421000",
+    "48000000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-30",
+   "description": "Przedmiotem zamówienia są zestawy urządzeń wraz z montażem i uruchomieniem, których zadaniem będzie umożliwienie automatycznej detekcji oraz lokalizacji pożarów lasów, w skład których wchodzą kamery przeciwpożarowe dalekiego zasięgu montowane na dostrzegalniach wraz z niezbędnymi akcesoriami oraz wyposażeniem punktu alarmowo-dyspozycyjnego (PAD) Nadleśnictwa. Celem systemu będzie prowadzenie stałego monitoringu przeciwpożarowego obszarów leśnych. Kamery ppoż. montowane na dostrzegalniach mają współpracować z dostarczonym oprogramowaniem do automatycznego wykrywania pożarów, co ma umożliwić zwiększenie skuteczności prowadzenia monitoringu w danym terenie. Obraz z kamer należy przesłać do PAD za pośrednictwem radiolinii w paśmie nielicencjonowanym, dostarczonych i zamontowanych w ramach niniejszego zamówienia. System transmisji należy zaprojektować w sposób umożliwiający w przyszłości zmianę medium transmisyjnego z radiowego na światłowodowe, bez konieczności wymiany kamer, oprogramowania oraz urządzeń aktywnych sieciowych, z wyjątkiem urządzeń końcowych służących do podłączenia światłowodu.. Wieże Baczków i Hysne powinny zostać doposażone w instalację zasilania Off-Grid, a PAD w system zasilania awaryjnego UPS. Zasilanie powinno spełniać wymagania PN-EN 62040-5-3:2017-05 (Systemy UPS) lub równoważne. Instalacja powinna spełniać wymagania PN-EN 62446-1:2016-08 (Instalacje fotowoltaiczne) lub równoważne, PN-EN 62446-1:2016-08/A1:2019-01 (Testowanie instalacji PV) lub równoważne, PN-EN 62109-2:2011 (Bezpieczeństwo falowników) lub równoważne oraz PN-EN IEC 62619:2023-02 (Bezpieczeństwo baterii litowych) lub równoważne. Zamówienie obejmuje: - demontaż istniejącego systemu monitoringu przeciwpożarowego, - dostawę i montaż 3 kamer do obserwacji terenów leśnych na wieży ppoż. Baczków, Hysne i Dąbrowa, - dostawę i montaż spryskiwaczy wraz ze zbiornikiem na płyn do zamontowanych kamer, - dostawę i montaż zasilania off-grid na wieżach Baczków i Hysne, Instalacja powinna spełniać wymagania PN-EN 62548 (Instalacje fotowoltaiczne) lub równoważne, PN-EN 62446 (Testowanie instalacji PV) lub równoważne, PN-EN 62109 (Bezpieczeństwo falowników) lub równoważne oraz PN-EN 62619 (Bezpieczeństwo baterii litowych) lub równoważne. - dostawę i montaż systemu alarmowego oraz kamer antywłamaniowych na wieżach ppoż., - dostawę i montaż radiolinii realizujących połączenia: ● wieża Baczków – wieża Hysne w paśmie 5 GHz, ● wieża Hysne – wieża Dąbrowa w paśmie 5 GHz, ● wieża Dąbrowa – Kościół w paśmie 60 GHZ z zapasowym 5 GHz, ● Kościół – budynek Nadleśnictwa w paśmie 60 GHZ z zapasowym 5 GHz, ● wieża Baczków – wieża Dąbrowa paśmie 5 GHz (połączenie redundantne), - dostawę i montaż urządzeń do zapewnienia łączności zapasowej 5G/LTE, - dostawę i montaż wyposażenia PAD: ● dostawę i montaż 3 telewizorów do obserwacji obrazu z kamer ppoż, ● dostawę i montaż komputera wraz z dwoma monitorami, ● dostawę i montaż pulpitu sterującego, ● dostawę i montaż zasilania awaryjnego UPS, Zasilanie powinno spełniać wymagania PN-EN 62040 (Systemy UPS) lub równoważne. - dostawę, montaż i uruchomienie systemu automatycznej detekcji dymu, - szkolenie z obsługi systemu. Wykonawca zobowiązany jest wykonać dzieło kompletne z punktu widzenia celu, któremu ma służyć. Zamawiający dopuszcza instalację dodatkowych urządzeń nieuwzględnionych w specyfikacji, jeśli są niezbędne do osiągnięcia wymaganych funkcjonalności. Pozostałe informacje znajdują się w dokumentach zamówienia - Załącznik nr 2 do SWZ",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:595503-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL214",
+   "native_id": "595503-2026",
+   "publication_date": "2026-08-28",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Systemy wykrywania ognia – Zakup systemu do lokalizacji pożarów",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/595503-2026",
+   "value": null
+  },
+  {
    "buyer": "Miejski Zarząd Dróg i Komunikacji w Radomiu",
    "categories": [
     "sprzatanie"
@@ -1442,6 +1739,44 @@
    "value": null
   },
   {
+   "buyer": "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Łęcznej",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "45252300",
+    "45262700",
+    "71320000",
+    "45262610",
+    "45221117",
+    "45111200",
+    "45233200",
+    "45342000",
+    "45231300",
+    "45232130",
+    "45231221",
+    "45231400"
+   ],
+   "currency": "",
+   "deadline": "2026-09-15",
+   "description": "Przedmiotem Zamówienia jest realizacja inwestycji pn. „Przebudowa i zmiana sposobu użytkowania budynku magazynowego na budynek spalarni odpadów medycznych i weterynaryjnych, w którym zostanie wykonana instalacja do termicznego przekształcania odpadów medycznych i weterynaryjnych o wydajności nominalnej 0,4 Mg/h ( 9,6 Mg/dobę), budowa modułowej portierni, wiaty na odpady, ogrodzenia, utwardzenia terenu, wagi samochodowej, filtra zewnętrznego, komina emisyjnego oraz dwóch szczelnych, dwupłaszczowych zbiorników buforowych na ścieki przemysłowe, przyłącza: wodociągowego, kanalizacji sanitarnej i ciepłowniczego, zewnętrzne instalacje: wodociągowa, kanalizacji sanitarnej, kanalizacji deszczowej, gazowa, linii kablowej energetycznej wraz ze słupami oświetleniowymi\". Zamówienie obejmuje w szczególności: opracowanie projektu technicznego (PT) i projektu wykonawczego (PW), dostawę, wykonanie, montaż, integrację, uruchomienie oraz przekazanie do eksploatacji kompletnej instalacji do termicznego przekształcania odpadów medycznych i weterynaryjnych o wydajności nominalnej 0,4 Mg/h (9,6 Mg/dobę), zlokalizowanej w istniejącej hali, wraz z wykonaniem niezbędnych robót budowlanych, instalacyjnych i zagospodarowania terenu. Postępowanie prowadzone jest w trybie dialogu konkurencyjnego na podstawie art. 170 w związku z art. 153 pkt 3) i 4) ustawy. Szczegółowy zakres techniczny i funkcjonalny Przedmiotu Zamówienia zostanie doprecyzowany w toku dialogu z Wykonawcami. Szczegółowe uwarunkowania i wymagania w zakresie realizacji Przedmiotu Zamówienia zawiera Załącznik nr 1 pn. „Opis potrzeb i wymagań Zamawiającego (OPiW) - Budowa instalacji do termicznego przekształcania odpadów medycznych i weterynaryjnych o wydajności do 10 ton na dobę (wydajność nominalna 9,6 Mg/dobę)\". 2. Zakres rzeczowy Przedmiotu Zamówienia Wymienione dokumenty są dla Wykonawcy wiążące. Wykonawca jest zobowiązany wykonać Przedmiot Zamówienia zgodnie z przepisami powszechnie obowiązującego prawa, decyzją o środowiskowych uwarunkowaniach, ostateczną decyzją o pozwoleniu na budowę wraz z zatwierdzonym PAB i PZT, OPiW / OPZ, Umową oraz dokumentacją opracowaną przez Wykonawcę. W razie rozbieżności między dokumentami lub opracowaniami mającymi znaczenie dla realizacji Przedmiotu Zamówienia, Wykonawca jest zobowiązany przyjąć rozwiązanie zapewniające zgodność z przepisami prawa, decyzją o środowiskowych uwarunkowaniach na realizację przedsięwzięcia, decyzją o pozwoleniu na budowę wraz z zatwierdzonym PAB i PZT oraz celem i wymaganiami określonymi w OPiW / OPZ. Na potrzeby rozstrzygania rozbieżności technicznych, technologicznych, projektowych, funkcjonalnych, środowiskowych i eksploatacyjnych przyjmuje się następującą kolejność pierwszeństwa: 1) decyzja o środowiskowych uwarunkowaniach; 2) ostateczna decyzja o pozwoleniu na budowę wraz z zatwierdzonym PAB i PZT; 3) OPiW / OPZ wraz z załącznikami; 4) projekt Umowy — w zakresie postanowień dotyczących sposobu realizacji, odbiorów, odpowiedzialności, terminów, płatności, gwarancji, rękojmi, kar umownych i procedury zmian; 5) dokumentacja techniczna, projektowa, warsztatowa, wykonawcza i powykonawcza opracowana przez Wykonawcę. Dokumentacja opracowywana przez Wykonawcę, w szczególności FEED, Projekt Techniczny, Projekt Wykonawczy, dokumentacja warsztatowa, dokumentacja rejestracyjna i dokumentacja powykonawcza, musi być zgodna z dokumentami wskazanymi powyżej i nie może zmieniać, ograniczać ani obniżać wymagań wynikających z dokumentów wyższego poziomu zgodnie ze wskazaną powyżej kolejnością pierwszeństwa. Konieczność dostosowania dokumentacji Wykonawcy albo sposobu realizacji Przedmiotu Zamówienia do dokumentów wskazanych powyżej nie stanowi samodzielnej podstawy do zmiany Wynagrodzenia ani przedłużenia terminu realizacji, chyba że konieczność taka wynika z okoliczności niezależnych od Wykonawcy, niemożliwych do przewidzenia przez doświadczonego Wykonawcę działającego z należytą starannością i jednocześnie spełnione są przesłanki zmiany Umowy określone w Umowie oraz w przepisach PZP. Z zakresu realizacji wyłącza się układ produkcji energii elektrycznej (kogeneracja), dla którego decyzja o środowiskowych uwarunkowaniach przewiduje moc elektryczną brutto 150 kWe oraz moc cieplną brutto 1500 kW, a także instalację fotowoltaiczną (PV) ujętą w analizie energetycznej PAB. W zakresie realizacji pozostaje odzysk ciepła ze spalin, realizowany przez kocioł odzysku ciepła wraz z układem przekazania ciepła do odbiorników. Oba elementy są ujęte w zatwierdzonym PAB i PZT, a ich pominięcie w realizacji stanowi odstąpienie od zatwierdzonego projektu. Kwalifikację tego odstąpienia jako istotne albo nieistotne (art. 36a ust. 5 PB) Wykonawca przedstawia na etapie FEED (pkt 2.1 lit. c, Etap Ia), a jego rozpatrzenie następuje w trybie pkt 2.1 lit. j) oraz nadzoru autorskiego (pkt 2.1 lit. d). Wykonawca uwzględnia w projekcie technicznym rezerwę przestrzeni oraz interfejsy mechaniczne i elektryczne umożliwiające w przyszłości instalację układu kogeneracji i instalacji fotowoltaicznej.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:594871-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL814",
+   "native_id": "594871-2026",
+   "publication_date": "2026-08-28",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Roboty budowlane w zakresie zakładów spalania odpadów – Przebudowa i zmiana sposobu użytkowania budynku magazynowego na budynek spalarni odpadów medycznych i weterynaryjnych, w którym zostanie wykonana instalacja do termicznego przekształcania odpadów medycznych i weterynaryjnych o wydajności do 10 ton na dobę (wydajność nominalna 9,6 Mg/dobę), budowa modułowej portierni, wiaty na odpady, ogrodzenia, utwardzenia terenu, wagi samochodowej(...)",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/594871-2026",
+   "value": null
+  },
+  {
    "buyer": "Sąd Rejonowy w Wejherowie",
    "categories": [
     "sprzatanie"
@@ -1532,6 +1867,71 @@
    "value": null
   },
   {
+   "buyer": "Regionalny Ośrodek Psychiatrii Sądowej",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "48800000",
+    "48612000",
+    "48620000",
+    "32420000",
+    "31213300",
+    "42961100",
+    "35100000",
+    "31224400",
+    "44221220",
+    "35121700",
+    "39717200",
+    "51610000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-01",
+   "description": "Przedmiotem zamówienia jest dostawa wraz z usługą montażu, konfiguracji i gwarancji: Serwer - 2 szt., Windows Server 2025 CAL- 100 szt., Windows Server 2025 DataCenter wraz z funkcjonalnością wirtualizacji- 2 szt., Macierz dyskowa - 1 szt., Switch do Macierzy- 2 szt., Switch Access- 2 szt., Switch Core 10G- 1 szt., UTM- 1 szt., Szafa Rack- 2 szt., System gaszenia- 1 kpl., Drzwi antywłamaniowe i przeciwpożarowe- 1 szt., Systemy bezpieczeństwa: KD, Alarm, monitorowanie parametrów środowiskowych- 1 kpl., Klimatyzacja- 2 szt., UPS- 1 szt., Wymiana kabla zasilającego do serwerowni wraz z zabezpieczeniami. Celem inwestycji jest dostosowanie jednostki do nowelizacji ustawy o KSC oraz ustawy KRI, w szczególności zapewnienia odpowiedniego poziomu cyberbezpieczeństwa i ciągłości działania szczegółowo opisana w zał. nr 1.1 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:594207-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL523",
+   "native_id": "594207-2026",
+   "publication_date": "2026-08-28",
+   "scores": {
+    "ochrona": 3
+   },
+   "source": "ted",
+   "title": "Polska – Systemy i serwery informacyjne – „Modernizacja serwerowni poprzez jej wyposażenie oraz zakup licencji do systemów bezpieczeństwa”.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/594207-2026",
+   "value": 1571734.15
+  },
+  {
+   "buyer": "JEDNOSTKA WOJSKOWA NR 2063",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-28",
+   "description": "Przedmiotem zamówienia w prowadzonym postępowaniu o udzielenie zamówienia publicznego jest Dozór i ochrona mienia Klubu DGW przy Al. Niepodległości 141A w Warszawie (kod CPV: 79710000-4).",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:594096-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "594096-2026",
+   "publication_date": "2026-08-28",
+   "scores": {
+    "ochrona": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Dozór i ochrona mienia Klubu DGW przy Al. Niepodległości 141A w Warszawie",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/594096-2026",
+   "value": null
+  },
+  {
    "buyer": "Województwo Mazowieckie",
    "categories": [
     "sprzatanie"
@@ -1559,6 +1959,36 @@
    "source": "ted",
    "title": "Polska – Usługi sprzątania – Usługa sprzątania w budynkach wykorzystywanych na potrzeby Urzędu Marszałkowskiego Województwa Mazowieckiego w Warszawie.",
    "url": "https://ted.europa.eu/pl/notice/-/detail/593812-2026",
+   "value": null
+  },
+  {
+   "buyer": "Izba Administracji Skarbowej w Opolu",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000",
+    "79715000",
+    "79714000",
+    "79711000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-18",
+   "description": "Zadanie nr 1 obejmuje świadczenie usługi w obiekcie Centrum Usług Publicznych 2 - Izba Administracji Skarbowej w Opolu oraz II Urząd Skarbowy w Opolu, ul. płk. Witolda Pileckiego 2, 45-331 Opole.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:593805-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL524",
+   "native_id": "593805-2026",
+   "publication_date": "2026-08-28",
+   "scores": {
+    "ochrona": 18
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Ochrona fizyczna, ochrona z udziałem grup interwencyjnych oraz asysta kluczy w obiektach Izby Administracji Skarbowej w Opolu",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/593805-2026",
    "value": null
   },
   {
@@ -1591,6 +2021,36 @@
    "source": "ted",
    "title": "Polska – Usługi związane z odpadami – Usługa polegających na organizacji i prowadzeniu Punktu Selektywnej Zbiórki Odpadów Komunalnych oraz Mobilnego Punktu Selektywnej Zbiórki Odpadów Komunalnych w okresie od 1 stycznia do 31 grudnia 2027 roku. (1)",
    "url": "https://ted.europa.eu/pl/notice/-/detail/593670-2026",
+   "value": null
+  },
+  {
+   "buyer": "Ministerstwo Kultury i Dziedzictwa Narodowego",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000",
+    "79711000",
+    "79992000",
+    "75251110"
+   ],
+   "currency": "",
+   "deadline": "2026-09-29",
+   "description": "1. Przedmiotem zamówienia jest: 1. Całodobowa ochrona fizyczna osób i mienia zapewniana przez Wykonawcę posiadającego koncesję na wykonywanie działalności tego rodzaju, wydaną przez Ministra Spraw Wewnętrznych i Administracji, wykonywana w oparciu o przepisy Ustawy z dnia 22 sierpnia 1997 r. o ochronie osób i mienia (tj. Dz.U. z 2025 r. poz. 535). Świadczenie usługi polega na bezpośredniej ochronie fizycznej, stałym dozorze sygnałów przesyłanych, gromadzonych i przetwarzanych w elektronicznych systemach zabezpieczeń technicznych i urządzeniach alarmowych Zamawiającego oraz ochronie doraźnej przez (patrole interwencyjne) we wszystkie dni tygodnia, przez okres obowiązywania umowy w kompleksie obiektów będących siedzibą Ministerstwa Kultury i Dziedzictwa Narodowego (MKiDN) położonych w Warszawie przy:  ul. Krakowskie Przedmieście 15 wraz z budynkiem Kordegardy (z wyłączeniem ochrony eksponatów w godzinach otwarcia galerii),  ul. Krakowskie Przedmieście 17,  ul. Krakowskie Przedmieście 21/23,  ul. Ksawerów 13,  ul. Trębacka 3 (garaż). 2. Całodobowa usługa nadzoru przeciwpożarowego, obsługi urządzeń przeciwpożarowych oraz monitoringiem ppoż. świadczona przez Wykonawcę we wszystkie dni tygodnia. Usługa realizowana w pomieszczeniu Ministerstwa Kultury i Dziedzictwa Narodowego, przez okres obowiązywania umowy w kompleksie obiektów będących siedzibą Ministerstwa Kultury i Dziedzictwa Narodowego (MKiDN) położonych w Warszawie przy: ul. Krakowskie Przedmieście 15 wraz z budynkiem Kordegardy (z wyłączeniem ochrony eksponatów w godzinach otwarcia galerii), ul. Krakowskie Przedmieście 17, ul. Krakowskie Przedmieście 21/ 23, ul. Trębacka 3 (garaż). W ramach usługi Wykonawca zobowiązany jest do wykonywania regularnych patroli prewencyjnych na terenie obiektów. 3. Usługa w zakresie sprawowania obowiązków obsługi recepcji, w systemie 8 godzinnym, w dni pracy urzędu (tj. od poniedziałku do piątku), przez okres obowiązywania umowy, świadczona jest w budynkach zajmowanych przez Ministerstwo Kultury i Dziedzictwa Narodowego położonych w Warszawie przy: ul. Krakowskie Przedmieście 15, ul. Krakowskie Przedmieście 21/23, ul. Wierzbowej 9/11, ul. Senatorskiej 27 4. Usługa fizycznej ochrony osób i mienia w tym obsługa recepcji zapewniana jest przez Wykonawcę w systemie 10 godzin od poniedziałku do piątku w godzinach pracy Zamawiającego tj. 7:00 – 17:00, polegającej na bezpośredniej ochronie fizycznej w obiekcie położonym w Warszawie przy: ul. Jana Pawła II 29 (Atrium). 5. Świadczenie 1000 godzin dodatkowej ochrony.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:593425-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "593425-2026",
+   "publication_date": "2026-08-28",
+   "scores": {
+    "ochrona": 12
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Świadczenie usług w zakresie ochrony osób i mienia w budynkach i na parkingach wewnętrznych MKiDN w Warszawie wraz ze świadczeniem usług nadzoru przeciwpożarowego oraz z obsługą recepcji na potrzeby Ministerstwa Kultury i Dziedzictwa Narodowego",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/593425-2026",
    "value": null
   },
   {
@@ -1656,6 +2116,33 @@
    "source": "ted",
    "title": "Polska – Usługi odśnieżania – Całoroczne (bieżące i zimowe) utrzymanie dróg krajowych administrowanych przez GDDKiA O/Olsztyn, Rejon w Ełku, Obwód Drogowy w Piszu",
    "url": "https://ted.europa.eu/pl/notice/-/detail/593316-2026",
+   "value": null
+  },
+  {
+   "buyer": "26. Wojskowy Oddział Gospodarczy w Zegrzu",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-07",
+   "description": "Część 1",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:593286-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL912",
+   "native_id": "593286-2026",
+   "publication_date": "2026-08-27",
+   "scores": {
+    "ochrona": 7
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Świadczenie usług w zakresie ochrony fizycznej osób i mienia przez Specjalistyczne Uzbrojone Formacje Ochronne na rzecz jednostek i instytucji będących na zaopatrzeniu 26 Wojskowego Oddziału Gospodarczego w Zegrzu",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/593286-2026",
    "value": null
   },
   {
@@ -2222,6 +2709,33 @@
    "value": null
   },
   {
+   "buyer": "Akademia Sztuki Wojennej",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "45000000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-01",
+   "description": "1. Przedmiotem zamówienia jest zaprojektowanie i wykonanie zadania: „Rozbudowa kontroli dostępu, telewizyjnego systemu nadzoru oraz elektronicznego przechowywania kluczy w Akademickim Centrum Sportu” zgodnie z wymaganiami określonymi w SWZ. 2. Przedmiot zamówienia opisują: 1) Program funkcjonalno-użytkowy (PFU) – załącznik nr 2 do SWZ; 2) Projektowane postanowienia umowy – załącznik nr 11 do SWZ. 3. Przedmiot zamówienia musi spełniać wymagania techniczne funkcjonalne i użytkowe takie same lub wyższe niż opisane w załączniku nr 2 do SWZ, Wykonawca nie może zaoferować asortymentów o gorszych parametrach technicznych, jakościowych, funkcjonalnych oraz użytkowych w odniesieniu do wymagań określonych przez Zamawiającego w PFU. 4. Zamawiający na podstawie przepisu art. 95 ust. 2 ustawy Pzp wymaga, aby Wykonawca lub podwykonawca zatrudnił na podstawie stosunku pracy osoby wykonujące prace fizyczne, pomocnicze i operatorów sprzętu. Regulacje w zakresie zatrudnienia na umowę o pracę zostały zawarte w §25 projektowanych postanowień umowy – załącznik nr 11 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:591171-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "591171-2026",
+   "publication_date": "2026-08-27",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Roboty budowlane – Zaprojektowanie i wykonanie zadania: ,,Rozbudowa istniejącej kontroli dostępu i telewizyjnego systemu w wybranych pomieszczeniach Akademii Sztuki Wojennej”.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/591171-2026",
+   "value": null
+  },
+  {
    "buyer": "Szpital Powiatu Bytowskiego Sp. z o.o.",
    "categories": [
     "catering"
@@ -2309,6 +2823,33 @@
    "source": "ted",
    "title": "Polska – Usługi sprzątania – Usługi sprzątania dla RZGW Warszawa i jednostek podległych",
    "url": "https://ted.europa.eu/pl/notice/-/detail/590931-2026",
+   "value": null
+  },
+  {
+   "buyer": "Służba Ochrony Państwa",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "31710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-28",
+   "description": "Przedmiotem zamówienia jest dostawa mobilnego systemu do rozpoznawania i analizy tablic rejestracyjnych (zamówienie podstawowe - 1 kpl. i zamówienie opcjonalne - 1kpl.) zgodnie z opisem przedmiotu zamówienia zawartym w zał. nr 1a do SWZ oraz na warunkach określonych w SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:590928-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "590928-2026",
+   "publication_date": "2026-08-27",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Sprzęt elektroniczny – Dostawa mobilnego systemu do rozpoznawania i analizy tablic rejestracyjnych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/590928-2026",
    "value": null
   },
   {
@@ -2617,6 +3158,41 @@
    "value": null
   },
   {
+   "buyer": "ZAKŁAD GOSPODARKI WODNO-ŚCIEKOWEJ GMINY TRZEBOWISKO",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "48000000",
+    "48810000",
+    "31122000",
+    "48600000",
+    "35120000",
+    "32420000",
+    "72000000",
+    "35100000",
+    "34223300"
+   ],
+   "currency": "",
+   "deadline": "2026-09-30",
+   "description": "Szczegółowy opis przedmiotu zamówienia zawiera załącznik nr 2 do SWZ",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:589194-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL823",
+   "native_id": "589194-2026",
+   "publication_date": "2026-08-26",
+   "scores": {
+    "ochrona": 3
+   },
+   "source": "ted",
+   "title": "Polska – Pakiety oprogramowania i systemy informatyczne – Wzmocnienie cyberbezpieczeństwa infrastruktury wodociągowej w Gminie Trzebownisko",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/589194-2026",
+   "value": null
+  },
+  {
    "buyer": "Gmina Tczew",
    "categories": [
     "sprzatanie"
@@ -2645,6 +3221,33 @@
    "value": null
   },
   {
+   "buyer": "\"Koleje Mazowieckie - KM\" sp. z o.o.",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-11",
+   "description": "1. Przedmiotem zamówienia jest świadczenie usługi ochrony fizycznej osób i mienia na terenach Sekcji Napraw i Eksploatacji Taboru Spółki „Koleje Mazowieckie – KM” sp. z o.o. 2. Szczegółowy opis, zakres, wymagania oraz sposób realizacji przedmiotu zamówienia określają Projektowane postanowienia umowy stanowiące załącznik nr 1 do SWZ. 3. We wszystkich zapisach SWZ oraz jej załącznikach, które odwołują się do norm, ocen technicznych, specyfikacji technicznych i systemów referencji technicznych, zgodnie z art. 101 ust. 4 ustawy Pzp, Zamawiający dopuszcza zastosowanie rozwiązań równoważnych rozwiązaniom opisywanym w normach, ocenach technicznych, specyfikacjach technicznych i systemach referencji technicznych, wskazanym w SWZ i załącznikach jeżeli pozwolą one uzyskać cechy lub parametry nie gorsze niż przywołane w SWZ i załącznikach. W przypadku zastosowania rozwiązań równoważnych, Wykonawca udowodni w ofercie, w szczególności za pomocą przedmiotowych środków dowodowych, o których mowa w art. 104-107 ustawy Pzp, że proponowane rozwiązania w równoważnym stopniu spełniają wymagania określone w opisie przedmiotu zamówienia. 4. Zamawiający wymaga złożenia przedmiotowych środków dowodowych, o których mowa w ust. 3 (jeżeli dotyczy). Jeżeli Wykonawca nie złoży przedmiotowych środków dowodowych lub złożone przedmiotowe środki dowodowe będą niekompletne, Zamawiający zgodnie z zapisami art. 107 ust. 2 ustawy Pzp wezwie Wykonawcę do złożenia lub uzupełnienia przedmiotowych środków dowodowych, o których mowa w ust. 3 (jeżeli dotyczy). 5. Zamawiający wymaga, aby Wykonawca i podwykonawca (w przypadku powierzenia przez Wykonawcę części zamówienia podwykonawcy) realizowali zamówienie pracownikami ochrony zatrudnionymi na podstawie umowy o pracę. Sposób udokumentowania zatrudnienia pracowników, uprawnienia Zamawiającego w zakresie kontroli spełnienia przez Wykonawcę wymagań oraz sankcje z tytułu niespełnienia określonych wymagań zostały zawarte w Projektowanych postanowieniach umowy stanowiących załącznik nr 1 do SWZ. 6. Jeżeli Wykonawca zamierza powołać się na urzędowy certyfikat, o którym mowa w ustawie z dnia 5 sierpnia 2025 r. o certyfikacji wykonawców zamówień publicznych, zobowiązany jest wskazać to w części II sekcji A Jednolitego Europejskiego Dokumentu Zamówienia (załącznik nr 6 do SWZ), podając: numer i oznaczenie certyfikatu, pełną nazwę podmiotu certyfikującego, który wydał dokument, okres ważności certyfikatu oraz dokładny zakres podstaw wykluczenia lub warunków udziału w odniesieniu, do których Wykonawca powołuje się na ten certyfikat.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:589014-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "589014-2026",
+   "publication_date": "2026-08-26",
+   "scores": {
+    "ochrona": 9
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Ochrona fizyczna osób i mienia na terenach Sekcji Spółki KM",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/589014-2026",
+   "value": null
+  },
+  {
    "buyer": "Dolnośląska Służba Dróg i Kolei we Wrocławiu",
    "categories": [
     "sprzatanie"
@@ -2657,6 +3260,18 @@
    "deadline": "2026-09-08",
    "description": "ZIMOWE UTRZYMANIE DRÓG WOJEWÓDZKICH w sezonie 2026/2027, 2027/2028, 2028/2029 dla Rejonu Dróg Legnica. - Zadanie nr 1 – Obwód Drogowy Chocianów I. Szczegółowy opis przedmiotu zamówienia zawiera SWZ.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/589987-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591426-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591500-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/589987-2026"
@@ -2821,6 +3436,33 @@
    "value": null
   },
   {
+   "buyer": "Kliniczny Szpital Wojewódzki im. Św. Jadwigi Królowej w Rzeszowie",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-02",
+   "description": "Szczegółowy opis przedmiotu zamówienia zamieszczony jest w Załączniku Nr 5 (Opis przedmiotu zamówienia) oraz w Załączniku nr 6 (Wykaz posterunków).",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:588781-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL823",
+   "native_id": "588781-2026",
+   "publication_date": "2026-08-26",
+   "scores": {
+    "ochrona": 7
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – ŚWIADCZENIE USŁUG W ZAKRESIE OCHRONY OSÓB I MIENIA KLINICZNEGO SZPITALA WOJEWÓDZKIEGO IM. ŚW. JADWIGI KRÓLOWEJ W RZESZOWIE, W TYM WYKONYWANIE USŁUGI MONITOROWANIA POMIESZCZEŃ WOJEWÓDZKIEJ PRZYCHODNI SPECJALISTYCZNEJ DLA DZIECI.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/588781-2026",
+   "value": null
+  },
+  {
    "buyer": "Gmina Ropczyce",
    "categories": [
     "sprzatanie"
@@ -2864,6 +3506,10 @@
    "deadline": "2026-09-14",
    "description": "Przedmiotem zamówienia jest utrzymanie czystości w pasach drogowych miasta Radomia – rejon południowo - wschodni. Zamówienie obejmuje: - oczyszczanie jezdni - 1.767,35 km, - oczyszczanie terenów zielonych i klepisk w pasach drogowych - 7.166.283,15 m2, - letnie oczyszczanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 1.812.452,20 m2, - zimowe utrzymanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 7.277.940,00 m2, - letnie utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 246.545,65 m2, - zimowe utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 910.323,00 m2, - obsługę koszy ulicznych - 90.720 szt., - punktowe oczyszczanie kratek ściekowych - 50 szt., - likwidację dzikich wysypisk śmieci w pasie drogowym - 10 Mg.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
@@ -3213,6 +3859,98 @@
    "value": null
   },
   {
+   "buyer": "Służba Ochrony Państwa",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "32320000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-10",
+   "description": "Przedmiotem zamówienia jest dostawa pierwszego wyposażenia budynku w ścianę wizyjną wraz z montażem zgodnie z opisem przedmiotu zamówienia zawartym w załączniku nr 1a do SWZ oraz na warunkach określonych w SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:587039-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL911",
+   "native_id": "587039-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Sprzęt telewizyjny i audiowizualny – Dostawa pierwszego wyposażenia budynku w ścianę wizyjną wraz z montażem.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/587039-2026",
+   "value": null
+  },
+  {
+   "buyer": "25. Wojskowy Oddział Gospodarczy w Białymstoku.",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-24",
+   "description": "zadanie nr 1 - m. Białystok, Szudziałowo",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:586611-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL841",
+   "native_id": "586611-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "ochrona": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Outsourcing w zakresie SUFO w podziale na 3 zadania",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/586611-2026",
+   "value": null
+  },
+  {
+   "buyer": "PRZEDSIĘBIORSTWO KOMUNALNE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "30200000",
+    "32420000",
+    "32422000",
+    "35100000",
+    "35121000",
+    "48000000",
+    "48210000",
+    "48600000",
+    "48730000",
+    "48732000",
+    "48820000",
+    "48821000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-29",
+   "description": "1. Przedmiot zamówienia jest finansowany ze środków Programu Krajowy Plan Odbudowy i Zwiększania Odporności, Priorytet: C3 Cyberbezpieczeństwo. Działanie: C3.1.1. Cyberbezpieczeństwo – CyberPL. 2. Projekt ma na celu wzmocnienie cyberodporności poprzez modernizację infrastruktury oraz rozwój kompetencji zespołów. W ramach projektu zrealizowane zostaną działania: 1) Modernizacja infrastruktury sieciowej: Wdrożenie segmentacji i mikrosegmentacji sieci IT/OT, co umożliwi izolację newralgicznych systemów i minimalizację potencjalnych szkód w przypadku ataku. Zostanie również wdrożony system monitorowania ruchu sieciowego (IDS/IPS). Umożliwi on gromadzenie logów systemowych i dowodów cyfrowych niezbędnych do analizy incydentów. 2) Wdrożenie bezpiecznych zdalnych dostępów: Wprowadzenie scentralizowanego i bezpiecznego systemu zdalnego dostępu, który pozwoli na kontrolę i audytowanie połączeń z sieciami OT/IT. 3) Zapewnienie ciągłości działania: Zostanie wdrożony system do tworzenia i zarządzania kopiami zapasowymi, w tym również dla systemów sterowania, co zapewni szybki powrót do sprawności w przypadku incydentu. 3. Projekt jest zgodny z priorytetami KPO i Zwiększania Odporności, a w szczególności z celem Transformacji Cyfrowej. Inwestycja w nowoczesne technologie cyberbezpieczeństwa jest kluczowym elementem w dążeniu do stworzenia bezpiecznej infrastruktury krytycznej, zapewniającej ciągłość świadczenia usług publicznych. 4. Wdrożenie Części II projektu (Obszar kompetencyjny oraz obszar techniczny IT )polega na realizacji zadań: 1) Zadanie 1. Szkolenia z zakresu cyberbezpieczeństwa - szkolenia specjalistyczne dla kadry zarządzającej i informatyków w zakresie zastosowanych (planowanych do zastosowania) środków bezpieczeństwa w ramach Projektu grantowego IT/OT/ICS. 2) Zadanie 2. Oprogramowanie do badania podatności. 3) Zadanie 3. Oprogramowanie do ochrony przed ransomware. 4) Zadanie 4. Oprogramowanie typu EDR (Endpoint Detection and Response). 5) Zadanie 5. Urządzenie i oprogramowanie typu NDR z HoneyPot i monitorem sytuacyjnym (Network Detection & Response). 6) Zadanie 6. Wdrożenie urządzeń/oprogramowania/rozwiązania z zakresu bezpieczeństwa. Dotyczy to również rozwiązań typu open source IT/ICS/IIoT. 7) Zadanie 7. System typu UTM dla sieci IT HA Przedmiot zamówienia. 8) Zadanie 8. Usługi konfiguracji i hardeningu systemów/urządzeń IT. 9) Zadanie 9. Stacja robocza fizyczna z rolą stacji przesiadkowej (broker sesji) + dwa monitory 27 cali - 1 komplet. 10) Zadanie 10. Usługa segmentacji sieci . 11) Zadanie 11. Serwer do wykonywania kopii zapasowych (NAS). 12) Zadanie 12. Zarządzalny switch L2, 48p GE PoE + 4× SFP+ (2 szt.). 13) Zadanie 13. Zarządzalny switch L2, 48p GE PoE + 4× SFP+ (1 szt.). 14) Zadanie 14. Access Point WiFi z obsługą standardu 802.1x oraz WPA3-Enterprise. 15) Zadanie 15. Oprogramowanie typu ITSM (Information Technology Service Management). 16) Zadanie 16. Oprogramowanie typu MDM (Mobile Device Management) Przedmiot zamówienia. 17) Zadanie 17. Oprogramowanie przeciwdziałającemu wyciekowi danych (DLP - Data Leak Prevention). 18) Zadanie 18. Usługa typu MDR (Managed Detection and Response) IT/OT/ICS/IIoT. 19) Zadanie 19. Oprogramowanie do zarządzania tożsamością i dostępem. 20) Zadanie 20. Oprogramowanie lub urządzenie typu MFA (dwu-/wieloskładnikowe uwierzytelnianie). 21) Zadanie 21. Klucze sprzętowe U2F. 22) Zadanie 22. Usługa inwentaryzacji aktywów teleinformatycznych IT . 23) Zadanie 23. Dostawa sprzętowych sondy/sensory do monitorowania sieci OT (dedykowane urządzenia do analizy protokołów przemysłowych). 24) Zadanie 24. Dostawa sprzętowych sondy/sensory do monitorowania sieci OT (dedykowane urządzenia do analizy protokołów przemysłowych). 25) Zadanie 25. Oprogramowanie / licencje IDS (Intrusion Detection System) dedykowany sieciom OT. Oprogramowanie zintegrowany System bezpieczeństwa-Industrial Central Management dla OT, Anomaly Detection, Threat Detection, Data Traceability Control, Anti DDOS, APT (Advanced Persistent Threat), SIEM, SOAR, Active Dashboards, Central FW MGMT, Alarm Risk MGMT. 26) Zadanie 26. UTM (Unified Threat Management) Platforma sprzętowa DIN35 lub desktop - System bezpieczeństwa IPS/IDS, IT/OTAnomaly Detection, Threat Detection, Data Traceability Control, SDN, Anti DDOS, Anti APT (Advanced Persistent Threat), AI MGMT, ZBFW. 27) Zadanie 27. Usługa Private APN. 28) Zadanie 28. Usługa inwentaryzacji aktywów teleinformatycznych OT/ICS/IIoT. 29) Zadanie 29. Zaprojektowanie rozwiązania z zakresu bezpieczeństwa z doborem urządzeń, oprogramowania i usług wdrożenia i eksploatacji IT/OT/ICS/IoT. 30) Zadanie 30. Wdrożenie urządzeń/oprogramowania/rozwiązania z zakresu bezpieczeństwa. Dotyczy to również rozwiązań typu open source IT/OT/ICS/IIo. 31) Zadanie 31. Testy bezpieczeństwa infrastruktury sieciowej IT/OT/ICS/IIoT. 32) Zadanie 32. Usługi konfiguracji i hardeningu systemów/urządzeń OT/ICS/IIoT. 5. Opis przedmiotu zamówienia wraz z określeniem minimalnych wymagań został przedstawiony w Załączniku nr 2 do SWZ – Szczegółowy Opis Przedmiotu Zamówienia (SOPZ).",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:586560-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL842",
+   "native_id": "586560-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "ochrona": 3
+   },
+   "source": "ted",
+   "title": "Polska – Urządzenia komputerowe – Zwiększenie cyberodporności i ciągłości działania Przedsiębiorstwa Komunalnego Sp. z o.o. w Siemiatyczach. Część II - Obszar kompetencyjny oraz obszar techniczny IT.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/586560-2026",
+   "value": null
+  },
+  {
    "buyer": "Urząd Miasta i Gminy Piaseczno",
    "categories": [
     "catering"
@@ -3238,6 +3976,33 @@
    "title": "Polska – Żywność, napoje, tytoń i produkty pokrewne – Dostawa żywności do Szkoły Podstawowej im. Janusza Korczaka w Józefosławiu przy ul. Kameralna 11",
    "url": "https://ted.europa.eu/pl/notice/-/detail/586111-2026",
    "value": null
+  },
+  {
+   "buyer": "Śląski Urząd Wojewódzki w Katowicach",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "35112000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-10",
+   "description": "Przedmiotem zamówienia jest dostawa 13 kompletów elektronicznych syren alarmowych wykorzystywanych w wojewódzkim systemie alarmowym i ostrzegawczym ludności nadzorowanym przez Wojewódzkie Centrum Zarządzania Kryzysowego - 9 kpl. elektronicznych syren alarmowych o minimalnym, dookólnym natężeniu dźwięku w odległości 30m – 112 dB (przy średnim miejskim natężeniu hałasu – 70 dB) i minimalnej mocy 900W; - 1 kpl. elektronicznej syreny alarmowej o minimalnym, dookólnym natężeniu dźwięku w odległości 30m – 115 dB (przy średnim miejskim natężeniu hałasu – 70 dB) o minimalnej mocy 1200W; - 3 kpl. elektronicznych syren alarmowych o minimalnym, dookólnym natężeniu dźwięku w odległości 30m – 112 dB (przy średnim miejskim natężeniu hałasu – 70 dB) i minimalnej mocy 900W. Szczegółowe wymagania dotyczące opisu przedmiotu zamówienia zawiera Załącznik nr 2 do SWZ – Formularz asortymentowo-cenowy wraz z opisem przedmiotu zamówienia, (w skrócie OPZ), w którym Zamawiający określił wymagania jakościowe odnoszące się do głównych elementów składających się na przedmiot zamówienia. Szczegółowy sposób realizacji zamówienia został określony w załączniku nr 1 do SWZ stanowiącym ogólne warunki umowy",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:586016-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL22A",
+   "native_id": "586016-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Sprzęt ratunkowy i awaryjny – Dostawa elektronicznych syren alarmowych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/586016-2026",
+   "value": 425203.25
   },
   {
    "buyer": "Instytut Rybactwa Śródlądowego im. Stanisława Sakowicza – Państwowy Instytut Badawczy",
@@ -3377,6 +4142,33 @@
    "value": 1125267.42
   },
   {
+   "buyer": "Miejski Zarząd Ulic i Mostów",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-29",
+   "description": "Przedmiotem niniejszego zamówienia jest świadczenie przez Wykonawcę na rzecz Zamawiającego usług stałej, bezpośredniej ochrony fizycznej mienia parkingów wielopoziomowych administrowanych przez Miejski Zarząd Ulic i Mostów w Tychach. Dane obiektów podlegających ochronie: Obiekt nr 1 – parking wielopoziomowy 4-kondygnacyjny podziemny położony przy ul. Dąbrowskiego o powierzchni 10 837,62 m2. Obiekt nr 2 – parking wielopoziomowy 4-kondygnacyjny naziemny położony przy ul. Andersa/Asnyka o powierzchni 11 255,84 m2. Obiekt nr 3 – parking wielopoziomowy 2-kondygnacyjny naziemny położony u zbiegu ulicy Wyszyńskiego z ulicą Edukacji o powierzchni 3 448,80 m2. Przedmiot usługi w trakcie trwania umowy realizowany będzie całodobowo przez 7 dni w tygodniu przez jednego pracownika ochrony na każdym z obiektów. Ochrona obiektu wykonywana będzie siłami Wykonawcy w oparciu o: - zakres obowiązków pracownika ochrony, - instrukcje dostarczone przez Zamawiającego regulujące zasady pracy na obiektach. Szczegółowy opis zamówienia oraz sposób jego wykonania określony jest w Opisie przedmiotu zamówienia oraz w Projektowanych postanowieniach umowy, opracowanych dla potrzeb niniejszego zamówienia stanowiących odpowiednio załącznik nr 2 oraz 7 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585428-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL22C",
+   "native_id": "585428-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "ochrona": 9
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Ochrona mienia parkingów wielopoziomowych administrowanych przez Miejski Zarząd Ulic i Mostów w Tychach w latach 2027 – 2028",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585428-2026",
+   "value": 2119208.48
+  },
+  {
    "buyer": "Uniwersytet Warszawski",
    "categories": [
     "sprzatanie"
@@ -3430,6 +4222,33 @@
    "source": "ted",
    "title": "Polska – Środki antyseptyczne i dezynfekcyjne – ŚRODKI DEZYNFEKCYJNE W PAKIETACH I – V DLA APTEKI SZPITALNEJ W ZESPOLE OPIEKI ZDROWOTNEJ W DĘBICY",
    "url": "https://ted.europa.eu/pl/notice/-/detail/585180-2026",
+   "value": null
+  },
+  {
+   "buyer": "Enea Elektrownia Połaniec sp. z o.o.",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-04",
+   "description": "Świadczenie usług ochrony osób, mienia, terenów i obiektów Enea Elektrownia Połaniec sp. z o.o. realizowanych przez specjalistyczną uzbrojoną formację ochronną (SUFO)",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:585116-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL722",
+   "native_id": "585116-2026",
+   "publication_date": "2026-08-25",
+   "scores": {
+    "ochrona": 5
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Świadczenie usług ochrony osób, mienia, terenów i obiektów Enea Elektrownia Połaniec sp. z o.o. realizowanych przez specjalistyczną uzbrojoną formację ochronną (SUFO)",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/585116-2026",
    "value": null
   },
   {
@@ -3943,6 +4762,14 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/593691-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591769-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/593691-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -3986,6 +4813,34 @@
    "title": "Polska – Polowe racje żywnościowe – DOSTAWA – GRUPOWA RACJA ŻYWNOŚCIOWA ”PS”",
    "url": "https://ted.europa.eu/pl/notice/-/detail/583919-2026",
    "value": 458895038.0
+  },
+  {
+   "buyer": "Uniwersytet Przyrodniczy we Wrocławiu",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000",
+    "79713000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-25",
+   "description": "1. Rodzaj zamówienia: usługa 2. Przedmiotem zamówienia jest świadczenie usług fizycznej ochrony osób i mienia Uniwersytetu Przyrodniczego we Wrocławiu, realizowanych w zastępstwie pracowników etatowych Zamawiającego na stanowiskach portierni i szatni zlokalizowanych w obiektach wskazanych w OPZ, w okresie podstawowym wynoszącym 731 kolejnych dni kalendarzowych, z możliwością maksymalnie czterokrotnego wznowienia realizacji zamówienia, każdorazowo na okres kolejnych 6 miesięcy, przy czym ostatni okres wznowienia może ulec odpowiedniemu skróceniu zgodnie z Projektowanymi Postanowieniami Umowy. 3. Usługa obejmuje w szczególności: 1) obsługę portierni w 23 obiektach, zgodnie z harmonogramami ich funkcjonowania; 2) obsługę portierni połączonych z obsługą szatni; 3) obsługę szatni w 5 obiektach UPWr, obejmujących łącznie 6 lokalizacji; 4) zapewnienie zastępstwa pracowników Zamawiającego w przypadkach i na zasadach określonych w opisie przedmiotu zamówienia. 4. Szczegółowy zakres przedmiotu zamówienia, w tym: 1) wykaz obiektów, portierni i szatni; 2) dni i godziny świadczenia usługi; 3) zasady sporządzania i przekazywania harmonogramów; 4) zasady uruchamiania zastępstw doraźnych; 5) zakres czynności wykonywanych na portierniach i w szatniach; 6) wymagania dotyczące personelu oraz organizacji realizacji usługi – określa Opis przedmiotu zamówienia, zwany dalej „OPZ”, stanowiący Załącznik nr 1.1 do SWZ. 5. Szczegółowe prawa i obowiązki Stron, zasady realizacji i rozliczania usług oraz odpowiedzialność Wykonawcy określają Projektowane postanowienia umowy, zwane dalej „PPU”, stanowiące Załącznik nr 8 do SWZ. 6. Miejscem realizacji zamówienia są obiekty Uniwersytetu Przyrodniczego we Wrocławiu wskazane w OPZ, stanowiącym Załącznik nr 1.1 do SWZ. 7. Zamawiający nie dopuszcza składania ofert częściowych. Oferta musi obejmować cały przedmiot zamówienia, w tym wszystkie portiernie, szatnie, posterunki oraz godziny świadczenia usług określone w OPZ. 8.Oferta musi być jednoznaczna i kompletna, a jej treść musi umożliwiać Zamawiającemu zweryfikowanie zgodności oferowanego sposobu realizacji zamówienia z wymaganiami określonymi w SWZ i jej załącznikach. 9. Wykonawca zobowiązany jest realizować przedmiot zamówienia z należytą starannością, zgodnie z obowiązującymi przepisami prawa, postanowieniami SWZ i jej załączników, obowiązującymi w obiektach procedurami oraz poleceniami upoważnionych przedstawicieli Zamawiającego",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583871-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL514",
+   "native_id": "583871-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "ochrona": 12
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Świadczenie usług ochrony osób i mienia Uniwersytetu Przyrodniczego we Wrocławiu w zastępstwie pracowników etatowych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583871-2026",
+   "value": null
   },
   {
    "buyer": "Szpital Specjalistyczny im. J. Dietla w Krakowie",
@@ -4228,6 +5083,33 @@
    "value": 648741.44
   },
   {
+   "buyer": "Małopolski Urząd Wojewódzki w Krakowie",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "34971000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-21",
+   "description": "1. Przedmiotem zamówienia jest dostawa i montaż fabrycznie nowych, wyprodukowanych nie wcześniej niż w 2026 roku urządzeń wykorzystywanych przez Straż Graniczną i porty lotnicze do zapewnienia bezpieczeństwa w strefach zastrzeżonych i wsparcia procesu odpraw. W ramach zintegrowanego systemu bezpieczeństwa kamery współpracują z systemami kontroli dostępu i biometryczną weryfikacją tożsamości podczas przekraczania granicy. EES to nowy europejski system zarządzania granicami umożliwiający rejestrowanie obywateli państw spoza UE, udających się na krótki pobyt na terenie UE, za każdym razem gdy przekraczają granice zewnętrzne 29 krajów europejskich. Kamera służy wykonaniu zdjęcia twarzy przy pierwszym przekroczeniu granicy, a przy kolejnych polega na zeskanowaniu twarzy i wraz z pozyskanymi odciskami palców i dokumentów umożliwia potwierdzenie tożsamości pasażera. Dane te są trwale zapisywane w systemie. 2. Szczegółowy opis przedmiotu zamówienia oraz warunki realizacji zamówienia zostały określone w załącznikach do SWZ: załącznik nr 1 do SWZ - opis przedmiotu zamówienia, załącznik nr 2 do SWZ - projektowane postanowienia umowy. 3. Oznaczenie przedmiotu zamówienia według Wspólnego Słownika Zamówień (CPV): główny przedmiot: a) 34971000-4 – Urządzenia bezpośredniego monitorowania b) dodatkowe przedmioty: --- 4. Termin związania ofertą upływa dnia 19.12.2026 r. 5. W prowadzonym postępowaniu, w oparciu o art. 139 ust. 1 w związku z art. 139 ust. 2 ustawy Pzp, Zamawiający najpierw dokona badania i oceny złożonych ofert, a następnie dokona kwalifikacji podmiotowej Wykonawcy, którego oferta została najwyżej oceniona, w zakresie braku podstaw wykluczenia w postępowaniu, opisanych w rozdziale VIII SWZ. 6. Zamawiający wymaga, aby oferowane świadczenie, w tym wszystkie produkty ICT, usługi ICT oraz procesy ICT wykorzystywane do realizacji zamówienia, zarówno jako elementy główne, jak i komponenty, elementy środowiska świadczenia usługi lub rozwiązania towarzyszące, nie obejmowało: a) produktów ICT, usług ICT lub procesów ICT wskazanych w rekomendacji, o której mowa w art. 33 ust. 4 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, stwierdzającej ich negatywny wpływ na podstawowy interes bezpieczeństwa państwa; b) produktu ICT, którego typ został określony w decyzji w sprawie uznania dostawcy za dostawcę wysokiego ryzyka, o której mowa w art. 67b ust. 15 ustawy z dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, ani usług ICT lub procesów ICT określonych w tej decyzji. Niespełnienie powyższego wymagania skutkuje odrzuceniem oferty odpowiednio na podstawie art. 226 ust. 1 pkt 17 albo pkt 19 ustawy Pzp.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:583251-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL213",
+   "native_id": "583251-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Urządzenia bezpośredniego monitorowania – Dostawa i montaż urządzeń do rejestracji biometrycznej na potrzeby EES (Kamery) do dokonywania odprawy granicznej Non-Schengen na kierunku przylotowym – 9 szt.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/583251-2026",
+   "value": null
+  },
+  {
    "buyer": "Specjalistyczne Centrum Medyczne im. św. Jana Pawła II Spółka Akcyjna",
    "categories": [
     "catering"
@@ -4324,6 +5206,42 @@
    "title": "Polska – Usługi sprzątania – Usługi sprzątania w obiektach Muzeum Wojska Polskiego",
    "url": "https://ted.europa.eu/pl/notice/-/detail/582927-2026",
    "value": 1073118.2
+  },
+  {
+   "buyer": "Miejskie Przedsiębiorstwo Wodociągów i Kanalizacji Spółka Akcyjna",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "45252100",
+    "71320000",
+    "71000000",
+    "45220000",
+    "45100000",
+    "45200000",
+    "45300000",
+    "45310000",
+    "45400000",
+    "45231000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-28",
+   "description": "1. Przedmiotem zamówienia jest zaprojektowanie i wykonanie robót budowlanych dot. budowy kompletnego modułu przygotowania odpadów biodegradowalnych do procesu kofermentacji w WKF na WOŚ, w tym: 1.1. Zakres prac projektowych obejmuje w szczególności: 1) opracowanie projektu wstępnego, 2) opracowanie projektu budowlanego wraz z uzyskaniem wszelkich wymaganych decyzji administracyjnych, uzgodnień i opinii, w tym ostatecznej decyzji o pozwoleniu na budowę, 3) opracowanie projektu technicznego, 4) opracowanie projektów wykonawczych, 5) opracowanie projektu rozruchu, 6) opracowanie kosztorysu rozliczeniowego. 1.2. Zakres robót budowlanych obejmuje w szczególności wykonanie: 1) budynku przygotowania odpadów biodegradowalnych, 2) zbiorników przyjęcia i przygotowania odpadów biodegradowalnych, 3) zbiornika buforowego odpadów po pasteryzacji, 4) filtra powietrza złowonnego, 5) wagi samochodowej, 6) instalacji stanowiących wyposażenie obiektów, w szczególności: a) instalacji transportu odpadów, b) instalacji opróżniania beczek z odpadami, c) instalacji opróżniania paletopojemników z odpadami, d) instalacji węża ssawnego z koszem, e) instalacji do mycia/płukania urządzeń, armatury i rurociągów wodą gorącą pod ciśnieniem, f) instalacji do mycia/płukania urządzeń, armatury i rurociągów wodą zimną pod ciśnieniem, g) instalacji dozowania środków chemicznych do rozpuszczania tłuszczy, h) instalacji wodociągowej, i) instalacji wody technologicznej, j) instalacji kanalizacji zakładowej sanitarnej i deszczowej , k) instalacji ciepła procesowego , wykorzystującej energię z kogeneracji oraz instalacji rezerwowej, l) instalacji elektrycznych ogólnych, w tym m.in. zasilających, oświetlenia zewnętrznego, wewnętrznego, awaryjnego itd. m) instalacji CCTV, SSWIN oraz kontroli dostępu (SKD), n) instalacja wyłącznika przeciwpożarowego, o) instalacja monitoringu, 7) instalacji elektrycznych technologicznych oraz automatyki i AKPiA, 8) rozbudowy istniejącego układ wizualizacji energetycznej SYNDIS RV, 9) rozbudowy istniejącego system SCADA typu EcoStruxure v. 3.2., 10) kompletnych układów dróg wewnętrznych i placów manewrowych, wraz z powiązanie z istniejącym układem komunikacyjnym, 11) innych obiektów, urządzeń i instalacji niezbędnych do prawidłowej realizacji przedmiotu Umowy. 1.3. Zakres robót budowlanych obejmuje również wykonanie wszystkich prac tymczasowych i towarzyszących oraz dostaw i usług niezbędnych do osiągnięcia celu inwestycji i jej prawidłowego funkcjonowania, nawet jeśli nie zostały one wyraźnie wskazane w ust. 3 niniejszego paragrafu. 1.4. W ramach realizacji przedmiotu Umowy Wykonawca zobowiązany jest również do: 1) uzyskania decyzji o pozwoleniu na użytkowanie, 2) pełnienie nadzoru autorskiego, 3) zapewnienie prowadzenia nadzoru archeologicznego i saperskiego – w zakresie wymaganym przepisami prawa lub warunkami realizacji robót. 2. Szczegółowe wymagania Zamawiającego dotyczące przedmiotu zamówienia zostały zawarte w Opisie przedmiotu zamówienia, stanowiącym zał. nr 1 do SWZ., tj. Programem Funkcjonalno–Użytkowym pn. „Zaprojektowanie i budowa budynku przygotowania odpadów biodegradowalnych do procesu kofermentacji w WKF wraz ze zbiornikami i infrastrukturą towarzyszącą oraz rozruchem procesu na terenie Wrocławskiej Oczyszczalni Ścieków, na działkach o nr: 2/12; 2/15; a.m. 7 obręb 026401_1.0043 Pracze Odrzańskie, miasto Wrocław, opracowanym przez E.CORAX Sp. z o.o.. 09.2023, stanowiącym załącznik do Umowy. Program Funkcjonalno-Użytkowy uwzględnia zmiany i uzupełnienia wprowadzone przez Zamawiającego przed wszczęciem postępowania o udzielenie zamówienia publicznego, mające na celu dostosowanie zakresu inwestycji do aktualnych potrzeb oraz wymagań postępowania.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582925-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL514",
+   "native_id": "582925-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Roboty budowlane w zakresie zakładów oczyszczania ścieków – Zaprojektowanie i wykonanie robót budowlanych dot. budowy kompletnego modułu przygotowania odpadów biodegradowalnych do procesu kofermentacji w WKF na WOŚ",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582925-2026",
+   "value": null
   },
   {
    "buyer": "GMINA MUROWANA GOŚLINA",
@@ -4424,6 +5342,34 @@
    "value": 2230076.21
   },
   {
+   "buyer": "European Border and Coast Guard Agency (FRONTEX)",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "73430000",
+    "35120000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-02",
+   "description": "Through this procurement, Frontex is seeking to acquire specialised Services based on the use of High Altitude Platform Systems (HAPS) to support its border surveillance and management activities. In particular, Frontex wants to conduct a Pilot Project to demonstrate the abilities, efficiency and effectiveness (primarily in terms of accuracy, reliability and cost-efficiency) of HAPS in providing persistent surveillance, data fusion, RFI monitoring, and wireless connectivity capabilities over the designated wide Area of Interest. For this purpose, the services requested by Frontex shall consist in the deployment of at least one HAPS over the Area of Interest for a period of 15 consecutive days of continuous operation during the Deployment and Operational Phase of this project.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582852-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "anyw-eea",
+   "native_id": "582852-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "ochrona": 3
+   },
+   "source": "ted",
+   "title": "Polska – Testy i ocena – Pilot Project on Multi-layered Airborne Capabilities for Situational Awareness - HAPS Services for Border Surveillance",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582852-2026",
+   "value": 3200000.0
+  },
+  {
    "buyer": "Szkoła Główna Gospodarstwa Wiejskiego w Warszawie",
    "categories": [
     "catering"
@@ -4450,6 +5396,35 @@
    "title": "Polska – Meble laboratoryjne – Dostawa mebli laboratoryjnych i dygestoriów do budynku Innowacyjnego Centrum Nauk Żywieniowych SGGW w Warszawie.",
    "url": "https://ted.europa.eu/pl/notice/-/detail/582830-2026",
    "value": 9665558.0
+  },
+  {
+   "buyer": "Poczta Polska Spółka Akcyjna",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "85121000",
+    "85147000",
+    "85148000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-07",
+   "description": "Przedmiotem zamówienia jest sprawowanie opieki zdrowotnej nad pracownikami Poczty Polskiej S.A., obsługiwanymi w zakresie kadrowym przez Wydział Regionalny Biura Kadr i Płac we Wrocławiu, na terenie miasta Wałbrzycha i okolic. Wykonawca zobowiązany będzie do sprawowania profilaktycznej opieki zdrowotnej nad pracownikami Poczty Polskiej S.A., po wystąpieniu o wykonanie badań profilaktycznych, w szczególności w zakresie: 1) przeprowadzania badań profilaktycznych pracowników: wstępnych, okresowych i kontrolnych przewidzianych w Kodeksie pracy zgodnie ze wskazówkami metodycznymi przeprowadzania badań profilaktycznych pracowników określonymi w rozporządzeniu z dnia 30 maja 1996r. (Dz. U. z 2023r. poz. 607 z późn. zmianami), jak również innych dodatkowo zleconych przez lekarza przeprowadzającego badanie, zgodnie z obowiązującymi przepisami, 2) przeprowadzania badań psychologicznych do obsługi wózków jezdniowych z napędem silnikowym, używanych w transporcie wewnętrznym (wózki widłowe), 3) przeprowadzenia badań lekarskich i psychologicznych osób ubiegających się o wpis lub posiadających wpis na listę kwalifikowanych pracowników ochrony fizycznej, 4) przeprowadzania badań lekarskich i psychologicznych kierowców prowadzących pojazdy do 3,5 tony oraz pow. 3,5 tony; 5) przeprowadzania badań lekarskich do celów sanitarno-epidemiologicznych; 6) wydawania orzeczeń lekarskich stwierdzających brak przeciwwskazań zdrowotnych do pracy na określonym stanowisku lub przeciwwskazania zdrowotne do pracy na określonym stanowisku zgodnie z obowiązującymi wzorami, 7) monitorowania stanu zdrowia pracowników, w szczególności w celu identyfikacji ewentualnych chorób zawodowych, a także przyczyn wypadków przy pracy, 8) inicjowania działań na rzecz ochrony i promocji zdrowia pracowników oraz udzielanie pomocy w ich realizacji, 9) prowadzenia i przechowywania dokumentacji medycznej z zakresu profilaktycznej opieki zdrowotnej zgodnie z obowiązującymi przepisami, 10) udziału lekarza medycyny pracy w pracach zakładowych komisji BHP. W okresie obowiązywania umowy przedmiotem zamówienia objętych będzie około 834 usług /badań dla pracowników Poczty Polskiej S.A. i kandydatów do pracy w PP S.A.",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:582697-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL517",
+   "native_id": "582697-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "ochrona": 6
+   },
+   "source": "ted",
+   "title": "Polska – Usługi medyczne – BZ.26.393.2026 - WR BKiP Wrocław usługi medycyny pracy - Wałbrzych",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/582697-2026",
+   "value": null
   },
   {
    "buyer": "Gmina Polkowice",
@@ -4713,6 +5688,43 @@
    "value": null
   },
   {
+   "buyer": "Zakład Komunalny Sp. z o.o. w Opolu",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "45000000",
+    "45111200",
+    "45212212",
+    "45212213",
+    "45300000",
+    "44112410",
+    "45310000",
+    "45223300",
+    "45233161",
+    "45332000",
+    "45212200"
+   ],
+   "currency": "",
+   "deadline": "2026-09-30",
+   "description": "Przedmiotem Umowy (Zakresem Gwarantowanym rozumianym jako całość działań niezbędnych do kompleksowego wybudowania, wyposażenia, przeprowadzenia rozruchów technologicznych, prób szczelności oraz przekazania do eksploatacji Aquaparku zgodnie z Projektem (z wyłączeniem elementów wskazanych jako Zakres opcjonalny), w tym w szczególności roboty ogólnobudowlane, instalacyjne, technologiczne, zagospodarowanie terenu oraz uzyskanie ostatecznego pozwolenia na użytkowanie dla Inwestycji) - jest: a) wykonanie Robót budowlanych polegających na budowie obiektu rekreacji wodnej (AQUAPARK) z infrastrukturą towarzyszącą oraz budowa basenów zewnętrznych uzupełniających ofertę AQUAPARKU w Opolu; b) osiągnięcie Parametrów Kontrolnych oraz wykonanie pozostałych obowiązków Wykonawcy wskazanych w SWZ (w tym w Umowie); przy czym szczegółowy zakres Przedmiotu Umowy został opisany w dokumentach zamówienia (SWZ wraz z wszystkimi załącznikami, w tym w Dokumentacji Postępowania), i winien być wykonany zgodnie z informacjami tam podanymi oraz zgodnie z postanowieniami Umowy oraz wszelkimi załącznikami do ww. dokumentów. 3.2. Przedmiot Umowy obejmuje cały proces inwestycyjny, w tym wykonanie Robót budowlanych, dostawę i montaż wszystkich maszyn, urządzeń, instalacji wraz z ich uruchomieniem (przeprowadzeniem rozruchów mechanicznych i technologicznych), osiągnięciem stosownych Parametrów Kontrolnych oraz szkoleniem obsługi Aquaparku, a także przedłożenie dokumentacji odbiorowej, w tym powykonawczej i stosownych instrukcji, odbiór Robót budowlanych oraz uzyskanie ostatecznej decyzji o pozwoleniu na użytkowanie. 3.3. Wykonawca przeprowadzi kompleksowe szkolenie personelu wskazanego przez Zamawiającego przed zgłoszeniem gotowości do odbioru końcowego. Szkolenie obejmie co najmniej obsługę technologii basenowej, systemów uzdatniania wody, HVAC, BMS, systemów bezpieczeństwa, systemów ppoż., alarmowych, kontroli dostępu, systemów biletowych oraz procedury awaryjne. Protokoły ze szkoleń stanowią dokument odbiorowy. 3.4. Powyższy opis przedstawia tylko ogólny zakres. Szczegółowy opis przedmiotu zamówienia zawiera: Opis przedmiotu zamówienia stanowiący załącznik nr 1A do SWZ oraz umowa i został udostępniony pod linkiem: https://zkopole.sharepoint.com/:f:/s/zapytania/IgBNR3VhZLMSRbne58MukV5PAZBYPhjf6IS04W5BZRHf-jA?e=umavHA",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "ted:581852-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "PL524",
+   "native_id": "581852-2026",
+   "publication_date": "2026-08-24",
+   "scores": {
+    "ochrona": 2
+   },
+   "source": "ted",
+   "title": "Polska – Roboty budowlane – Budowa obiektu rekreacji wodnej (AQUAPARK) z infrastrukturą towarzyszącą oraz budowa basenów zewnętrznych uzupełniających ofertę AQUAPARKU w Opolu",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/581852-2026",
+   "value": null
+  },
+  {
    "buyer": "Śląskie Centrum Reumatologii im. gen. Jerzego Ziętka w Ustroniu Sp. z o.o.",
    "categories": [
     "catering"
@@ -4924,6 +5936,6 @@
    "value": null
   }
  ],
- "updated_at": "2026-08-31T18:03:05+00:00",
+ "updated_at": "2026-08-31T18:06:26+00:00",
  "version": 1
 }
