@@ -82,6 +82,11 @@ jobs:
       - name: Przygotuj GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          # Włącza Pages w repozytorium przy pierwszym przebiegu, zamiast
+          # wymagać ręcznego kliknięcia w Settings. Przy kolejnych
+          # uruchomieniach nie robi nic — korzysta z istniejącej konfiguracji.
+          enablement: true
 
       - name: Zbuduj stronę
         run: python -m przetargi build
