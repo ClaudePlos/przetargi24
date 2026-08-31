@@ -420,3 +420,36 @@ def test_limit_zadania_nie_przekracza_reszty_budzetu(monkeypatch):
     monkeypatch.setattr(base.time, "monotonic", lambda: 1e9)
     # Po wyczerpaniu budżetu zostaje minimalny limit, nie zero.
     assert ctx.limit_czasu_zadania() == 5.0
+
+
+def test_zrodlo_moze_miec_wlasny_zakres_dni():
+    """BZP obsługuje wąskie okno, żeby nie robić setek żądań na przebieg."""
+    config = {**BZP_CONFIG, "method": "GET", "lookback_days": 2,
+              "params": {"Od": "{date_from}", "Do": "{date_to}"}}
+    ctx = _kontekst([[]])  # date_from = 2026-08-24, date_to = 2026-08-31
+    zapisane = {}
+
+    def przechwyc(url, **kwargs):
+        zapisane.update(kwargs.get("params") or {})
+        return []
+
+    ctx.http.get_json = przechwyc
+    list(GenericJsonSource("bzp", config).fetch(ctx))
+
+    # Zakres skrócony do dwóch dni wstecz od daty końcowej.
+    assert zapisane["Od"] == "2026-08-29"
+    assert zapisane["Do"] == "2026-08-31"
+
+
+def test_bez_wlasnego_zakresu_obowiazuje_globalny():
+    config = {**BZP_CONFIG, "method": "GET", "params": {"Od": "{date_from}"}}
+    ctx = _kontekst([[]])
+    zapisane = {}
+
+    def przechwyc(url, **kwargs):
+        zapisane.update(kwargs.get("params") or {})
+        return []
+
+    ctx.http.get_json = przechwyc
+    list(GenericJsonSource("bzp", config).fetch(ctx))
+    assert zapisane["Od"] == "2026-08-24"

@@ -32,7 +32,12 @@ sources:
     url: "https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search"
     method: GET
     page_size: 10
-    max_pages: 200
+    # Przy 10 pozycjach na żądanie i wolnej odpowiedzi tygodniowy zakres
+    # oznaczałby setki żądań i kilkanaście minut przebiegu. Własne, wąskie
+    # okno załatwia to samo w kilkadziesiąt żądań — przy codziennym
+    # uruchomieniu 2 dni dają zapas na jeden nieudany przebieg.
+    lookback_days: 2
+    max_pages: 60
     first_page: 1
     params:
       PageNumber: "{page}"

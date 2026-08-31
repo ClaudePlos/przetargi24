@@ -64,6 +64,12 @@ class GenericJsonSource(Source):
         # Nadpisanie globalnego `fetch.max_pages` — źródło z małą stroną
         # potrzebuje ich więcej, żeby objąć ten sam zakres dni.
         self.max_pages = int(self.config["max_pages"]) if "max_pages" in self.config else None
+        # Własny zakres dni. Źródło z drobną stroną i wolną odpowiedzią
+        # obsłuży wąskie okno w kilkadziesiąt żądań zamiast w kilkaset,
+        # a przy dobowym cyklu 2 dni i tak dają zapas na nieudany przebieg.
+        self.lookback_days = (
+            int(self.config["lookback_days"]) if "lookback_days" in self.config else None
+        )
         self.first_page = int(self.config.get("first_page", 1))
         self.date_format = str(self.config.get("date_format", "%Y-%m-%d"))
         self.static_params: dict[str, Any] = self.config.get("params") or {}
@@ -122,15 +128,18 @@ class GenericJsonSource(Source):
                 break
 
     def _request(self, ctx: FetchContext, page: int) -> Any:
+        date_from = ctx.date_from
+        if self.lookback_days is not None:
+            date_from = max(date_from, ctx.date_to - dt.timedelta(days=self.lookback_days))
         placeholders = {
             "page": page,
             "page_size": self.page_size,
-            "date_from": ctx.date_from.strftime(self.date_format),
+            "date_from": date_from.strftime(self.date_format),
             "date_to": ctx.date_to.strftime(self.date_format),
             "offset": (page - self.first_page) * self.page_size,
             # Warianty pełnych znaczników czasu — część API wymaga zakresu
             # od północy do końca dnia, inaczej gubi ogłoszenia z dzisiaj.
-            "date_from_iso": f"{ctx.date_from.isoformat()}T00:00:00.000Z",
+            "date_from_iso": f"{date_from.isoformat()}T00:00:00.000Z",
             "date_to_iso": f"{ctx.date_to.isoformat()}T23:59:59.999Z",
         }
         kwargs: dict[str, Any] = {"timeout": ctx.limit_czasu_zadania()}

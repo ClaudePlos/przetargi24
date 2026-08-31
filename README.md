@@ -161,6 +161,11 @@ Plany postępowań z BZP są pomijane świadomie: pod tym adresem wracają bez
 tytułu, kodów CPV i terminu, więc nie ma czego pokazać ani po czym przypisać
 kategorii.
 
+BZP ma własne, dwudniowe okno (`lookback_days` w `config/sources.yml`).
+Tablica e-Zamówień oddaje tylko 10 rekordów na żądanie i odpowiada wolno,
+więc tygodniowy zakres oznaczałby setki żądań i kilkanaście minut przebiegu.
+Przy codziennym uruchomieniu dwa dni dają zapas na jeden nieudany przebieg.
+
 ### Dodawanie i poprawianie źródeł
 
 Poza adapterem TED (który ma własną składnię zapytań) źródła są **w pełni
@@ -176,6 +181,8 @@ w odpowiedzi to edycja `config/sources.yml`, a nie kodu:
     url: "https://przyklad.pl/api/ogloszenia"
     method: POST                  # albo GET
     page_size: 50
+    max_pages: 60                 # nadpisuje fetch.max_pages
+    lookback_days: 2              # nadpisuje fetch.lookback_days
     result_path: "items"          # ścieżka do listy wyników w odpowiedzi
     body:                         # dla POST; dla GET użyj `params`
       PageNumber: "{page}"
