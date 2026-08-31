@@ -12,7 +12,7 @@
   }
  ],
  "run": {
-  "added": 56,
+  "added": 1,
   "merged": 1,
   "per_category": {
    "catering": 20,
@@ -24,7 +24,7 @@
  },
  "sources": [
   {
-   "duration_seconds": 6.97,
+   "duration_seconds": 9.3,
    "error": "",
    "fetched": 600,
    "homepage": "https://ted.europa.eu",
@@ -33,7 +33,7 @@
    "ok": true
   },
   {
-   "duration_seconds": 0.66,
+   "duration_seconds": 0.65,
    "error": "SourceError: HTTP 405 z https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search — zapytanie odrzucone",
    "fetched": 0,
    "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/list",
@@ -42,7 +42,7 @@
    "ok": false
   },
   {
-   "duration_seconds": 0.15,
+   "duration_seconds": 0.27,
    "error": "SourceError: HTTP 404 z https://ezamowienia.gov.pl/mo-board/api/v1/Board/SearchTenderPlans — zapytanie odrzucone",
    "fetched": 0,
    "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/tender-plans",
@@ -51,5 +51,5 @@
    "ok": false
   }
  ],
- "updated_at": "2026-08-31T12:29:14+00:00"
+ "updated_at": "2026-08-31T12:35:24+00:00"
 }

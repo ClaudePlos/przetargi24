@@ -953,6 +953,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/585667-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/585667-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -1624,6 +1628,6 @@
    "value": null
   }
  ],
- "updated_at": "2026-08-31T12:29:14+00:00",
+ "updated_at": "2026-08-31T12:35:24+00:00",
  "version": 1
 }
