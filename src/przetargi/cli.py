@@ -146,6 +146,7 @@ def _write_job_summary(report, sources) -> None:
         f"- Nowe wpisy: **{report.added}**",
         f"- Zaktualizowane: **{report.updated}**",
         f"- Scalone duplikaty: **{report.merged}**",
+        f"- Odsiane po zmianie reguł: **{report.reclassified}**",
         f"- Usunięte (przeterminowane): **{report.removed}**",
         f"- Razem w bazie: **{report.total}**",
         "",

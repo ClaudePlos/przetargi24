@@ -7,7 +7,7 @@ import logging
 import time
 from typing import Any
 
-from .classify import classify_all
+from .classify import classify, classify_all
 from .config import Config
 from .models import Tender, today
 from .sources import FetchContext, HttpClient, Source, SourceError, SourceResult, build_sources
@@ -44,6 +44,26 @@ def fetch_source(source: Source, ctx: FetchContext) -> tuple[list[Tender], Sourc
         )
         log.error("Źródło %s zawiodło: %s", source.key, exc)
     return tenders, result
+
+
+def reclassify_store(config: Config, store: TenderStore) -> int:
+    """Przelicza kategorie dla całej bazy i usuwa wpisy, które już nie pasują.
+
+    Bez tego zmiana reguł w `config/categories/` działałaby tylko na świeżo
+    pobrane ogłoszenia, a wpisy zapisane pod starymi regułami zostawałyby
+    w portalu z nieaktualną kategorią — także wtedy, gdy nowe reguły uznają
+    je za pomyłkę.
+    """
+    odsiane = []
+    for tender_id, tender in list(store.tenders.items()):
+        classify(tender, config.categories, config.settings)
+        if not tender.categories:
+            odsiane.append(tender_id)
+    for tender_id in odsiane:
+        del store.tenders[tender_id]
+    if odsiane:
+        log.info("Po zmianie reguł odsiano %s wpisów, które przestały pasować", len(odsiane))
+    return len(odsiane)
 
 
 def run_update(
@@ -86,6 +106,7 @@ def run_update(
     )
 
     report = store.merge(matched, reference)
+    report.reclassified = reclassify_store(config, store)
     report.removed = store.prune(settings.retention_days, reference)
     report.total = len(store.tenders)
     report.per_category = {

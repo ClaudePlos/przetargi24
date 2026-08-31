@@ -34,6 +34,7 @@ class UpdateReport:
     updated: int = 0
     removed: int = 0
     merged: int = 0
+    reclassified: int = 0
     total: int = 0
     per_category: dict[str, int] = field(default_factory=dict)
 
@@ -43,6 +44,7 @@ class UpdateReport:
             "updated": self.updated,
             "removed": self.removed,
             "merged": self.merged,
+            "reclassified": self.reclassified,
             "total": self.total,
             "per_category": self.per_category,
         }

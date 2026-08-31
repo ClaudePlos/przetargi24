@@ -21,8 +21,11 @@ Codziennie o 04:17 UTC (06:17 czasu polskiego latem) workflow
 3. scala wynik z bazą w [`data/tenders.json`](data/tenders.json) — nowe wpisy
    dostają datę pierwszego zauważenia, znane są odświeżane, duplikaty z różnych
    źródeł łączone, a przeterminowane usuwane,
-4. zapisuje zmiany commitem do repozytorium,
-5. generuje stronę i publikuje ją na GitHub Pages.
+4. przelicza kategorie dla **całej** bazy, nie tylko dla świeżo pobranych
+   ogłoszeń — dzięki temu zawężenie reguł w `config/categories/` sprząta także
+   wpisy zapisane wcześniej i usuwa te, które przestały pasować,
+5. zapisuje zmiany commitem do repozytorium,
+6. generuje stronę i publikuje ją na GitHub Pages.
 
 Zakres 7 dni przy dobowym cyklu jest celowy: gdy jeden przebieg się nie powiedzie,
 następny nadrobi zaległość zamiast zostawić lukę.
@@ -157,6 +160,9 @@ wyrazu**, co jest kluczowe przy polskiej odmianie:
 
 Gwiazdka nie przeskakuje spacji, więc fraza dwuwyrazowa wymaga sąsiadujących
 wyrazów. Dzięki temu wykluczenia nie odsiewają przypadkiem właściwych ogłoszeń.
+
+Zmiana reguł działa wstecz: najbliższy przebieg przelicza kategorie dla całej
+bazy, więc zawężenie listy słów usuwa też wpisy złapane wcześniej przez pomyłkę.
 
 Po edycji warto sprawdzić konfigurację lokalnie:
 

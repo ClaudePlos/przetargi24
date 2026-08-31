@@ -157,3 +157,41 @@ def test_klient_nie_ponawia_bledu_4xx(monkeypatch):
     with pytest.raises(SourceError, match="odrzucone"):
         klient.get_json("https://example.invalid")
     assert len(proby) == 1
+
+
+def test_zmiana_regul_usuwa_wpisy_ktore_przestaly_pasowac(config, tmp_path, monkeypatch):
+    """Zawężenie kategorii musi posprzątać także to, co już jest w bazie.
+
+    Bez tego wpis zapisany pod starą regułą zostawałby w portalu na zawsze,
+    bo przebieg klasyfikuje wyłącznie świeżo pobrane ogłoszenia.
+    """
+    monkeypatch.setattr("przetargi.pipeline.build_sources", lambda _: [ZrodloDzialajace()])
+
+    store = TenderStore(tmp_path / "t.json")
+    # Wpis, który nigdy nie pasowałby do żadnej kategorii, ale ma ją zapisaną.
+    store.tenders["stary:1"] = Tender(
+        id="stary:1", source="stary", native_id="1",
+        title="Budowa mostu przez rzekę", buyer="Gmina Z",
+        publication_date=REF.isoformat(), categories=["sprzatanie"],
+    )
+    raport, _ = run_update(config, store, REF)
+
+    assert "stary:1" not in store.tenders
+    assert raport.reclassified == 1
+
+
+def test_przeklasyfikowanie_zachowuje_wpisy_nadal_pasujace(config, tmp_path, monkeypatch):
+    monkeypatch.setattr("przetargi.pipeline.build_sources", lambda _: [ZrodloDzialajace()])
+
+    store = TenderStore(tmp_path / "t.json")
+    store.tenders["stary:2"] = Tender(
+        id="stary:2", source="stary", native_id="2",
+        title="Sprzątanie hali sportowej", buyer="Gmina Y",
+        publication_date=REF.isoformat(), categories=[],
+    )
+    raport, _ = run_update(config, store, REF)
+
+    assert "stary:2" in store.tenders
+    # Kategoria zostaje uzupełniona przy okazji przeliczenia.
+    assert store.tenders["stary:2"].categories == ["sprzatanie"]
+    assert raport.reclassified == 0
