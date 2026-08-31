@@ -15,33 +15,42 @@ match:
     - "7971"       # usługi ochroniarskie, strażnicze, patrolowe, nadzór alarmowy
     - "98341140"   # usługi dozorowania
     - "35120"      # systemy i urządzenia nadzoru i bezpieczeństwa
-    - "35121"      # urządzenia bezpieczeństwa, systemy alarmowe
+    # Celowo nie cały dział 35121: ogólne „urządzenia bezpieczeństwa”
+    # (35121000) dołączane są do pakietów zakupów IT w projektach
+    # cyberbezpieczeństwa, które z ochroną fizyczną nie mają nic wspólnego.
+    - "351217"     # systemy alarmowe
   # Gwiazdka zastępuje resztę wyrazu i nie przeskakuje spacji, więc frazy
   # dwuwyrazowe wymagają sąsiadujących słów.
   keywords:
     - "ochron* fizyczn*"
     - "ochron* osób i mienia"
     - "ochroniarsk*"
-    - "pracownik* ochron*"
-    - "służb* ochron*"
     - "kwalifikowan* pracownik* ochrony"
     - "dozór mieni*"
     - "dozorowani*"
     - "usług* portiersk*"
-    - "portiern*"
     - "monitoring obiekt*"
     - "monitorowani* sygnał*"
     - "grup* interwencyjn*"
     - "konwojowani*"
     - "konwój wartości"
     - "zabezpieczeni* imprez*"
-    - "system* alarmow*"
-    - "kontrol* dostępu"
     - "telewizj* dozorow*"
     - "system* sygnalizacji włamania"
-  # Słowo „ochrona" i „dozór" mają w polszczyźnie wiele znaczeń niezwiązanych
-  # z ochroną fizyczną — te frazy odsiewają najczęstsze pomyłki.
+  # Świadomie nie ma tu fraz „kontrola dostępu", „system alarmowy",
+  # „portiernia" ani „służby ochrony". Na prawdziwych danych łapały roboty
+  # budowlane wspominające o kontroli dostępu, syreny alarmowe, portiernię
+  # jako pomieszczenie i sprzęt kupowany *dla* służb ochrony. Właściwe
+  # zamówienia na te systemy i tak wchodzą po kodach CPV 35120 i 35121.
+  #
+  # Słowa „ochrona" i „dozór" mają w polszczyźnie wiele znaczeń niezwiązanych
+  # z ochroną fizyczną — poniższe frazy odsiewają najczęstsze pomyłki.
+  # Usługi zdrowotne trafiały tu przez badania medycyny pracy dla
+  # kwalifikowanych pracowników ochrony — to opis odbiorcy, nie przedmiotu.
+  exclude_cpv:
+    - "85"
   exclude_keywords:
+    - "medycyn* pracy"
     - "dozor* techniczn*"        # badania UDT, nie ochrona
     - "dozór techniczn*"
     - "ochron* danych"           # RODO i bezpieczeństwo informacji
