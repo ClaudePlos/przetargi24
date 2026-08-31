@@ -161,6 +161,10 @@ Plany postępowań z BZP są pomijane świadomie: pod tym adresem wracają bez
 tytułu, kodów CPV i terminu, więc nie ma czego pokazać ani po czym przypisać
 kategorii.
 
+Tablica e-Zamówień powiela też ogłoszenia unijne (numery serii S). Mamy je
+już z TED — z opisem, terminem i wartością — więc są odsiewane wzorcem
+`skip_id_pattern`, żeby nie dublowały wpisów.
+
 BZP ma własne, dwudniowe okno (`lookback_days` w `config/sources.yml`).
 Tablica e-Zamówień oddaje tylko 10 rekordów na żądanie i odpowiada wolno,
 więc tygodniowy zakres oznaczałby setki żądań i kilkanaście minut przebiegu.
@@ -202,6 +206,7 @@ w odpowiedzi to edycja `config/sources.yml`, a nie kodu:
       TenderPlanNotice: plan
     skip_kinds:                   # rekordy pomijane w całości
       - ContractPerformingNotice
+    skip_id_pattern: "^\\d{4}/S "  # wyrażenie odsiewające po identyfikatorze
 ```
 
 Kody CPV wyciągane są wyrażeniem regularnym, więc działa zarówno czysta

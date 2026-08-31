@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import datetime as dt
 import logging
+import re
 from typing import Any, Iterator
 
 from ..models import KIND_NOTICE, Tender, parse_date
@@ -52,6 +53,10 @@ class GenericJsonSource(Source):
             str(k): str(v) for k, v in (self.config.get("kind_map") or {}).items()
         }
         self.skip_kinds = {str(v) for v in (self.config.get("skip_kinds") or [])}
+        # Wzorzec identyfikatorów do pominięcia — przydatny, gdy źródło
+        # powiela ogłoszenia, które mamy już skądinąd w lepszej postaci.
+        wzorzec = self.config.get("skip_id_pattern")
+        self.skip_id_pattern = re.compile(str(wzorzec)) if wzorzec else None
 
         self.url = str(self.config.get("url") or "")
         if not self.url:
@@ -199,6 +204,8 @@ class GenericJsonSource(Source):
         title = collapse_whitespace(first_text(self._value(row, "title")))
         native_id = first_text(self._value(row, "native_id")) or _fallback_id(row)
         if not title or not native_id:
+            return None
+        if self.skip_id_pattern is not None and self.skip_id_pattern.search(native_id):
             return None
 
         rodzaj = self._kind(row)

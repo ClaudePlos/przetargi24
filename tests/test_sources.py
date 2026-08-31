@@ -453,3 +453,12 @@ def test_bez_wlasnego_zakresu_obowiazuje_globalny():
     ctx.http.get_json = przechwyc
     list(GenericJsonSource("bzp", config).fetch(ctx))
     assert zapisane["Od"] == "2026-08-24"
+
+
+def test_odsiew_identyfikatorow_wzorcem():
+    """Tablica e-Zamówień powiela ogłoszenia unijne — mamy je już z TED."""
+    config = {**BZP_CONFIG, "skip_id_pattern": r"^\d{4}/S "}
+    source = GenericJsonSource("bzp", config)
+
+    assert source._to_tender({**ROW, "NoticeNumber": "2026/S 167-598015"}) is None
+    assert source._to_tender({**ROW, "NoticeNumber": "2026/BZP 00413597/01"}) is not None

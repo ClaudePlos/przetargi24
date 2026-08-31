@@ -65,3 +65,7 @@ sources:
       # bez kodów CPV i bez terminu — nie ma czego pokazać ani po czym
       # przypisać kategorii. Zapowiedzi dostarczają ogłoszenia PIN z TED.
       - "TenderPlanNotice"
+    # Tablica e-Zamówień powiela także ogłoszenia unijne — poznajemy je po
+    # numerze serii S (np. "2026/S 167-598015"). Mamy je już z TED, i to
+    # z opisem, terminem i wartością, więc tutaj są tylko duplikatem.
+    skip_id_pattern: "^\\d{4}/S "
