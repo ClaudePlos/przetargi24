@@ -1,0 +1,27 @@
+# Konta użytkowników i alerty e-mail (Supabase).
+#
+# Dopóki `url` i `anon_key` są puste, portal działa jak dotąd: bez logowania,
+# bez odnośnika „Konto" w menu. Wypełnienie tych pól włącza konta.
+#
+# WAŻNE: `anon_key` jest kluczem PUBLICZNYM i ma prawo znaleźć się w stronie.
+# Dostępu do danych pilnuje Row Level Security w bazie (supabase/schema.sql),
+# a nie ukrywanie klucza. Klucz serwisowy (service_role) NIGDY tu nie trafia —
+# jego miejsce to sekrety GitHub Actions.
+
+auth:
+  enabled: true
+  # Adres projektu, np. https://abcdefgh.supabase.co
+  url: ""
+  # Klucz „anon public" z Supabase → Settings → API
+  anon_key: ""
+
+premium:
+  # Odnośnik do płatności Stripe (Payment Link). Zostaw pusty, dopóki
+  # nie masz konta — panel pokaże wtedy informację „wkrótce".
+  checkout_url: ""
+  cena_opis: "49 zł / miesiąc"
+  # Co dostaje konto płatne — wyświetlane w panelu.
+  korzysci:
+    - "Alerty e-mail o nowych ogłoszeniach z Twojego profilu"
+    - "Powiadomienia o zbliżających się terminach składania ofert"
+    - "Dowolna liczba zapisanych filtrów (konto darmowe: jeden)"

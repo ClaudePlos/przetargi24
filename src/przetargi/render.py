@@ -128,9 +128,13 @@ class SiteRenderer:
         categories: list[Category],
         output: Path | None = None,
         template_dir: Path | None = None,
+        auth: dict[str, Any] | None = None,
+        premium: dict[str, Any] | None = None,
     ) -> None:
         self.settings = settings
         self.categories = categories
+        self.auth = auth or {}
+        self.premium = premium or {}
         self.output = output or DEFAULT_OUTPUT
         self.env = Environment(
             loader=FileSystemLoader(str(template_dir or TEMPLATE_DIR)),
@@ -168,6 +172,11 @@ class SiteRenderer:
             "updated_at_human": human_datetime(str(status.get("updated_at") or store.updated_at)),
             "updated_at_iso": _atom_timestamp(status.get("updated_at") or store.updated_at),
             "repo_url": REPO_URL,
+            "auth": self.auth,
+            "premium": self.premium,
+            # Odnośnik „Konto" pokazujemy dopiero wtedy, gdy logowanie
+            # naprawdę działa — inaczej prowadziłby do martwego ekranu.
+            "auth_active": bool(self.auth.get("active")),
             "repo_owner": repo_slug()[0],
             "repo_name": repo_slug()[1],
             "workflow_file": WORKFLOW_FILE,
@@ -244,6 +253,11 @@ class SiteRenderer:
                 run=status.get("run") or {"added": 0, "updated": 0, "merged": 0, "removed": 0},
             )
         )
+
+        if self.auth.get("active"):
+            written.append(
+                self._page("konto.html", "konto.html", base, rel="", page="konto")
+            )
 
         written.extend(self._copy_assets())
         written.extend(self._copy_data(store, status))

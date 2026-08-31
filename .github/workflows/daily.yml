@@ -55,6 +55,20 @@ jobs:
         env:
           PRZETARGI_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
 
+      - name: Wyślij alerty e-mail
+        # Krok kończy się powodzeniem także wtedy, gdy sekretów jeszcze nie ma —
+        # wtedy tylko wypisuje, czego brakuje. Klucz serwisowy Supabase omija
+        # Row Level Security, więc żyje wyłącznie tutaj, nigdy w stronie.
+        run: python -m przetargi alerty
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_FROM: ${{ secrets.ALERT_FROM }}
+          # Adres wyliczamy z nazwy repozytorium, bo krok configure-pages
+          # wykonuje się dopiero niżej i jego wyjście byłoby tu jeszcze puste.
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+
       - name: Zapisz nowe dane w repozytorium
         run: |
           git config user.name "github-actions[bot]"

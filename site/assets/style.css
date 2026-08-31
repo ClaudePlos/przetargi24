@@ -340,6 +340,7 @@ code {
   width: 8ch;
 }
 
+.panel .row input[type="email"],
 .panel .row input[type="password"] {
   flex: 1 1 260px;
   background: var(--surface);
@@ -375,3 +376,16 @@ code {
 }
 .panel details summary:hover { text-decoration: underline; }
 .panel details p { font-size: 14px; color: var(--text-muted); }
+
+.panel select[multiple] {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 14px;
+  min-width: 190px;
+}
+.panel .row + .row { margin-top: 10px; }
+.panel h3 { color: var(--text); }

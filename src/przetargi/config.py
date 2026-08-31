@@ -102,6 +102,8 @@ class Config:
     settings: Settings
     categories: list[Category]
     sources: dict[str, Any] = field(default_factory=dict)
+    auth: dict[str, Any] = field(default_factory=dict)
+    premium: dict[str, Any] = field(default_factory=dict)
 
     def category(self, slug: str) -> Category | None:
         return next((c for c in self.categories if c.slug == slug), None)
@@ -200,6 +202,30 @@ def load_settings(config_dir: Path | None = None) -> Settings:
     )
 
 
+def load_auth_config(config_dir: Path | None = None) -> dict[str, Any]:
+    """Wczytuje config/auth.yml — ustawienia kont i płatności.
+
+    Brak pliku nie jest błędem: portal ma działać bez logowania.
+    """
+    path = (config_dir or DEFAULT_CONFIG_DIR) / "auth.yml"
+    if not path.is_file():
+        return {"auth": {}, "premium": {}}
+    try:
+        raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    except yaml.YAMLError as exc:
+        raise ConfigError(f"{path}: nie udało się sparsować YAML — {exc}") from exc
+    if not isinstance(raw, dict):
+        raise ConfigError(f"{path}: plik musi zawierać mapę pól")
+
+    auth = raw.get("auth") or {}
+    # Konta włączamy dopiero wtedy, gdy naprawdę jest się czym połączyć —
+    # inaczej strona pokazywałaby ekran logowania, który do niczego nie prowadzi.
+    auth["active"] = bool(
+        auth.get("enabled", True) and auth.get("url") and auth.get("anon_key")
+    )
+    return {"auth": auth, "premium": raw.get("premium") or {}}
+
+
 def load_sources_config(config_dir: Path | None = None) -> dict[str, Any]:
     """Wczytuje config/sources.yml — definicje źródeł danych."""
     path = (config_dir or DEFAULT_CONFIG_DIR) / "sources.yml"
@@ -215,8 +241,11 @@ def load_sources_config(config_dir: Path | None = None) -> dict[str, Any]:
 
 
 def load_config(config_dir: Path | None = None) -> Config:
+    konta = load_auth_config(config_dir)
     return Config(
         settings=load_settings(config_dir),
         categories=load_categories(config_dir),
         sources=load_sources_config(config_dir),
+        auth=konta["auth"],
+        premium=konta["premium"],
     )

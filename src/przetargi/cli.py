@@ -75,7 +75,10 @@ def cmd_build(args: argparse.Namespace) -> int:
     """Generuje statyczną stronę z danych zapisanych w repozytorium."""
     config = load_config(args.config)
     store = TenderStore(args.data / "tenders.json").load()
-    renderer = SiteRenderer(config.settings, config.categories, output=args.output)
+    renderer = SiteRenderer(
+        config.settings, config.categories, output=args.output,
+        auth=config.auth, premium=config.premium,
+    )
     files = renderer.render(store, _read_status(args.data))
     log.info("Zbudowano stronę: %s plików w %s", len(files), args.output)
     return 0
@@ -116,6 +119,75 @@ def cmd_demo(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_alerty(args: argparse.Namespace) -> int:
+    """Rozsyła alerty e-mail o ogłoszeniach zauważonych dzisiaj.
+
+    Wymaga sekretów w środowisku. Gdy ich nie ma, kończy się powodzeniem
+    i tylko informuje — dzięki temu codzienny przebieg jest zielony także
+    zanim właściciel portalu skonfiguruje konta.
+    """
+    from .alerty import KlientSupabase, WysylkaResend, wyslij_alerty
+    from .models import today
+    from .sources.base import HttpClient
+
+    supabase_url = os.environ.get("SUPABASE_URL", "").strip()
+    klucz_serwisowy = os.environ.get("SUPABASE_SERVICE_KEY", "").strip()
+    klucz_poczty = os.environ.get("RESEND_API_KEY", "").strip()
+    nadawca = os.environ.get("ALERT_FROM", "").strip()
+
+    brakujace = [
+        nazwa for nazwa, wartosc in (
+            ("SUPABASE_URL", supabase_url),
+            ("SUPABASE_SERVICE_KEY", klucz_serwisowy),
+            ("RESEND_API_KEY", klucz_poczty),
+            ("ALERT_FROM", nadawca),
+        ) if not wartosc
+    ]
+    if brakujace:
+        log.info(
+            "Alerty wyłączone — brak ustawień: %s. "
+            "Uzupełnij je w Settings → Secrets, żeby je włączyć.",
+            ", ".join(brakujace),
+        )
+        return 0
+
+    config = load_config(args.config)
+    store = TenderStore(args.data / "tenders.json").load()
+    dzis = today()
+    nowe = [t for t in store.sorted() if t.is_new(dzis)]
+    if not nowe:
+        log.info("Brak ogłoszeń zauważonych dzisiaj — nie ma o czym powiadamiać")
+        return 0
+
+    http = HttpClient(timeout=config.settings.timeout, retries=config.settings.retries)
+    try:
+        raport = wyslij_alerty(
+            KlientSupabase(supabase_url, klucz_serwisowy, http),
+            WysylkaResend(klucz_poczty, nadawca, http),
+            nowe,
+            config.settings.site_url,
+            dzis,
+        )
+    finally:
+        http.close()
+
+    log.info(
+        "Alerty: %s aktywnych, wysłano %s wiadomości o %s ogłoszeniach, błędów %s",
+        raport.alertow, raport.wyslanych, raport.ogloszen, raport.bledow,
+    )
+    _dopisz_do_podsumowania(
+        [
+            "## Alerty e-mail",
+            "",
+            f"- Aktywne alerty: **{raport.alertow}**",
+            f"- Wysłane wiadomości: **{raport.wyslanych}**",
+            f"- Ogłoszeń w wiadomościach: **{raport.ogloszen}**",
+            f"- Błędy wysyłki: **{raport.bledow}**",
+        ]
+    )
+    return 0
+
+
 def cmd_check(args: argparse.Namespace) -> int:
     """Sprawdza poprawność konfiguracji — używane w CI i przed commitem."""
     config = load_config(args.config)
@@ -135,11 +207,20 @@ def cmd_check(args: argparse.Namespace) -> int:
     return 0
 
 
-def _write_job_summary(report, sources) -> None:
-    """Dopisuje podsumowanie do panelu GitHub Actions, gdy jesteśmy w CI."""
+def _dopisz_do_podsumowania(lines: list[str]) -> None:
+    """Dopisuje sekcję do panelu GitHub Actions, gdy jesteśmy w CI."""
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if not path:
         return
+    try:
+        with open(path, "a", encoding="utf-8") as handle:
+            handle.write("\n".join(lines) + "\n")
+    except OSError as exc:
+        log.warning("Nie udało się zapisać podsumowania zadania: %s", exc)
+
+
+def _write_job_summary(report, sources) -> None:
+    """Dopisuje podsumowanie przebiegu do panelu GitHub Actions."""
     lines = [
         "## Aktualizacja przetargów",
         "",
@@ -161,11 +242,7 @@ def _write_job_summary(report, sources) -> None:
     lines += ["", "| Kategoria | Ogłoszeń |", "| --- | --- |"]
     for slug, count in sorted(report.per_category.items()):
         lines.append(f"| {slug} | {count} |")
-    try:
-        with open(path, "a", encoding="utf-8") as handle:
-            handle.write("\n".join(lines) + "\n")
-    except OSError as exc:
-        log.warning("Nie udało się zapisać podsumowania zadania: %s", exc)
+    _dopisz_do_podsumowania(lines)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -192,6 +269,9 @@ def build_parser() -> argparse.ArgumentParser:
     )
     subparsers.add_parser("run", help="pobierz i zbuduj stronę").set_defaults(func=cmd_run)
     subparsers.add_parser("check", help="sprawdź konfigurację").set_defaults(func=cmd_check)
+    subparsers.add_parser(
+        "alerty", help="wyślij alerty e-mail o dzisiejszych ogłoszeniach"
+    ).set_defaults(func=cmd_alerty)
     demo = subparsers.add_parser("demo", help="wypełnij bazę przykładowymi danymi")
     demo.add_argument("--fresh", action="store_true", help="zacznij od pustej bazy")
     demo.set_defaults(func=cmd_demo)
