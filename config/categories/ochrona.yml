@@ -1,0 +1,55 @@
+# Kategoria: ochrona osób i mienia.
+slug: ochrona
+name: "Ochrona osób i mienia"
+emoji: "🛡️"
+order: 30
+enabled: true
+description: >-
+  Ochrona fizyczna obiektów i imprez, usługi portierskie i dozór mienia,
+  monitorowanie sygnałów alarmowych wraz z grupą interwencyjną, konwojowanie
+  wartości pieniężnych, a także systemy alarmowe, kontroli dostępu
+  i telewizji dozorowej.
+
+match:
+  cpv:
+    - "7971"       # usługi ochroniarskie, strażnicze, patrolowe, nadzór alarmowy
+    - "98341140"   # usługi dozorowania
+    - "35120"      # systemy i urządzenia nadzoru i bezpieczeństwa
+    - "35121"      # urządzenia bezpieczeństwa, systemy alarmowe
+  # Gwiazdka zastępuje resztę wyrazu i nie przeskakuje spacji, więc frazy
+  # dwuwyrazowe wymagają sąsiadujących słów.
+  keywords:
+    - "ochron* fizyczn*"
+    - "ochron* osób i mienia"
+    - "ochroniarsk*"
+    - "pracownik* ochron*"
+    - "służb* ochron*"
+    - "kwalifikowan* pracownik* ochrony"
+    - "dozór mieni*"
+    - "dozorowani*"
+    - "usług* portiersk*"
+    - "portiern*"
+    - "monitoring obiekt*"
+    - "monitorowani* sygnał*"
+    - "grup* interwencyjn*"
+    - "konwojowani*"
+    - "konwój wartości"
+    - "zabezpieczeni* imprez*"
+    - "system* alarmow*"
+    - "kontrol* dostępu"
+    - "telewizj* dozorow*"
+    - "system* sygnalizacji włamania"
+  # Słowo „ochrona" i „dozór" mają w polszczyźnie wiele znaczeń niezwiązanych
+  # z ochroną fizyczną — te frazy odsiewają najczęstsze pomyłki.
+  exclude_keywords:
+    - "dozor* techniczn*"        # badania UDT, nie ochrona
+    - "dozór techniczn*"
+    - "ochron* danych"           # RODO i bezpieczeństwo informacji
+    - "ochron* przeciwpożarow*"
+    - "ochron* środowisk*"
+    - "ochron* radiologiczn*"
+    - "ochron* zdrowi*"
+    - "ochron* roślin"
+    - "ochron* powietrza"
+    - "alarm* przeciwpożarow*"
+    - "sygnalizacj* pożarow*"
