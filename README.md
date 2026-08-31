@@ -46,14 +46,22 @@ wyszukiwarek.
 ## Uruchomienie u siebie
 
 1. **Sforkuj lub skopiuj repozytorium.**
-2. **Włącz GitHub Pages:** _Settings → Pages → Build and deployment → Source:
-   **GitHub Actions**_. Bez tego kroku wdrożenie zakończy się błędem.
-3. **Uruchom pierwszy przebieg:** zakładka _Actions → Codzienna aktualizacja
+2. **Uruchom pierwszy przebieg:** zakładka _Actions → Codzienna aktualizacja
    przetargów → Run workflow_. Nie trzeba czekać do rana.
-4. Strona pojawi się pod `https://<użytkownik>.github.io/<repozytorium>/`.
+3. Strona pojawi się pod `https://<użytkownik>.github.io/<repozytorium>/`.
 
-Workflow potrzebuje uprawnień do zapisu w repozytorium — jeśli push danych się
-nie powiedzie, sprawdź _Settings → Actions → General → Workflow permissions →
+GitHub Pages włącza się samo przy pierwszym przebiegu — krok `configure-pages`
+ma ustawione `enablement: true`. Gdyby to nie zadziałało, włącz je ręcznie:
+_Settings → Pages → Build and deployment → Source: **GitHub Actions**_.
+
+**W prywatnym repozytorium** publikacja strony wymaga planu GitHub Pro, Team
+lub Enterprise; na planie darmowym Pages działa tylko dla repozytoriów
+publicznych. Sama strona jest po opublikowaniu dostępna publicznie, nawet gdy
+repozytorium pozostaje prywatne — a portal wystawia wyłącznie dane pochodzące
+z jawnych rejestrów zamówień.
+
+Workflow potrzebuje uprawnień do zapisu w repozytorium — jeśli push danych
+albo włączenie Pages się nie powiedzie, sprawdź _Settings → Actions → General → Workflow permissions →
 Read and write permissions_.
 
 ---
