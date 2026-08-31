@@ -17,8 +17,8 @@ from .base import (
     FetchContext,
     Source,
     SourceError,
-    all_texts,
     dig,
+    extract_cpv_codes,
     first_text,
     pick_ci,
     to_float,
@@ -44,6 +44,14 @@ class GenericJsonSource(Source):
         self.homepage = str(self.config.get("homepage") or "")
         self.enabled = bool(self.config.get("enabled", True))
         self.kind = str(self.config.get("kind") or KIND_NOTICE)
+        # Rodzaj wpisu może wynikać z pola w rekordzie — w BZP ogłoszenia
+        # i plany postępowań wracają z tego samego adresu, rozróżnia je
+        # dopiero `noticeType`.
+        self.kind_field = str(self.config.get("kind_field") or "")
+        self.kind_map: dict[str, str] = {
+            str(k): str(v) for k, v in (self.config.get("kind_map") or {}).items()
+        }
+        self.skip_kinds = {str(v) for v in (self.config.get("skip_kinds") or [])}
 
         self.url = str(self.config.get("url") or "")
         if not self.url:
@@ -63,22 +71,37 @@ class GenericJsonSource(Source):
 
     def fetch(self, ctx: FetchContext) -> Iterator[Tender]:
         seen = 0
+        wydane: set[str] = set()
         for offset in range(ctx.settings.max_pages):
             page = self.first_page + offset
             data = self._request(ctx, page)
             rows = self._rows(data)
+            # Koniec listy poznajemy po pustej stronie, a nie po tym, że
+            # zwrócono mniej pozycji, niż prosiliśmy: serwer bywa ograniczony
+            # własnym limitem (e-Zamówienia oddają 10 pozycji na 100 żądanych)
+            # i zatrzymalibyśmy się po pierwszej stronie.
             if not rows:
                 break
 
+            nowe = 0
             for row in rows:
                 tender = self._to_tender(row)
-                if tender is not None:
-                    seen += 1
-                    yield tender
-                    if seen >= ctx.limit:
-                        return
+                if tender is None or tender.id in wydane:
+                    continue
+                wydane.add(tender.id)
+                nowe += 1
+                seen += 1
+                yield tender
+                if seen >= ctx.limit:
+                    return
 
-            if len(rows) < self.page_size:
+            if nowe == 0:
+                # Źródło ignoruje stronicowanie i oddaje wciąż to samo —
+                # dalsze pobieranie tylko marnowałoby czas przebiegu.
+                log.warning(
+                    "Źródło '%s': strona %s nie przyniosła nowych pozycji — kończę",
+                    self.key, page,
+                )
                 break
 
     def _request(self, ctx: FetchContext, page: int) -> Any:
@@ -133,13 +156,26 @@ class GenericJsonSource(Source):
             return None
         return pick_ci(row, *[str(k) for k in keys])
 
+    def _kind(self, row: dict[str, Any]) -> str | None:
+        """Rodzaj wpisu dla rekordu; None oznacza „pomiń to ogłoszenie”."""
+        if not self.kind_field:
+            return self.kind
+        wartosc = first_text(pick_ci(row, self.kind_field))
+        if wartosc in self.skip_kinds:
+            return None
+        return self.kind_map.get(wartosc, self.kind)
+
     def _to_tender(self, row: dict[str, Any]) -> Tender | None:
         title = collapse_whitespace(first_text(self._value(row, "title")))
         native_id = first_text(self._value(row, "native_id")) or _fallback_id(row)
         if not title or not native_id:
             return None
 
-        cpv = [code for code in all_texts(self._value(row, "cpv")) if any(c.isdigit() for c in code)]
+        rodzaj = self._kind(row)
+        if rodzaj is None:
+            return None
+
+        cpv = extract_cpv_codes(self._value(row, "cpv"))
         url = first_text(self._value(row, "url"))
         if not url and self.detail_url:
             url = _fill_template(self.detail_url, row, native_id)
@@ -153,8 +189,8 @@ class GenericJsonSource(Source):
             description=first_text(self._value(row, "description")),
             buyer=first_text(self._value(row, "buyer")),
             location=first_text(self._value(row, "location")),
-            cpv=cpv[:12],
-            kind=self.kind,
+            cpv=cpv,
+            kind=rodzaj,
             publication_date=parse_date(self._value(row, "publication_date")),
             deadline=parse_date(self._value(row, "deadline")),
             value=to_float(self._value(row, "value")),

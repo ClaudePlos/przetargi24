@@ -13,7 +13,15 @@ import logging
 from typing import Any, Iterator
 
 from ..models import KIND_NOTICE, KIND_PLAN, Tender, parse_date
-from .base import FetchContext, Source, SourceError, all_texts, first_text, pick, to_float
+from .base import (
+    FetchContext,
+    Source,
+    SourceError,
+    extract_cpv_codes,
+    first_text,
+    pick,
+    to_float,
+)
 
 log = logging.getLogger(__name__)
 
@@ -58,23 +66,30 @@ class TedSource(Source):
 
     def fetch(self, ctx: FetchContext) -> Iterator[Tender]:
         seen = 0
+        wydane: set[str] = set()
         for page in range(1, ctx.settings.max_pages + 1):
             payload = self._payload(ctx, page)
             data = self._search(ctx, payload)
             notices = _extract_notices(data)
+            # Koniec listy to pusta strona. Liczba rekordów mniejsza od
+            # żądanej nie wystarczy: część z nich odsiewamy jako ogłoszenia
+            # o wyniku, a serwer może mieć własny limit strony.
             if not notices:
                 break
 
+            nowe = 0
             for notice in notices:
                 tender = self._to_tender(notice)
-                if tender is not None:
-                    seen += 1
-                    yield tender
-                    if seen >= ctx.limit:
-                        return
+                if tender is None or tender.id in wydane:
+                    continue
+                wydane.add(tender.id)
+                nowe += 1
+                seen += 1
+                yield tender
+                if seen >= ctx.limit:
+                    return
 
-            # Ostatnia strona: API zwróciło mniej rekordów, niż prosiliśmy.
-            if len(notices) < payload["limit"]:
+            if nowe == 0 and len(notices) < payload["limit"]:
                 break
 
     # -- zapytanie ---------------------------------------------------------
@@ -213,8 +228,7 @@ def _cpv_codes(notice: dict[str, Any]) -> list[str]:
         "cpv",
         "PC",
     )
-    codes = [code for code in all_texts(raw) if any(ch.isdigit() for ch in code)]
-    return codes[:12]
+    return extract_cpv_codes(raw)
 
 
 def _notice_url(notice: dict[str, Any], number: str) -> str:

@@ -1,104 +1,98 @@
-"""Diagnostyka źródeł, runda 3 — rodzaje ogłoszeń BZP i adresy szczegółów."""
+"""Diagnostyka źródeł, runda 4 — realne stronicowanie BZP i pola planów."""
 
 from __future__ import annotations
 
 import collections
 import datetime as dt
+import json
 
 import requests
 
 TIMEOUT = 30
 HEADERS = {"User-Agent": "Przetargi24/1.0 (diagnostyka)", "Accept": "application/json"}
 BOARD = "https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search"
+DZIS = dt.date.today()
 
 
-def rodzaje_ogloszen() -> None:
+def pobierz(**parametry):
+    odp = requests.get(BOARD, params=parametry, headers=HEADERS, timeout=TIMEOUT)
+    if odp.status_code >= 400:
+        return odp.status_code, None
+    dane = odp.json()
+    return odp.status_code, dane if isinstance(dane, list) else None
+
+
+def ile_na_stronie() -> None:
     print("=" * 78)
-    print("BZP — rodzaje ogłoszeń z ostatnich 7 dni")
+    print("BZP — jaki jest realny rozmiar strony")
     print("=" * 78)
-    dzis = dt.date.today()
+    for rozmiar in (10, 20, 50, 100, 200):
+        status, dane = pobierz(PageNumber=1, PageSize=rozmiar)
+        print(f"  PageSize={rozmiar:4} -> HTTP {status}, otrzymano {len(dane) if dane is not None else 'n/d'}")
+
+
+def sortowanie() -> None:
+    print("\n" + "=" * 78)
+    print("BZP — czy działa sortowanie malejąco po dacie")
+    print("=" * 78)
+    warianty = [
+        {},
+        {"SortingColumnName": "PublicationDate", "SortingDirection": "DESC"},
+        {"SortingColumnName": "publicationDate", "SortingDirection": "Descending"},
+        {"OrderBy": "PublicationDate", "OrderDirection": "DESC"},
+    ]
+    for dodatki in warianty:
+        status, dane = pobierz(PageNumber=1, PageSize=3, **dodatki)
+        daty = [str(x.get("publicationDate"))[:10] for x in (dane or [])]
+        print(f"  {json.dumps(dodatki, ensure_ascii=False)[:64]:66} HTTP {status}, daty: {daty}")
+
+
+def stronicowanie_z_datami() -> None:
+    print("\n" + "=" * 78)
+    print("BZP — ile naprawdę jest ogłoszeń z ostatnich 7 dni (stronicowanie do skutku)")
+    print("=" * 78)
     rodzaje: collections.Counter = collections.Counter()
-    typy_zamowien: collections.Counter = collections.Counter()
-    razem = 0
-    przyklady: dict[str, str] = {}
+    razem, puste_pola = 0, collections.Counter()
+    plan_przyklad = None
 
-    for strona in range(1, 9):
-        odp = requests.get(
-            BOARD,
-            params={
-                "PageNumber": strona,
-                "PageSize": 100,
-                "PublicationDateFrom": (dzis - dt.timedelta(days=7)).isoformat(),
-                "PublicationDateTo": dzis.isoformat(),
-            },
-            headers=HEADERS,
-            timeout=TIMEOUT,
+    for strona in range(1, 26):
+        status, dane = pobierz(
+            PageNumber=strona,
+            PageSize=100,
+            PublicationDateFrom=(DZIS - dt.timedelta(days=7)).isoformat(),
+            PublicationDateTo=DZIS.isoformat(),
         )
-        if odp.status_code >= 400:
-            print(f"Strona {strona}: HTTP {odp.status_code}")
+        if dane is None:
+            print(f"  strona {strona}: HTTP {status} — przerywam")
             break
-        pozycje = odp.json()
-        if not isinstance(pozycje, list) or not pozycje:
-            print(f"Strona {strona}: brak dalszych pozycji (koniec).")
+        if not dane:
+            print(f"  strona {strona}: pusta — koniec listy")
             break
-        for pozycja in pozycje:
-            razem += 1
+        razem += len(dane)
+        for pozycja in dane:
             rodzaj = str(pozycja.get("noticeType"))
             rodzaje[rodzaj] += 1
-            typy_zamowien[str(pozycja.get("orderType"))] += 1
-            if rodzaj not in przyklady:
-                przyklady[rodzaj] = str(pozycja.get("orderObject"))[:88]
-        if len(pozycje) < 100:
-            print(f"Strona {strona}: {len(pozycje)} pozycji — ostatnia strona.")
-            break
+            if pozycja.get("orderObject") in (None, ""):
+                puste_pola[rodzaj] += 1
+            if rodzaj == "TenderPlanNotice" and plan_przyklad is None:
+                plan_przyklad = pozycja
+        if strona <= 3 or strona % 5 == 0:
+            print(f"  strona {strona}: {len(dane)} pozycji (narastająco {razem})")
 
-    print(f"\nZbadano {razem} ogłoszeń.\n")
-    print("Rodzaje (noticeType):")
+    print(f"\nŁącznie pobrano {razem} ogłoszeń.")
+    print("\nRodzaje (noticeType) i ile z nich ma pusty orderObject:")
     for rodzaj, ile in rodzaje.most_common():
-        print(f"  {rodzaj:32} {ile:5}   np. {przyklady.get(rodzaj, '')}")
-    print("\nTypy zamówienia (orderType):")
-    for typ, ile in typy_zamowien.most_common():
-        print(f"  {typ:32} {ile:5}")
+        print(f"  {rodzaj:32} {ile:5}   pusty tytuł: {puste_pola[rodzaj]}")
 
-
-def adresy_szczegolow() -> None:
-    print("\n" + "=" * 78)
-    print("BZP — który adres strony ogłoszenia działa")
-    print("=" * 78)
-    odp = requests.get(BOARD, params={"PageNumber": 1, "PageSize": 1},
-                       headers=HEADERS, timeout=TIMEOUT)
-    pozycja = odp.json()[0]
-    object_id = pozycja.get("objectId")
-    tender_id = pozycja.get("tenderId")
-    mo_id = pozycja.get("moIdentifier")
-    print(f"objectId={object_id}\ntenderId={tender_id}\nmoIdentifier={mo_id}\n")
-
-    kandydaci = [
-        f"https://ezamowienia.gov.pl/mp-client/search/list/{tender_id}",
-        f"https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/{object_id}",
-        f"https://ezamowienia.gov.pl/mo-client-board/bzp/tender-details/{tender_id}",
-        f"https://ezamowienia.gov.pl/mp-client/tenders/{tender_id}",
-    ]
-    for url in kandydaci:
-        try:
-            odp = requests.get(url, headers={"User-Agent": HEADERS["User-Agent"]},
-                               timeout=TIMEOUT, allow_redirects=True)
-            print(f"  HTTP {odp.status_code}  {url}")
-        except requests.RequestException as exc:
-            print(f"  BŁĄD {type(exc).__name__}  {url}")
-
-
-def format_cpv() -> None:
-    print("\n" + "=" * 78)
-    print("BZP — format pola cpvCode w kilku rekordach")
-    print("=" * 78)
-    odp = requests.get(BOARD, params={"PageNumber": 1, "PageSize": 8},
-                       headers=HEADERS, timeout=TIMEOUT)
-    for pozycja in odp.json():
-        print(f"  {str(pozycja.get('cpvCode'))[:150]}")
+    if plan_przyklad:
+        print("\nPełny rekord planu postępowań (TenderPlanNotice):")
+        for klucz in sorted(plan_przyklad):
+            wartosc = plan_przyklad[klucz]
+            tekst = wartosc if isinstance(wartosc, str) else json.dumps(wartosc, ensure_ascii=False)
+            print(f"  {klucz:32} = {tekst[:96] if tekst else tekst}")
 
 
 if __name__ == "__main__":
-    rodzaje_ogloszen()
-    adresy_szczegolow()
-    format_cpv()
+    ile_na_stronie()
+    sortowanie()
+    stronicowanie_z_datami()

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import datetime as dt
 import logging
+import re
 import time
 from dataclasses import dataclass, field
 from typing import Any, Iterable, Iterator, Sequence
@@ -207,6 +208,28 @@ def _dedupe(values: Iterable[str]) -> list[str]:
             seen.add(value)
             out.append(value)
     return out
+
+
+# Kod CPV to osiem cyfr, opcjonalnie z cyfrą kontrolną po myślniku.
+_CPV_PATTERN = re.compile(r"(?<!\d)(\d{8})(?:-\d)?(?!\d)")
+
+
+def extract_cpv_codes(value: Any, limit: int = 12) -> list[str]:
+    """Wyciąga kody CPV z listy, mapy albo napisu z etykietami.
+
+    BZP podaje wszystkie kody w jednym polu tekstowym razem z opisami,
+    TED zwraca czystą listę — jedno wyrażenie obsługuje oba kształty.
+    """
+    kody: list[str] = []
+    widziane: set[str] = set()
+    for tekst in all_texts(value):
+        for dopasowanie in _CPV_PATTERN.finditer(tekst):
+            # Zachowujemy zapis z cyfrą kontrolną ("90910000-9") do wyświetlenia,
+            # ale duplikaty rozpoznajemy po samych ośmiu cyfrach.
+            if dopasowanie.group(1) not in widziane:
+                widziane.add(dopasowanie.group(1))
+                kody.append(dopasowanie.group(0))
+    return kody[:limit]
 
 
 def pick(data: dict[str, Any], *keys: str) -> Any:
