@@ -24,7 +24,7 @@
  },
  "sources": [
   {
-   "duration_seconds": 42.95,
+   "duration_seconds": 25.63,
    "error": "",
    "fetched": 1468,
    "homepage": "https://ted.europa.eu",
@@ -33,23 +33,14 @@
    "ok": true
   },
   {
-   "duration_seconds": 1.86,
-   "error": "SourceError: HTTP 405 z https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search — zapytanie odrzucone",
+   "duration_seconds": 0.9,
+   "error": "",
    "fetched": 0,
    "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/list",
    "key": "bzp",
    "label": "BZP — Biuletyn Zamówień Publicznych",
-   "ok": false
-  },
-  {
-   "duration_seconds": 0.33,
-   "error": "SourceError: HTTP 404 z https://ezamowienia.gov.pl/mo-board/api/v1/Board/SearchTenderPlans — zapytanie odrzucone",
-   "fetched": 0,
-   "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/tender-plans",
-   "key": "bzp_plany",
-   "label": "Plany postępowań (e-Zamówienia)",
-   "ok": false
+   "ok": true
   }
  ],
- "updated_at": "2026-08-31T12:40:51+00:00"
+ "updated_at": "2026-08-31T12:43:43+00:00"
 }
