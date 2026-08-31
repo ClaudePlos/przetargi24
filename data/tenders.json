@@ -1,5 +1,5 @@
 {
- "count": 158,
+ "count": 155,
  "tenders": [
   {
    "buyer": "Centrum Rehabilitacji Rolników Kasy Rolniczego Ubezpieczenia Społecznego NIWA",
@@ -696,87 +696,6 @@
    "source": "ted",
    "title": "Polska – Usługi sprzątania – Świadczenie usługi kompleksowego sprzątania i bieżącego utrzymywania czystości w budynkach i na posesjach Krajowej Informacji Skarbowej w 2027 roku.",
    "url": "https://ted.europa.eu/pl/notice/-/detail/596416-2026",
-   "value": null
-  },
-  {
-   "buyer": "Szkoła Główna Gospodarstwa Wiejskiego w Warszawie",
-   "categories": [
-    "catering"
-   ],
-   "cpv": [
-    "39150000"
-   ],
-   "currency": "",
-   "deadline": null,
-   "description": "",
-   "extra_links": [],
-   "first_seen": "2026-08-31",
-   "id": "bzp:2026/S 167-598015",
-   "kind": "ogloszenie",
-   "last_seen": "2026-08-31",
-   "location": "Warszawa",
-   "native_id": "2026/S 167-598015",
-   "publication_date": "2026-08-31",
-   "scores": {
-    "catering": 2
-   },
-   "source": "bzp",
-   "title": "Polska – Różne meble i wyposażenie – Dostawa wraz z montażem wyposażenia meblowego dla budynku Innowacyjnego Centrum Nauk Żywieniowych SGGW w Warszawie.",
-   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df06fd-94cf-5e48-ab56-9400018565c1",
-   "value": null
-  },
-  {
-   "buyer": "UNIWERSYTECKI SZPITAL KLINICZNY W POZNANIU",
-   "categories": [
-    "sprzatanie"
-   ],
-   "cpv": [
-    "33631600"
-   ],
-   "currency": "",
-   "deadline": null,
-   "description": "",
-   "extra_links": [],
-   "first_seen": "2026-08-31",
-   "id": "bzp:2026/S 167-596697",
-   "kind": "ogloszenie",
-   "last_seen": "2026-08-31",
-   "location": "Poznań",
-   "native_id": "2026/S 167-596697",
-   "publication_date": "2026-08-31",
-   "scores": {
-    "sprzatanie": 2
-   },
-   "source": "bzp",
-   "title": "Polska – Środki antyseptyczne i dezynfekcyjne – Preparaty do dezynfekcji - 12 pakietów asortymentowych",
-   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df06fd-886a-ef98-ab56-940001856519",
-   "value": null
-  },
-  {
-   "buyer": "Warszawski Uniwersytet Medyczny",
-   "categories": [
-    "catering"
-   ],
-   "cpv": [
-    "55321000"
-   ],
-   "currency": "",
-   "deadline": null,
-   "description": "",
-   "extra_links": [],
-   "first_seen": "2026-08-31",
-   "id": "bzp:2026/S 167-596692",
-   "kind": "ogloszenie",
-   "last_seen": "2026-08-31",
-   "location": "Warszawa",
-   "native_id": "2026/S 167-596692",
-   "publication_date": "2026-08-31",
-   "scores": {
-    "catering": 9
-   },
-   "source": "bzp",
-   "title": "Polska – Usługi przygotowywania posiłków – Świadczenie usług cateringowych na potrzeby jednostek organizacyjnych Warszawskiego Uniwersytetu Medycznego, na podstawie umowy ramowej znak sprawy: AEZ/S-075/2026",
-   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df06fd-885c-0dcf-ab56-940001856518",
    "value": null
   },
   {
