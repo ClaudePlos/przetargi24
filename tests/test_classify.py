@@ -82,3 +82,64 @@ def test_opis_tez_jest_przeszukiwany(config):
     tender = _tender("Usługa dla jednostki", description="Zakres obejmuje sprzątanie korytarzy.")
     classify(tender, config.categories, config.settings)
     assert tender.categories == ["sprzatanie"]
+
+
+# --- kategoria: ochrona osób i mienia -------------------------------------
+
+@pytest.mark.parametrize(
+    "title,cpv",
+    [
+        ("Świadczenie usług ochrony fizycznej osób i mienia", ["79710000-4"]),
+        ("Ochrona osób i mienia wraz z monitoringiem obiektu", []),
+        ("Usługi ochroniarskie w Szpitalu Wojewódzkim", []),
+        ("Dozorowanie i portiernia w budynku administracyjnym", []),
+        ("Monitorowanie sygnałów alarmowych wraz z grupą interwencyjną", []),
+        ("Konwojowanie wartości pieniężnych", []),
+        ("Dostawa i montaż systemu telewizji dozorowej", ["35120000-1"]),
+        ("Usługi patrolowe terenu zakładu", ["79715000-9"]),
+    ],
+)
+def test_ochrona_lapie_uslugi_ochroniarskie(config, title, cpv):
+    tender = _tender(title, cpv)
+    classify(tender, config.categories, config.settings)
+    assert "ochrona" in tender.categories
+
+
+@pytest.mark.parametrize(
+    "title,cpv",
+    [
+        # „Ochrona” i „dozór” mają w polszczyźnie wiele znaczeń niezwiązanych
+        # z ochroną fizyczną — każde z nich musi wypaść.
+        ("Wykonanie badań i dozoru technicznego dźwigów osobowych", []),
+        ("Wdrożenie systemu ochrony danych osobowych zgodnie z RODO", []),
+        ("Przegląd instalacji ochrony przeciwpożarowej", []),
+        ("Usługi w zakresie ochrony środowiska — pomiary emisji", []),
+        ("Dostawa środków ochrony roślin", []),
+        ("Modernizacja systemu sygnalizacji pożarowej", ["35121700-5"]),
+        ("Świadczenie usług ochrony zdrowia dla pracowników", []),
+    ],
+)
+def test_ochrona_odsiewa_inne_znaczenia_slowa(config, title, cpv):
+    tender = _tender(title, cpv)
+    classify(tender, config.categories, config.settings)
+    assert "ochrona" not in tender.categories
+
+
+def test_ochrona_nie_przejmuje_cudzych_kategorii(config):
+    for title, cpv in [
+        ("Kompleksowe sprzątanie pomieszczeń biurowych", ["90911200-8"]),
+        ("Dostawa artykułów spożywczych do stołówki", ["15800000-6"]),
+    ]:
+        tender = _tender(title, cpv)
+        classify(tender, config.categories, config.settings)
+        assert "ochrona" not in tender.categories
+
+
+def test_umowa_laczaca_sprzatanie_z_ochrona_trafia_do_obu(config):
+    """Zamówienia łączone są częste — wpis ma się pokazać w obu kategoriach."""
+    tender = _tender(
+        "Kompleksowa obsługa budynku: sprzątanie oraz ochrona fizyczna",
+        ["90911200-8", "79710000-4"],
+    )
+    classify(tender, config.categories, config.settings)
+    assert set(tender.categories) == {"sprzatanie", "ochrona"}
