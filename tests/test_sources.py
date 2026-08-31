@@ -6,6 +6,7 @@ from przetargi.models import KIND_PLAN
 from przetargi.sources import build_sources
 from przetargi.sources.base import (
     FetchContext,
+    HttpClient,
     SourceError,
     all_texts,
     dig,
@@ -277,6 +278,7 @@ class _KontekstStron:
     def __init__(self, strony):
         self.strony = strony
         self.zapytania = 0
+        self.timeout = 60  # jak w prawdziwym HttpClient
 
     def get_json(self, url, **kwargs):
         self.zapytania += 1
@@ -401,3 +403,20 @@ def test_budzet_czasu_oddaje_to_co_zdazyl_pobrac(monkeypatch):
     wyniki = list(GenericJsonSource("bzp", BZP_CONFIG).fetch(ctx))
     assert len(wyniki) == 1
     assert ctx.http.zapytania == 1
+
+
+def test_limit_zadania_nie_przekracza_reszty_budzetu(monkeypatch):
+    """Pojedyncze wolne żądanie nie może przeżyć budżetu źródła."""
+    import przetargi.sources.base as base
+
+    ctx = _kontekst([[]])
+    ctx.http = HttpClient(timeout=60, retries=1)
+    ctx.time_budget = 20.0
+    ctx.zacznij_odliczanie()
+
+    # Na starcie limit żądania to reszta budżetu, a nie 60 s z ustawień.
+    assert ctx.limit_czasu_zadania() == pytest.approx(20.0, abs=1.0)
+
+    monkeypatch.setattr(base.time, "monotonic", lambda: 1e9)
+    # Po wyczerpaniu budżetu zostaje minimalny limit, nie zero.
+    assert ctx.limit_czasu_zadania() == 5.0

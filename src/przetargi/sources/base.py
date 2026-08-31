@@ -103,7 +103,18 @@ class FetchContext:
     _started: float = field(default_factory=time.monotonic)
 
     def wyczerpany_czas(self) -> bool:
-        return (time.monotonic() - self._started) >= self.time_budget
+        return self.pozostaly_czas() <= 0
+
+    def pozostaly_czas(self) -> float:
+        return max(0.0, self.time_budget - (time.monotonic() - self._started))
+
+    def limit_czasu_zadania(self) -> float:
+        """Limit dla jednego żądania — nigdy dłuższy niż reszta budżetu.
+
+        Bez tego pojedyncze wolne żądanie z ponawianiem potrafi przekroczyć
+        budżet źródła wielokrotnie, bo sprawdzamy go dopiero między stronami.
+        """
+        return max(5.0, min(float(self.http.timeout), self.pozostaly_czas()))
 
     def zacznij_odliczanie(self) -> None:
         """Budżet liczymy osobno dla każdego źródła."""

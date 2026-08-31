@@ -134,8 +134,14 @@ class TedSource(Source):
 
         last_error: Exception | None = None
         for index, variant in enumerate(variants):
+            if index > 0 and ctx.wyczerpany_czas():
+                # Warianty zapasowe mają sens tylko wtedy, gdy jest jeszcze
+                # czas — inaczej trzy próby na stronę mnożą przekroczenie.
+                break
             try:
-                return ctx.http.post_json(API_URL, json=variant)
+                return ctx.http.post_json(
+                    API_URL, json=variant, timeout=ctx.limit_czasu_zadania()
+                )
             except SourceError as exc:
                 last_error = exc
                 if index + 1 < len(variants):

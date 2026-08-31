@@ -133,7 +133,7 @@ class GenericJsonSource(Source):
             "date_from_iso": f"{ctx.date_from.isoformat()}T00:00:00.000Z",
             "date_to_iso": f"{ctx.date_to.isoformat()}T23:59:59.999Z",
         }
-        kwargs: dict[str, Any] = {}
+        kwargs: dict[str, Any] = {"timeout": ctx.limit_czasu_zadania()}
         if self.headers:
             kwargs["headers"] = self.headers
         if self.static_params:
