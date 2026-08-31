@@ -4,7 +4,15 @@ import pytest
 
 from przetargi.models import KIND_PLAN
 from przetargi.sources import build_sources
-from przetargi.sources.base import SourceError, all_texts, dig, first_text, pick_ci, to_float
+from przetargi.sources.base import (
+    FetchContext,
+    SourceError,
+    all_texts,
+    dig,
+    first_text,
+    pick_ci,
+    to_float,
+)
 from przetargi.sources.generic import GenericJsonSource, _fill
 from przetargi.sources.ted import TedSource, _build_query, _extract_notices
 
@@ -226,3 +234,108 @@ def test_ted_zachowuje_nieznany_rodzaj():
     """Nowy typ w TED lepiej pokazać niż po cichu zgubić."""
     notice = {"publication-number": "1-2026", "notice-title": "Tytuł", "notice-type": "xyz-nowy"}
     assert TedSource()._to_tender(notice) is not None
+
+
+# --- rodzaj wpisu i stronicowanie w źródle konfigurowanym -----------------
+
+KONFIG_Z_RODZAJEM = {
+    **BZP_CONFIG,
+    "kind_field": "noticeType",
+    "kind_map": {"TenderPlanNotice": "plan"},
+    "skip_kinds": ["TenderResultNotice", "ContractPerformingNotice"],
+}
+
+
+def test_rodzaj_wpisu_z_pola_rekordu():
+    source = GenericJsonSource("bzp", KONFIG_Z_RODZAJEM)
+    assert source._to_tender({**ROW, "noticeType": "ContractNotice"}).kind == "ogloszenie"
+    assert source._to_tender({**ROW, "noticeType": "TenderPlanNotice"}).kind == "plan"
+
+
+@pytest.mark.parametrize("rodzaj", ["TenderResultNotice", "ContractPerformingNotice"])
+def test_pomijane_rodzaje_wypadaja(rodzaj):
+    source = GenericJsonSource("bzp", KONFIG_Z_RODZAJEM)
+    assert source._to_tender({**ROW, "noticeType": rodzaj}) is None
+
+
+def test_nieznany_rodzaj_zostaje_zachowany():
+    source = GenericJsonSource("bzp", KONFIG_Z_RODZAJEM)
+    assert source._to_tender({**ROW, "noticeType": "CosNowego"}) is not None
+    assert source._to_tender({**ROW, "noticeType": None}) is not None
+
+
+def test_kody_cpv_z_napisu_z_etykietami():
+    """BZP oddaje wszystkie kody w jednym polu tekstowym z opisami."""
+    row = {**ROW, "CpvCode": "90910000-9 (Usługi sprzątania),90911300-9 (Usługi czyszczenia okien)"}
+    tender = GenericJsonSource("bzp", BZP_CONFIG)._to_tender(row)
+    assert tender.cpv == ["90910000-9", "90911300-9"]
+
+
+class _KontekstStron:
+    """Podstawia odpowiedzi kolejnych stron zamiast prawdziwego HTTP."""
+
+    def __init__(self, strony):
+        self.strony = strony
+        self.zapytania = 0
+
+    def get_json(self, url, **kwargs):
+        self.zapytania += 1
+        indeks = self.zapytania - 1
+        return self.strony[indeks] if indeks < len(self.strony) else []
+
+    post_json = get_json
+
+
+def _kontekst(strony, max_pages=10, limit=100):
+    from types import SimpleNamespace
+
+    return FetchContext(
+        settings=SimpleNamespace(max_pages=max_pages),
+        date_from=dt.date(2026, 8, 24),
+        date_to=dt.date(2026, 8, 31),
+        http=_KontekstStron(strony),
+        limit=limit,
+    )
+
+
+def _wiersz(numer):
+    return {**ROW, "NoticeNumber": f"2026/BZP {numer:08d}"}
+
+
+def test_stronicowanie_nie_konczy_sie_na_krotszej_stronie():
+    """Serwer oddaje mniej pozycji, niż prosimy — to nie znaczy koniec listy.
+
+    e-Zamówienia zwracają 10 rekordów niezależnie od PageSize, więc warunek
+    'mniej niż żądano' zatrzymywałby pobieranie po pierwszej stronie.
+    """
+    strony = [[_wiersz(1), _wiersz(2)], [_wiersz(3), _wiersz(4)], []]
+    config = {**BZP_CONFIG, "page_size": 50}
+    ctx = _kontekst(strony)
+    wyniki = list(GenericJsonSource("bzp", config).fetch(ctx))
+    assert len(wyniki) == 4
+
+
+def test_stronicowanie_konczy_sie_na_pustej_stronie():
+    ctx = _kontekst([[_wiersz(1)], []])
+    wyniki = list(GenericJsonSource("bzp", BZP_CONFIG).fetch(ctx))
+    assert len(wyniki) == 1
+    assert ctx.http.zapytania == 2
+
+
+def test_stronicowanie_przerywa_gdy_zrodlo_oddaje_wciaz_to_samo():
+    """Zabezpieczenie przed źródłem ignorującym numer strony."""
+    ctx = _kontekst([[_wiersz(1)]] * 10, max_pages=10)
+    wyniki = list(GenericJsonSource("bzp", BZP_CONFIG).fetch(ctx))
+    assert len(wyniki) == 1
+    assert ctx.http.zapytania == 2  # druga strona bez nowych pozycji kończy pobieranie
+
+
+def test_limit_stron_z_konfiguracji_zrodla():
+    ctx = _kontekst([[_wiersz(n)] for n in range(1, 12)], max_pages=10)
+    source = GenericJsonSource("bzp", {**BZP_CONFIG, "max_pages": 3})
+    assert len(list(source.fetch(ctx))) == 3
+
+
+def test_limit_ogloszen_konczy_pobieranie():
+    ctx = _kontekst([[_wiersz(n) for n in range(1, 6)], [_wiersz(n) for n in range(6, 11)]], limit=7)
+    assert len(list(GenericJsonSource("bzp", BZP_CONFIG).fetch(ctx))) == 7

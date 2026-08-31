@@ -61,6 +61,9 @@ class GenericJsonSource(Source):
         self.field_map: dict[str, Any] = self.config.get("fields") or {}
         self.detail_url = str(self.config.get("detail_url") or "")
         self.page_size = int(self.config.get("page_size", 50))
+        # Nadpisanie globalnego `fetch.max_pages` — źródło z małą stroną
+        # potrzebuje ich więcej, żeby objąć ten sam zakres dni.
+        self.max_pages = int(self.config["max_pages"]) if "max_pages" in self.config else None
         self.first_page = int(self.config.get("first_page", 1))
         self.date_format = str(self.config.get("date_format", "%Y-%m-%d"))
         self.static_params: dict[str, Any] = self.config.get("params") or {}
@@ -72,7 +75,7 @@ class GenericJsonSource(Source):
     def fetch(self, ctx: FetchContext) -> Iterator[Tender]:
         seen = 0
         wydane: set[str] = set()
-        for offset in range(ctx.settings.max_pages):
+        for offset in range(self.max_pages or ctx.settings.max_pages):
             page = self.first_page + offset
             data = self._request(ctx, page)
             rows = self._rows(data)

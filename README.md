@@ -87,6 +87,8 @@ match:
   exclude_keywords:              # frazy dyskwalifikujące ogłoszenie
     - "ochrona danych osobowych"
     - "ochrona przeciwpożarowa"
+  exclude_cpv:                   # kody dyskwalifikujące, też po przedrostku
+    - "7972"                     # usługi śledcze
 ```
 
 Commit i push wystarczą — najbliższy przebieg doda kategorię do menu, wygeneruje
@@ -104,8 +106,16 @@ Ogłoszenie trafia do kategorii przy wyniku ≥ 2 punkty (`classify.default_min_
 w `config/settings.yml`, do nadpisania polem `min_score` w kategorii). Jedno
 trafione słowo kluczowe wystarcza; kod CPV waży więcej, bo jest jednoznaczny.
 
-**Wykluczenia mają pierwszeństwo przed wszystkim** — ogłoszenie zawierające
-frazę z `exclude_keywords` nie trafi do kategorii, nawet gdy kod CPV pasuje.
+**Wykluczenia mają pierwszeństwo przed wszystkim** — ogłoszenie pasujące do
+`exclude_keywords` albo `exclude_cpv` nie trafi do kategorii, nawet gdy inny
+kod CPV pasuje. Przykład z prawdziwych danych: kategoria „catering” obejmuje
+cały dział CPV 15 (żywność), ale `exclude_cpv: ["157"]` odsiewa paszę dla
+zwierząt.
+
+Wykluczaj po CPV oszczędnie i wąsko. Wykluczenie całego działu potrafi
+odciąć trafne ogłoszenia, które niosą taki kod pomocniczo — na przykład
+usługa czyszczenia instalacji bywa opisana kodem 9091 razem z kodem
+z działu 50 (naprawy).
 
 ### Pisanie słów kluczowych
 
@@ -170,7 +180,18 @@ w odpowiedzi to edycja `config/sources.yml`, a nie kodu:
       publication_date: ["PublicationDate"]
       deadline: ["SubmittingOffersDate"]
       cpv: ["CpvCode"]
+    # Rodzaj wpisu z pola rekordu — gdy jeden adres zwraca i ogłoszenia,
+    # i plany postępowań, i ogłoszenia o wyniku.
+    kind_field: "noticeType"
+    kind_map:
+      TenderPlanNotice: plan
+    skip_kinds:                   # rekordy pomijane w całości
+      - ContractPerformingNotice
 ```
+
+Kody CPV wyciągane są wyrażeniem regularnym, więc działa zarówno czysta
+lista (`["90910000"]`), jak i jeden napis z etykietami
+(`"90910000-9 (Usługi sprzątania),90911300-9 (Usługi czyszczenia okien)"`).
 
 Dostępne podstawienia: `{page}`, `{page_size}`, `{offset}`, `{date_from}`,
 `{date_to}`, `{date_from_iso}`, `{date_to_iso}`.
@@ -226,8 +247,8 @@ workflow można ją podać w formularzu.
 | Pole | Znaczenie | Domyślnie |
 | --- | --- | --- |
 | `fetch.lookback_days` | ile dni wstecz pobierać | 7 |
-| `fetch.max_per_source` | limit ogłoszeń z jednego źródła na przebieg | 600 |
-| `fetch.max_pages` | limit stron na źródło | 12 |
+| `fetch.max_per_source` | limit ogłoszeń z jednego źródła na przebieg | 4000 |
+| `fetch.max_pages` | limit stron na źródło | 45 |
 | `fetch.timeout_seconds` / `fetch.retries` | limit czasu i liczba prób | 60 / 3 |
 | `store.retention_days` | po ilu dniach od terminu wpis znika | 120 |
 | `classify.default_min_score` | próg przypisania do kategorii | 2 |
