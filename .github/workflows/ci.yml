@@ -1,0 +1,40 @@
+name: Testy
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  testy:
+    name: Testy i budowa strony
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Zainstaluj zależności
+        run: pip install -e ".[dev]"
+
+      - name: Sprawdź konfigurację
+        run: python -m przetargi check
+
+      - name: Uruchom testy
+        run: python -m pytest
+
+      - name: Zbuduj stronę na danych przykładowych
+        run: |
+          python -m przetargi --data "$RUNNER_TEMP/dane" demo --fresh
+          python -m przetargi --data "$RUNNER_TEMP/dane" --output "$RUNNER_TEMP/public" build
+          test -f "$RUNNER_TEMP/public/index.html"
+          test -f "$RUNNER_TEMP/public/feed.xml"

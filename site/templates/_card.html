@@ -1,0 +1,52 @@
+{% macro tender_card(tender, categories_by_slug, rel) %}
+<article class="card{% if tender.is_new %} is-new{% endif %}"
+         data-search="{{ tender.search_blob }}"
+         data-categories="{{ tender.categories|join(' ') }}"
+         data-source="{{ tender.source }}"
+         data-kind="{{ tender.kind }}"
+         data-open="{{ '1' if tender.is_open else '0' }}"
+         data-new="{{ '1' if tender.is_new else '0' }}">
+  <div class="tags">
+    {% if tender.is_new %}<span class="tag new">Nowe</span>{% endif %}
+    {% if tender.kind == 'plan' %}<span class="tag plan">Plan postępowań</span>{% endif %}
+    {% for slug in tender.categories %}
+      {% set category = categories_by_slug.get(slug) %}
+      {% if category %}
+      <span class="tag cat"><a href="{{ rel }}kategoria/{{ slug }}.html">{{ category.title }}</a></span>
+      {% endif %}
+    {% endfor %}
+    <span class="tag">{{ tender.source_label }}</span>
+  </div>
+
+  <h3>
+    {% if tender.url %}<a href="{{ tender.url }}" rel="noopener nofollow" target="_blank">{{ tender.title }}</a>
+    {% else %}{{ tender.title }}{% endif %}
+  </h3>
+
+  {% if tender.buyer %}<p class="buyer">{{ tender.buyer }}{% if tender.location %} · {{ tender.location }}{% endif %}</p>{% endif %}
+  {% if tender.summary and tender.summary != tender.title %}<p class="desc">{{ tender.summary }}</p>{% endif %}
+
+  <div class="meta">
+    {% if tender.publication_date %}<span>Publikacja: <b>{{ tender.publication_date }}</b></span>{% endif %}
+    {% if tender.deadline %}
+      <span>Termin ofert: <b>{{ tender.deadline }}</b>
+      {% if tender.days_left is not none %}
+        {% if tender.days_left < 0 %}<span class="closed">(minął)</span>
+        {% elif tender.days_left == 0 %}<span class="soon">(dziś!)</span>
+        {% elif tender.days_left <= 7 %}<span class="soon">(za {{ tender.days_left }} dni)</span>
+        {% else %}<span>(za {{ tender.days_left }} dni)</span>{% endif %}
+      {% endif %}
+      </span>
+    {% endif %}
+    {% if tender.value_human %}<span>Wartość: <b>{{ tender.value_human }}</b></span>{% endif %}
+    {% if tender.cpv %}<span>CPV: <b>{{ tender.cpv[:4]|join(', ') }}</b></span>{% endif %}
+  </div>
+
+  {% if tender.url or tender.extra_links %}
+  <div class="card-links">
+    {% if tender.url %}<a href="{{ tender.url }}" rel="noopener nofollow" target="_blank">Zobacz ogłoszenie →</a>{% endif %}
+    {% for link in tender.extra_links %}<a href="{{ link.url }}" rel="noopener nofollow" target="_blank">{{ link.label }}</a>{% endfor %}
+  </div>
+  {% endif %}
+</article>
+{% endmacro %}

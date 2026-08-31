@@ -1,0 +1,106 @@
+name: Codzienna aktualizacja przetargów
+
+on:
+  schedule:
+    # 04:17 UTC = 06:17 czasu polskiego latem, 05:17 zimą.
+    # Nierówna minuta celowo — o pełnych godzinach kolejki GitHuba są dłuższe.
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "Ile dni wstecz pobrać (puste = wartość z config/settings.yml)"
+        required: false
+        default: ""
+  push:
+    # Zmiana kategorii, źródeł lub wyglądu od razu przebudowuje portal.
+    branches: [main]
+    paths:
+      - "config/**"
+      - "site/**"
+      - "src/**"
+      - ".github/workflows/daily.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Jeden przebieg naraz — inaczej dwa zadania próbowałyby zapisać data/ jednocześnie.
+concurrency:
+  group: przetargi-aktualizacja
+  cancel-in-progress: false
+
+jobs:
+  aktualizacja:
+    name: Pobierz ogłoszenia i zbuduj stronę
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Przygotuj Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Zainstaluj zależności
+        run: pip install -e .
+
+      - name: Sprawdź konfigurację
+        run: python -m przetargi check
+
+      - name: Pobierz świeże ogłoszenia
+        run: python -m przetargi update
+        env:
+          PRZETARGI_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
+
+      - name: Zapisz nowe dane w repozytorium
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # `git add` przed porównaniem — inaczej nowe, nieśledzone pliki
+          # w data/ zostałyby uznane za brak zmian.
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Brak zmian w danych — nic do zapisania."
+            exit 0
+          fi
+          git commit -m "Aktualizacja przetargów: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          for proba in 1 2 3 4; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Zapisano zmiany."
+              exit 0
+            fi
+            echo "Push nie powiódł się — pobieram zmiany i ponawiam (próba ${proba})."
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            sleep $((2 ** proba))
+          done
+          echo "::error::Nie udało się zapisać danych po czterech próbach."
+          exit 1
+
+      - name: Przygotuj GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Zbuduj stronę
+        run: python -m przetargi build
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+
+      - name: Wyślij artefakt strony
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  publikacja:
+    name: Opublikuj na GitHub Pages
+    needs: aktualizacja
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wdróż
+        id: deployment
+        uses: actions/deploy-pages@v4

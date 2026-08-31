@@ -1,0 +1,40 @@
+# Kategoria: catering i żywienie.
+slug: catering
+name: "Catering i żywienie"
+emoji: "🍽️"
+order: 20
+enabled: true
+description: >-
+  Usługi cateringowe i stołówkowe, przygotowanie i dowóz posiłków dla szkół,
+  szpitali, domów pomocy i urzędów, a także dostawy artykułów spożywczych
+  i produktów żywnościowych.
+
+match:
+  cpv:
+    - "553"    # usługi restauracyjne i podawania posiłków
+    - "555"    # usługi stołówkowe i dostarczania posiłków (catering)
+    - "15"     # żywność, napoje i produkty pokrewne
+  # Gwiazdka zastępuje resztę wyrazu — "posiłk*" łapie posiłki / posiłków.
+  keywords:
+    - "catering*"
+    - "wyżywieni*"
+    - "żywieni*"
+    - "posiłk*"
+    - "przygotow* posiłk*"
+    - "stołówk*"
+    - "stołowani*"
+    - "bufet*"
+    - "artykuł* spożywcz*"
+    - "produkt* spożywcz*"
+    - "artykuł* żywnościow*"
+    - "dostaw* żywnoś*"
+    - "usług* gastronomicz*"
+    - "obiad*"
+    - "śniadani*"
+    - "kateringow*"
+  exclude_keywords:
+    - "żywieni* dojelitow*"
+    - "żywieni* pozajelitow*"
+    - "preparat* do żywieni*"
+    - "karm* dla zwierząt"
+    - "żywieni* zwierząt"

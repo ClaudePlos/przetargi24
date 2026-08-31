@@ -1,0 +1,35 @@
+# Globalna konfiguracja portalu.
+site:
+  title: "Przetargi24"
+  tagline: "Przetargi publiczne w Polsce — codziennie aktualizowane"
+  description: >-
+    Automatycznie aktualizowany przegląd polskich przetargów publicznych
+    i planów postępowań, pogrupowanych w kategorie tematyczne.
+  # Adres publiczny strony (bez ukośnika na końcu). Używany w kanałach RSS.
+  # Zostaw pusty, a zostanie odczytany ze zmiennej SITE_URL w GitHub Actions.
+  url: ""
+  language: "pl"
+
+fetch:
+  # Ile dni wstecz pobierać ogłoszenia przy każdym uruchomieniu.
+  # Zapas > 1 dnia chroni przed luką, gdy jeden przebieg się nie powiedzie.
+  lookback_days: 7
+  # Górny limit ogłoszeń pobieranych z jednego źródła na przebieg.
+  max_per_source: 600
+  # Limit stron na źródło (bezpiecznik przed pętlą bez końca).
+  max_pages: 12
+  timeout_seconds: 60
+  retries: 3
+
+store:
+  # Po ilu dniach od terminu składania ofert (lub od publikacji, gdy terminu
+  # brak) wpis znika z portalu.
+  retention_days: 120
+
+classify:
+  # Minimalna liczba punktów wymagana, by przypisać ogłoszenie do kategorii.
+  # Trafienie w kod CPV = 3 pkt, trafienie słowa kluczowego = 2 pkt.
+  # Można nadpisać w pliku kategorii polem `min_score`.
+  default_min_score: 2
+  cpv_points: 3
+  keyword_points: 2

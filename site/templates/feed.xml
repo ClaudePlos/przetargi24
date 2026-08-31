@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }} — {{ heading }}</title>
+  <subtitle>{{ intro }}</subtitle>
+  <id>{{ feed_id }}</id>
+  <updated>{{ updated_at_iso }}</updated>
+  <link rel="self" href="{{ self_url }}"/>
+  <link rel="alternate" type="text/html" href="{{ page_url }}"/>
+  <generator uri="https://github.com/ClaudePlos/przetargi24">Przetargi24</generator>
+{% for tender in tenders %}
+  <entry>
+    <title>{{ tender.title }}</title>
+    <id>tag:przetargi24,{{ tender.first_seen or '1970-01-01' }}:{{ tender.id }}</id>
+    <updated>{{ tender.updated_iso }}</updated>
+    {% if tender.publication_date %}<published>{{ tender.publication_date }}T00:00:00Z</published>{% endif %}
+    {% if tender.url %}<link rel="alternate" type="text/html" href="{{ tender.url }}"/>{% endif %}
+    {% if tender.buyer %}<author><name>{{ tender.buyer }}</name></author>{% endif %}
+    {% for slug in tender.categories %}<category term="{{ slug }}"/>{% endfor %}
+    <summary type="text">{{ tender.feed_summary }}</summary>
+  </entry>
+{% endfor %}
+</feed>

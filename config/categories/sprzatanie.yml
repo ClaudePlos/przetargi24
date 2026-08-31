@@ -1,0 +1,55 @@
+# Kategoria: sprzątanie i utrzymanie czystości.
+#
+# Aby dodać własną kategorię, skopiuj plik config/categories/_szablon.yml
+# i wypełnij go — nie trzeba zmieniać żadnego kodu.
+slug: sprzatanie
+name: "Sprzątanie i utrzymanie czystości"
+emoji: "🧹"
+order: 10
+enabled: true
+description: >-
+  Usługi sprzątania budynków, biur, szpitali i szkół, utrzymanie czystości
+  terenów zewnętrznych, odśnieżanie, mycie okien, dezynfekcja i deratyzacja
+  oraz dostawy środków czystości.
+
+match:
+  # Kody CPV — dopasowanie po przedrostku, więc "9091" łapie 90910000,
+  # 90911200, 90919200 itd.
+  cpv:
+    - "9090"   # usługi w zakresie sprzątania i odkażania
+    - "9091"   # usługi sprzątania budynków, okien, biur, szkół
+    - "9092"   # odkażanie, dezynfekcja, zwalczanie szkodników
+    - "9061"   # sprzątanie i zamiatanie ulic
+    - "9062"   # odśnieżanie
+    - "9063"   # usuwanie oblodzeń
+    - "9831"   # usługi prania i czyszczenia na sucho
+    - "39830"  # środki czyszczące
+  # Słowa kluczowe — bez rozróżniania wielkości liter i polskich znaków
+  # ("sprzatanie" == "sprzątanie"). Gwiazdka zastępuje resztę wyrazu,
+  # więc "sprzątani*" łapie sprzątanie / sprzątania / sprzątaniem.
+  keywords:
+    - "sprzątan*"
+    - "utrzyman* czysto*"
+    - "usług* porządkow*"
+    - "usług* czystościow*"
+    - "prace porządkow*"
+    - "myci* okien"
+    - "odśnieżan*"
+    - "zimow* utrzyman*"
+    - "dezynfekcj*"
+    - "deratyzacj*"
+    - "dezynsekcj*"
+    - "zwalczani* szkodnik*"
+    - "pralnicz*"
+    - "usług* prania"
+    - "środk* czystoś*"
+    - "środk* czyszczą*"
+    - "artykuł* higienicz*"
+    - "worki na śmieci"
+  # Ogłoszenie zawierające którekolwiek z tych wyrażeń nigdy nie trafi
+  # do kategorii — nawet jeśli kod CPV pasuje.
+  exclude_keywords:
+    - "czyszczeni* kanalizacj*"
+    - "czyszczeni* kotł*"
+    - "czyszczeni* separator*"
+    - "oczyszczalni*"

@@ -1,0 +1,85 @@
+# Źródła danych o przetargach.
+#
+# Adaptery typu `json` są w pełni sterowane tym plikiem — dodanie kolejnego
+# API albo poprawka po zmianie istniejącego nie wymaga zmian w kodzie.
+#
+# Dostępne podstawienia w `body`, `params` i `date_format`:
+#   {page} {page_size} {offset} {date_from} {date_to} {date_from_iso} {date_to_iso}
+#
+# Mapowanie `fields` przyjmuje listę kandydatów na nazwę pola; nazwy
+# porównywane są bez wielkości liter i separatorów, więc "PublicationDate",
+# "publication-date" i "publicationDate" znaczą to samo. Obsługiwane są też
+# ścieżki z kropką, np. "buyer.name".
+
+sources:
+  # --- TED: ogłoszenia unijne (adapter wbudowany, składnia zapytań własna) ---
+  ted:
+    type: builtin
+    enabled: true
+
+  # --- BZP: krajowe ogłoszenia poniżej progów unijnych ---------------------
+  # Uwaga: e-Zamówienia nie publikują umowy API ze stabilnym wersjonowaniem.
+  # Gdyby to źródło zaczęło zgłaszać błąd na stronie "Stan źródeł", popraw
+  # `url` / `body` / `fields` poniżej — kod pozostaje bez zmian.
+  bzp:
+    type: json
+    enabled: true
+    label: "BZP — Biuletyn Zamówień Publicznych"
+    homepage: "https://ezamowienia.gov.pl/mo-client-board/bzp/list"
+    kind: ogloszenie
+    url: "https://ezamowienia.gov.pl/mo-board/api/v1/Board/Search"
+    method: POST
+    page_size: 50
+    first_page: 1
+    result_path: "items"
+    body:
+      SortingColumnName: "PublicationDate"
+      SortingDirection: "DESC"
+      PageNumber: "{page}"
+      PageSize: "{page_size}"
+      PublicationDateFrom: "{date_from_iso}"
+      PublicationDateTo: "{date_to_iso}"
+    detail_url: "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/{ObjectId}"
+    fields:
+      native_id: ["NoticeNumber", "BzpNumber", "Number", "ObjectId", "Id"]
+      title: ["OrderObject", "NoticeTitle", "Name", "Subject"]
+      description: ["OrderObjectDescription", "Description", "ShortDescription"]
+      buyer: ["OrganizationName", "OrdererName", "ContractingAuthority"]
+      location: ["OrganizationCity", "City", "Voivodeship"]
+      cpv: ["CpvCode", "CpvCodes", "MainCpvCode"]
+      publication_date: ["PublicationDate", "PublicationDateTime"]
+      deadline: ["SubmittingOffersDate", "OfferSubmissionDate", "TenderSubmissionDeadline"]
+      value: ["OrderValue", "EstimatedValue"]
+      currency: ["Currency"]
+
+  # --- Plany postępowań: przetargi, które dopiero zostaną ogłoszone --------
+  bzp_plany:
+    type: json
+    enabled: true
+    label: "Plany postępowań (e-Zamówienia)"
+    homepage: "https://ezamowienia.gov.pl/mo-client-board/bzp/tender-plans"
+    kind: plan
+    url: "https://ezamowienia.gov.pl/mo-board/api/v1/Board/SearchTenderPlans"
+    method: POST
+    page_size: 50
+    first_page: 1
+    result_path: "items"
+    body:
+      SortingColumnName: "PublicationDate"
+      SortingDirection: "DESC"
+      PageNumber: "{page}"
+      PageSize: "{page_size}"
+      PublicationDateFrom: "{date_from_iso}"
+      PublicationDateTo: "{date_to_iso}"
+    detail_url: "https://ezamowienia.gov.pl/mo-client-board/bzp/tender-plan-details/{ObjectId}"
+    fields:
+      native_id: ["PlanNumber", "NoticeNumber", "ObjectId", "Id"]
+      title: ["OrderObject", "Name", "Subject", "PlanName"]
+      description: ["OrderObjectDescription", "Description"]
+      buyer: ["OrganizationName", "OrdererName"]
+      location: ["OrganizationCity", "City"]
+      cpv: ["CpvCode", "CpvCodes"]
+      publication_date: ["PublicationDate", "UpdateDate"]
+      deadline: ["PlannedProcedureInitiationDate", "PlannedStartDate"]
+      value: ["OrderValue", "EstimatedValue"]
+      currency: ["Currency"]
