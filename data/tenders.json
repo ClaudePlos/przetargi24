@@ -1,5 +1,5 @@
 {
- "count": 156,
+ "count": 158,
  "tenders": [
   {
    "buyer": "Centrum Rehabilitacji Rolników Kasy Rolniczego Ubezpieczenia Społecznego NIWA",
@@ -780,6 +780,34 @@
    "value": null
   },
   {
+   "buyer": "10 Wojskowy Szpital Kliniczny z Polikliniką Samodzielny Publiczny Zakład Opieki Zdrowotnej",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "71356100-9",
+    "50800000-3"
+   ],
+   "currency": "",
+   "deadline": "2026-09-08",
+   "description": "",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "bzp:2026/BZP 00413695/01",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "Bydgoszcz",
+   "native_id": "2026/BZP 00413695/01",
+   "publication_date": "2026-08-31",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "bzp",
+   "title": "Przeglądy oraz naprawy maszyn i urządzeń pralniczych wraz z wymianą filcu, oleju oraz analizą palnika w maglu gazowym Girbau PC 120/30G",
+   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df0737-96fe-9a9c-ab56-94000185691a",
+   "value": null
+  },
+  {
    "buyer": "Komenda Wojewódzka Policji we Wrocławiu",
    "categories": [
     "catering"
@@ -900,6 +928,33 @@
    "source": "bzp",
    "title": "Dostawa artykułów żywnościowych na potrzeby Domu Pomocy Społecznej w Radzyminie z podziałem na zadania",
    "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df0720-4174-1ac8-ab56-9400018566b7",
+   "value": null
+  },
+  {
+   "buyer": "INSTYTUT ROZWOJU MIAST I REGIONÓW",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55300000-3"
+   ],
+   "currency": "",
+   "deadline": null,
+   "description": "",
+   "extra_links": [],
+   "first_seen": "2026-08-31",
+   "id": "bzp:2026/BZP 00413263/01",
+   "kind": "ogloszenie",
+   "last_seen": "2026-08-31",
+   "location": "Warszawa",
+   "native_id": "2026/BZP 00413263/01",
+   "publication_date": "2026-08-30",
+   "scores": {
+    "catering": 3
+   },
+   "source": "bzp",
+   "title": "Świadczenie usługi restauracyjnej na potrzeby uczestników V Kongresu Polityki Miejskiej i Regionalnej, odbywającego się w obiekcie CKF_13 Centrum Konferencyjne Fabryczna w Krakowie.",
+   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df06dd-eafb-61dc-ab56-9400018564f5",
    "value": null
   },
   {
@@ -2705,6 +2760,18 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/591500-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/589987-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591426-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591500-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -2793,6 +2860,10 @@
    "deadline": "2026-09-14",
    "description": "Przedmiotem zamówienia jest utrzymanie czystości w pasach drogowych miasta Radomia – rejon południowo - wschodni. Zamówienie obejmuje: - oczyszczanie jezdni - 1.767,35 km, - oczyszczanie terenów zielonych i klepisk w pasach drogowych - 7.166.283,15 m2, - letnie oczyszczanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 1.812.452,20 m2, - zimowe utrzymanie ciągów pieszych, ścieżek rowerowych i ciągów pieszo-rowerowych - 7.277.940,00 m2, - letnie utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 246.545,65 m2, - zimowe utrzymanie miejsc parkingowych w Strefie Płatnego Parkowania Niestrzeżonego - 910.323,00 m2, - obsługę koszy ulicznych - 90.720 szt., - punktowe oczyszczanie kratek ściekowych - 50 szt., - likwidację dzikich wysypisk śmieci w pasie drogowym - 10 Mg.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/588544-2026"
@@ -3769,6 +3840,14 @@
    "deadline": "2026-09-21",
    "description": "Przedmiotem zamówienia jest dostawa mebli biurowych. Zamawiający zgodnie z art. 441 ust. 1 ustawy, zastrzega sobie możliwość skorzystania z prawa opcji. Szczegółowy zakres i warunki realizacji zamówienia przedstawiają:  opis przedmiotu zamówienia,  projekt umowy,  wycena ofertowa,  dokument gwarancyjny,  wzory protokołów przyjęcia – przekazania,  wykaz miejsc dostawy mebli biurowych,  wzór karty wyrobu. Ww. dokumenty stanowią załączniki do SWZ i są jej integralną częścią.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/591769-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/593691-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/591769-2026"
@@ -4781,6 +4860,6 @@
    "value": null
   }
  ],
- "updated_at": "2026-08-31T12:55:55+00:00",
+ "updated_at": "2026-08-31T12:58:50+00:00",
  "version": 1
 }
