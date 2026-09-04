@@ -1,53 +1,53 @@
 {
  "categories": [
   {
-   "count": 151,
+   "count": 169,
    "slug": "sprzatanie",
    "title": "🧹 Sprzątanie i utrzymanie czystości"
   },
   {
-   "count": 87,
+   "count": 103,
    "slug": "catering",
    "title": "🍽️ Catering i żywienie"
   },
   {
-   "count": 29,
+   "count": 31,
    "slug": "ochrona",
    "title": "🛡️ Ochrona osób i mienia"
   }
  ],
  "run": {
-  "added": 41,
-  "merged": 16,
+  "added": 55,
+  "merged": 19,
   "per_category": {
-   "catering": 87,
-   "ochrona": 29,
-   "sprzatanie": 151
+   "catering": 103,
+   "ochrona": 31,
+   "sprzatanie": 169
   },
   "reclassified": 0,
   "removed": 0,
-  "total": 262,
+  "total": 298,
   "updated": 0
  },
  "sources": [
   {
-   "duration_seconds": 40.32,
+   "duration_seconds": 40.85,
    "error": "",
-   "fetched": 1503,
+   "fetched": 1530,
    "homepage": "https://ted.europa.eu",
    "key": "ted",
    "label": "TED — Dziennik Urzędowy UE",
    "ok": true
   },
   {
-   "duration_seconds": 10.07,
+   "duration_seconds": 11.15,
    "error": "",
-   "fetched": 133,
+   "fetched": 126,
    "homepage": "https://ezamowienia.gov.pl/mo-client-board/bzp/list",
    "key": "bzp",
    "label": "BZP — Biuletyn Zamówień Publicznych",
    "ok": true
   }
  ],
- "updated_at": "2026-09-03T08:56:20+00:00"
+ "updated_at": "2026-09-04T08:51:18+00:00"
 }
