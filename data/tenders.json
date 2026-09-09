@@ -1,6 +1,841 @@
 {
- "count": 355,
+ "count": 384,
  "tenders": [
+  {
+   "buyer": "Wojewódzki Szpital Specjalistyczny Im. Najświętszej Maryi Panny",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90900000",
+    "90911200",
+    "90919200",
+    "90920000",
+    "85112000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-12",
+   "description": "1. Przedmiotem zamówienia jest: ŚWIADCZENIE KOMPLEKSOWYCH USŁUG W ZAKRESIE ZAPEWNIENIA PRAWIDŁOWEGO STANU SANITARNO-HIGIENICZNEGO, SPRZĄTANIA I DEZYNFEKCJI POMIESZCZEŃ, POWIERZCHNI I URZĄDZEŃ, PRAC POMOCNICZYCH SŁUŻĄCYCH PROFILAKTYCE, ZACHOWANIU, RATOWANIU I POPRAWIE ZDROWIA ORAZ MEDYCZNEGO TRANSPORTU WEWNĘTRZNEGO W WOJEWÓDZKIM SZPITALU SPECJALISTYCZNYM IM. NMP W CZĘSTOCHOWIE WRAZ Z PRZEJĘCIEM NA PODSTAWIE ART. 23¹ KODEKSU PRACY PRACOWNIKÓW ZATRUDNIONYCH W SEKCJI HIGIENY SZPITALNEJ W OBIEKCIE SZPITALA ZLOKALIZOWANYM PRZY UL. BIALSKIEJ 104/118 ORAZ W OBIEKCIE SZPITALA ZLOKALIZOWANYM PRZY UL. PCK 7. 2. Szczegółowy zakres zamówienia został określony w Załączniku Nr 3 do SWZ – „Opisie przedmiotu zamówienia”. Pozostałe warunki dotyczące realizacji zamówienia zostały określone w Projektowanych Postanowieniach Umowy, stanowiących Załącznik Nr 10 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622685-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL224",
+   "native_id": "622685-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 19
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – ŚWIADCZENIE KOMPLEKSOWYCH USŁUG W ZAKRESIE ZAPEWNIENIA PRAWIDŁOWEGO STANU SANITARNO-HIGIENICZNEGO, SPRZĄTANIA I DEZYNFEKCJI POMIESZCZEŃ, POWIERZCHNI I URZĄDZEŃ, PRAC POMOCNICZYCH SŁUŻĄCYCH PROFILAKTYCE, ZACHOWANIU, RATOWANIU I POPRAWIE ZDROWIA ORAZ MEDYCZNEGO TRANSPORTU WEWNĘTRZNEGO W WOJEWÓDZKIM SZPITALU SPECJALISTYCZNYM IM. NMP W CZĘSTOCHOWIE WRAZ Z PRZEJĘCIEM NA PODSTAWIE ART. 23¹ KP.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622685-2026",
+   "value": null
+  },
+  {
+   "buyer": "Krajowy Ośrodek Wsparcia Rolnictwa Oddział Terenowy w Poznaniu",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90620000",
+    "90630000",
+    "90610000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-16",
+   "description": "Kompleksowa usługa stałego utrzymania w okresie od 01.01.2027r. do 31.12.2027r. czystości w budynkach oraz terenów wokół budynków siedzib Krajowego Ośrodka Wsparcia Rolnictwa Oddział Terenowy w Poznaniu - dotyczy budynku przy ul. Fredry 12 (wewnątrz) i Fredry 11A zewnątrz (wewnątrz - opcja) wraz z zapewnieniem środków i artykułów czystości.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622584-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL415",
+   "native_id": "622584-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 14
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Kompleksowa usługa stałego utrzymania w okresie od 01.01.2027r. do 31.12.2027r. czystości w budynkach oraz terenów wokół budynków siedzib Krajowego Ośrodka Wsparcia Rolnictwa Oddział Terenowy w Poznaniu i w Sekcjach Zamiejscowych wraz z zapewnieniem środków i artykułów czystości.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622584-2026",
+   "value": null
+  },
+  {
+   "buyer": "Gmina Istebna",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000",
+    "90610000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "Przedmiotem zamówienia jest zimowe utrzymanie dróg na terenie Gminy Istebna w sołectwie Jaworzynka.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622503-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL225",
+   "native_id": "622503-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 13
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Utrzymanie dróg w sezonie zimowym 2026/2027",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622503-2026",
+   "value": null
+  },
+  {
+   "buyer": "28 Wojskowy Oddział Gospodarczy",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15220000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-13",
+   "description": "Przedmiotem zamówienia jest dostawa ryb i produktów rybnych na 2027 rok. Wymogi oraz szczegółowy opis przedmiotu zamówienia wyszczególniono w załączniku nr 1 do SWZ (opis przedmiotu zamówienia) oraz w załączniku nr 6 do SWZ (projektowane postanowienia umowy) oraz pozostałej dokumentacji przetargowej, która zostanie zamieszczona na stronie internetowej prowadzonego postępowania https://platformazakupowa.pl/pn/28wog. Zamawiający przewiduje prawo opcji w przedmiotowym postępowaniu. Miejsce realizacji dostawy: 28 WOG – Magazyn Żywnościowy Grupy Zabezpieczenia Siedlce, ul Składowa 39, 08-110 – Siedlce, woj. mazowieckie",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622502-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL925",
+   "native_id": "622502-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Ryby mrożone, filety rybne i pozostałe mięso ryb – DOSTAWA RYB I PRODUKTÓW RYBNYCH Z PODZIAŁEM NA 3 CZĘŚCI (ZADANIA)",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622502-2026",
+   "value": null
+  },
+  {
+   "buyer": "23 Baza Lotnictwa Taktycznego",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15500000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "Przedmiotem zamówienia jest sukcesywna dostawa mleka i produktów mleczarskich na rok 2027",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622427-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL912",
+   "native_id": "622427-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Produkty mleczarskie – ZP/18/2026 Sukcesywna dostawa mleka i produktów mleczarskich na rok 2027",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622427-2026",
+   "value": null
+  },
+  {
+   "buyer": "Uniwersytet Wrocławski",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200",
+    "90919000",
+    "90921000",
+    "90920000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-09",
+   "description": "1.Przedmiotem zamówienia jest utrzymanie czystości w pomieszczeniach oraz na posesji przy ul. Świdnickiej 10 we Wrocławiu. 2.Łączna powierzchnia objęta sprzątaniem wynosi: 1) Powierzchnia wewnętrzna: 934,89 m2 2) Powierzchnia zewnętrzna: 235 m2 3.Szczegółowy zakres czynności, częstotliwość ich wykonywania, wykaz pomieszczeń, powierzchni oraz wymagania organizacyjne i techniczne zostały określone w Zał. nr 3 do SWZ – Opis Przedmiotu Zamówienia. 4.Szczegółowy zakres obowiązków wykonania przedmiotu zamówienia oraz warunki płatności wskazane zostały w Zał. nr 4 do SWZ - Projektowane Postanowienia Umowy.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622328-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL514",
+   "native_id": "622328-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 19
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Usługa utrzymania czystości na obiekcie przy ul. Świdnickiej 10 we Wrocławiu.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622328-2026",
+   "value": null
+  },
+  {
+   "buyer": "Związek Międzygminny \"Centrum Zagospodarowania Odpadów - SELEKT”",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90500000",
+    "90512000",
+    "90513100"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "1. Przedmiotem zamówienia jest odbiór odpadów komunalnych z terenu następujących gmin, stanowiących wyodrębnione sektory 1) Sektor VII – obszar gminy Grodzisk Wielkopolski. 2. Odpady odbierane będą: 1) od właścicieli nieruchomości, na których zamieszkują mieszkańcy , 2) z domków letniskowych lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe, 3) z Punktu Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zlokalizowanego na działce o nr ewid.: a) 4050/6 położonej przy ul. Kościańskiej w miejscowości Grodzisk Wielkopolski (Sektor VII), 4) z aptek zlokalizowanych na terenie: a) gminy Grodzisk Wielkopolski – Sektor VII (odbiór przeterminowanych leków), 5) z elektropunktów znajdujących się w: a) Grodzisku Wielkopolskim, ul. Żydowska (Sektor VII), b) Grodzisku Wielkopolskim, ul. Winna (Sektor VII), 6) z nieruchomości wskazanych przez Zamawiającego jeżeli zaistnieje taka potrzeba w myśl postanowień art. 6 ustawy o utrzymaniu czystości i porządku w gminach (Sektor VII). 3. Przedmiot zamówienia obejmuje również dostarczenie odebranych odpadów i ich rozładunek w Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń. Niniejszy przetarg nie obejmuje odbioru odpadów z terenów nieruchomości niezamieszkałych. W myśl art. 6d ust. 4 pkt 7 ustawy o utrzymaniu czystości i porządku w gminach Wykonawca zobowiązany jest przekazywać do Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń odpady komunalne umożliwiające ich zagospodarowanie zgodnie z hierarchią sposobów postępowania z odpadami. 4. W ramach zamówienia Wykonawca zobowiązany jest odebrać następujące rodzaje odpadów komunalnych: 1) niesegregowane (zmieszane) odpady komunalne [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe]; 2) selektywnie zbierane odpady komunalne: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury - pojemnik lub worek niebieski, z napisem „Papier”, b) tworzywa sztuczne, w tym odpady opakowaniowe z tworzyw sztucznych, metale, w tym odpady opakowaniowe z metali, opakowania wielomateriałowe – pojemnik lub worek żółty, z napisem „Metale i tworzywa sztuczne”, c) szkło (bezbarwne i kolorowe), w tym odpady opakowaniowe ze szkła – pojemnik zielony, z napisem „Szkło”, d) bioodpady, tj. odpady kuchenne pochodzenia roślinnego (resztki owoców i warzyw, w tym m.in. obierki, ogryzki, skorupki jaj, fusy po kawie i herbacie) oraz odpady zielone (pozostałości roślinne – trawa, liście, drobne gałązki, kwiaty cięte, zwiędłe, doniczkowe, także system korzeniowy bez ziemi, łupiny orzechów, igliwie, szyszki) – pojemnik brązowy, z napisem „Bio”, e) odpady wielkogabarytowe , f) zużyty sprzęt elektryczny i elektroniczny, g) zużyte opony w ilości 4 sztuk rocznie od mieszkańca, h) odpady tekstyliów i odzieży - worek transparentny - przeźroczysty [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) w zakresie lit. a-h oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe w zakresie lit. a-d]; 3) odpady zebrane w Punkcie Selektywnego Zbierania Odpadów Komunalnych (PSZOK) tj.: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury, b) metal, w tym opakowania (puszki, nakrętki, kapsle, itp.), (elementy metalowe będące częścią odpadów komunalnych), c) tworzywa sztuczne, w tym opakowania z tworzyw sztucznych oraz odpady komunalne z tworzyw sztucznych, d) szkło, w tym odpady opakowaniowe ze szkła, e) opakowania wielomateriałowe, f) bioodpady, w tym odpady zielone i kuchenne, g) zużyty sprzęt elektryczny i elektroniczny, h) chemikalia, w tym opakowania zawierające pozostałości substancji niebezpiecznych, opakowania po farbach i lakierach, i) świetlówki, żarówki, termometry rtęciowe, j) przeterminowane leki, odpady niekwalifikujące się do odpadów medycznych w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególności igły i strzykawki, k) zużyte baterie i akumulatory, l) lampy fluorescencyjne, m) meble i inne odpady wielkogabarytowe, n) styropian opakowaniowy, o) odpady tekstyliów i odzieży, p) odpady budowlane i rozbiórkowe, r) zużyte opony; 4) przeterminowane leki zebrane w aptekach; 5) odpady zebrane w elektropunktach. Szczegółowy opis przedmiotu zamówienia zawiera Załącznik Nr 8 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622319-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL418",
+   "native_id": "622319-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi związane z odpadami – Odbiór odpadów komunalnych od właścicieli nieruchomości z terenu gminy Grodzisk Wielkopolski – Sektor VII.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622319-2026",
+   "value": null
+  },
+  {
+   "buyer": "Gmina Polkowice",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90610000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-17",
+   "description": "1. Przedmiotem zamówienia jest „Utrzymanie dróg gminnych i wewnętrznych w okresie letnim i zimowym – zimowe utrzymanie dróg na terenie miasta Polkowice w sezonie 2026/2027, 2027/2028 i 2028/2029 oraz letnie utrzymanie dróg na terenie miasta i gminy Polkowice w latach 2027–2029” Zakres zimowego utrzymania dróg na terenie miasta Polkowice obejmuje: a) ciągłe zimowe utrzymanie dróg ujętych w Załącznikach nr 1–4 do Umowy (z wyłączeniem dróg niebędących w zarządzie i utrzymaniu gminy Polkowice), b) interwencyjne zimowe utrzymanie dróg według potrzeb, c) interwencyjny wywóz nadmiaru śniegu spowodowany wystąpieniem obfitych opadów o charakterze anomalii pogodowej na miejsce wskazane przez Zamawiającego, d) interwencyjne polewanie dróg (nie realizuje się w przypadku temperatury powietrza niższej niż 3°C), e) interwencyjne uprzątnięcie dróg po zdarzeniach drogowych. Zakres letniego utrzymania dróg na terenie miasta i gminy Polkowice obejmuje: a) regularne zamiatanie (mechaniczne i ręczne) dróg zgodnie z podziałem na grupy określonym w dokumentacji zamówienia, b) interwencyjne letnie utrzymanie dróg według potrzeb w zakresie: - zamiatania (mechaniczne i ręczne) - uprzątnięcia drogi po zdarzeniach drogowych; - polewania dróg w okresie letnim na terenie miasta i gminy Polkowice; - oczyszczania oraz odchwaszczania pasów drogowych, - czyszczenia wpustów kanalizacji deszczowej i odwodnienia liniowego w pasach drogowych. Szczegółowy zakres został zawarty w projektowanych postanowieniach umowy.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622309-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL516",
+   "native_id": "622309-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 13
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Utrzymanie dróg gminnych i wewnętrznych w okresie letnim i zimowym – zimowe utrzymanie dróg na terenie miasta Polkowice w sezonie 2026/2027, 2027/2028 i 2028/2029 oraz letnie utrzymanie dróg na terenie miasta i gminy Polkowice w latach 2027–2029",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622309-2026",
+   "value": null
+  },
+  {
+   "buyer": "Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15332400",
+    "15871000",
+    "15892000",
+    "15891000",
+    "15240000",
+    "03131000",
+    "15880000",
+    "15612000",
+    "15400000",
+    "03212211",
+    "24911000",
+    "03130000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-09",
+   "description": "Przedmiotem zamówienia jest dostawa artykułów spożywczych różnych. Szczegółowy opis przedmiotu zamówienia (SOPZ), wraz z podaniem wymaganych ilości został określony w Załączniku Nr 1 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622308-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL911",
+   "native_id": "622308-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 26
+   },
+   "source": "ted",
+   "title": "Polska – Owoce konserwowane – DOSTAWA ARTYKUŁÓW SPOŻYWCZYCH RÓŻNYCH",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622308-2026",
+   "value": null
+  },
+  {
+   "buyer": "Wojewódzki Szpital Zespolony im. Stanisława Rybickiego w Skierniewicach",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55321000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-12",
+   "description": "Przedmiotem zamówienia są usługi gastronomiczne w zakresie przygotowania i dystrybucji całodziennych posiłków dla pacjentów i uprawnionego personelu, które będą wykonywane u Zamawiającego przez okres 24 miesięcy zgodnie z zawartą umową i wyłonionym Wykonawcą w trakcie przeprowadzonego postępowania przetargowego - szczegółowy opis zamówienia stanowi załącznik nr 1 i 1 A.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622168-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL715",
+   "native_id": "622168-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 9
+   },
+   "source": "ted",
+   "title": "Polska – Usługi przygotowywania posiłków – Usługi gastronomiczne w zakresie przygotowania i dystrybucji całodziennych posiłków dla pacjentów i uprawnionego personelu",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622168-2026",
+   "value": null
+  },
+  {
+   "buyer": "Gmina Libiąż, Urząd Miejski w Libiążu",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000",
+    "90611000",
+    "90600000",
+    "90511000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "1. Przedmiotem zamówienia jest wykonanie usługi pn.„Oczyszczanie Gminy Libiąż w 2027 roku.” 2. Zamówienie podzielono na trzy części. Część 1. – Zimowe utrzymanie na terenie miasta Libiąża. Część 2. – Zimowe utrzymanie na terenie sołectw Żarki i Gromiec. Część 3. – Pozimowe i letnie oczyszczanie terenu gminy Libiąż. 1) Część 1. – Zimowe utrzymanie na terenie miasta Libiąża. Przedmiotem zamówienia jest wykonanie usługi zimowego utrzymania dróg, chodników, placów, parkingów na terenie miasta Libiąż, poprzez:  usuwanie śniegu z jezdni, chodników, placów, parkingów, w tym odpłużanie jezdni na całej jej szerokości wraz z zatokami autobusowymi;  odśnieżanie skrzyżowań (w taki sposób aby nie utrudniać włączenia się do odśnieżanej drogi z dróg przyległych);  posypywanie dróg na podjazdach, skrzyżowaniach (zapewnienie bezpieczeństwa ruchu drogowego);  zwalczanie śliskości zimowej;  wywóz śniegu na tereny niezabudowane (przewidywana ilość 80 m3);  rozmieszczenie 12 szt. pojemników z piaskiem w miejscach najbardziej zagrożonych dla ruchu kołowego (przy wzniesieniach). Dla Części 1. i dla Części 2. zamówienia, służby zimowego utrzymania powinny być gotowe do usuwania skutków zimy przez 24 godziny na dobę (w okresach wymagających zimowego utrzymania). Sprzęt mechaniczny musi być sprawny technicznie i winien być do dyspozycji całą dobę na terenie świadczenia usługi, powinien być dostosowany do szerokości dróg. 3. Planowane ilości (częstotliwość usługi) są szacunkowe i mogą ulec zmianie (zmniejszeniu lub zwiększeniu) w zależności od warunków pogodowych oraz rzeczywistych potrzeb wykonania przedmiotu zamówienia. Rozliczanie świadczonych usług odbywać się będzie na podstawie zaoferowanych cen jednostkowych zawartych w ofercie oraz faktycznie wykonanych usług do wysokości środków przeznaczonych na ten cel określonych w umowie. 4. Szczegółowe opisy przedmiotu zamówienia z podziałem na części zostały opisane w załącznikach:  nr 11.1. do SWZ dla Części 1. zamówienia,  nr 11.2. do SWZ dla Części 2. zamówienia,  nr 11.3. do SWZ dla Części 3. zamówienia. 5. Wymagania jakościowe dla usługi oczyszczania Gminy Libiąż zostały przedstawione w szczegółowych opisach przedmiotu zamówienia, o których mowa w punkcie nr 4. 6. Wymagania w zakresie zatrudnienia na podstawie stosunku pracy, w okolicznościach, o których mowa w art. 95 ustawy Pzp 1) Zgodnie z art. 95 ust. 1 ustawy Prawo zamówień publicznych, Zamawiający, wymaga zatrudnienia przez Wykonawcę lub Podwykonawcę na podstawie stosunku pracy osób wykonujących wszelkie czynności wchodzące w tzw. koszty bezpośrednie związane z oczyszczaniem gminy w zakresie realizacji zamówienia, jeżeli wykonanie tych czynności polega na wykonaniu prac w sposób określony w art. 22 § 1 ustawy z dnia z dnia 26 czerwca 1974 r. Kodeks prac (t.j. Dz. U. z 2025 r. 277 ze zm.). Wymóg zatrudnienia dotyczy wyłącznie osób, które wykonują czynności bezpośrednio związane z wykonaniem robót objętych niniejszym zamówieniem, czyli tzw. pracowników fizycznych, o ile nie są (będą) wykonywane przez daną osobę w ramach prowadzonej przez nią działalności gospodarczej. 2) Zatrudnianie pracowników na podstawie stosunku pracy powinno trwać przez cały okres realizacji usługi. 3) W trakcie realizacji zamówienia na każdym etapie prac, Zamawiający uprawniony jest do wykonywania czynności kontrolnych wobec Wykonawcy lub Podwykonawcy odnośnie spełniania przez Wykonawcę lub Podwykonawcę wymogu zatrudnienia na podstawie umowy o pracę osób wykonujących wskazane w ppkt. 1) czynności. Zamawiający uprawniony jest w szczególności do: a) żądania oświadczeń i dokumentów w zakresie potwierdzania spełniania w/w wymogów i dokonywania ich oceny, b) żądania wyjaśnień w przypadku wątpliwości w zakresie potwierdzania spełniania w/w wymogów, c) przeprowadzenia kontroli w miejscu wykonywania świadczenia. 4) Postanowienia dotyczące sposobu dokumentowania zatrudnienia oraz kontroli spełniania przez Wykonawcę lub Podwykonawcę wymagań dotyczących zatrudnienia na podstawie umowy o pracę oraz postanowienia dotyczące sankcji z tytułu niespełnienia wymagań o których mowa w art. 95 ust. 1 ustawy Pzp i w dokumentach zamówienia, zostały określone w Projektowanych postanowieniach umowy – wór umowy dla poszczególnej części zamówienia (załącznik nr 10.1 do SWZ dla Cz.1., nr 10.2 do SWZ dla Cz.2., nr 10.3 do SWZ dla Cz.3.). 5) W przypadku uzasadnionych wątpliwości, co do przestrzegania prawa pracy przez Wykonawcę lub Podwykonawcę, Zamawiający może zwrócić się o przeprowadzenie kontroli przez Państwową Inspekcję Pracy.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:622122-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL21A",
+   "native_id": "622122-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 13
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – \"Oczyszczanie Gminy Libiąż w 2027 roku.\"",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/622122-2026",
+   "value": 1202210.9
+  },
+  {
+   "buyer": "SAMODZIELNY PUBLICZNY ZESPÓŁ OPIEKI ZDROWOTNEJ W SANOKU",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "33631600"
+   ],
+   "currency": "",
+   "deadline": "2026-10-16",
+   "description": "dostawa o charakterze sukcesywnym materiałów opatrunkowych ,dostawa o charakterze sukcesywnym preparatu do dezynfekcji powierzchni skażonych Szczegółowy opis, zakres i wielkość przedmiotu zamówienia oraz warunki realizacji zamówienia zostały zawarte w formularzu cenowym przedmiotu zamówienia stanowiącym załącznik nr 2 do SWZ oraz wzorze umowy załącznik nr 4 do SWZ oraz w formularzu „określenie produktów równoważnych do przetargu”–załącznik nr 10 do Specyfikacji Warunków Zamówienia stanowiącym integralną część SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:621883-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL821",
+   "native_id": "621883-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Środki antyseptyczne i dezynfekcyjne – Dostawa środków dezynfekcyjnych dla SPZOZ w Sanoku",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/621883-2026",
+   "value": 375620.0
+  },
+  {
+   "buyer": "45 Wojskowy Oddział Gospodarczy",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15500000",
+    "15510000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-14",
+   "description": "1. Przedmiotem zamówienia są sukcesywne dostawy mleka i przetworów mlecznych zgodnie z minimalnymi wymaganiami jakościowymi zawartymi w załączniku nr 1 do umowy, w asortymencie i ilościach podstawowych wyszczególnionych w tabelach nr 1 z zastrzeżeniem prawa opcji dla asortymentu oraz ilości wyszczególnionych w tabelach nr 2. Ilość w opcji będzie dostarczana przez Dostawcę w wypadku zaistnienia potrzeb Odbiorcy po wykorzystaniu w całości ilości podstawowych danego asortymentu. 2. Wzór umowy załącznik nr 9 do SWZ oraz minimalne wymagania jakościowe załącznik nr 10 do SWZ są uzupełnieniem opisu przedmiotu zamówienia oraz stanowią integralną część Specyfikacji Warunków Zamówienia",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:621752-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL431",
+   "native_id": "621752-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 6
+   },
+   "source": "ted",
+   "title": "Polska – Produkty mleczarskie – Dostawa mleka i przetworów mlecznych w podziale na dwie części",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/621752-2026",
+   "value": 3511080.9
+  },
+  {
+   "buyer": "Przedsiębiorstwo Komunikacji Miejskiej Katowice Spółka z ograniczoną odpowiedzialnością",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "1. Przedmiotem zamówienia jest utrzymanie w czystości bieżącej taboru autobusowego PKM Katowice Sp. z o. o. (czyszczenie codzienne (podstawowe) autobusu oraz czyszczenie okresowe autobusu, 1 raz na kwartał (wykonywane głównie w soboty i niedziele)). Szczegółowo opisane w rozdziale III.Opis przedmiotu zamówienia SWZ. 2. Szacowana liczba autobusów do mycia i sprzątania codziennego w trakcie trwania umowy tj. w okresie 12 miesięcy: 2.1. tabor krótki: około 36500 autobusów, 2.2. tabor długi: około 29000 autobusów. 3. Szacowana liczba autobusów przeznaczonych do mycia i sprzątania okresowego (autobus raz na kwartał) w trakcie trwania umowy tj. w okresie 12 miesięcy. 3.1. tabor krótki: około 552 autobusów, 3.2. tabor długi: około 480 autobusów. 4. Zamawiający zastrzega sobie prawo do zmiany liczby czyszczeń w stosunku do podanych w liczbie wynikającej ze zmian w rozkładzie jazdy +/- 10 % liczby bazowej określonej na dany rozkład jazdy, wg decyzji Zamawiającego.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:621379-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL22A",
+   "native_id": "621379-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 7
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Usługa utrzymania czystości autobusów w PKM Katowice Sp. z o.o.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/621379-2026",
+   "value": null
+  },
+  {
+   "buyer": "Gmina Mogilany",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-09",
+   "description": "Zimowe utrzymanie dróg gminnych na terenie Gminy Mogilany w sezonie zimowym 2026/2027 1. Przedmiotem zamówienia jest realizacja zadania polegającego na zimowym utrzymaniu dróg gminnych na terenie Gminy Mogilany w sezonie zimowym 2026/2027 - z podziałem na dwa zadania: - Zadanie nr 1. Zimowe utrzymanie dróg położonych w miejscowości Libertów, Brzyczyna, Lusina Konary, Włosań, Mogilany w sezonie zimowych 2026/2027; długości 92,25 km. 2. Szczegółowy zakres zamówienia określają załączone do SWZ: - Załącznik nr 8 - Projekt umowy. - Załącznik nr 9 - Specyfikacja Techniczna - Załącznik nr 10 - Opis przedmiotu zamówienia - Załącznik nr 11 - Wykaz dróg. - Załącznik nr 12 - Przebieg dróg - Załącznik nr 16 - Wykaz chodników",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:621207-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL214",
+   "native_id": "621207-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Zimowe utrzymanie dróg gminnych na terenie Gminy Mogilany w sezonie zimowym 2026/2027",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/621207-2026",
+   "value": null
+  },
+  {
+   "buyer": "Zarząd Dróg Miejskich w Pabianicach",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-12",
+   "description": "1. Przedmiotem zamówienia jest świadczenie usług przy zimowym utrzymaniu dróg gminnych polegającym na utrzymaniu przejezdności dróg w okresie zimowym, w sezonie 2026/2027 w systemie 24 godzinnym, przez 7 dni w tygodniu. Zadaniem będzie zwalczanie śliskości zimowej, odśnieżanie nawierzchni dróg oraz chodników przy użyciu sprzętu mechanicznego w ramach zawartych umów na świadczenie usług transportowych. Zamawiający dopuszcza możliwość składania ofert częściowych według podziału określonego w punkcie 2. 2. Zamawiający dopuszcza możliwość składania ofert częściowych według poniższego podziału: a) Część I – Drogi utwardzone – trasa I, b) Część II – Drogi utwardzone – trasa II, c) Część III – Drogi utwardzone – trasa III, d) Część IV – Drogi utwardzone – trasa IV, e) Część V – Drogi nieutwardzone – trasa I, f) Część VI – Drogi nieutwardzone – trasa II, g) Część VII – Chodniki i ścieżki rowerowe – trasa I, h) Część VIII – Chodniki i ścieżki rowerowe – trasa II, i) Część IX – Chodniki i ścieżki rowerowe – trasa III, j) Część X – Przejścia dla pieszych oraz dojazdy do przejazdów dla rowerów – trasa I, k) Część XI – Przejścia dla pieszych oraz dojazdy do przejazdów dla rowerów – trasa II, l) Część XII - Załadunek i wywóz śniegu, m) Część XIII – Załadunek mieszanki solno – piaskowej. 3. Szczegółowy opis przedmiotu zamówienia został zawarty w załączniku nr 7 do specyfikacji warunków zamówienia.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:621035-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL712",
+   "native_id": "621035-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 7
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Świadczenie usług przy zimowym utrzymaniu dróg na terenie miasta Pabianice w sezonie zimowym 2026/2027",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/621035-2026",
+   "value": 2614862.04
+  },
+  {
+   "buyer": "Związek Międzygminny \"Centrum Zagospodarowania Odpadów - SELEKT”",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90500000",
+    "90512000",
+    "90513100"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "1. Przedmiotem zamówienia jest odbiór odpadów komunalnych z terenu następujących gmin, stanowiących wyodrębnione sektory 1) Sektor X – obszar gminy Komorniki. 2. Odpady odbierane będą: 1) od właścicieli nieruchomości, na których zamieszkują mieszkańcy , 2) z domków letniskowych lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe (jeżeli powstaną), 3) z Punktu Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zlokalizowanego na działce o nr ewid.: a) 1216/2 zlokalizowanej w obrębie Plewiska w gminie Komorniki (Sektor X), 4) z aptek zlokalizowanych na terenie: a) gminy Komorniki – Sektor X (odbiór przeterminowanych leków), 5) z elektropunktów znajdujących się w: a) Komorniki, ul. Stawna, na parkingu przy budynku Ośrodka Zdrowia (Sektor X), b) Komorniki, Plewiska, ul. Zielarska 2 (Sektor X), 6) z nieruchomości wskazanych przez Zamawiającego jeżeli zaistnieje taka potrzeba w myśl postanowień art. 6 ustawy o utrzymaniu czystości i porządku w gminach (Sektor X). 3. Przedmiot zamówienia obejmuje również dostarczenie odebranych odpadów i ich rozładunek w Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń. Niniejszy przetarg nie obejmuje odbioru odpadów z terenów nieruchomości niezamieszkałych. W myśl art. 6d ust. 4 pkt 7 ustawy o utrzymaniu czystości i porządku w gminach Wykonawca zobowiązany jest przekazywać do Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń odpady komunalne umożliwiające ich zagospodarowanie zgodnie z hierarchią sposobów postępowania z odpadami. 4. W ramach zamówienia Wykonawca zobowiązany jest odebrać następujące rodzaje odpadów komunalnych: 1) niesegregowane (zmieszane) odpady komunalne [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe]; 2) selektywnie zbierane odpady komunalne: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury - pojemnik lub worek niebieski, z napisem „Papier”, b) tworzywa sztuczne, w tym odpady opakowaniowe z tworzyw sztucznych, metale, w tym odpady opakowaniowe z metali, opakowania wielomateriałowe – pojemnik lub worek żółty, z napisem „Metale i tworzywa sztuczne”, c) szkło (bezbarwne i kolorowe), w tym odpady opakowaniowe ze szkła – pojemnik zielony, z napisem „Szkło”, d) bioodpady, tj. odpady kuchenne pochodzenia roślinnego (resztki owoców i warzyw, w tym m.in. obierki, ogryzki, skorupki jaj, fusy po kawie i herbacie) oraz odpady zielone (pozostałości roślinne – trawa, liście, drobne gałązki, kwiaty cięte, zwiędłe, doniczkowe, także system korzeniowy bez ziemi, łupiny orzechów, igliwie, szyszki) – pojemnik brązowy, z napisem „Bio”, e) odpady wielkogabarytowe , f) zużyty sprzęt elektryczny i elektroniczny, g) zużyte opony w ilości 4 sztuk rocznie od mieszkańca, h) odpady tekstyliów i odzieży - worek transparentny - przeźroczysty [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) w zakresie lit. a-h oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe w zakresie lit. a-d]; 3) odpady zebrane w Punkcie Selektywnego Zbierania Odpadów Komunalnych (PSZOK) tj.: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury, b) metal, w tym opakowania (puszki, nakrętki, kapsle, itp.), (elementy metalowe będące częścią odpadów komunalnych), c) tworzywa sztuczne, w tym opakowania z tworzyw sztucznych oraz odpady komunalne z tworzyw sztucznych, d) szkło, w tym odpady opakowaniowe ze szkła, e) opakowania wielomateriałowe, f) bioodpady, w tym odpady zielone i kuchenne, g) zużyty sprzęt elektryczny i elektroniczny, h) chemikalia, w tym opakowania zawierające pozostałości substancji niebezpiecznych, opakowania po farbach i lakierach, i) świetlówki, żarówki, termometry rtęciowe, j) przeterminowane leki, odpady niekwalifikujące się do odpadów medycznych w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególności igły i strzykawki, k) zużyte baterie i akumulatory, l) lampy fluorescencyjne, m) meble i inne odpady wielkogabarytowe, n) styropian opakowaniowy, o) odpady tekstyliów i odzieży, p) odpady budowlane i rozbiórkowe, r) zużyte opony; 4) przeterminowane leki zebrane w aptekach; 5) odpady zebrane w elektropunktach. Szczegółowy opis przedmiotu zamówienia zawiera Załącznik Nr 8 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:621029-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL418",
+   "native_id": "621029-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi związane z odpadami – Odbiór odpadów komunalnych od właścicieli nieruchomości z terenu gminy Komorniki – Sektor X.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/621029-2026",
+   "value": null
+  },
+  {
+   "buyer": "Województwo Łódzkie",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "79952000",
+    "55120000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-15",
+   "description": "Przedmiotem zamówienia jest świadczenie usługi kompleksowej organizacji wydarzenia Kwanty Gospodarki. Przedmiot zamówienia został opisany w Opisie Przedmiotu Zamówienia (zwanym dalej „OPZ”), stanowiącym Załącznik nr 1 do SWZ, będącym jednocześnie Załącznikiem nr 1 do projektu umowy (Załącznik nr 4 do SWZ). Nazwa i kod CPV: 79952000-2 – Usługi w zakresie organizacji imprez 55120000-7 – Usługi hotelarskie w zakresie spotkań i konferencji 55110000-4 – Hotelarskie usługi noclegowe 55300000-3 – Usługi restauracyjne i dotyczące podawania posiłków 39294100-0 – Artykuły informacyjne i promocyjne 79342200-5 – Usługi w zakresie promocji 79822500-7 – Usługi projektów graficznych 79820000-8 – Usługi związane z drukowaniem",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:620972-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL712",
+   "native_id": "620972-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi w zakresie organizacji imprez – Kompleksowa organizacja wydarzenia „Kwanty Gospodarki”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/620972-2026",
+   "value": null
+  },
+  {
+   "buyer": "Uniwersytecki Szpital Kliniczny Nr 1 w Lublinie",
+   "categories": [
+    "ochrona"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-09",
+   "description": "Usługa ochrony fizycznej pacjentów, pracowników oraz mienia wraz z obsługą szatani dla pacjentów świadczona na terenie Uniwersyteckiego Szpitala Klinicznego Nr 1 w lokalizacjach: ul. Radziwiłłowska 13, ul. Chmielna 1, ul. Chmielna 1a, ul. Langiewicza 6A",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:620864-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL814",
+   "native_id": "620864-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "ochrona": 7
+   },
+   "source": "ted",
+   "title": "Polska – Usługi ochroniarskie – Usługa ochrony fizycznej pacjentów, pracowników oraz mienia wraz z obsługą szatani dla pacjentów świadczona na terenie Uniwersyteckiego Szpitala Klinicznego Nr 1 w lokalizacjach: ul. Radziwiłłowska 13, ul. Chmielna 1, ul. Chmielna 1a, ul. Langiewicza 6A",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/620864-2026",
+   "value": null
+  },
+  {
+   "buyer": "Ministerstwo Funduszy i Polityki Regionalnej",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "79952000",
+    "55120000",
+    "55300000",
+    "51310000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-09",
+   "description": "Przedmiotem zamówienia jest świadczenie usługi kompleksowej organizacji maksymalnie 45 wydarzeń (w szczególności: posiedzeń komitetu monitorującego, warsztatów, szkoleń, spotkań, grup roboczych) na terenie Warszawy.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:620831-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL911",
+   "native_id": "620831-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Usługi w zakresie organizacji imprez – Przedmiotem zamówienia jest świadczenie usługi kompleksowej organizacji maksymalnie 45 wydarzeń (w szczególności: posiedzeń komitetu monitorującego, warsztatów, szkoleń, spotkań, grup roboczych) na terenie Warszawy.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/620831-2026",
+   "value": 1915716.25
+  },
+  {
+   "buyer": "Związek Międzygminny \"Centrum Zagospodarowania Odpadów - SELEKT”",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90500000",
+    "90512000",
+    "90513100"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "1. Przedmiotem zamówienia jest odbiór odpadów komunalnych z terenu następujących gmin, stanowiących wyodrębnione sektory 1) Sektor XII – obszar gminy miejskiej Kościan. 2. Odpady odbierane będą: 1) od właścicieli nieruchomości, na których zamieszkują mieszkańcy , 2) z domków letniskowych lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe (jeżeli powstaną), 3) z Punktu Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zlokalizowanego na działce o nr ewid.: a) 41/3 położonej w miejscowości Bonikowo w gminie Kościan (Sektor XII), 4) z aptek zlokalizowanych na terenie: a) gminy miejskiej Kościan – Sektor XII (odbiór przeterminowanych leków), 5) z elektropunktów znajdujących się w: a) Kościan, ul. Bernardyńska (Sektor XII), 6) z nieruchomości wskazanych przez Zamawiającego jeżeli zaistnieje taka potrzeba w myśl postanowień art. 6 ustawy o utrzymaniu czystości i porządku w gminach (Sektor XII). 3. Przedmiot zamówienia obejmuje również dostarczenie odebranych odpadów i ich rozładunek w Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń. Niniejszy przetarg nie obejmuje odbioru odpadów z terenów nieruchomości niezamieszkałych. W myśl art. 6d ust. 4 pkt 7 ustawy o utrzymaniu czystości i porządku w gminach Wykonawca zobowiązany jest przekazywać do Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń odpady komunalne umożliwiające ich zagospodarowanie zgodnie z hierarchią sposobów postępowania z odpadami. 4. W ramach zamówienia Wykonawca zobowiązany jest odebrać następujące rodzaje odpadów komunalnych: 1) niesegregowane (zmieszane) odpady komunalne [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe]; 2) selektywnie zbierane odpady komunalne: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury - pojemnik lub worek niebieski, z napisem „Papier”, b) tworzywa sztuczne, w tym odpady opakowaniowe z tworzyw sztucznych, metale, w tym odpady opakowaniowe z metali, opakowania wielomateriałowe – pojemnik lub worek żółty, z napisem „Metale i tworzywa sztuczne”, c) szkło (bezbarwne i kolorowe), w tym odpady opakowaniowe ze szkła – pojemnik zielony, z napisem „Szkło”, d) bioodpady, tj. odpady kuchenne pochodzenia roślinnego (resztki owoców i warzyw, w tym m.in. obierki, ogryzki, skorupki jaj, fusy po kawie i herbacie) oraz odpady zielone (pozostałości roślinne – trawa, liście, drobne gałązki, kwiaty cięte, zwiędłe, doniczkowe, także system korzeniowy bez ziemi, łupiny orzechów, igliwie, szyszki) – pojemnik brązowy, z napisem „Bio”, e) odpady wielkogabarytowe , f) zużyty sprzęt elektryczny i elektroniczny, g) zużyte opony w ilości 4 sztuk rocznie od mieszkańca, h) odpady tekstyliów i odzieży - worek transparentny - przeźroczysty [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) w zakresie lit. a-h oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe w zakresie lit. a-d]; 3) odpady zebrane w Punkcie Selektywnego Zbierania Odpadów Komunalnych (PSZOK) tj.: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury, b) metal, w tym opakowania (puszki, nakrętki, kapsle, itp.), (elementy metalowe będące częścią odpadów komunalnych), c) tworzywa sztuczne, w tym opakowania z tworzyw sztucznych oraz odpady komunalne z tworzyw sztucznych, d) szkło, w tym odpady opakowaniowe ze szkła, e) opakowania wielomateriałowe, f) bioodpady, w tym odpady zielone i kuchenne, g) zużyty sprzęt elektryczny i elektroniczny, h) chemikalia, w tym opakowania zawierające pozostałości substancji niebezpiecznych, opakowania po farbach i lakierach, i) świetlówki, żarówki, termometry rtęciowe, j) przeterminowane leki, odpady niekwalifikujące się do odpadów medycznych w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególności igły i strzykawki, k) zużyte baterie i akumulatory, l) lampy fluorescencyjne, m) meble i inne odpady wielkogabarytowe, n) styropian opakowaniowy, o) odpady tekstyliów i odzieży, p) odpady budowlane i rozbiórkowe, r) zużyte opony; 4) przeterminowane leki zebrane w aptekach; 5) odpady zebrane w elektropunktach. Szczegółowy opis przedmiotu zamówienia zawiera Załącznik Nr 8 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:620754-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL418",
+   "native_id": "620754-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi związane z odpadami – Odbiór odpadów komunalnych od właścicieli nieruchomości z terenu gminy miejskiej Kościan – Sektor XII.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/620754-2026",
+   "value": null
+  },
+  {
+   "buyer": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie - Państwowy Instytut Badawczy Oddział w Gliwicach",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "33631600"
+   ],
+   "currency": "",
+   "deadline": "2026-10-16",
+   "description": "1.Opis przedmiotu zamówienia oraz warunki realizacji zamówienia zawarte są w załącznikach: 1) Specyfikacji asortymentowo-cenowej - załącznik nr 2.1 do SWZ, 2) Projektowanych postanowieniach umowy, które zostaną wprowadzone do treści umowy – załącznik nr 4 do SWZ 3. Zamawiający w niniejszym postępowaniu przetargowym przy ocenie ofert będzie stosował procedurę określoną w art. 139 ust. 1 ustawy Pzp.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:620358-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL229",
+   "native_id": "620358-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Środki antyseptyczne i dezynfekcyjne – Sukcesywne dostawy preparatów do dezynfekcji dla Narodowego Instytutu Onkologii im. Marii Skłodowskiej – Curie - Państwowego Instytutu Badawczego, Oddziału w Gliwicach",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/620358-2026",
+   "value": null
+  },
+  {
+   "buyer": "Powiat Płocki reprezentowany przez Zarząd Powiatu w Płocku",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15100000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-14",
+   "description": "Przedmiotem zamówienia jest dostawa produktów zwierzęcych, świeżego mięsa i wędlin dla Domu Pomocy Społecznej im. Bł. Abp. A. J. Nowowiejskiego w Brwilnie. Szczegółowy opis przedmiotu zamówienia stanowi Załącznik Nr 1 do SWZ wraz z załącznikiem do opisu przedmiotu zamówienia dla Części 1.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:619994-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL923",
+   "native_id": "619994-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 3
+   },
+   "source": "ted",
+   "title": "Polska – Produkty zwierzęce, mięso i produkty mięsne – „Dostawa produktów zwierzęcych, świeżego mięsa i wędlin dla jednostek organizacyjnych powiatu płockiego w 2027 roku”",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/619994-2026",
+   "value": null
+  },
+  {
+   "buyer": "POWIAT KALISKI",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90620000",
+    "90630000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-09",
+   "description": "Zadanie 1 - rejon północny Warunki wykonania usługi zimowego utrzymanie dróg powiatowych na terenie powiatu kaliskiego w sezonie 2026/2027: 1) dyżurowanie oraz zgłaszanie koordynatorowi do spraw zimowego utrzymania dróg konieczności rozpoczęcia akcji czynnej, 2) uruchamianie akcji czynnej zimowego utrzymania w ciągu 1 godziny od potwierdzenia, przez koordynatora do spraw zimowego utrzymania dróg, konieczności jej rozpoczęcia, 3) prowadzenie akcji czynnej tj. odśnieżanie i usuwanie śliskości zimowej w technologii (określonej przez koordynatora do spraw zimowego utrzymania dróg) posypywania dróg mieszanką piaskowo-solną na sieci dróg powiatowych o łącznej długości 168,20 km w tym 62,93 km dróg do posypywania wg standardu szczegółowo określonego w \"Planie zimowego utrzymania dróg na terenie powiatu kaliskiego na sezon 2026/2027\" stanowiącym załącznik nr 2 do umowy. Plan zimowego utrzymania dróg, ustala maksymalne ilości kilometrów dróg dla posypywania i odśnieżania w danym rejonie. Faktyczną ilość kilometrów, w ramach limitu do posypywania i odśnieżania, każdorazowo podaje koordynator do spraw zimowego utrzymania dróg, zlecając uruchomienie „Akcji zimowej”. 4) w czasie objętym umową, w rejonie północnym przewiduje się wykonać następujący zakres zimowego utrzymania: a) posypanie nawierzchni jezdni o szer. 5-6 m, solą zwilżoną solanką w ilości skutecznie likwidującej śliskość z pługowaniem, b) posypanie nawierzchni jezdni o szer. 5-6 m, solą zwilżoną solanką w ilości skutecznie likwidującej śliskość bez pługowania, c) pługowanie drogi o szerokości 5-6 m samochodami ciężarowymi lub ciągnikami rolniczymi kołowymi z pługiem odśnieżnym, 5) prowadzenie dziennika dyżurów, pracy sprzętu i dziennika pogody, 6) wszystkie jednostkach sprzętowe mają zainstalowany systemem odbiorników GPS umożliwiający ciągłe monitorowanie miejsca pobytu i pracę jednostek sprzętowych oraz analizę i archiwizację danych. Na żądanie Zamawiającego Wykonawca zobowiązuje się przekazywać raporty wygenerowane z systemu GPS dla każdej jednostki sprzętowej, obejmujący miejsca pobytu i zakres wykonanej pracy w danym dniu. 7) składaniu meldunków i raportów dotyczących prowadzonej akcji. Wykonawca w ramach prowadzonych dyżurów przekazuje do siedziby Zamawiającego (np. e-mailem) meldunki o przebiegu akcji zimowej wg ustalonego przez Zamawiającego wzoru. Meldunki za prowadzenie akcji zimowej w dni powszednie należy składać następnego dnia do godz. 8:30 a za dni ustawowo wolne od pracy i soboty można składać pierwszego dnia roboczego następującego po dniu wolnym, 8) Wykonawca zobowiązuje się przekazać Koordynatorom dane dostępu do odbiorników GPS umożliwiający ciągłe monitorowanie miejsca pobytu i pracę jednostek sprzętowych, 9) Do zimowego utrzymania dróg stosowana będzie: sól drogowa, solanka (roztwór soli z wodą o stężeniu 20%). Zużycie mieszanki powinno odpowiadać ilości skutecznie likwidującej śliskość. O użyciu odpowiedniego sprzętu i uruchomieniu akcji decydować będzie Przedstawiciel Zamawiającego, który będzie nadzorował i koordynował zimowe utrzymanie dróg. Wykonawca zapewni całodobowe dyżurowanie i wyznaczy osoby do kontaktu z Przedstawicielem Zamawiającego. Wykonawca od dnia podpisania umowy będzie przygotowany do świadczenia usługi i w czasie nie przekraczającym 1 godziny od momentu wyrażenia zgody Przedstawiciela Zamawiającego na użycie odpowiedniego sprzętu lub wezwania wykonawcy do użycia sprzętu, rozpocznie akcję. Szerokość dróg do odśnieżania i posypywania wynosi 5 - 6 m.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:619722-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL416",
+   "native_id": "619722-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 10
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odśnieżania – Zimowe utrzymanie dróg powiatowych na terenie powiatu kaliskiego w sezonie 2026/2027 z podziałem na trzy zadania: zadanie 1 – rejon północny, zadanie 2 – rejon centralny, zadanie 3 – rejon południowy",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/619722-2026",
+   "value": null
+  },
+  {
+   "buyer": "Generalna Dyrekcja Dróg Krajowych i Autostrad",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90000000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "Przedmiotem zadania jest wykonanie i odbiór usług związanych z przeglądem i czyszczeniem drogowych urządzeń odwadniających, takich jak zbiorniki odparowujące, separatory substancji ropopochodnych oraz osadniki.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:619711-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL617",
+   "native_id": "619711-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi odbioru ścieków, usuwania odpadów, czyszczenia/sprzątania i usługi ekologiczne – Serwis separatorów i zbiorników przy drogach krajowych administrowanych przez Generalną Dyrekcję Dróg Krajowych i Autostrad Oddział w Bydgoszczy – Rejon Inowrocław",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/619711-2026",
+   "value": null
+  },
+  {
+   "buyer": "Związek Międzygminny \"Centrum Zagospodarowania Odpadów - SELEKT”",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90500000",
+    "90512000",
+    "90513100"
+   ],
+   "currency": "",
+   "deadline": "2026-10-15",
+   "description": "1. Przedmiotem zamówienia jest odbiór odpadów komunalnych z terenu następujących gmin, stanowiących wyodrębnione sektory 1) Sektor V – obszar gminy Dopiewo. 2. Odpady odbierane będą: 1) od właścicieli nieruchomości, na których zamieszkują mieszkańcy , 2) z domków letniskowych lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe, 3) z Punktu Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zlokalizowanego na działce o nr ewid.: a) 761/2 zlokalizowanej w obrębie Dopiewo w gminie Dopiewo (Sektor V), 4) z aptek zlokalizowanych na terenie: a) gminy Dopiewo – Sektor V (odbiór przeterminowanych leków), 5) z elektropunktów znajdujących się w: a) Dąbrówce, ul. Malinowa (teren przy Szkole Podstawowej) (Sektor V), b) Skórzewie, ul. Kolejowa (teren przy parkingu) (Sektor V), 6) z nieruchomości wskazanych przez Zamawiającego jeżeli zaistnieje taka potrzeba w myśl postanowień art. 6 ustawy o utrzymaniu czystości i porządku w gminach (Sektor V). 3. Przedmiot zamówienia obejmuje również dostarczenie odebranych odpadów i ich rozładunek w Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń. Niniejszy przetarg nie obejmuje odbioru odpadów z terenów nieruchomości niezamieszkałych. W myśl art. 6d ust. 4 pkt 7 ustawy o utrzymaniu czystości i porządku w gminach Wykonawca zobowiązany jest przekazywać do Instalacji Komunalnej - PreZero Recycling Zachód Sp. z o.o. w Piotrowie Pierwszym 26/27, 64-020 Czempiń odpady komunalne umożliwiające ich zagospodarowanie zgodnie z hierarchią sposobów postępowania z odpadami. 4. W ramach zamówienia Wykonawca zobowiązany jest odebrać następujące rodzaje odpadów komunalnych: 1) niesegregowane (zmieszane) odpady komunalne [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe]; 2) selektywnie zbierane odpady komunalne: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury - pojemnik lub worek niebieski, z napisem „Papier”, b) tworzywa sztuczne, w tym odpady opakowaniowe z tworzyw sztucznych, metale, w tym odpady opakowaniowe z metali, opakowania wielomateriałowe – pojemnik lub worek żółty, z napisem „Metale i tworzywa sztuczne”, c) szkło (bezbarwne i kolorowe), w tym odpady opakowaniowe ze szkła – pojemnik zielony, z napisem „Szkło”, d) bioodpady, tj. odpady kuchenne pochodzenia roślinnego (resztki owoców i warzyw, w tym m.in. obierki, ogryzki, skorupki jaj, fusy po kawie i herbacie) oraz odpady zielone (pozostałości roślinne – trawa, liście, drobne gałązki, kwiaty cięte, zwiędłe, doniczkowe, także system korzeniowy bez ziemi, łupiny orzechów, igliwie, szyszki) – pojemnik brązowy, z napisem „Bio”, e) odpady wielkogabarytowe , f) zużyty sprzęt elektryczny i elektroniczny, g) zużyte opony w ilości 4 sztuk rocznie od mieszkańca, h) odpady tekstyliów i odzieży - worek transparentny - przeźroczysty [dotyczy właścicieli nieruchomości zamieszkałych (zabudowa mieszkalna jednorodzinna i zabudowa wielolokalowa) w zakresie lit. a-h oraz właścicieli nieruchomości, na których znajdują się domki letniskowe lub innych nieruchomości wykorzystywanych na cele rekreacyjno-wypoczynkowe w zakresie lit. a-d]; 3) odpady zebrane w Punkcie Selektywnego Zbierania Odpadów Komunalnych (PSZOK) tj.: a) papier, w tym tektura, odpady opakowaniowe z papieru i odpady opakowaniowe z tektury, b) metal, w tym opakowania (puszki, nakrętki, kapsle, itp.), (elementy metalowe będące częścią odpadów komunalnych), c) tworzywa sztuczne, w tym opakowania z tworzyw sztucznych oraz odpady komunalne z tworzyw sztucznych, d) szkło, w tym odpady opakowaniowe ze szkła, e) opakowania wielomateriałowe, f) bioodpady, w tym odpady zielone i kuchenne, g) zużyty sprzęt elektryczny i elektroniczny, h) chemikalia, w tym opakowania zawierające pozostałości substancji niebezpiecznych, opakowania po farbach i lakierach, i) świetlówki, żarówki, termometry rtęciowe, j) przeterminowane leki, odpady niekwalifikujące się do odpadów medycznych w wyniku przyjmowania produktów leczniczych w formie iniekcji i prowadzenia monitoringu poziomu substancji we krwi, w szczególności igły i strzykawki, k) zużyte baterie i akumulatory, l) lampy fluorescencyjne, m) meble i inne odpady wielkogabarytowe, n) styropian opakowaniowy, o) odpady tekstyliów i odzieży, p) odpady budowlane i rozbiórkowe, r) zużyte opony; 4) przeterminowane leki zebrane w aptekach; 5) odpady zebrane w elektropunktach. Szczegółowy opis przedmiotu zamówienia zawiera Załącznik Nr 8 do SWZ.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:619577-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL418",
+   "native_id": "619577-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 2
+   },
+   "source": "ted",
+   "title": "Polska – Usługi związane z odpadami – Odbiór odpadów komunalnych od właścicieli nieruchomości z terenu gminy Dopiewo – Sektor V.",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/619577-2026",
+   "value": null
+  },
+  {
+   "buyer": "45 Wojskowy Oddział Gospodarczy",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "15131135",
+    "15110000"
+   ],
+   "currency": "",
+   "deadline": "2026-10-14",
+   "description": "1. Przedmiotem zamówienia są sukcesywne dostawy mięsa drobiowego oraz wędlin z mięsa drobiowego zgodnie z minimalnymi wymaganiami jakościowymi zawartymi w załączniku nr 1 do umowy, w asortymencie i ilościach podstawowych wyszczególnionych w tabelach nr 1 z zastrzeżeniem prawa opcji dla asortymentu oraz ilości wyszczególnionych w tabelach nr 2. Ilość w opcji będzie dostarczana przez Dostawcę w wypadku zaistnienia potrzeb Odbiorcy po wykorzystaniu w całości ilości podstawowych danego asortymentu. 2. Wzór umowy załącznik nr 9 do SWZ oraz minimalne wymagania jakościowe załącznik nr 10 do SWZ są uzupełnieniem opisu przedmiotu zamówienia oraz stanowią integralną część Specyfikacji Warunków Zamówienia",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:619528-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL431",
+   "native_id": "619528-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 6
+   },
+   "source": "ted",
+   "title": "Polska – Wędliny drobiowe – Dostawa mięsa drobiowego oraz wędlin z mięsa drobiowego w podziale na cztery części",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/619528-2026",
+   "value": 4632711.9
+  },
+  {
+   "buyer": "28 Wojskowy Oddział Gospodarczy",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55321000"
+   ],
+   "currency": "",
+   "deadline": "2026-09-24",
+   "description": "1. Przedmiotem zamówienia jest usługa zbiorowego żywienia w m. Biała Podlaska polegającej na przygotowaniu, dowozie oraz dystrybucji posiłków w ramach żywienia systemem zleconym (catering) dla żołnierzy sił sojuszniczych, stacjonujących na terenie obiektów wojskowych w m. Biała Podlaska. 2. Wymogi, ilości oraz szczegółowy opis przedmiotu zamówienia wyszczególniono w załączniku nr 1 do SWZ (opis przedmiotu zamówienia), w załączniku nr 6 do SWZ (projektowane postanowienia umowy) oraz pozostałej dokumentacji przetargowej, która zostanie zamieszczona na stronie internetowej prowadzonego postępowania https://platformazakupowa.pl/pn/28wog. 3. Zamawiający przewiduje prawo opcji w przedmiotowym postępowaniu. 4. Miejsce realizacji usługi: m. Biała Podlaska ul. Łomaska 92, 21-500 Biała Podlaska",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:619376-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL811",
+   "native_id": "619376-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "catering": 11
+   },
+   "source": "ted",
+   "title": "Polska – Usługi przygotowywania posiłków – USŁUGA ZBIOROWEGO ŻYWIENIA W M. BIAŁA PODLASKA",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/619376-2026",
+   "value": null
+  },
+  {
+   "buyer": "Kasa Rolniczego Ubezpieczenia Społecznego Oddział Regionalny w Rzeszowie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90910000",
+    "90919200",
+    "90911300",
+    "90630000",
+    "90620000",
+    "77314100"
+   ],
+   "currency": "",
+   "deadline": "2026-10-14",
+   "description": "Przedmiotem zamówienia jest wykonanie usługi w zakresie sprzątania budynku biurowego i posesji przy ul. Słowackiego 7 w Rzeszowie, stanowiącego siedzibę Kasy Rolniczego Ubezpieczenia Społecznego Oddział Regionalny w Rzeszowie. Pomieszczenia do sprzątania: 1923,00 m2. Powierzchnia łączna posesji dookoła budynku: 706,90 m2.",
+   "extra_links": [],
+   "first_seen": "2026-09-09",
+   "id": "ted:619308-2026",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-09",
+   "location": "PL823",
+   "native_id": "619308-2026",
+   "publication_date": "2026-09-09",
+   "scores": {
+    "sprzatanie": 21
+   },
+   "source": "ted",
+   "title": "Polska – Usługi sprzątania – Wykonywanie usług w zakresie utrzymania czystości w budynkach biurowych oraz na posesjach wraz z ich odśnieżaniem i posypywaniem piaskiem w okresie zimowym należących do KRUS OR w Rzeszowie",
+   "url": "https://ted.europa.eu/pl/notice/-/detail/619308-2026",
+   "value": null
+  },
   {
    "buyer": "Izba Administracji Skarbowej w Katowicach",
    "categories": [
@@ -16,7 +851,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:619154-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22A",
    "native_id": "619154-2026",
    "publication_date": "2026-09-08",
@@ -43,7 +878,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:619135-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL823",
    "native_id": "619135-2026",
    "publication_date": "2026-09-08",
@@ -70,7 +905,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618845-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL613",
    "native_id": "618845-2026",
    "publication_date": "2026-09-08",
@@ -98,7 +933,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618790-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL613",
    "native_id": "618790-2026",
    "publication_date": "2026-09-08",
@@ -125,7 +960,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618636-2026",
    "kind": "plan",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL613",
    "native_id": "618636-2026",
    "publication_date": "2026-09-08",
@@ -153,7 +988,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618460-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL431",
    "native_id": "618460-2026",
    "publication_date": "2026-09-08",
@@ -180,7 +1015,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618394-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL426",
    "native_id": "618394-2026",
    "publication_date": "2026-09-08",
@@ -215,7 +1050,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618234-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL823",
    "native_id": "618234-2026",
    "publication_date": "2026-09-08",
@@ -245,7 +1080,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618074-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL213",
    "native_id": "618074-2026",
    "publication_date": "2026-09-08",
@@ -280,7 +1115,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617929-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL912",
    "native_id": "617929-2026",
    "publication_date": "2026-09-08",
@@ -308,7 +1143,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617838-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL822",
    "native_id": "617838-2026",
    "publication_date": "2026-09-08",
@@ -336,7 +1171,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617780-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL218",
    "native_id": "617780-2026",
    "publication_date": "2026-09-08",
@@ -364,7 +1199,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617671-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22C",
    "native_id": "617671-2026",
    "publication_date": "2026-09-08",
@@ -391,7 +1226,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617620-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL431",
    "native_id": "617620-2026",
    "publication_date": "2026-09-08",
@@ -426,7 +1261,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617616-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL841",
    "native_id": "617616-2026",
    "publication_date": "2026-09-08",
@@ -456,7 +1291,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617587-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL514",
    "native_id": "617587-2026",
    "publication_date": "2026-09-08",
@@ -486,7 +1321,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617527-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL711",
    "native_id": "617527-2026",
    "publication_date": "2026-09-08",
@@ -514,7 +1349,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617443-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22A",
    "native_id": "617443-2026",
    "publication_date": "2026-09-08",
@@ -543,7 +1378,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617401-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL424",
    "native_id": "617401-2026",
    "publication_date": "2026-09-08",
@@ -568,7 +1403,12 @@
    "currency": "",
    "deadline": "2026-10-07",
    "description": "CZĘŚĆ NR 1 – sukcesywne dostawy mięsa czerwonego, wędlin z mięsa czerwonego, wędlin drobiowych, tłuszczy zwierzęcych, ul. Wojska Polskiego 2F, 22-400 Zamość; Antrykot wołowy b/k kręg., boczek surowy b/k, golonka wieprzowa b/k – pakowana próżniowo, karkówka wieprzowa b/k, łopatka cielęca b/k, łopatka wieprzowa b/k, łopatka wołowa, mięso wieprzowe od szynki b/k drobne, ozorki wieprzowe, ozorki wołowe, polędwica wieprzowa, polędwica wołowa, schab wieprzowy b/k, szynka wieprzowa b/k, udziec cielęcy b/k, wątroba wieprzowa, wołowina ekstra, wołowina zrazowa dolna b/k, żeberka wędzone, żeberka wieprzowe, baleron, boczek wędzony parzony b/k, frankfurterki, kabanosy, kaszanka, kiełbasa biała parzona, kiełbasa jałowcowa, kiełbasa krakowska parzona, kiełbasa krakowska sucha, kiełbasa myśliwska, kiełbasa parówkowa, kiełbasa podlaska, kiełbasa szynkowa wieprzowa, kiełbasa śląska, kiełbasa toruńska, kiełbasa wiejska, kiełbasa zwyczajna, kiełbasa żywiecka, mortadela, ogonówka, parówki z szynki, pasztet wieprzowy pieczony, pasztetowa, polędwica wieprzowa wędzona, rolada z boczku, salami, salceson ozorkowy, salceson włoski, schab pieczony, szynka wieprzowa gotowana, szynka wieprzowa konserwowa, szynka wieprzowa wędzona, bekon z indyka, kabanosy drobiowe, kiełbasa szynkowa drobiowa, kiełbasa drobiowa, parówki z fileta z kurczaka, szynka drobiowa, szynka z indyka, udko drobiowe wędzone, smalec wieprzowy, słonina. Szczegółowy opis przedmiotu zamówienia w zakresie części nr 1, części nr 2, części nr 3, części nr 4, części nr 5 części nr 6 określają: 1) Minimalne wymagania jakościowe w zakresie części nr 1 – stanowiący Załącznik nr 1a do SWZ; 2) Minimalne wymagania jakościowe w zakresie części nr 2 – stanowiący Załącznik nr 1b do SWZ; 3) Minimalne wymagania jakościowe w zakresie części nr 3 – stanowiący Załącznik nr 1c do SWZ; 4) Minimalne wymagania jakościowe w zakresie części nr 4 – stanowiący Załącznik nr 1d do SWZ; 5) Minimalne wymagania jakościowe w zakresie części nr 5 – stanowiący Załącznik nr 1e do SWZ; 6) Minimalne wymagania jakościowe w zakresie części nr 6 – stanowiący Załącznik nr 1f do SWZ; UWAGA! Zamawiający przedstawi jako załączniki minimalne wymagania jakościowe w odniesieniu do części nr 1,2,3,4,5,6 spakowane w jednym pliku w formacie ZIP, plik ten w formacie ZIP zostanie zamieszczony na platformie zakupowej w zakładce „Załączniki do postępowania” jako załącznik nr 1 do SWZ; Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 1, części nr 2, części nr 3, części nr 4, części nr 5 części nr 6 określają: 1) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 1 – stanowiący Załącznik nr 2a do SWZ; 2) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 2 – stanowiący Załącznik nr 2b do SWZ; 3) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 3 – stanowiący Załącznik nr 2c do SWZ; 4) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 4 – stanowiący Załącznik nr 2d do SWZ; 5) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 5 – stanowiący Załącznik nr 2e do SWZ; 6) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 6 – stanowiący Załącznik nr 2f do SWZ; UWAGA! Zamawiający przedstawi jako załączniki Wykazy asortymentowo-ilościowe do poszczególnych miejsc dostaw odpowiednio dla części nr 1,2,3,4,5,6 spakowane w jednym pliku w formacie ZIP plik ten w formacie ZIP zostanie zamieszczony na platformie zakupowej w zakładce „Załączniki do postępowania” jako Załącznik nr 2 do SWZ. SZCZEGÓŁOWE WYMAGANIA Zamawiającego w stosunku do dostawy 1. Zamawiający zastrzega sobie możliwość skorzystania w ramach Umowy z prawa opcji (prawo opcji - 100% zamówienia podstawowego) w zakresie nieprzekraczającym asortymentu i ilości zawartych w załączniku, do umowy kolumna „ZAKRES PRAWA OPCJI”. 2. Ostateczna ilość zakupionej w ramach prawa opcji żywności będzie uzależniona od bieżących potrzeb Zamawiającego i posiadanych przez niego środków finansowych. 3. Żywność zakupiona w ramach prawa opcji musi spełniać wszystkie wymogi jak dla zamówienia gwarantowanego. 4. Zamawiający zastrzega, iż część zamówienia określona jako „prawo opcji” jest uprawnieniem, a nie zobowiązaniem Zamawiającego. Zamawiający może nie skorzystać z prawa opcji w szczególności w przypadku nieuzyskania środków finansowych na ten cel, a Wykonawcy nie przysługują z tego tytułu żadne roszczenia co niniejszym Wykonawca akceptuje przez podpisanie niniejszej umowy. 5. Zamawiający gwarantuje złożenie zamówień w ramach zamówienia podstawowego na dostawę towaru na poziomie nie mniejszym niż 30% wartości brutto Umowy, o której mowa w § 4 ust. 4 wzoru umowy stanowiącej zał. nr 3 do SWZ. Realizacja Umowy w pozostałym zakresie uzależniona będzie od faktycznych potrzeb odbiorców wynikających ze zmiennej liczby uprawnionych do żywienia oraz przydzielonych na ten cel środków finansowych. 6. Wykonawcy nie przysługują jakiekolwiek roszczenia odszkodowawcze z tytułu niezłożenia i niezrealizowania przez Zamawiającego zamówień na poziomie wyższym niż 30% maksymalnej wartości brutto Umowy zamówienia podstawowego. 7. W przypadku skorzystania przez Zamawiającego z prawa opcji, Wykonawcy będzie się należeć wynagrodzenie według cen jednostkowych jak dla zamówienia gwarantowanego. 8. Całkowity zakres prawa opcji został opisany we wzorze umowy stanowiącym załącznik nr 3 do SWZ. 9. Wykaz asortymentowo-ilościowy dla poszczególnych magazynów 32 Wojskowego Oddziału Gospodarczego zlokalizowanych w kompleksach wojskowych znajdujących się w rejonie działania 32 Wojskowego Oddziału Gospodarczego w Zamościu – miejsc dostaw został przedstawiony w Załączniku nr 2.",
-   "extra_links": [],
+   "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/621365-2026"
+    }
+   ],
    "first_seen": "2026-09-08",
    "id": "ted:617236-2026",
    "kind": "ogloszenie",
@@ -608,7 +1448,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617216-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL633",
    "native_id": "617216-2026",
    "publication_date": "2026-09-08",
@@ -636,7 +1476,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616951-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL515",
    "native_id": "616951-2026",
    "publication_date": "2026-09-08",
@@ -671,7 +1511,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616903-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL712",
    "native_id": "616903-2026",
    "publication_date": "2026-09-08",
@@ -699,7 +1539,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616811-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL617",
    "native_id": "616811-2026",
    "publication_date": "2026-09-08",
@@ -726,7 +1566,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616258-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL841",
    "native_id": "616258-2026",
    "publication_date": "2026-09-08",
@@ -757,7 +1597,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616192-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL812",
    "native_id": "616192-2026",
    "publication_date": "2026-09-08",
@@ -813,7 +1653,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615779-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL925",
    "native_id": "615779-2026",
    "publication_date": "2026-09-07",
@@ -841,7 +1681,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615590-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL417",
    "native_id": "615590-2026",
    "publication_date": "2026-09-07",
@@ -868,7 +1708,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615400-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "CH040",
    "native_id": "615400-2026",
    "publication_date": "2026-09-07",
@@ -895,7 +1735,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615344-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL712",
    "native_id": "615344-2026",
    "publication_date": "2026-09-07",
@@ -922,7 +1762,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615284-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL414",
    "native_id": "615284-2026",
    "publication_date": "2026-09-07",
@@ -951,7 +1791,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615060-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL227",
    "native_id": "615060-2026",
    "publication_date": "2026-09-07",
@@ -980,7 +1820,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:614741-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL633",
    "native_id": "614741-2026",
    "publication_date": "2026-09-07",
@@ -1012,7 +1852,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:614068-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL219",
    "native_id": "614068-2026",
    "publication_date": "2026-09-07",
@@ -1044,7 +1884,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613673-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL229",
    "native_id": "613673-2026",
    "publication_date": "2026-09-07",
@@ -1073,7 +1913,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613348-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "613348-2026",
    "publication_date": "2026-09-07",
@@ -1102,7 +1942,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613314-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL824",
    "native_id": "613314-2026",
    "publication_date": "2026-09-07",
@@ -1129,7 +1969,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613276-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL912",
    "native_id": "613276-2026",
    "publication_date": "2026-09-07",
@@ -1160,7 +2000,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613148-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL424",
    "native_id": "613148-2026",
    "publication_date": "2026-09-07",
@@ -1187,7 +2027,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613063-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL514",
    "native_id": "613063-2026",
    "publication_date": "2026-09-07",
@@ -1215,7 +2055,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:612956-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "612956-2026",
    "publication_date": "2026-09-07",
@@ -1245,7 +2085,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:612723-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "612723-2026",
    "publication_date": "2026-09-07",
@@ -1273,7 +2113,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:612665-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL913",
    "native_id": "612665-2026",
    "publication_date": "2026-09-07",
@@ -1452,7 +2292,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:612188-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL622",
    "native_id": "612188-2026",
    "publication_date": "2026-09-04",
@@ -1480,7 +2320,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:612136-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL921",
    "native_id": "612136-2026",
    "publication_date": "2026-09-04",
@@ -1510,7 +2350,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611920-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL424",
    "native_id": "611920-2026",
    "publication_date": "2026-09-04",
@@ -1537,7 +2377,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611765-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL514",
    "native_id": "611765-2026",
    "publication_date": "2026-09-04",
@@ -1572,7 +2412,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611620-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL715",
    "native_id": "611620-2026",
    "publication_date": "2026-09-04",
@@ -1599,7 +2439,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611492-2026",
    "kind": "plan",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL426",
    "native_id": "611492-2026",
    "publication_date": "2026-09-04",
@@ -1630,7 +2470,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611400-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL227",
    "native_id": "611400-2026",
    "publication_date": "2026-09-04",
@@ -1658,7 +2498,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611379-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL214",
    "native_id": "611379-2026",
    "publication_date": "2026-09-04",
@@ -1687,7 +2527,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611311-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL822",
    "native_id": "611311-2026",
    "publication_date": "2026-09-04",
@@ -1714,7 +2554,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611305-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL424",
    "native_id": "611305-2026",
    "publication_date": "2026-09-04",
@@ -1744,7 +2584,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611295-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "611295-2026",
    "publication_date": "2026-09-04",
@@ -1782,7 +2622,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611094-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22B",
    "native_id": "611094-2026",
    "publication_date": "2026-09-04",
@@ -1809,7 +2649,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611047-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "611047-2026",
    "publication_date": "2026-09-04",
@@ -1841,7 +2681,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611015-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22A",
    "native_id": "611015-2026",
    "publication_date": "2026-09-04",
@@ -1874,7 +2714,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:611010-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL823",
    "native_id": "611010-2026",
    "publication_date": "2026-09-04",
@@ -1906,6 +2746,10 @@
    "deadline": "2026-09-14",
    "description": "1. Przedmiotem zamówienia jest usługa polegająca na odbieraniu, transporcie i zagospodarowaniu odpadów komunalnych od właścicieli nieruchomości zamieszkałych na terenie miasta Lubaczowa, zbieranych zgodnie z zapisami aktualnego Regulaminu utrzymania czystości i porządku na terenie Gminy Miejskiej Lubaczów uchwalonego Uchwałą Rady Miejskiej w Lubaczowie. 2. Zakres przedmiotu zamówienia obejmuje: 1) Odbiór od wszystkich właścicieli nieruchomości zamieszkałych na terenie gminy, wytworzonej i zebranej ilości poszczególnych frakcji odpadów komunalnych, wymienionych w ust. 2 pkt 1, lit. A-D. A. Niesegregowanych (zmieszanych) odpadów komunalnych (kod odpadu: 20 03 01), zgromadzonych w pojemnikach lub workach. B. Odpadów komunalnych gromadzonych w sposób selektywny, w pojemnikach lub w workach, z podziałem na 4 frakcje, tj.: a) Papier i tektura (oznaczenie: niebieskie) obejmująca odpady komunalne: Opakowania z papieru i tektury (kod odpadu: 15 01 01), Papier i tektura (kod odpadu: 20 01 01); b) Tworzywa sztuczne i metale (oznaczenie: żółte) obejmująca odpady komunalne: Opakowania z tworzyw sztucznych (kod odpadu: 15 01 02), Opakowania z metali (kod odpadu: 15 01 04), Zmieszane odpady opakowaniowe (kod odpadu: 15 01 06), Metale (kod odpadu: 20 01 40); c) Szkło (oznaczenie: zielone) obejmująca odpady komunalne: Opakowania ze szkła (kod odpadu: 15 01 07), Szkło (kod odpadu: 20 01 02); d) Odpady biodegradowalne (oznaczenie: brązowe), obejmująca odpady komunalne: Odpady kuchenne ulegające biodegradacji (kod odpadu: 20 01 08), Odpady ulegające biodegradacji (kod odpadu: 20 02 01). C. Odpadów komunalnych gromadzonych w sposób selektywny, nie wymagających pojemników do ich zbierania, obejmujących: a) Odpady wielkogabarytowe (kod odpadu: 20 03 07), w tym: meble i inne odpady wielkogabarytowe; b) Zużyte opony (kod odpadu: 16 01 03); c) Lampy fluorescencyjne i inne odpady zawierające rtęć (kod odpadu: 20 01 21*), Urządzenia zawierające freony (kod odpadu: 20 01 23*), Zużyte urządzenia elektryczne i elektroniczne inne niż wymienione w 20 01 21, 20 01 23, 20 01 35 (kod odpadu: 20 01 35*), Zużyte urządzenia elektryczne i elektroniczne inne niż wymienione w 20 01 21, 20 01 23 i 20 01 35 (kod odpadu: 20 01 36). D. Odpady komunalne gromadzone w sposób selektywny w pojemnikach lub w workach do ich zbierania na terenie Gminy Miejskiej Lubaczów, obejmujących: a) Baterie i akumulatory łącznie z bateriami i akumulatorami wymienionymi w 16 06 01, 16 06 02 lub 16 06 03 oraz niesortowane baterie i akumulatory (kod odpadu: 20 01 33*); b) Baterie i akumulatory inne niż wymienione w 20 01 33 (kod odpadu: 20 01 34) – zebrane w pojemnikach usytuowanych w szkołach i w wybranych obiektach użyteczności publicznej na terenie Gminy Miejskiej Lubaczów; c) Leki inne niż wymienione w 20 01 31 (kod odpadu: 20 01 32), po terminie ważności oraz niewykorzystane leki, zebrane w pojemnikach usytuowanych w wybranych aptekach oddawane przez mieszkańców (nie dotyczy lekarstw pochodzących z prowadzonej działalności gospodarczej). 3. Zamówienie związane z zagospodarowaniem odebranych odpadów komunalnych bezpośrednio od mieszkańców obejmuje w szczególności wykonywanie usług w zakresie: 1) Mechaniczno-biologicznego przetwarzania niesegregowanych (zmieszanych) odpadów komunalnych oraz wydzielenia ze niesegregowanych (zmieszanych) odpadów komunalnych frakcji nadających się w całości lub w części do odzysku. 2) Przetwarzania selektywnie zebranych odpadów biodegradowalnych zgodnie z ustawą o odpadach (t.j. Dz. U. z 2023 r. poz. 1587, 1597, 1688, 1852, 2029, z 2024 r. poz. 1834, 1911, 1914, z 2025 r. poz. 1812, z 2026 r. poz. 174). 3) Prowadzenia mechaniczno-biologicznego procesu przetwarzania zmieszanych odpadów komunalnych (frakcja podsitowa 0-80 mm) zgodnie ustawą o odpadach (t.j. Dz. U. z 2023 r. poz. 1587, 1597, 1688, 1852, 2029, z 2024 r. poz. 1834, 1911, 1914, z 2025 r. poz. 1812, z 2026 r. poz. 174), frakcja nadsitowa (> 80 mm) o wymaganej przez aktualne przepisy prawa kaloryczności winna zostać przekazana do zagospodarowania jako paliwo alternatywne. 4) Składowania odpadów po procesie mechaniczno-biologicznego przetwarzania zmieszanych odpadów komunalnych (stabilizat). 5) Wysortowania ze zmieszanych odpadów opakowaniowych i odpadów surowców wtórnych z przeznaczeniem ich do odzysku. 6) Sortowania zmieszanych odpadów opakowaniowych i odpadów zbieranych u źródła z przeznaczeniem ich do odzysku. 7) Składowania odpadów o kodzie 20 03 99. 8) Zagospodarowania pozostałych rodzajów odpadów, w tym odpadów remontowo-budowlanych. 4. W okresie obowiązywania umowy Wykonawca zobowiązany będzie: 1) Starać się o osiągnąć odpowiednich poziomów recyklingu, przygotowania do ponownego użycia i odzysku innymi metodami oraz ograniczenia masy odpadów komunalnych ulegających biodegradacji przekazywanych do składowania. 2) Przestrzegania obowiązujących przepisów prawa, a w szczególności ustawy z dnia 14 grudnia 2012 r. o odpadach (t.j. Dz. U. z 2023 r. poz. 1587, 1597, 1688, 1852, 2029, z 2024 r. poz. 1834, 1911, 1914, z 2025 r. poz. 1812, z 2026 r. poz. 174) oraz ustawy z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach (t.j. Dz.U. z 2025 r., poz. 733) oraz aktami wykonawczymi, a także aktualnymi w okresie wykonywania zamówienia zapisami Planu Gospodarki Odpadami dla Województwa Podkarpackiego na lata 2020 – 2026 z perspektywą do 2032 roku stanowiącym załącznik nr 1 do Uchwały Nr XXXVI/584/21 Sejmiku Województwa Podkarpackiego z dnia 26 kwietnia 2021 r., Rozporządzenia Ministra Klimatu i Środowiska) z dnia 10 maja 2021 r. w sprawie sposobu selektywnego zbierania wybranych frakcji odpadów (Dz.U. z 2021 r. poz. 906) i przepisami prawa miejscowego, w tym Regulaminu utrzymania czystości i porządku na terenie Gminy Miejskiej Lubaczów wraz z innymi przepisami prawa miejscowego. 3) Dostarczyć Fakturę VAT za wykonaną usługę z dołączonymi Kartami przekazania odpadów na ilości zgodne z wartościami widniejącymi na fakturze oraz Raportem miesięcznym podmiot",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/616804-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/616804-2026"
@@ -1941,7 +2785,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610839-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL814",
    "native_id": "610839-2026",
    "publication_date": "2026-09-04",
@@ -1975,7 +2819,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610828-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL516",
    "native_id": "610828-2026",
    "publication_date": "2026-09-04",
@@ -2000,6 +2844,10 @@
    "deadline": "2026-10-05",
    "description": "Przedmiotem zamówienia jest zimowe utrzymanie dróg gminnych, parkingów poprzez odśnieżanie, posypywanie grysem lub solą, usuwanie zasp śnieżnych, zwalczanie śliskości zimowej, gołoledzi i szronu, likwidowanie warstw zlodowaciałego i ubitego śniegu w zależności od panujących warunków atmosferycznych. Szczegółowy zakres i opis przedmiotu zamówienia zawierają poniższe załączniki do SWZ: - formularz cenowy (załącznik nr 1a), który należy złożyć wraz z ofertą stanowiącą załącznik nr 1 do SWZ, - opis przedmiotu zamówienia (załącznik nr 5) - projektowane postanowienia umowy (załącznik nr 3).",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/614436-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/614436-2026"
@@ -2040,7 +2888,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610411-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL218",
    "native_id": "610411-2026",
    "publication_date": "2026-09-04",
@@ -2072,7 +2920,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610302-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL228",
    "native_id": "610302-2026",
    "publication_date": "2026-09-04",
@@ -2104,7 +2952,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610281-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL21A",
    "native_id": "610281-2026",
    "publication_date": "2026-09-04",
@@ -2142,7 +2990,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610272-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL711",
    "native_id": "610272-2026",
    "publication_date": "2026-09-04",
@@ -2169,7 +3017,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610122-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22A",
    "native_id": "610122-2026",
    "publication_date": "2026-09-04",
@@ -2196,7 +3044,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:610075-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL913",
    "native_id": "610075-2026",
    "publication_date": "2026-09-04",
@@ -2227,7 +3075,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:609975-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL213",
    "native_id": "609975-2026",
    "publication_date": "2026-09-04",
@@ -2254,7 +3102,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:609837-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL213",
    "native_id": "609837-2026",
    "publication_date": "2026-09-04",
@@ -2281,7 +3129,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:609797-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL613",
    "native_id": "609797-2026",
    "publication_date": "2026-09-04",
@@ -2313,7 +3161,7 @@
    "first_seen": "2026-09-04",
    "id": "ted:609751-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL633",
    "native_id": "609751-2026",
    "publication_date": "2026-09-04",
@@ -2571,7 +3419,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:609320-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL721",
    "native_id": "609320-2026",
    "publication_date": "2026-09-03",
@@ -2598,7 +3446,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:609264-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "609264-2026",
    "publication_date": "2026-09-03",
@@ -2625,7 +3473,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:609135-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL923",
    "native_id": "609135-2026",
    "publication_date": "2026-09-03",
@@ -2653,7 +3501,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:608447-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL21A",
    "native_id": "608447-2026",
    "publication_date": "2026-09-03",
@@ -2681,7 +3529,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:608276-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22A",
    "native_id": "608276-2026",
    "publication_date": "2026-09-03",
@@ -2710,7 +3558,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:608208-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL621",
    "native_id": "608208-2026",
    "publication_date": "2026-09-03",
@@ -2739,7 +3587,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:608084-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL714",
    "native_id": "608084-2026",
    "publication_date": "2026-09-03",
@@ -2774,7 +3622,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:608063-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "608063-2026",
    "publication_date": "2026-09-03",
@@ -2805,7 +3653,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:608037-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "POL",
    "native_id": "608037-2026",
    "publication_date": "2026-09-03",
@@ -2834,7 +3682,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:608016-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL219",
    "native_id": "608016-2026",
    "publication_date": "2026-09-03",
@@ -2861,7 +3709,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607979-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL633",
    "native_id": "607979-2026",
    "publication_date": "2026-09-03",
@@ -2888,7 +3736,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607947-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL912",
    "native_id": "607947-2026",
    "publication_date": "2026-09-03",
@@ -2916,7 +3764,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607933-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL842",
    "native_id": "607933-2026",
    "publication_date": "2026-09-03",
@@ -2947,7 +3795,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607581-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL514",
    "native_id": "607581-2026",
    "publication_date": "2026-09-03",
@@ -2974,7 +3822,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607534-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL518",
    "native_id": "607534-2026",
    "publication_date": "2026-09-03",
@@ -3001,7 +3849,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607380-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "607380-2026",
    "publication_date": "2026-09-03",
@@ -3029,7 +3877,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607185-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "607185-2026",
    "publication_date": "2026-09-03",
@@ -3061,7 +3909,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:607026-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL22C",
    "native_id": "607026-2026",
    "publication_date": "2026-09-03",
@@ -3094,6 +3942,10 @@
    "deadline": "2026-10-05",
    "description": "Dostawa i montaż wyposażenia meblowego do świetlicy dzielnicowej w Grotowicach mieszczącej się w Opolu, Grotowice ul. Złota, obręb Groszowice. Zamawiający na stronie internetowej prowadzonego postępowania zamieszcza w formie plików do pobrania szczegółowy opis przedmiotu zamówienia oraz wzór umowy. Zamawiający nie przewiduje udzielenia zamówienia, o którym mowa w art. 214 ust. 1 pkt. 8 Prawa. Zgodnie z art. 257 pkt 1 Prawa Zamawiający przewiduje możliwość unieważnienia przedmiotowego postępowania, jeżeli środki, które Zamawiający zamierzał przeznaczyć na sfinansowanie całości lub części zamówienia, nie zostały mu przyznane. Kauzula informacyjna dot. przetwarzania danych osobowych w SWZ dostępna na platformie zakupowej Logintrade pod adresem prowadzonego postępowania. Zamawiający nie żąda od Wykonawców wniesienia wadium.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/613480-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/613480-2026"
@@ -3138,7 +3990,7 @@
    "first_seen": "2026-09-03",
    "id": "ted:606043-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL922",
    "native_id": "606043-2026",
    "publication_date": "2026-09-03",
@@ -3469,7 +4321,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:605631-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL224",
    "native_id": "605631-2026",
    "publication_date": "2026-09-02",
@@ -3497,7 +4349,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:605482-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL712",
    "native_id": "605482-2026",
    "publication_date": "2026-09-02",
@@ -3522,6 +4374,10 @@
    "deadline": "2026-09-10",
    "description": "Przedmiotem zamówienia jest świadczenie usług kompleksowego utrzymania czystości i porządku w obiektach Śląskiego Centrum Chorób Serca w Zabrzu.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/611389-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/611389-2026"
@@ -3576,7 +4432,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:605346-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL911",
    "native_id": "605346-2026",
    "publication_date": "2026-09-02",
@@ -3605,7 +4461,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:605266-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL821",
    "native_id": "605266-2026",
    "publication_date": "2026-09-02",
@@ -3633,7 +4489,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:605171-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL414",
    "native_id": "605171-2026",
    "publication_date": "2026-09-02",
@@ -3657,6 +4513,10 @@
    "deadline": "2026-09-25",
    "description": "1.Przedmiotem zamówienia jest usługa sprzątania wnętrz i powierzchni w budynkach Urzędu Miasta Poznania położonych w Poznaniu przy ul. 3 Maja 46, ul. Matejki 50, ul. 28 Czerwca 1956 r. nr 404 i 406, ul. Zwierzyniecka 20, ul. Świerkowa 10, ul. Świt 34-36. Szczegółowy wykaz powierzchni występujących w ww. budynkach zawiera załącznik nr 1 do umowy. Szczegółowy zakres czynności, wynikający z usług sprzątania oraz częstotliwość ich wykonywania, zawiera załącznik nr 2 do umowy. Szczegółowy opis warunków realizacji przedmiotu zamówienia określony został we wzorze umowy, stanowiącym Załącznik nr 13 do SWZ. 2. O udzielenie zamówienia mogą ubiegać się Wykonawcy, którzy: 1) nie podlegają wykluczeniu na podstawie: a) art. 108 ust. 1 ustawy, b) art. 7 ust. 1 ustawy z dnia 13 kwietnia 2022 r. o szczególnych rozwiązaniach w zakresie przeciwdziałania wspierania agresji na Ukrainę oraz służących ochronie bezpieczeństwa narodowego, c)art 5k ust. 1 Rozporządzenia Rady Unii Europejskiej nr 2025/2033 z dnia 23 października 2025 r. w sprawie zmiany Rozporządzenia (UE) nr 833/2014 z dnia 31 lipca 2014 r. dotyczącego środków ograniczających w związku z działaniami Rosji destabilizującymi sytuację na Ukrainie. 3.Informacje o Oświadczeniu, o którym mowa w art. 125 ust. 1 ustawy, wykazie oświadczeń, dokumentów, podmiotowych środków dowodowych, potwierdzających brak podstaw wykluczenia i spełnianie warunków udziału w postępowaniu, wspólnym ubieganiu się o zamówienie przez Wykonawców, dokumentach podmiotów zagranicznych zawiera odpowiednio pkt. VI SWZ. 4.Inne dokumenty składane wraz z ofertą zawiera pkt VI. 12 SWZ. 7.Informacje o środkach komunikacji elektronicznej, przy użyciu których Zamawiający będzie komunikował się z Wykonawcami zawiera pkt. VIII SWZ. 5. Informacje o podmiotach zagranicznych zawiera pkt. VI SWZ.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/616684-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/616684-2026"
@@ -3697,7 +4557,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:605043-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL21A",
    "native_id": "605043-2026",
    "publication_date": "2026-09-02",
@@ -3735,7 +4595,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:605016-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL616",
    "native_id": "605016-2026",
    "publication_date": "2026-09-02",
@@ -3765,7 +4625,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:604867-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL229",
    "native_id": "604867-2026",
    "publication_date": "2026-09-02",
@@ -3793,7 +4653,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:604804-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL228",
    "native_id": "604804-2026",
    "publication_date": "2026-09-02",
@@ -3825,7 +4685,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:604698-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL616",
    "native_id": "604698-2026",
    "publication_date": "2026-09-02",
@@ -3853,7 +4713,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:604400-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL424",
    "native_id": "604400-2026",
    "publication_date": "2026-09-02",
@@ -3880,7 +4740,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:604339-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL814",
    "native_id": "604339-2026",
    "publication_date": "2026-09-02",
@@ -3911,7 +4771,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:604196-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL217",
    "native_id": "604196-2026",
    "publication_date": "2026-09-02",
@@ -3940,7 +4800,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:604020-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL821",
    "native_id": "604020-2026",
    "publication_date": "2026-09-02",
@@ -3964,6 +4824,10 @@
    "deadline": "2026-10-06",
    "description": "Przedmiotem zamówienia jest sporządzanie i dostarczanie całodziennego wyżywienia pacjentów Samodzielnego Publicznego Zespołu Zakładów Opieki Zdrowotnej w Ostrowi Mazowieckiej oraz Zakładu Opiekuńczo Leczniczego w Małkini Górnej wraz z wynajmem pomieszczeń. Szczegółowy Opis Przedmiotu Zamówienia (OPZ) określa Załącznik Nr 2 do niniejszej SWZ. Przy realizacji zamówienia należy przestrzegać uwarunkowań zawartych w Opisie Przedmiotu Zamówienia – Załącznik Nr 2 do SWZ i w projektowanych postanowieniach umowy – Załącznik Nr 5 do SWZ.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/617612-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/617612-2026"
@@ -4000,7 +4864,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:603379-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL811",
    "native_id": "603379-2026",
    "publication_date": "2026-09-02",
@@ -4028,7 +4892,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:603374-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL415",
    "native_id": "603374-2026",
    "publication_date": "2026-09-02",
@@ -4055,7 +4919,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:603082-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL229",
    "native_id": "603082-2026",
    "publication_date": "2026-09-02",
@@ -4085,7 +4949,7 @@
    "first_seen": "2026-09-02",
    "id": "ted:602803-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-09",
    "location": "PL224",
    "native_id": "602803-2026",
    "publication_date": "2026-09-02",
@@ -4458,6 +5322,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/608730-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/608730-2026"
     }
    ],
    "first_seen": "2026-09-01",
@@ -4738,6 +5606,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/609635-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/621835-2026"
     }
    ],
    "first_seen": "2026-09-01",
@@ -4798,6 +5670,10 @@
    "deadline": "2026-09-07",
    "description": "1.Szczegółowy opis przedmiotu zamówienia, zakres oraz sposób i wymagania dotyczące realizacji przedmiotu zamówienia, określają: opis przedmiotu zamówienia, stanowiący Załącznik nr 1 do SWZ wraz z Załącznikiem nr 1a) pn. \"Charakterystyka usług sprzątania (...)\". 2. Projektowane postanowienia umowy (wzór umowy) - Załącznik nr 2a do SWZ. 3. Formularz cenowy - Załącznik nr 8a) do SWZ, który stanowi dokument pomocniczy do wyceny oferty.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/612929-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/612929-2026"
@@ -5342,6 +6218,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/604390-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/604390-2026"
     }
    ],
    "first_seen": "2026-09-01",
@@ -5377,6 +6257,10 @@
    "deadline": "2026-10-06",
    "description": "Przedmiotem zamówienia jest: „Kompleksowe utrzymanie czystości w budynkach Sądu Rejonowego dla Łodzi-Śródmieścia w Łodzi wraz z utrzymaniem czystości na przylegających terenach zewnętrznych”. Przedmiot zamówienia został podzielony na trzy części. Część I przedmiotu zamówienia obejmuje zakres główny usługi oraz zakres usługi objęty opcją. Część I obejmuje obiekty Sądu Rejonowego dla Łodzi-Śródmieścia w Łodzi mieszczące się przy: • al. Kościuszki 107/109 (obiekt objęty zakresem głównym usługi), • ul. Wólczańskiej 138 (obiekt objęty zakresem głównym usługi), • ul. Pomorskiej 37 (obiekt objęty opcją). . Szczegółowy opis przedmiotu zamówienia (zakres usług i czynności) stanowi załącznik nr 1 do SWZ, który jest integralną część SWZ. Projektowane postanowienia umowy w sprawie zamówienia publicznego, które zostaną wprowadzone do umowy określone zostały w załączniku nr 5A do SWZ. Przedmiot zamówienia obejmuje w szczególności: a) sprzątanie - w każdy dzień roboczy (od poniedziałku do piątku) - powierzchni wewnętrznych w poszczególnych budynkach sądu, w tym pomieszczeń biurowych, sal rozpraw, toalet, korytarzy i klatek schodowych (sprzątanie powierzchni wewnętrznych przy zastosowaniu środków czystości i sprzętu Wykonawcy), uzupełnianie dozowników na mydło w płynie, uzupełnianie pojemników na ręczniki papierowe i papier toaletowy (mydło w płynie, ręczniki papierowe i papier toaletowy po stronie Wykonawcy), uzupełnianie dozowników na płyn do dezynfekcji rąk, dezynfekcję sal rozpraw po zakończeniu każdego dnia sesyjnego (środki do dezynfekcji zapewnia Zamawiający), z zastrzeżeniem, że konieczność przeprowadzania dezynfekcji uwarunkowana będzie sytuacją epidemiologiczną w kraju i może ulegać zmianie w trakcie realizacji przedmiotu zamówienia, b) maszynowe mycie posadzek na korytarzach, c) mycie zewnętrznych i wewnętrznych powierzchni okien wraz z parapetami i ramami okiennymi - cztery razy w trakcie obowiązywania umowy, w terminach uzgodnionych z Zamawiającym: • w okresie od 15 kwietnia 2027 r. do 31 maja 2027 r. • w okresie od 1 września 2027 r. do 15 października 2027 r. • w okresie od 15 kwietnia 2028 r. do 31 maja 2028 r. • w okresie od 1 września 2028 r. do 15 października 2028 r. d) sprzątanie - w każdy dzień roboczy (od poniedziałku do piątku) - terenów zewnętrznych, w tym trawników, parkingów i chodników w lokalizacjach przy: al. Kościuszki 107/109, ul. Wólczańskiej 138 i ul. Pomorskiej 37 (z zastrzeżeniem ew. zmiany wynikającej ze skorzystania z opcji przez Zamawiającego), e) odśnieżanie i usuwanie oblodzeń - w każdy dzień w okresie zimowym - terenów zewnętrznych, w tym parkingów, schodów i chodników w lokalizacjach przy al. Kościuszki 107/109, ul. Wólczańskiej 138 i ul. Pomorskiej 37 (z zastrzeżeniem ew. zmiany wynikającej ze skorzystania z opcji przez Zamawiającego). W części I przedmiotu zamówienia Zamawiający przewiduje skorzystanie z opcji na zasadach szczegółowo określonych w dokumentach zamówienia. Skorzystanie z opcji przez Zamawiającego polegać będzie na zmniejszeniu zakresu przedmiotu zamówienia, tj. możliwości wcześniejszego zakończenia realizacji zamówienia i rezygnacji ze świadczenia usługi sprzątania wyłącznie w zakresie obiektu Zamawiającego przy ul. Pomorskiej 37 - po upływie co najmniej 10 miesięcy od momentu podjęcia przez Wykonawcę czynności związanych z realizacją usługi sprzątania.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/605775-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/605775-2026"
@@ -5666,7 +6550,12 @@
    "currency": "",
    "deadline": "2026-09-15",
    "description": "Przedmiotem zamówienia jest usługa eksploatacji i rozwoju Systemu Dozoru Elektronicznego.",
-   "extra_links": [],
+   "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/621124-2026"
+    }
+   ],
    "first_seen": "2026-08-31",
    "id": "ted:599350-2026",
    "kind": "ogloszenie",
@@ -5721,6 +6610,10 @@
    "deadline": "2026-09-15",
    "description": "1.Przedmiotem zamówienia jest ochrona Biblioteki Uniwersyteckiej w Warszawie (BUW), zlokalizowanej przy ul. Dobra 56/66 w Warszawie oraz budynku SAT - tzw. Domek Ogrodnika – położonego przy ul. Dobra 68/70 w Warszawie. 2.Szczegółowy opis przedmiotu zamówienia określa „Opis przedmiotu zamówienia” stanowiący załącznik nr 1 do SWZ oraz projektowane postanowienia umowy stanowiące załącznik nr 9 do SWZ.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/615546-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/615546-2026"
@@ -6102,6 +6995,10 @@
     {
      "label": "Ta sama sprawa w: BZP",
      "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df06fd-8dc5-49a5-ab56-940001856563"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/620142-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -6198,7 +7095,12 @@
    "currency": "",
    "deadline": "2026-09-11",
    "description": "1. Przedmiotem zamówienia jest wykonywanie przez Wykonawcę usług ochrony osób i mienia, w rozumieniu ustawy z dnia 22 sierpnia 1997 roku o ochronie osób i mienia (Dz. U. z 2025 r. poz. 532.), obejmujących: 1) zapewnienie stałej, bezpośredniej ochrony fizycznej w obiektach Zamawiającego, 2) monitorowanie obiektów Zamawiającego; a) monitorowanie sygnałów przesyłanych, gromadzonych i przetwarzanych w elektronicznych systemach zabezpieczenia technicznego b) zapewnienie gotowości oraz podjazdu grup interwencyjnych. 3) prześwietlanie korespondencji z wykorzystaniem urządzenia RTG, dostarczonego przez Wykonawcę; 4) wsparcie obsługi recepcji; 5) usługa deponowania oraz doraźnego dostarczania kluczy przez grupę interwencyjną. 2. Szczegółowy opis przedmiotu zamówienia, wykaz zadań, terminów oraz warunki realizacji przedmiotu zamówienia, płatności, etc. określone zostały w Projektowanych Postanowieniach Umowy (dalej: „PPU”), które stanowią załącznik nr 2 do SWZ i Opisie Przedmiotu Zamówienia (dalej: „OPZ”), który stanowi załącznik nr 1 do SWZ.",
-   "extra_links": [],
+   "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/621375-2026"
+    }
+   ],
    "first_seen": "2026-08-31",
    "id": "ted:597205-2026",
    "kind": "ogloszenie",
@@ -6290,6 +7192,10 @@
    "deadline": "2026-09-08",
    "description": "Przedmiotem zamówienia jest: „Odbieranie i zagospodarowanie odpadów komunalnych od właścicieli nieruchomości zamieszkałych, nieruchomości rekreacyjno-wypoczynkowych z terenu gminy Zielonki, jak również z 2 Punktów Selektywnego Zbierania Odpadów Komunalnych (PSZOK)” Odbieranie i zagospodarowanie odpadów komunalnych wskazanych w opisie zamówienia od właścicieli nieruchomości zamieszkałych, nieruchomości rekreacyjno-wypoczynkowych z terenu gminy Zielonki, w sposób zapewniający osiągnięcie odpowiednich poziomów recyklingu, przygotowania do ponownego użycia i odzysku innymi metodami zgodnie z zapisami ustawy z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach (t.j. Dz. U. z 2025 r. poz. 733) oraz przepisami Regulaminu utrzymania czystości i porządku na terenie gminy Zielonki (Uchwała Nr XXIII/135/2020 Rady Gminy Zielonki z dnia 17 grudnia 2020 r.)",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/609826-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/609826-2026"
@@ -6916,6 +7822,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/610479-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/610479-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -7141,6 +8051,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/606926-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/606926-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -7201,6 +8115,10 @@
    "deadline": "2026-09-07",
    "description": "Szczegółowy opis przedmiotu zamówienia znajduje się w Rozdziale XXIV SWZ oraz załącznik nr 2 do SWZ OPZ",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/611296-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/611296-2026"
@@ -7620,6 +8538,10 @@
    "deadline": "2026-09-07",
    "description": "Część 1",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/611653-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/611653-2026"
@@ -8298,7 +9220,12 @@
    "currency": "",
    "deadline": "2026-10-01",
    "description": "4.1. Przedmiotem zamówienia jest codzienne przygotowanie i dostawa posiłków dla pacjentów Szpitala Powiatu Bytowskiego Sp. z o.o. w Bytowie na bazie kuchni produkcyjnej i zaplecza gospodarczego Wykonawcy. Realizacja zamówienia odbywać się będzie w systemie ciągłym obejmującym pracę w soboty, niedziele i dni świąteczne. 4.2. Szczegółowy opis przedmiotu zamówienia określony jest w Załączniku nr 1 do SWZ – Opis przedmiotu zamówienia. 4.3. Zamawiający przewiduje możliwość skorzystania z opcji na zasadach opisanych w projekcie umowy stanowiącym załącznik do SWZ. Przedmiotem postępowania jest pełen zakres, zarówno gwarantowany, jak i opcjonalny",
-   "extra_links": [],
+   "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/622521-2026"
+    }
+   ],
    "first_seen": "2026-08-31",
    "id": "ted:591087-2026",
    "kind": "ogloszenie",
@@ -8577,7 +9504,12 @@
    "currency": "",
    "deadline": "2026-09-29",
    "description": "Przedmiotem zamówienia jest usługa kompleksowego sprzątania obiektów II Oddziału ZUS w Łodzi. Przedmiot zamówienia obejmuje obiekty w następujących miejscowościach i lokalizacjach: 1. Oddział - Zduńska Wola, ul. Kilińskiego 7/11 budynek A, 2. Oddział - Zduńska Wola, ul. Kilińskiego 24 budynek B, 3. Inspektorat - Łódź, ul. Łęczycka 70a, 4. Inspektorat - Pabianice, ul. Kościuszki 31, 5. Inspektorat - Sieradz, ul. Piłsudskiego 8, 6. Inspektorat - Wieluń, ul. 3 Maja 7, 7. Biuro Terenowe - Pajęczno, ul. Wiśniowa 10, 8. Biuro Terenowe - Poddębice, ul. Łęczycka 17/19, 9. Biuro Terenowe - Wieruszów, ul. Bursztynowa 4, 10. Punkt Obsługi Klientów - Łask, ul. Kościuszki 14. Szczegółowy opis przedmiotu zamówienia stanowi załącznik nr 9 do Specyfikacji Warunków Zamówienia (SWZ).",
-   "extra_links": [],
+   "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/622663-2026"
+    }
+   ],
    "first_seen": "2026-08-31",
    "id": "ted:589738-2026",
    "kind": "ogloszenie",
@@ -8755,6 +9687,10 @@
    "deadline": "2026-09-11",
    "description": "1. Przedmiotem zamówienia jest świadczenie usługi ochrony fizycznej osób i mienia na terenach Sekcji Napraw i Eksploatacji Taboru Spółki „Koleje Mazowieckie – KM” sp. z o.o. 2. Szczegółowy opis, zakres, wymagania oraz sposób realizacji przedmiotu zamówienia określają Projektowane postanowienia umowy stanowiące załącznik nr 1 do SWZ. 3. We wszystkich zapisach SWZ oraz jej załącznikach, które odwołują się do norm, ocen technicznych, specyfikacji technicznych i systemów referencji technicznych, zgodnie z art. 101 ust. 4 ustawy Pzp, Zamawiający dopuszcza zastosowanie rozwiązań równoważnych rozwiązaniom opisywanym w normach, ocenach technicznych, specyfikacjach technicznych i systemach referencji technicznych, wskazanym w SWZ i załącznikach jeżeli pozwolą one uzyskać cechy lub parametry nie gorsze niż przywołane w SWZ i załącznikach. W przypadku zastosowania rozwiązań równoważnych, Wykonawca udowodni w ofercie, w szczególności za pomocą przedmiotowych środków dowodowych, o których mowa w art. 104-107 ustawy Pzp, że proponowane rozwiązania w równoważnym stopniu spełniają wymagania określone w opisie przedmiotu zamówienia. 4. Zamawiający wymaga złożenia przedmiotowych środków dowodowych, o których mowa w ust. 3 (jeżeli dotyczy). Jeżeli Wykonawca nie złoży przedmiotowych środków dowodowych lub złożone przedmiotowe środki dowodowe będą niekompletne, Zamawiający zgodnie z zapisami art. 107 ust. 2 ustawy Pzp wezwie Wykonawcę do złożenia lub uzupełnienia przedmiotowych środków dowodowych, o których mowa w ust. 3 (jeżeli dotyczy). 5. Zamawiający wymaga, aby Wykonawca i podwykonawca (w przypadku powierzenia przez Wykonawcę części zamówienia podwykonawcy) realizowali zamówienie pracownikami ochrony zatrudnionymi na podstawie umowy o pracę. Sposób udokumentowania zatrudnienia pracowników, uprawnienia Zamawiającego w zakresie kontroli spełnienia przez Wykonawcę wymagań oraz sankcje z tytułu niespełnienia określonych wymagań zostały zawarte w Projektowanych postanowieniach umowy stanowiących załącznik nr 1 do SWZ. 6. Jeżeli Wykonawca zamierza powołać się na urzędowy certyfikat, o którym mowa w ustawie z dnia 5 sierpnia 2025 r. o certyfikacji wykonawców zamówień publicznych, zobowiązany jest wskazać to w części II sekcji A Jednolitego Europejskiego Dokumentu Zamówienia (załącznik nr 6 do SWZ), podając: numer i oznaczenie certyfikatu, pełną nazwę podmiotu certyfikującego, który wydał dokument, okres ważności certyfikatu oraz dokładny zakres podstaw wykluczenia lub warunków udziału w odniesieniu, do których Wykonawca powołuje się na ten certyfikat.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/613272-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/613272-2026"
@@ -9214,6 +10150,10 @@
    "deadline": "2026-09-30",
    "description": "Przedmiotem zamówienia jest utrzymanie czystości przystanków lokalnego transportu zbiorowego w Radomiu - strefa II. Zamówienie obejmuje: - sprzątanie przystanków – 146 szt., - opróżnianie koszy na śmieci (w tym koszy do segregacji) – 150 szt., - sprzątanie pętli autobusowych - 3 szt., - mycie wiat przystankowych/rowerowych - 80 szt., - mycie słupów i tablic systemu Dynamicznej Informacji Pasażerskiej (DIP) - 20 szt., - mycie biletomatów - 9 szt.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/604851-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/604851-2026"
@@ -9880,6 +10820,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/610880-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/610880-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -10162,6 +11106,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/606101-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/615263-2026"
     },
     {
      "label": "Ta sama sprawa w: TED",
@@ -11257,6 +12205,14 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/614416-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/608662-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/614416-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -11486,6 +12442,6 @@
    "value": null
   }
  ],
- "updated_at": "2026-09-08T08:52:25+00:00",
+ "updated_at": "2026-09-09T08:58:29+00:00",
  "version": 1
 }
