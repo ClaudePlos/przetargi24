@@ -1,6 +1,91 @@
 {
- "count": 472,
+ "count": 475,
  "tenders": [
+  {
+   "buyer": "Powiatowy Zarząd Dróg w Częstochowie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90600000-3",
+    "90620000-9",
+    "90630000-2"
+   ],
+   "currency": "",
+   "deadline": "2026-09-22",
+   "description": "",
+   "extra_links": [],
+   "first_seen": "2026-09-13",
+   "id": "bzp:2026/BZP 00434194/01",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-13",
+   "location": "Częstochowa",
+   "native_id": "2026/BZP 00434194/01",
+   "publication_date": "2026-09-11",
+   "scores": {
+    "sprzatanie": 8
+   },
+   "source": "bzp",
+   "title": "Zimowe utrzymanie dróg powiatowych i wojewódzkich administrowanych i utrzymywanych przez PZD w Częstochowie w sezonie zimowym 2026/2027 na terenie Obwodu Drogowego Nr 3 w Poczesnej.",
+   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df0fef-08c7-f71f-db89-6a0001707db1",
+   "value": null
+  },
+  {
+   "buyer": "Miejski Ośrodek Pomocy Społecznej w Siemianowicach Śląskich",
+   "categories": [
+    "catering"
+   ],
+   "cpv": [
+    "55321000-6",
+    "55520000-1",
+    "55521200-0"
+   ],
+   "currency": "",
+   "deadline": "2026-09-21",
+   "description": "",
+   "extra_links": [],
+   "first_seen": "2026-09-13",
+   "id": "bzp:2026/BZP 00433960/01",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-13",
+   "location": "Siemianowice Śląskie",
+   "native_id": "2026/BZP 00433960/01",
+   "publication_date": "2026-09-11",
+   "scores": {
+    "catering": 11
+   },
+   "source": "bzp",
+   "title": "\"Usługi cateringowe dla dzieci w Zespole Placówek Wsparcia Dziennego dla Dzieci w Siemianowicach Śląskich od stycznia do grudnia 2027 r.\"",
+   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df0fe7-5b7c-607f-db89-6a0001707c7a",
+   "value": null
+  },
+  {
+   "buyer": "Zarząd Dróg Wojewódzkich w Olsztynie",
+   "categories": [
+    "sprzatanie"
+   ],
+   "cpv": [
+    "90610000-6"
+   ],
+   "currency": "",
+   "deadline": "2026-09-22",
+   "description": "",
+   "extra_links": [],
+   "first_seen": "2026-09-13",
+   "id": "bzp:2026/BZP 00433163/01",
+   "kind": "ogloszenie",
+   "last_seen": "2026-09-13",
+   "location": "Olsztyn",
+   "native_id": "2026/BZP 00433163/01",
+   "publication_date": "2026-09-11",
+   "scores": {
+    "sprzatanie": 3
+   },
+   "source": "bzp",
+   "title": "Oczyszczanie dróg wojewódzkich miejskich na terenie działania RDW w Elblągu",
+   "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df0fc8-fc09-cee4-db89-6a000170783f",
+   "value": null
+  },
   {
    "buyer": "Związek Międzygminny \"Centrum Zagospodarowania Odpadów - SELEKT”",
    "categories": [
@@ -18,7 +103,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:629119-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "629119-2026",
    "publication_date": "2026-09-11",
@@ -49,7 +134,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:629112-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "629112-2026",
    "publication_date": "2026-09-11",
@@ -79,7 +164,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:629079-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL613",
    "native_id": "629079-2026",
    "publication_date": "2026-09-11",
@@ -111,7 +196,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:629004-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL515",
    "native_id": "629004-2026",
    "publication_date": "2026-09-11",
@@ -146,7 +231,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:628984-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL516",
    "native_id": "628984-2026",
    "publication_date": "2026-09-11",
@@ -178,7 +263,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:628725-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "628725-2026",
    "publication_date": "2026-09-11",
@@ -205,7 +290,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:628477-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "POL",
    "native_id": "628477-2026",
    "publication_date": "2026-09-11",
@@ -235,7 +320,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:628290-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL424",
    "native_id": "628290-2026",
    "publication_date": "2026-09-11",
@@ -267,7 +352,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:628019-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL416",
    "native_id": "628019-2026",
    "publication_date": "2026-09-11",
@@ -294,7 +379,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627983-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL517",
    "native_id": "627983-2026",
    "publication_date": "2026-09-11",
@@ -322,7 +407,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627841-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL812",
    "native_id": "627841-2026",
    "publication_date": "2026-09-11",
@@ -350,7 +435,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627835-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "627835-2026",
    "publication_date": "2026-09-11",
@@ -379,7 +464,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627760-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL217",
    "native_id": "627760-2026",
    "publication_date": "2026-09-11",
@@ -411,7 +496,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627756-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "627756-2026",
    "publication_date": "2026-09-11",
@@ -440,7 +525,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627745-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "627745-2026",
    "publication_date": "2026-09-11",
@@ -468,7 +553,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627626-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "627626-2026",
    "publication_date": "2026-09-11",
@@ -506,7 +591,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627572-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "POL",
    "native_id": "627572-2026",
    "publication_date": "2026-09-11",
@@ -533,7 +618,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627313-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "627313-2026",
    "publication_date": "2026-09-11",
@@ -561,7 +646,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627245-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL814",
    "native_id": "627245-2026",
    "publication_date": "2026-09-11",
@@ -600,7 +685,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627191-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "anyw",
    "native_id": "627191-2026",
    "publication_date": "2026-09-11",
@@ -627,7 +712,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627188-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL713",
    "native_id": "627188-2026",
    "publication_date": "2026-09-11",
@@ -655,7 +740,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627169-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL516",
    "native_id": "627169-2026",
    "publication_date": "2026-09-11",
@@ -682,7 +767,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:627039-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL214",
    "native_id": "627039-2026",
    "publication_date": "2026-09-11",
@@ -711,7 +796,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626847-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "626847-2026",
    "publication_date": "2026-09-11",
@@ -741,7 +826,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626836-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL424",
    "native_id": "626836-2026",
    "publication_date": "2026-09-11",
@@ -777,7 +862,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626835-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL515",
    "native_id": "626835-2026",
    "publication_date": "2026-09-11",
@@ -811,7 +896,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626764-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL218",
    "native_id": "626764-2026",
    "publication_date": "2026-09-11",
@@ -838,7 +923,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626668-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL824",
    "native_id": "626668-2026",
    "publication_date": "2026-09-11",
@@ -866,7 +951,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626647-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL722",
    "native_id": "626647-2026",
    "publication_date": "2026-09-11",
@@ -893,7 +978,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626621-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL923",
    "native_id": "626621-2026",
    "publication_date": "2026-09-11",
@@ -922,7 +1007,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626609-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "626609-2026",
    "publication_date": "2026-09-11",
@@ -949,7 +1034,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626288-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL214",
    "native_id": "626288-2026",
    "publication_date": "2026-09-11",
@@ -978,7 +1063,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626253-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "626253-2026",
    "publication_date": "2026-09-11",
@@ -1005,7 +1090,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626245-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL812",
    "native_id": "626245-2026",
    "publication_date": "2026-09-11",
@@ -1034,7 +1119,7 @@
    "first_seen": "2026-09-11",
    "id": "ted:626090-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL622",
    "native_id": "626090-2026",
    "publication_date": "2026-09-11",
@@ -1181,7 +1266,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:626030-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL811",
    "native_id": "626030-2026",
    "publication_date": "2026-09-10",
@@ -1209,7 +1294,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625946-2026",
    "kind": "plan",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL22B",
    "native_id": "625946-2026",
    "publication_date": "2026-09-10",
@@ -1236,7 +1321,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625815-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "625815-2026",
    "publication_date": "2026-09-10",
@@ -1267,7 +1352,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625801-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "625801-2026",
    "publication_date": "2026-09-10",
@@ -1298,7 +1383,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625619-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL926",
    "native_id": "625619-2026",
    "publication_date": "2026-09-10",
@@ -1328,7 +1413,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625583-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL621",
    "native_id": "625583-2026",
    "publication_date": "2026-09-10",
@@ -1358,7 +1443,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625514-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL637",
    "native_id": "625514-2026",
    "publication_date": "2026-09-10",
@@ -1385,7 +1470,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625508-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL22C",
    "native_id": "625508-2026",
    "publication_date": "2026-09-10",
@@ -1412,7 +1497,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625399-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL214",
    "native_id": "625399-2026",
    "publication_date": "2026-09-10",
@@ -1439,7 +1524,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625318-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "POL",
    "native_id": "625318-2026",
    "publication_date": "2026-09-10",
@@ -1468,7 +1553,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625311-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "625311-2026",
    "publication_date": "2026-09-10",
@@ -1496,7 +1581,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625250-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL219",
    "native_id": "625250-2026",
    "publication_date": "2026-09-10",
@@ -1525,7 +1610,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:625183-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "625183-2026",
    "publication_date": "2026-09-10",
@@ -1553,7 +1638,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624906-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "POL",
    "native_id": "624906-2026",
    "publication_date": "2026-09-10",
@@ -1585,7 +1670,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624825-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "624825-2026",
    "publication_date": "2026-09-10",
@@ -1613,7 +1698,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624754-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL822",
    "native_id": "624754-2026",
    "publication_date": "2026-09-10",
@@ -1644,7 +1729,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624749-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL714",
    "native_id": "624749-2026",
    "publication_date": "2026-09-10",
@@ -1674,7 +1759,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624394-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL912",
    "native_id": "624394-2026",
    "publication_date": "2026-09-10",
@@ -1701,7 +1786,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624288-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "624288-2026",
    "publication_date": "2026-09-10",
@@ -1732,7 +1817,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624248-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL815",
    "native_id": "624248-2026",
    "publication_date": "2026-09-10",
@@ -1759,7 +1844,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624105-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL514",
    "native_id": "624105-2026",
    "publication_date": "2026-09-10",
@@ -1793,7 +1878,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624090-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL713",
    "native_id": "624090-2026",
    "publication_date": "2026-09-10",
@@ -1820,7 +1905,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624064-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL515",
    "native_id": "624064-2026",
    "publication_date": "2026-09-10",
@@ -1849,7 +1934,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:624022-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "624022-2026",
    "publication_date": "2026-09-10",
@@ -1876,7 +1961,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623985-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL415",
    "native_id": "623985-2026",
    "publication_date": "2026-09-10",
@@ -1905,7 +1990,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623974-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL229",
    "native_id": "623974-2026",
    "publication_date": "2026-09-10",
@@ -1939,7 +2024,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623937-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "623937-2026",
    "publication_date": "2026-09-10",
@@ -1966,7 +2051,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623889-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL514",
    "native_id": "623889-2026",
    "publication_date": "2026-09-10",
@@ -1995,7 +2080,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623753-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL415",
    "native_id": "623753-2026",
    "publication_date": "2026-09-10",
@@ -2022,7 +2107,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623621-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "POL",
    "native_id": "623621-2026",
    "publication_date": "2026-09-10",
@@ -2049,7 +2134,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623573-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL925",
    "native_id": "623573-2026",
    "publication_date": "2026-09-10",
@@ -2078,7 +2163,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623540-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "623540-2026",
    "publication_date": "2026-09-10",
@@ -2106,6 +2191,10 @@
    "deadline": "2026-09-16",
    "description": "Ochrona fizyczna terenu i obiektów 5WSzKzP z obsługą systemów alarmowych, urządzeń monitorujących, serwisem tych urządzeń oraz obsługą systemu parkingowego oraz wsparcie Grupy Interwencyjnej, działającej na wezwanie w przypadku zagrożenia bezpieczeństwa dla placówki medycznej w Węgrzcach wraz z serwisem zamontowanych w tej placówce systemów alarmowych i urządzeń monitorujących zgodnie z SWZ w tym zakresie",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/628675-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/628675-2026"
@@ -2148,7 +2237,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623406-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "623406-2026",
    "publication_date": "2026-09-10",
@@ -2180,7 +2269,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623380-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "623380-2026",
    "publication_date": "2026-09-10",
@@ -2209,7 +2298,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623250-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "623250-2026",
    "publication_date": "2026-09-10",
@@ -2236,7 +2325,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:623094-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "POL",
    "native_id": "623094-2026",
    "publication_date": "2026-09-10",
@@ -2265,7 +2354,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:622912-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "622912-2026",
    "publication_date": "2026-09-10",
@@ -2300,7 +2389,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:622780-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL712",
    "native_id": "622780-2026",
    "publication_date": "2026-09-10",
@@ -2329,7 +2418,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:622774-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL22A",
    "native_id": "622774-2026",
    "publication_date": "2026-09-10",
@@ -2356,7 +2445,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:622753-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "622753-2026",
    "publication_date": "2026-09-10",
@@ -2383,7 +2472,7 @@
    "first_seen": "2026-09-10",
    "id": "ted:622729-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "622729-2026",
    "publication_date": "2026-09-10",
@@ -2572,7 +2661,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622685-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL224",
    "native_id": "622685-2026",
    "publication_date": "2026-09-09",
@@ -2602,7 +2691,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622584-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL415",
    "native_id": "622584-2026",
    "publication_date": "2026-09-09",
@@ -2631,7 +2720,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622503-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL225",
    "native_id": "622503-2026",
    "publication_date": "2026-09-09",
@@ -2655,6 +2744,10 @@
    "deadline": "2026-10-13",
    "description": "Przedmiotem zamówienia jest dostawa ryb i produktów rybnych na 2027 rok. Wymogi oraz szczegółowy opis przedmiotu zamówienia wyszczególniono w załączniku nr 1 do SWZ (opis przedmiotu zamówienia) oraz w załączniku nr 6 do SWZ (projektowane postanowienia umowy) oraz pozostałej dokumentacji przetargowej, która zostanie zamieszczona na stronie internetowej prowadzonego postępowania https://platformazakupowa.pl/pn/28wog. Zamawiający przewiduje prawo opcji w przedmiotowym postępowaniu. Miejsce realizacji dostawy: 28 WOG – Magazyn Żywnościowy Grupy Zabezpieczenia Siedlce, ul Składowa 39, 08-110 – Siedlce, woj. mazowieckie",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/623231-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/623231-2026"
@@ -2698,7 +2791,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622427-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL912",
    "native_id": "622427-2026",
    "publication_date": "2026-09-09",
@@ -2729,7 +2822,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622328-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL514",
    "native_id": "622328-2026",
    "publication_date": "2026-09-09",
@@ -2758,7 +2851,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622319-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "622319-2026",
    "publication_date": "2026-09-09",
@@ -2787,7 +2880,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622309-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL516",
    "native_id": "622309-2026",
    "publication_date": "2026-09-09",
@@ -2825,7 +2918,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622308-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "622308-2026",
    "publication_date": "2026-09-09",
@@ -2852,7 +2945,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622168-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL715",
    "native_id": "622168-2026",
    "publication_date": "2026-09-09",
@@ -2883,7 +2976,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:622122-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL21A",
    "native_id": "622122-2026",
    "publication_date": "2026-09-09",
@@ -2910,7 +3003,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:621883-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL821",
    "native_id": "621883-2026",
    "publication_date": "2026-09-09",
@@ -2938,7 +3031,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:621752-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL431",
    "native_id": "621752-2026",
    "publication_date": "2026-09-09",
@@ -2965,7 +3058,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:621379-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL22A",
    "native_id": "621379-2026",
    "publication_date": "2026-09-09",
@@ -2993,7 +3086,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:621207-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL214",
    "native_id": "621207-2026",
    "publication_date": "2026-09-09",
@@ -3020,7 +3113,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:621035-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL712",
    "native_id": "621035-2026",
    "publication_date": "2026-09-09",
@@ -3049,7 +3142,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:621029-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "621029-2026",
    "publication_date": "2026-09-09",
@@ -3077,7 +3170,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:620972-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL712",
    "native_id": "620972-2026",
    "publication_date": "2026-09-09",
@@ -3104,7 +3197,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:620864-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL814",
    "native_id": "620864-2026",
    "publication_date": "2026-09-09",
@@ -3134,7 +3227,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:620831-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "620831-2026",
    "publication_date": "2026-09-09",
@@ -3163,7 +3256,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:620754-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "620754-2026",
    "publication_date": "2026-09-09",
@@ -3190,7 +3283,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:620358-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL229",
    "native_id": "620358-2026",
    "publication_date": "2026-09-09",
@@ -3217,7 +3310,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:619994-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL923",
    "native_id": "619994-2026",
    "publication_date": "2026-09-09",
@@ -3245,7 +3338,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:619722-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL416",
    "native_id": "619722-2026",
    "publication_date": "2026-09-09",
@@ -3272,7 +3365,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:619711-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL617",
    "native_id": "619711-2026",
    "publication_date": "2026-09-09",
@@ -3301,7 +3394,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:619577-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL418",
    "native_id": "619577-2026",
    "publication_date": "2026-09-09",
@@ -3329,7 +3422,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:619528-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL431",
    "native_id": "619528-2026",
    "publication_date": "2026-09-09",
@@ -3356,7 +3449,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:619376-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL811",
    "native_id": "619376-2026",
    "publication_date": "2026-09-09",
@@ -3388,7 +3481,7 @@
    "first_seen": "2026-09-09",
    "id": "ted:619308-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "619308-2026",
    "publication_date": "2026-09-09",
@@ -3469,7 +3562,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:619154-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL22A",
    "native_id": "619154-2026",
    "publication_date": "2026-09-08",
@@ -3496,7 +3589,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:619135-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "619135-2026",
    "publication_date": "2026-09-08",
@@ -3523,7 +3616,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618845-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL613",
    "native_id": "618845-2026",
    "publication_date": "2026-09-08",
@@ -3551,7 +3644,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618790-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL613",
    "native_id": "618790-2026",
    "publication_date": "2026-09-08",
@@ -3578,7 +3671,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618636-2026",
    "kind": "plan",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL613",
    "native_id": "618636-2026",
    "publication_date": "2026-09-08",
@@ -3606,7 +3699,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618460-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL431",
    "native_id": "618460-2026",
    "publication_date": "2026-09-08",
@@ -3633,7 +3726,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618394-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL426",
    "native_id": "618394-2026",
    "publication_date": "2026-09-08",
@@ -3668,7 +3761,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618234-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL823",
    "native_id": "618234-2026",
    "publication_date": "2026-09-08",
@@ -3698,7 +3791,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:618074-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL213",
    "native_id": "618074-2026",
    "publication_date": "2026-09-08",
@@ -3733,7 +3826,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617929-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL912",
    "native_id": "617929-2026",
    "publication_date": "2026-09-08",
@@ -3761,7 +3854,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617838-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL822",
    "native_id": "617838-2026",
    "publication_date": "2026-09-08",
@@ -3789,7 +3882,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617780-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL218",
    "native_id": "617780-2026",
    "publication_date": "2026-09-08",
@@ -3817,7 +3910,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617671-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL22C",
    "native_id": "617671-2026",
    "publication_date": "2026-09-08",
@@ -3844,7 +3937,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617620-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL431",
    "native_id": "617620-2026",
    "publication_date": "2026-09-08",
@@ -3879,7 +3972,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617616-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL841",
    "native_id": "617616-2026",
    "publication_date": "2026-09-08",
@@ -3909,7 +4002,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617587-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL514",
    "native_id": "617587-2026",
    "publication_date": "2026-09-08",
@@ -3939,7 +4032,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617527-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL711",
    "native_id": "617527-2026",
    "publication_date": "2026-09-08",
@@ -3967,7 +4060,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617443-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL22A",
    "native_id": "617443-2026",
    "publication_date": "2026-09-08",
@@ -3996,7 +4089,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617401-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL424",
    "native_id": "617401-2026",
    "publication_date": "2026-09-08",
@@ -4022,6 +4115,10 @@
    "deadline": "2026-10-07",
    "description": "CZĘŚĆ NR 1 – sukcesywne dostawy mięsa czerwonego, wędlin z mięsa czerwonego, wędlin drobiowych, tłuszczy zwierzęcych, ul. Wojska Polskiego 2F, 22-400 Zamość; Antrykot wołowy b/k kręg., boczek surowy b/k, golonka wieprzowa b/k – pakowana próżniowo, karkówka wieprzowa b/k, łopatka cielęca b/k, łopatka wieprzowa b/k, łopatka wołowa, mięso wieprzowe od szynki b/k drobne, ozorki wieprzowe, ozorki wołowe, polędwica wieprzowa, polędwica wołowa, schab wieprzowy b/k, szynka wieprzowa b/k, udziec cielęcy b/k, wątroba wieprzowa, wołowina ekstra, wołowina zrazowa dolna b/k, żeberka wędzone, żeberka wieprzowe, baleron, boczek wędzony parzony b/k, frankfurterki, kabanosy, kaszanka, kiełbasa biała parzona, kiełbasa jałowcowa, kiełbasa krakowska parzona, kiełbasa krakowska sucha, kiełbasa myśliwska, kiełbasa parówkowa, kiełbasa podlaska, kiełbasa szynkowa wieprzowa, kiełbasa śląska, kiełbasa toruńska, kiełbasa wiejska, kiełbasa zwyczajna, kiełbasa żywiecka, mortadela, ogonówka, parówki z szynki, pasztet wieprzowy pieczony, pasztetowa, polędwica wieprzowa wędzona, rolada z boczku, salami, salceson ozorkowy, salceson włoski, schab pieczony, szynka wieprzowa gotowana, szynka wieprzowa konserwowa, szynka wieprzowa wędzona, bekon z indyka, kabanosy drobiowe, kiełbasa szynkowa drobiowa, kiełbasa drobiowa, parówki z fileta z kurczaka, szynka drobiowa, szynka z indyka, udko drobiowe wędzone, smalec wieprzowy, słonina. Szczegółowy opis przedmiotu zamówienia w zakresie części nr 1, części nr 2, części nr 3, części nr 4, części nr 5 części nr 6 określają: 1) Minimalne wymagania jakościowe w zakresie części nr 1 – stanowiący Załącznik nr 1a do SWZ; 2) Minimalne wymagania jakościowe w zakresie części nr 2 – stanowiący Załącznik nr 1b do SWZ; 3) Minimalne wymagania jakościowe w zakresie części nr 3 – stanowiący Załącznik nr 1c do SWZ; 4) Minimalne wymagania jakościowe w zakresie części nr 4 – stanowiący Załącznik nr 1d do SWZ; 5) Minimalne wymagania jakościowe w zakresie części nr 5 – stanowiący Załącznik nr 1e do SWZ; 6) Minimalne wymagania jakościowe w zakresie części nr 6 – stanowiący Załącznik nr 1f do SWZ; UWAGA! Zamawiający przedstawi jako załączniki minimalne wymagania jakościowe w odniesieniu do części nr 1,2,3,4,5,6 spakowane w jednym pliku w formacie ZIP, plik ten w formacie ZIP zostanie zamieszczony na platformie zakupowej w zakładce „Załączniki do postępowania” jako załącznik nr 1 do SWZ; Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 1, części nr 2, części nr 3, części nr 4, części nr 5 części nr 6 określają: 1) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 1 – stanowiący Załącznik nr 2a do SWZ; 2) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 2 – stanowiący Załącznik nr 2b do SWZ; 3) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 3 – stanowiący Załącznik nr 2c do SWZ; 4) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 4 – stanowiący Załącznik nr 2d do SWZ; 5) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 5 – stanowiący Załącznik nr 2e do SWZ; 6) Wykaz asortymentowo-ilościowy do poszczególnych miejsc dostaw w zakresie części nr 6 – stanowiący Załącznik nr 2f do SWZ; UWAGA! Zamawiający przedstawi jako załączniki Wykazy asortymentowo-ilościowe do poszczególnych miejsc dostaw odpowiednio dla części nr 1,2,3,4,5,6 spakowane w jednym pliku w formacie ZIP plik ten w formacie ZIP zostanie zamieszczony na platformie zakupowej w zakładce „Załączniki do postępowania” jako Załącznik nr 2 do SWZ. SZCZEGÓŁOWE WYMAGANIA Zamawiającego w stosunku do dostawy 1. Zamawiający zastrzega sobie możliwość skorzystania w ramach Umowy z prawa opcji (prawo opcji - 100% zamówienia podstawowego) w zakresie nieprzekraczającym asortymentu i ilości zawartych w załączniku, do umowy kolumna „ZAKRES PRAWA OPCJI”. 2. Ostateczna ilość zakupionej w ramach prawa opcji żywności będzie uzależniona od bieżących potrzeb Zamawiającego i posiadanych przez niego środków finansowych. 3. Żywność zakupiona w ramach prawa opcji musi spełniać wszystkie wymogi jak dla zamówienia gwarantowanego. 4. Zamawiający zastrzega, iż część zamówienia określona jako „prawo opcji” jest uprawnieniem, a nie zobowiązaniem Zamawiającego. Zamawiający może nie skorzystać z prawa opcji w szczególności w przypadku nieuzyskania środków finansowych na ten cel, a Wykonawcy nie przysługują z tego tytułu żadne roszczenia co niniejszym Wykonawca akceptuje przez podpisanie niniejszej umowy. 5. Zamawiający gwarantuje złożenie zamówień w ramach zamówienia podstawowego na dostawę towaru na poziomie nie mniejszym niż 30% wartości brutto Umowy, o której mowa w § 4 ust. 4 wzoru umowy stanowiącej zał. nr 3 do SWZ. Realizacja Umowy w pozostałym zakresie uzależniona będzie od faktycznych potrzeb odbiorców wynikających ze zmiennej liczby uprawnionych do żywienia oraz przydzielonych na ten cel środków finansowych. 6. Wykonawcy nie przysługują jakiekolwiek roszczenia odszkodowawcze z tytułu niezłożenia i niezrealizowania przez Zamawiającego zamówień na poziomie wyższym niż 30% maksymalnej wartości brutto Umowy zamówienia podstawowego. 7. W przypadku skorzystania przez Zamawiającego z prawa opcji, Wykonawcy będzie się należeć wynagrodzenie według cen jednostkowych jak dla zamówienia gwarantowanego. 8. Całkowity zakres prawa opcji został opisany we wzorze umowy stanowiącym załącznik nr 3 do SWZ. 9. Wykaz asortymentowo-ilościowy dla poszczególnych magazynów 32 Wojskowego Oddziału Gospodarczego zlokalizowanych w kompleksach wojskowych znajdujących się w rejonie działania 32 Wojskowego Oddziału Gospodarczego w Zamościu – miejsc dostaw został przedstawiony w Załączniku nr 2.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/621365-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/621365-2026"
@@ -4078,7 +4175,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:617216-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL633",
    "native_id": "617216-2026",
    "publication_date": "2026-09-08",
@@ -4106,7 +4203,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616951-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL515",
    "native_id": "616951-2026",
    "publication_date": "2026-09-08",
@@ -4141,7 +4238,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616903-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL712",
    "native_id": "616903-2026",
    "publication_date": "2026-09-08",
@@ -4169,7 +4266,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616811-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL617",
    "native_id": "616811-2026",
    "publication_date": "2026-09-08",
@@ -4196,7 +4293,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616258-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL841",
    "native_id": "616258-2026",
    "publication_date": "2026-09-08",
@@ -4227,7 +4324,7 @@
    "first_seen": "2026-09-08",
    "id": "ted:616192-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL812",
    "native_id": "616192-2026",
    "publication_date": "2026-09-08",
@@ -4283,7 +4380,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615779-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL925",
    "native_id": "615779-2026",
    "publication_date": "2026-09-07",
@@ -4311,7 +4408,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615590-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL417",
    "native_id": "615590-2026",
    "publication_date": "2026-09-07",
@@ -4338,7 +4435,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615400-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "CH040",
    "native_id": "615400-2026",
    "publication_date": "2026-09-07",
@@ -4365,7 +4462,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615344-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL712",
    "native_id": "615344-2026",
    "publication_date": "2026-09-07",
@@ -4392,7 +4489,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615284-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL414",
    "native_id": "615284-2026",
    "publication_date": "2026-09-07",
@@ -4421,7 +4518,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:615060-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL227",
    "native_id": "615060-2026",
    "publication_date": "2026-09-07",
@@ -4450,7 +4547,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:614741-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL633",
    "native_id": "614741-2026",
    "publication_date": "2026-09-07",
@@ -4482,7 +4579,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:614068-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL219",
    "native_id": "614068-2026",
    "publication_date": "2026-09-07",
@@ -4514,7 +4611,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613673-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL229",
    "native_id": "613673-2026",
    "publication_date": "2026-09-07",
@@ -4543,7 +4640,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613348-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "613348-2026",
    "publication_date": "2026-09-07",
@@ -4572,7 +4669,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613314-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL824",
    "native_id": "613314-2026",
    "publication_date": "2026-09-07",
@@ -4599,7 +4696,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613276-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL912",
    "native_id": "613276-2026",
    "publication_date": "2026-09-07",
@@ -4630,7 +4727,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613148-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL424",
    "native_id": "613148-2026",
    "publication_date": "2026-09-07",
@@ -4657,7 +4754,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:613063-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL514",
    "native_id": "613063-2026",
    "publication_date": "2026-09-07",
@@ -4685,7 +4782,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:612956-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "612956-2026",
    "publication_date": "2026-09-07",
@@ -4715,7 +4812,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:612723-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL911",
    "native_id": "612723-2026",
    "publication_date": "2026-09-07",
@@ -4743,7 +4840,7 @@
    "first_seen": "2026-09-07",
    "id": "ted:612665-2026",
    "kind": "ogloszenie",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-09-13",
    "location": "PL913",
    "native_id": "612665-2026",
    "publication_date": "2026-09-07",
@@ -5015,6 +5112,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/624152-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/624152-2026"
     }
    ],
    "first_seen": "2026-09-04",
@@ -5110,6 +5211,10 @@
    "deadline": "2026-09-11",
    "description": "Szczegółowy opis przedmiotu zamówienia oraz warunki realizacji zamówienia stanowiące podstawę wyliczenia ceny ofertowej zawarte są w załącznikach: 1.A - Formularz cenowy - zmodyfikowany 1.B.1 - Szczegółowy opis przedmiotu zamówienia wraz z załącznikiem nr 1. - zmodyfikowany 1.B.2 - Szczegółowy opis wymaganych diet wraz z załącznikami (od 1-5). 1.B.3 - Informacje dotyczące charakterystyki budynku Kuchni Centralnej będących przedmiotem najmu wraz z wyszczególnieniem składników majątkowych będących na stanie inwentarzowym Kuchni Centralnej Zamawiającego.- zmodyfikowany 1.B.4 - Informacje dotyczące mediów energetycznych i warunków współpracy technicznej.- zmodyfikowany 1.B.5 - Polityka ochrony środowiska i ochrony przeciwpożarowej w SPZOZ WSS nr 3 w Rybniku. 1.B.6 - Szkic wynajmowanej nieruchomości wraz z przynależnym terenem. 1.B.6.1 - Rzuty poszczególnych poziomów obiektu kuchni (od 1-4). 1.B.7 - Załącznik określający sposób rozliczenia opłat za wywóz odpadów komunalnych. 2. - Projektowane postanowienia umowy, które zostaną wprowadzone do treści umowy /postanowienia umowy.- zmodyfikowany",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/624572-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/624572-2026"
@@ -5421,6 +5526,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/628122-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/628122-2026"
     }
    ],
    "first_seen": "2026-09-04",
@@ -5535,6 +5644,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/614436-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/614436-2026"
     }
    ],
    "first_seen": "2026-09-04",
@@ -5597,6 +5710,10 @@
    "deadline": "2026-09-15",
    "description": "1. Przedmiotem zamówienia jest usługa odbierania i zagospodarowania odpadów komunalnych obejmująca w szczególności: 1) odbieranie i zagospodarowanie odpadów komunalnych zebranych przez właścicieli nieruchomości, na których zamieszkują mieszkańcy w granicach administracyjnych miasta Bytom; 2) wyposażenie nieruchomości na których zamieszkują mieszkańcy w granicach administracyjnych miasta Bytom w pojemniki lub worki do zbierania odpadów komunalnych, oraz utrzymywanie pojemników w odpowiednim stanie sanitarnym, porządkowym i technicznym. 2. Szczegółowy opis przedmiotu zamówienia zawiera załącznik nr 4 do swz. 3. Wykonawca zobowiązany jest do wskazania w ofercie instalacji, w szczególności instalacji komunalnych do których będzie przekazywać odebrane odpady komunalne,(nazwa i adres podmiotu zarządzającego oraz adres instalacji, w przypadku instalacji dotyczących bioodpadów także numer i datę wydania decyzji Ministra Rolnictwa i Rozwoju Wsi na wprowadzenie do obrotu nawozu albo środka wspomagającego uprawę roślin, a w przypadku instalacji dotyczących zużytych opon - procesu odzysku). Sposób zagospodarowania zużytych opon stanowi kryterium oceny ofert (zasady przyznania punktów opisano w części XXI pkt 2 ppkt 2 SWZ).W przypadku niewielkich ilości odebranych odpadów selektywnie zbieranych możliwe jest wskazanie podmiotu zbierającego te odpady (nazwa i adres podmiotu oraz adres miejsca zbierania odpadów). 4. Zamówienie nie zostało podzielone na części, z uwagi na fakt, iż gęstość zaludnienia i rodzaj zabudowy, w kontekście nieruchomości zamieszkałych na terenie gminy Bytom, nie stwarza konieczności, aby gmina została podzielona na sektory. Podział na sektory umożliwia gminom powyżej 10 000 mieszkańców ustawa z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach biorąc pod uwagę liczbę mieszkańców, gęstość zaludnienia na danym terenie oraz obszar możliwy do obsługi przez jednego przedsiębiorcę odbierającego odpady komunalne od właścicieli nieruchomości. Aby dokonać ww. podziału, gmina musi podjąć właściwą uchwałę stanowiącą akt prawa miejscowego o podziale gminy na sektory, a uchwała taka nie została podjęta. Odstąpiono od przeprowadzenia postępowania wyłącznie na odbieranie od-padów komunalnych i zdecydowano o przeprowadzeniu postępowania na odbieranie i zagospodarowanie odpadów komunalnych. Głównym powodem takiego wyboru jest fakt, iż Gmina Bytom nie posiada własnej instalacji do przetwarzania odpadów, która mogłaby prowadzić zagospodarowanie odpadów komunalnych. Należy jednocześnie zwrócić uwagę, iż przepisy ucpg nie nakładają na prezydenta miasta obowiązku zorganizowania przetargu na samo zagospodarowanie odpadów komunalnych. Odbiór odpadów w Gminie Bytom może być sprawnie wykonywany przez jednego przedsiębiorcę, a podział mógłby niepotrzebne wprowadzić komplikacje oraz trudności w kontrolowaniu i kontakcie z Wykonawcą a także uczyni działania Wykonawcy bardziej skutecznymi i spójnymi w zakresie możliwości osiągnięcia wymaganych poziomów przygotowania do ponownego użycia i recyklingu odpadów komunalnych. Odstąpiono zatem od podziału zamówienia na części. Ponadto niniejsze zamówienie jest jedną z części, stanowiących odrębne postępowania. 5. Zamawiający przewiduje udzielenie zamówień, o których mowa w art. 214 ust.1 pkt 7 ustawy Prawo zamówień publicznych. Zamówienia te obejmować będą świadczenie usługi objętej zamówieniem podstawowym w pełnym lub ograniczonym zakresie, maksymalnie do 50 % wartości zamówienia podstawowego. Zamówienie może zostać udzielone na warunkach nie gorszych niż zaoferowane przez Wykonawcę w zamówieniu podstawowym (w szczególności w zakresie sposobu wykonywania usługi, kar umownych, warunków płatności). 6. Zamawiający - w związku z art. 441 ust. 1 ustawy Prawo zamówień publicznych - przewiduje możliwość skorzystania z prawa opcji do 50 % wartości za-mówienia podstawowego (ceny oferty) i może dotyczyć odbioru i zagospodarowania w pełnym lub ograniczonym zakresie odpadów komunalnych określonych w umowie. Szczegółowy opis opcji znajduje się w Projektowanych postanowieniach umownych.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/629153-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/629153-2026"
@@ -5730,6 +5847,10 @@
    "deadline": "2026-09-21",
    "description": "Część I obejmuje dostawę, instalację i uruchomienie komory mroźniczej do dezynsekcji wraz z przeszkoleniem personelu. Szczegółowy opis oraz sposób realizacji zamówienia zawiera Opis Przedmiotu Zamówienia (OPZ) wraz z załącznikami, stanowiący Załącznik nr 1 do SWZ oraz Projektowane Postanowienia Umowy stanowiące Załącznik nr 2 do SWZ.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/624666-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/624666-2026"
@@ -6583,6 +6704,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/627512-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/627512-2026"
     }
    ],
    "first_seen": "2026-09-03",
@@ -6653,6 +6778,10 @@
    "deadline": "2026-10-05",
    "description": "Dostawa i montaż wyposażenia meblowego do świetlicy dzielnicowej w Grotowicach mieszczącej się w Opolu, Grotowice ul. Złota, obręb Groszowice. Zamawiający na stronie internetowej prowadzonego postępowania zamieszcza w formie plików do pobrania szczegółowy opis przedmiotu zamówienia oraz wzór umowy. Zamawiający nie przewiduje udzielenia zamówienia, o którym mowa w art. 214 ust. 1 pkt. 8 Prawa. Zgodnie z art. 257 pkt 1 Prawa Zamawiający przewiduje możliwość unieważnienia przedmiotowego postępowania, jeżeli środki, które Zamawiający zamierzał przeznaczyć na sfinansowanie całości lub części zamówienia, nie zostały mu przyznane. Kauzula informacyjna dot. przetwarzania danych osobowych w SWZ dostępna na platformie zakupowej Logintrade pod adresem prowadzonego postępowania. Zamawiający nie żąda od Wykonawców wniesienia wadium.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/613480-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/613480-2026"
@@ -7263,6 +7392,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/616684-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/616684-2026"
     }
    ],
    "first_seen": "2026-09-02",
@@ -7567,6 +7700,10 @@
    "deadline": "2026-10-06",
    "description": "Przedmiotem zamówienia jest sporządzanie i dostarczanie całodziennego wyżywienia pacjentów Samodzielnego Publicznego Zespołu Zakładów Opieki Zdrowotnej w Ostrowi Mazowieckiej oraz Zakładu Opiekuńczo Leczniczego w Małkini Górnej wraz z wynajmem pomieszczeń. Szczegółowy Opis Przedmiotu Zamówienia (OPZ) określa Załącznik Nr 2 do niniejszej SWZ. Przy realizacji zamówienia należy przestrzegać uwarunkowań zawartych w Opisie Przedmiotu Zamówienia – Załącznik Nr 2 do SWZ i w projektowanych postanowieniach umowy – Załącznik Nr 5 do SWZ.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/617612-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/617612-2026"
@@ -8125,6 +8262,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/627118-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/627118-2026"
     }
    ],
    "first_seen": "2026-09-01",
@@ -8195,6 +8336,10 @@
    "deadline": "2026-09-23",
    "description": "Zamówienie obejmuje wykonywanie usług i robót budowlanych z zakresu: a) bieżącego utrzymania dróg (BUD), b) zimowego utrzymania dróg (ZUD), c) bieżącego utrzymania czystości na obiektach inżynierskich (BUM).",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/624863-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/624863-2026"
@@ -8403,6 +8548,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/621835-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/621835-2026"
     }
    ],
    "first_seen": "2026-09-01",
@@ -8463,6 +8612,10 @@
    "deadline": "2026-09-07",
    "description": "1.Szczegółowy opis przedmiotu zamówienia, zakres oraz sposób i wymagania dotyczące realizacji przedmiotu zamówienia, określają: opis przedmiotu zamówienia, stanowiący Załącznik nr 1 do SWZ wraz z Załącznikiem nr 1a) pn. \"Charakterystyka usług sprzątania (...)\". 2. Projektowane postanowienia umowy (wzór umowy) - Załącznik nr 2a do SWZ. 3. Formularz cenowy - Załącznik nr 8a) do SWZ, który stanowi dokument pomocniczy do wyceny oferty.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/612929-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/612929-2026"
@@ -8882,6 +9035,10 @@
    "deadline": "2026-09-11",
    "description": "Przedmiot zamówienia obejmuje : 1) odbiór i transport oraz zagospodarowanie w Instalacjach komunalnych odpadów od właścicieli nieruchomości zamieszkałych z terenu Gminy Dobrcz, na których powstają odpady komunalne z częstotliwością określoną w Regulaminie utrzymania czystości i porządku na terenie Gminy Dobrcz, 2) zaopatrzenie właścicieli nieruchomości w pojemniki na odpady niesegregowane (zmieszane, do których zalicza się również popioły z palenisk domowych) i selektywne oraz wyposażenie nieruchomości w worki na odpady selektywnie zbierane (metale i tworzywa sztuczne oraz papier, szkło ) według poszczególnych frakcji dla właścicieli nieruchomości z terenu Gminy Dobrcz. Wydzierżawienie pojemników będzie obejmowało cały okres wykonywania zamówienia, 3) prowadzenie sprawozdawczości zgodnie z obowiązującymi przepisami, 4) zagospodarowanie odpadów z zachowaniem wskaźników odzysku lub unieszkodliwiania zebranych odpadów komunalnych, zgodnie z ustawą o odpadach oraz ustawy ucpg w zakresie odebranych odpadów komunalnych od właścicieli nieruchomości z terenu Gminy Dobrcz, 5) przekazywanie zgodnie z art. 9ea ustawa ucpg oraz zagospodarowanie odebranych z PSZOK selektywnie zebranych odpadów komunalnych w instalacji odzysku i unieszkodliwiania odpadów, zgodnie z hierarchią postępowania z odpadami, o której mowa w art. 20 ust. 2 ustawy o odpadach, 6) wydzierżawienie i wyposażenie na cały okres realizacji zamówienia PSZOK w pojemniki służące do gromadzenia odpadów komunalnych selektywnie zbierane według poszczególnych frakcji, 7) zaopatrzenie w specjalnie oznakowane kosze/pojemniki oznaczone przedmiotem zbierania, przeznaczone do zbiórki zużytych baterii i małych akumulatorków zbieranych w nw. punktach (po jednym pojemniku o minimalnej pojemności 40l na punkt ) oraz odbiór i zagospodarowanie tych odpadów, 8) zaopatrzenie w pojemniki na przeterminowane leki aptek i punktów aptecznych (po jednym pojemniku na aptekę i punkt apteczny) oraz odbiór i zagospodarowanie tych odpadów, 9) odbiór i transport oraz zagospodarowanie odpadów zebranych w PSZOK, 10) wyposażenie PSZOK w kontenery i pojemniki wg wykazu.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/626548-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/626548-2026"
@@ -9380,6 +9537,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/621124-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/621124-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -9451,6 +9612,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/615546-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/627303-2026"
     },
     {
      "label": "Ta sama sprawa w: TED",
@@ -9623,6 +9788,10 @@
    "deadline": "2026-09-29",
    "description": "Produkty farmaceutyczne",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/626674-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/626674-2026"
@@ -9858,6 +10027,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/620142-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/620142-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -9958,6 +10131,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/621375-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/622964-2026"
     },
     {
      "label": "Ta sama sprawa w: TED",
@@ -10628,6 +10805,10 @@
    "deadline": "2026-09-09",
    "description": "1) Przedmiotem zamówienia jest usługa polegająca na odbiorze i zagospodarowaniu odpadów komunalnych z terenu Gminy Strzelno z nieruchomości, na których zamieszkują mieszkańcy oraz z Punktu Selektywnej Zbiórki Odpadów Komunalnych Gminy Strzelno oraz wykonanie usług towarzyszących związanych z utrzymaniem czystości i porządku na obszarze Gminy w okresie od 1 września 2026 r. do 31 sierpnia 2027 r. 2) Szczegółowy opis przedmiotu zamówienia zawiera załącznik nr 5 do SWZ – Opis przedmiotu zamówienia.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/625457-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/625457-2026"
@@ -11365,6 +11546,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/628505-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/628505-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -11486,6 +11671,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/611653-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/628390-2026"
     },
     {
      "label": "Ta sama sprawa w: TED",
@@ -11656,6 +11845,10 @@
    "deadline": "2026-10-01",
    "description": "Przedmiotem zamówienia jest realizacja usługi odbioru, transportu i zagospodarowania odpadów komunalnych z terenu Gminy Wąchock, pochodzących z nieruchomości, na których zamieszkują mieszkańcy oraz z Punktu Selektywnej Zbiórki Odpadów Komunalnych w Wąchocku w okresie od 01.01.2027 r. do 31.12.2028 r. Przedmiot zamówienia nie obejmuje odbierania, transportu i zagospodarowania odpadów komunalnych powstałych na nieruchomościach niezamieszkałych.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/628087-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/628087-2026"
@@ -12178,6 +12371,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/622521-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/622521-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -12474,6 +12671,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/622663-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/622663-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -12653,6 +12854,10 @@
    "deadline": "2026-09-11",
    "description": "1. Przedmiotem zamówienia jest świadczenie usługi ochrony fizycznej osób i mienia na terenach Sekcji Napraw i Eksploatacji Taboru Spółki „Koleje Mazowieckie – KM” sp. z o.o. 2. Szczegółowy opis, zakres, wymagania oraz sposób realizacji przedmiotu zamówienia określają Projektowane postanowienia umowy stanowiące załącznik nr 1 do SWZ. 3. We wszystkich zapisach SWZ oraz jej załącznikach, które odwołują się do norm, ocen technicznych, specyfikacji technicznych i systemów referencji technicznych, zgodnie z art. 101 ust. 4 ustawy Pzp, Zamawiający dopuszcza zastosowanie rozwiązań równoważnych rozwiązaniom opisywanym w normach, ocenach technicznych, specyfikacjach technicznych i systemach referencji technicznych, wskazanym w SWZ i załącznikach jeżeli pozwolą one uzyskać cechy lub parametry nie gorsze niż przywołane w SWZ i załącznikach. W przypadku zastosowania rozwiązań równoważnych, Wykonawca udowodni w ofercie, w szczególności za pomocą przedmiotowych środków dowodowych, o których mowa w art. 104-107 ustawy Pzp, że proponowane rozwiązania w równoważnym stopniu spełniają wymagania określone w opisie przedmiotu zamówienia. 4. Zamawiający wymaga złożenia przedmiotowych środków dowodowych, o których mowa w ust. 3 (jeżeli dotyczy). Jeżeli Wykonawca nie złoży przedmiotowych środków dowodowych lub złożone przedmiotowe środki dowodowe będą niekompletne, Zamawiający zgodnie z zapisami art. 107 ust. 2 ustawy Pzp wezwie Wykonawcę do złożenia lub uzupełnienia przedmiotowych środków dowodowych, o których mowa w ust. 3 (jeżeli dotyczy). 5. Zamawiający wymaga, aby Wykonawca i podwykonawca (w przypadku powierzenia przez Wykonawcę części zamówienia podwykonawcy) realizowali zamówienie pracownikami ochrony zatrudnionymi na podstawie umowy o pracę. Sposób udokumentowania zatrudnienia pracowników, uprawnienia Zamawiającego w zakresie kontroli spełnienia przez Wykonawcę wymagań oraz sankcje z tytułu niespełnienia określonych wymagań zostały zawarte w Projektowanych postanowieniach umowy stanowiących załącznik nr 1 do SWZ. 6. Jeżeli Wykonawca zamierza powołać się na urzędowy certyfikat, o którym mowa w ustawie z dnia 5 sierpnia 2025 r. o certyfikacji wykonawców zamówień publicznych, zobowiązany jest wskazać to w części II sekcji A Jednolitego Europejskiego Dokumentu Zamówienia (załącznik nr 6 do SWZ), podając: numer i oznaczenie certyfikatu, pełną nazwę podmiotu certyfikującego, który wydał dokument, okres ważności certyfikatu oraz dokładny zakres podstaw wykluczenia lub warunków udziału w odniesieniu, do których Wykonawca powołuje się na ten certyfikat.",
    "extra_links": [
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/613272-2026"
+    },
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/613272-2026"
@@ -14116,6 +14321,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/615263-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/615263-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -14769,6 +14978,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/626120-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/626120-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -15236,6 +15449,10 @@
     {
      "label": "Ta sama sprawa w: TED",
      "url": "https://ted.europa.eu/pl/notice/-/detail/614416-2026"
+    },
+    {
+     "label": "Ta sama sprawa w: TED",
+     "url": "https://ted.europa.eu/pl/notice/-/detail/614416-2026"
     }
    ],
    "first_seen": "2026-08-31",
@@ -15465,6 +15682,6 @@
    "value": null
   }
  ],
- "updated_at": "2026-09-12T08:38:48+00:00",
+ "updated_at": "2026-09-13T09:33:34+00:00",
  "version": 1
 }
